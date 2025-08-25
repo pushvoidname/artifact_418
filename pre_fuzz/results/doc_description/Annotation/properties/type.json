@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "type",
+  "API_Type": "Properties",
+  "API_Description": "The type of annotation. The type of an annotation can only be set within the object-literal argument of the Doc object addAnnot method. The valid values are: * Text * FreeText * Line * Square * Circle * Polygon * PolyLine * Highlight * Underline * Squiggly * StrikeOut * Stamp * Caret * Ink * FileAttachment * Sound **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R",
+  "Examples": []
+}

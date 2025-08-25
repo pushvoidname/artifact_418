@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "name",
+  "API_Type": "Properties",
+  "API_Description": "The name of an annotation. This value can be used by the Doc object `getAnnot` method to find and access the properties and methods of the annotation. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Locate the annotation named `myNote` and appends a comment.\n\n```\nvar gannot = this.getAnnot(0, \"myNote\");\ngannot.contents += \"rrDon't forget to check with Smith\";\n```"
+  ]
+}

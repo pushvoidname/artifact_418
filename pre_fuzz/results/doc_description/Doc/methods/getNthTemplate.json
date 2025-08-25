@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "getNthTemplate",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "nIndex": {
+      "description": "The index of the template to obtain."
+    }
+  },
+  "Returns": "The name of the specified template.",
+  "Examples": []
+}

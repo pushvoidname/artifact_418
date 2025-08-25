@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "canProxy",
+    "API_Type": "Method",
+    "API_Description": "Determines if the specified document can be proxied for collaboration purposes.",
+    "API_Description_Reason": "The method name 'canProxy' suggests it checks the ability to proxy a document, likely for collaboration features.",
+    "Returns": "A boolean indicating whether the document can be proxied.",
+    "Returns_Reason": "The method likely returns a boolean value to indicate the success or failure of the proxy capability check.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to be checked for proxy capability.",
+            "description_reason": "The parameter 'doc' is likely the document being evaluated for its ability to be proxied.",
+            "type": "object",
+            "type_reason": "The parameter is a document object, as it is common to pass document objects in collaboration-related methods."
+        }
+    }
+}

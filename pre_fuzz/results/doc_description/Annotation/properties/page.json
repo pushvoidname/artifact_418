@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "page",
+  "API_Type": "Properties",
+  "API_Description": "The page on which the annotation resides. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example: The following code moves the `Annotation` object `annot` from its current page to page 3 (0-based page numbering system).\n\n```\nannot.page = 2;\n```"
+  ]
+}

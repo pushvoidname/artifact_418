@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "shift",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the Shift key was pressed during the event.",
+    "API_Description_Reason": "The 'shift' property is typically used to determine if the Shift key was held down during an event, which is common in event handling to modify behavior based on key modifiers.",
+    "Returns": "A boolean value indicating the state of the Shift key.",
+    "Returns_Reason": "The 'shift' property is expected to return a boolean value because it represents a true/false condition of whether the Shift key is pressed.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the 'shift' property.",
+            "description_reason": "The 'shift' property is expected to be a boolean, as it represents a binary state (pressed or not pressed).",
+            "type": "boolean",
+            "type_reason": "Boolean is the appropriate type for representing the state of a key press, which is either true (pressed) or false (not pressed)."
+        }
+    }
+}

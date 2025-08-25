@@ -1,0 +1,22 @@
+[
+    [
+        "STYLE",
+        "{STYLE_VALUE}"
+    ],
+    [
+        "STYLE_VALUE",
+        "{SOLID}"
+    ],
+    [
+        "STYLE_VALUE",
+        "{DASHED}"
+    ],
+    [
+        "SOLID",
+        "S"
+    ],
+    [
+        "DASHED",
+        "D"
+    ]
+]

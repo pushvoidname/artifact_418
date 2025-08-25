@@ -1,0 +1,113 @@
+{
+    "Object": "Collab",
+    "API_Name": "registerReview",
+    "API_Type": "Method",
+    "API_Description": "Registers a new review process for a document, allowing specified users to participate in the review.",
+    "API_Description_Reason": "The method name 'registerReview' suggests it is used to initiate or register a review process. The parameters such as 'invitees', 'cc', 'bcc', and 'distributionMethod' imply that it involves setting up a review with multiple participants.",
+    "Returns": "A boolean indicating whether the review registration was successful.",
+    "Returns_Reason": "Typically, methods that perform an action like registration return a boolean to indicate success or failure.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object that is to be reviewed.",
+            "description_reason": "The parameter name 'doc' suggests it refers to the document involved in the review process.",
+            "type": "object",
+            "type_reason": "The term 'doc' implies a complex data structure, likely a document object."
+        },
+        "initiator": {
+            "description": "The user or entity initiating the review process.",
+            "description_reason": "The term 'initiator' typically refers to the person or entity that starts a process.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified, but it likely represents a user or entity identifier."
+        },
+        "initScript": {
+            "description": "A script or set of instructions to initialize the review process.",
+            "description_reason": "The name 'initScript' suggests it is a script executed at the start of the review.",
+            "type": "string",
+            "type_reason": "Scripts are usually represented as strings of code or instructions."
+        },
+        "invitees": {
+            "description": "A comma-separated list of users invited to participate in the review.",
+            "description_reason": "The term 'invitees' implies a list of participants for the review.",
+            "type": "string",
+            "type_reason": "A list of users is often represented as a string, especially if it is comma-separated."
+        },
+        "cc": {
+            "description": "A comma-separated list of users to be copied on the review notifications.",
+            "description_reason": "The 'cc' parameter is commonly used to specify additional recipients in communication contexts.",
+            "type": "string",
+            "type_reason": "A list of users is often represented as a string, especially if it is comma-separated."
+        },
+        "bcc": {
+            "description": "A comma-separated list of users to be blind copied on the review notifications.",
+            "description_reason": "The 'bcc' parameter is commonly used to specify hidden recipients in communication contexts.",
+            "type": "string",
+            "type_reason": "A list of users is often represented as a string, especially if it is comma-separated."
+        },
+        "ui": {
+            "description": "A flag indicating whether the user interface should be displayed during the review registration.",
+            "description_reason": "The 'ui' parameter likely controls the visibility of the user interface.",
+            "type": "boolean",
+            "type_reason": "Flags are typically represented as boolean values."
+        },
+        "selfDestruct": {
+            "description": "A flag indicating whether the review should automatically terminate after a certain condition is met.",
+            "description_reason": "The term 'selfDestruct' suggests an automatic termination feature.",
+            "type": "boolean",
+            "type_reason": "Flags are typically represented as boolean values."
+        },
+        "id": {
+            "description": "A unique identifier for the review process.",
+            "description_reason": "The 'id' parameter is likely used to uniquely identify the review instance.",
+            "type": "string",
+            "type_reason": "Identifiers are often represented as strings."
+        },
+        "source": {
+            "description": "The origin or source of the document or review request.",
+            "description_reason": "The term 'source' suggests the origin of the document or request.",
+            "type": "string",
+            "type_reason": "Sources are typically represented as strings."
+        },
+        "driver": {
+            "description": "The mechanism or tool used to facilitate the review process.",
+            "description_reason": "The term 'driver' implies a component that facilitates or manages the review.",
+            "type": "string",
+            "type_reason": "Drivers or mechanisms are often represented as strings."
+        },
+        "requireSave": {
+            "description": "A flag indicating whether saving the document is required before starting the review.",
+            "description_reason": "The 'requireSave' parameter likely enforces a save operation before proceeding.",
+            "type": "boolean",
+            "type_reason": "Flags are typically represented as boolean values."
+        },
+        "distributionMethod": {
+            "description": "The method used to distribute the review document to participants.",
+            "description_reason": "The term 'distributionMethod' suggests the way the document is shared with reviewers.",
+            "type": "string",
+            "type_reason": "Methods or strategies are often represented as strings."
+        },
+        "versionInfo": {
+            "description": "The version number of the document or review process.",
+            "description_reason": "The 'versionInfo' parameter likely tracks the version of the document or review.",
+            "type": "number",
+            "type_reason": "Version numbers are typically represented as numeric values."
+        },
+        "accessLevel": {
+            "description": "The level of access granted to participants in the review.",
+            "description_reason": "The 'accessLevel' parameter likely controls permissions for reviewers.",
+            "type": "number",
+            "type_reason": "Access levels are often represented as numeric values to denote different permission tiers."
+        },
+        "bezelMessage": {
+            "description": "A message displayed to users during the review process.",
+            "description_reason": "The term 'bezelMessage' suggests a message shown in the user interface.",
+            "type": "string",
+            "type_reason": "Messages are typically represented as strings."
+        },
+        "displayWelcome": {
+            "description": "A flag indicating whether a welcome message should be displayed at the start of the review.",
+            "description_reason": "The 'displayWelcome' parameter likely controls the display of an introductory message.",
+            "type": "boolean",
+            "type_reason": "Flags are typically represented as boolean values."
+        }
+    }
+}

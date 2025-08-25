@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "convertMappedDrivePathToSMBURL",
+    "API_Type": "Method",
+    "API_Description": "Converts a mapped drive path to an SMB (Server Message Block) URL.",
+    "API_Description_Reason": "The method name suggests it is used to convert a mapped drive path, typically used in Windows environments, to an SMB URL, which is a network protocol used for sharing files.",
+    "Returns": "A string representing the SMB URL equivalent of the provided mapped drive path.",
+    "Returns_Reason": "The method is likely to return a string because it converts a path to a URL, which is typically represented as a string.",
+    "Parameters": {
+        "cPath": {
+            "description": "The mapped drive path that needs to be converted to an SMB URL.",
+            "description_reason": "The parameter name 'cPath' suggests it is a path, and the method's purpose is to convert this path to an SMB URL.",
+            "type": "string",
+            "type_reason": "Paths are generally represented as strings, and the parameter is expected to be a string for conversion purposes."
+        }
+    }
+}

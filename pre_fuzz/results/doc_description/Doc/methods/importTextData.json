@@ -1,0 +1,23 @@
+{
+  "Object": "Doc",
+  "API_Name": "importTextData",
+  "API_Type": "Method",
+  "API_Description": "Imports a row of data from a text file. Each row must be . The entries in the first row of the text file are the column names of the tab delimited data. These names are also field names for text fields present in the PDF file. The data row numbers are 0-based; that is, the first row of data is row zero (this does not include the column name row). When a row of data is imported, each column datum becomes the field value of the field that corresponds to the column to which the data belongs.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "F",
+  "Parameters": {
+    "cPath": {
+      "description": "(optional) A relative device-independent path to the text file. If not specified, the user is prompted to locate the text data file."
+    },
+    "nRow": {
+      "description": "(optional) The 0-based index of the row of the data to import, not counting the header row. If not specified, the user is prompted to select the row to import."
+    }
+  },
+  "Returns": "An integer return code.\n\nReturns | code Description\n--------------------------\n-3 | Warning: Missing Data\n-2 | Warning: User Cancelled Row Select\n-1 | Warning: User Cancelled File Select\n0 | No Error\n1 | Error: Cannot Open File\n2 | Error: Cannot Load Data\n3 | Error: Invalid Row",
+  "Examples": [
+    "In this example, there are text fields named \u201cFirst\u201d, \u201cMiddle\u201d, and \u201cLast\u201d, and a data file whose first row consists of the three strings, \u201cFirst\u201d, \u201cMiddle\u201d, and \u201cLast\u201d, separated by tabs, along with four additional rows of tab-separated name data.\n\n```\nFirst    Middle    Last\nA.       C.        Robat\nT.       A.        Croba\nA.       T.        Acrob\nB.       A.        Tacro\n// Import the first row of data from \"myData.txt\".\nthis.importTextData(\"/c/data/myData.txt\", 0)\n```\n\n**Example (continued)**\n\nThe following code is a mouse-up action for a button. Clicking on the button cycles through the text file and populates the three fields \u201cFirst\u201d, \u201cMiddle\u201d, and \u201cLast\u201d with the name data.\n\n```\nif (typeof cnt == \"undefined\") cnt = 0;\n    this.importTextData(\"/c/data/textdata.txt\", cnt++ % 4)\n```\n\nThe data file can be a spreadsheet or a database."
+  ],
+  "Example (continued)": "The following code is a mouse-up action for a button. Clicking on the button cycles through the text file and populates the three fields \u201cFirst\u201d, \u201cMiddle\u201d, and \u201cLast\u201d with the name data.\n\n```\nif (typeof cnt == \"undefined\") cnt = 0;\n    this.importTextData(\"/c/data/textdata.txt\", cnt++ % 4)\n```\n\nThe data file can be a spreadsheet or a database."
+}

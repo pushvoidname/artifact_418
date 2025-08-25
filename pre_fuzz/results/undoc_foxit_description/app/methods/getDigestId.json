@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "getDigestId",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a unique identifier for the current digest session.",
+    "API_Description_Reason": "The method name 'getDigestId' suggests it is used to obtain an identifier related to a digest, which is often a unique value used for session or transaction identification.",
+    "Returns": "A string representing the unique digest identifier.",
+    "Returns_Reason": "Since the method is likely retrieving an identifier, it is reasonable to assume it returns a string, as identifiers are typically represented as strings.",
+    "Parameters": {}
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "innerAppWindowRect",
+  "API_Type": "Properties",
+  "API_Description": "This property returns an array of screen coordinates (a rectangle) for the Acrobat inner application window. This rectangle does not include items such as the title bar and resizing border, which are part of the outer rectangle of the application window.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array of Numbers",
+  "Access": "R",
+  "Examples": [
+    "Example: Read back to the console the Acrobat inner application window.\n\n```\nvar coords = this.innerAppWindowRect;\nconsole.println(coords.toSource())\n// Possible output: [115, 154, 1307, 990]\n```\n\nSee also innerDocWindowRect , outerAppWindowRect and outerDocWindowRect ."
+  ]
+}

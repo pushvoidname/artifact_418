@@ -1,0 +1,15 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "children",
+  "API_Type": "Properties",
+  "API_Description": "An array of `Bookmark` objects that are the children of this bookmark in the bookmark tree. If there are no children of this bookmark, this property has a value of `null` . See also the parent and bookmarkRoot properties.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array  null",
+  "Access": "R",
+  "Examples": [
+    "Example: Dump all bookmarks in the document.\n\n```\nfunction DumpBookmark(bkm, nLevel)\n{\n    var s = \"\";\n    for (var i = 0; i < nLevel; i++) s += \" \";\n    console.println(s + \"+-\" + bkm.name);\n    if (bkm.children != null)\n        for (var i = 0; i < bkm.children.length; i++)\n            DumpBookmark(bkm.children[i], nLevel + 1);\n}\nconsole.clear(); console.show();\nconsole.println(\"Dumping all bookmarks in the document.\");\nDumpBookmark(this.bookmarkRoot, 0);\n```"
+  ]
+}

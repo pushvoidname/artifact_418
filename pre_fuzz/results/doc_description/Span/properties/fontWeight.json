@@ -1,0 +1,13 @@
+{
+  "Object": "Span",
+  "API_Name": "fontWeight",
+  "API_Type": "Properties",
+  "API_Description": "The weight of the font used to draw the text. For the purposes of comparison, normal is anything under 700 and bold is greater than or equal to 700. The values of `fontWeight` are ``` 100,200,300,400,500,600,700,800,900 ``` The default value is 400.",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "Number",
+  "Access": "R/W",
+  "Examples": []
+}

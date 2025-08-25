@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "makeAllCommentsReadOnly",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object",
+        "undoable": "boolean",
+        "selfDestruct": "boolean"
+    }
+}

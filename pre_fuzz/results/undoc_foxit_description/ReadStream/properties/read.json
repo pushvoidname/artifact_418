@@ -1,0 +1,17 @@
+{
+    "Object": "ReadStream",
+    "API_Name": "read",
+    "API_Type": "Property",
+    "API_Description": "The read property represents a method that reads a specified number of bytes from the data stream and returns a hex-encoded string of the data.",
+    "API_Description_Reason": "The description is based on the provided information that the read method takes a number of bytes to read and returns a hex-encoded string. It is a destructive operation, meaning it consumes the data from the stream.",
+    "Returns": "A hex-encoded string of the data read from the stream, or a zero-length string if the end of the stream is reached.",
+    "Returns_Reason": "The return value is described as a hex-encoded string, and a zero-length string indicates the end of the stream, as per the provided information.",
+    "Parameters": {
+        "nBytes": {
+            "description": "The number of bytes to read from the stream.",
+            "description_reason": "The parameter is described as the number of bytes to read, which is necessary to determine how much data to extract from the stream.",
+            "type": "number",
+            "type_reason": "The type is assumed to be a number because it specifies the quantity of bytes to read, which is typically represented as a numeric value."
+        }
+    }
+}

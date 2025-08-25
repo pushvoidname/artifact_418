@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "ContactEmail",
+    "API_Type": "property",
+    "API_Description": "Represents the contact email address associated with the object.",
+    "API_Description_Reason": "The name 'ContactEmail' suggests that it holds an email address for contacting purposes.",
+    "Returns": "A string representing the contact email address.",
+    "Returns_Reason": "Since the property is named 'ContactEmail', it is reasonable to assume it returns an email address, which is typically represented as a string.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the contact email address.",
+            "description_reason": "The parameter 'type' likely specifies the data type of the property, which is common in API documentation.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not provided."
+        }
+    }
+}

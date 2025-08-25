@@ -1,0 +1,19 @@
+{
+  "Object": "Collab",
+  "API_Name": "removeStateModel",
+  "API_Type": "Method",
+  "API_Description": "Removes a state model that was previously added by calling `addStateModel` . Removing a state model does not remove the state information associated with individual annotations. If the model is removed and added again, all of the state information for the annotations is still available.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "A unique, language-independent identifier for the state model that was used in addStateModel."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Continuing the example in `addStateModel` , remove the state model \u201cReviewStates\u201d:\n\n```\n// Remove the state model\nCollab.removeStateModel(\"ReviewStates\");\n```"
+  ]
+}

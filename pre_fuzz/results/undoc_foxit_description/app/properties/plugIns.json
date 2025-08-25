@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "plugIns",
+    "API_Type": "Property",
+    "API_Description": "An array or collection representing the plug-ins currently loaded in the Acrobat application.",
+    "API_Description_Reason": "The name 'plugIns' suggests it is related to the plug-ins available or loaded in the application. Since it is a property, it likely provides access to these plug-ins.",
+    "Returns": "An array or collection of plug-in objects or names.",
+    "Returns_Reason": "The property name 'plugIns' implies it returns a list or collection of plug-ins, which could be objects or simply their names.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the plug-ins collection, which could be an array or another collection type.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the structure or format of the plug-ins collection.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type or structure is not documented."
+        }
+    }
+}

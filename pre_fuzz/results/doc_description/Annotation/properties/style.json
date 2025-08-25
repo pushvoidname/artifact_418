@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "style",
+  "API_Type": "Properties",
+  "API_Description": "This property gets and sets the border style. Recognized values are `S` (solid) and `D` (dashed). The style property is defined for all annotation types but is only relevant for line, free text, circle, square, polyline, polygon and ink annotations. **Annotations** : All See the dash property for an example.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

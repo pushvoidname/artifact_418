@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "showBasicAuditTrail",
+    "API_Type": "property",
+    "API_Description": "A boolean property that indicates whether the basic audit trail feature is enabled or not.",
+    "API_Description_Reason": "The property is named 'showBasicAuditTrail', which suggests it controls the visibility or activation of a basic audit trail feature. The use of 'show' implies a boolean toggle.",
+    "Returns": "A boolean value indicating the current state of the basic audit trail feature.",
+    "Returns_Reason": "Since the property type is boolean, it returns true or false based on whether the basic audit trail is enabled or not.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set the state of the basic audit trail feature.",
+            "description_reason": "The parameter 'type' is a boolean, which is typically used to enable or disable a feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, indicating it is used to toggle the feature on or off."
+        }
+    }
+}

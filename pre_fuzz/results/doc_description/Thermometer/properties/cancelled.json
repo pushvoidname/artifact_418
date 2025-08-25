@@ -1,0 +1,13 @@
+{
+  "Object": "Thermometer",
+  "API_Name": "cancelled",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether the user wants to cancel the current operation. The user can indicate the desire to terminate the operation by pressing the Esc key on the Windows and UNIX platforms and Command-period on the Mac OS platform. Type | Access ------------- Boolean | R",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

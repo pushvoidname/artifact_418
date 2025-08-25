@@ -1,0 +1,8 @@
+{
+    "Object": "Discovery",
+    "API_Name": "resolveService",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

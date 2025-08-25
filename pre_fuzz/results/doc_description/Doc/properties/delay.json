@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "delay",
+  "API_Type": "Properties",
+  "API_Description": "This property can delay the redrawing of any appearance changes to every field in the document. It is generally used to buffer a series of changes to fields before requesting that the fields regenerate their appearance. If `true` , all changes are queued until `delay` is reset to `false` , at which time all the fields on the page are redrawn. See also the Field object delay property.",
+  "Version_Key": "4.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

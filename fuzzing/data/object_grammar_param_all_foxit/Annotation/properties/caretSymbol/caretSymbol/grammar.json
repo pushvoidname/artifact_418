@@ -1,0 +1,30 @@
+[
+    [
+        "CARET_SYMBOL",
+        "{SYMBOL}"
+    ],
+    [
+        "SYMBOL",
+        "{NOTHING}"
+    ],
+    [
+        "SYMBOL",
+        "{PARAGRAPH}"
+    ],
+    [
+        "SYMBOL",
+        "{SPACE}"
+    ],
+    [
+        "NOTHING",
+        ""
+    ],
+    [
+        "PARAGRAPH",
+        "P"
+    ],
+    [
+        "SPACE",
+        "S"
+    ]
+]

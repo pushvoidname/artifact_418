@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "getAnnot",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "The page that contains the Annotation object."
+    },
+    "cName": {
+      "description": "The name of the Annotation object."
+    }
+  },
+  "Returns": "The Annotation object, or `null` if there is no such annotation.",
+  "Examples": [
+    "Attempt to get a particular annotation.\n\n```\nvar ann = this.getAnnot(0, \"OnMarketShare\");\nif (ann == null)\n    console.println(\"Not Found!\")\nelse\n    console.println(\"Found it! type: \" + ann.type);\n```"
+  ]
+}

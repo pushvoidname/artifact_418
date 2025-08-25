@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonAlignY",
+  "API_Type": "Properties",
+  "API_Description": "Controls how unused space is distributed from the bottom of the button face with respect to the icon. It is expressed as a percentage between 0 and 100, inclusive. The default value is 50. If the icon is scaled anamorphically (which results in no space differences), this property is not used. **Fields** `button`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example: This example is an elevator animation. The field \u201cmyElevator\u201d is a button form field that has small width and large height. An icon is imported as the appearance face.\n\n```\nfunction MoveIt()\n{\n    if ( f.buttonAlignY == 0 ) {\n        f.buttonAlignY++;\n        run.dir = true;\n        return;\n    }\n    if ( f.buttonAlignY == 100 ) {\n        f.buttonAlignY--;\n        run.dir = false;\n        return;\n    }\n    if (run.dir) f.buttonAlignY++;\n    else f.buttonAlignY--;\n}\nvar f = this.getField(\"myElevator\");\nf.buttonAlignY=0;\nrun = app.setInterval(\"MoveIt()\", 100);\nrun.dir=true;\ntoprun = app.setTimeOut(\n    \"app.clearInterval(run); app.clearTimeOut(toprun)\", 2*20000+100);\n```"
+  ]
+}

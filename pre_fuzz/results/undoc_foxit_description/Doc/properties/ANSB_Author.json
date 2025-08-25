@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANSB_Author",
+    "API_Type": "Property",
+    "API_Description": "Represents the author of the document, typically used for metadata purposes.",
+    "API_Description_Reason": "The name 'ANSB_Author' suggests it is related to the author information of the document, which is commonly used as metadata.",
+    "Returns": "A string representing the author's name.",
+    "Returns_Reason": "Author information is typically represented as a string containing the name of the author.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the author property, which is expected to be a string.",
+            "description_reason": "Author names are generally represented as strings.",
+            "type": "string",
+            "type_reason": "The author property is expected to be a string as it represents textual information."
+        }
+    }
+}

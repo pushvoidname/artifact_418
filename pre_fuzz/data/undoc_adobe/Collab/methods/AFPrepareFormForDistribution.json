@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "AFPrepareFormForDistribution",
+    "API_Type": "method",
+    "Parameters": {
+        "cPlatformPath": "string"
+    }
+}

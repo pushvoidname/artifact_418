@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPreflightAuditTrail",
+  "API_Type": "Method",
+  "API_Description": "Gets the current embedded audit trail.",
+  "Version": "9.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Acrobat",
+  "Parameters": {},
+  "Returns": "A PreflightAuditTrail object or `Undefined` if no audit trail exists.",
+  "Examples": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "selStart",
+    "API_Type": "Property",
+    "API_Description": "Represents the starting position of the text selection within a text field or text area during an event.",
+    "API_Description_Reason": "The name 'selStart' suggests it is related to the selection start position, commonly used in text input contexts.",
+    "Returns": "The index of the starting position of the text selection.",
+    "Returns_Reason": "Selection start positions are typically represented as numerical indices indicating the position within the text.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the selStart property, which is expected to be a number representing the index.",
+            "description_reason": "The property is likely to be a numerical index, as it represents a position within a text string.",
+            "type": "number",
+            "type_reason": "Index positions in text are typically represented as numbers."
+        }
+    }
+}

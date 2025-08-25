@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "addRecipientListCryptFilter",
+  "API_Type": "Method",
+  "API_Description": "Adds a crypt filter to the document. The crypt filter is used for encrypting Data objects.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cCryptFilter": {
+      "description": "The language-independent name of the crypt filter. This same name should be used as the value of the cCryptFilter parameter of the Doc methods importDataObject, createDataObject, and setDataObjectContents."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "This script encrypts the current document and embeds it into a PDF document.\n\n```\nvar Note = \"Select the list of people that you want to send this\"\n\n     + \" document to. Each person must have both an email address\"\n\n     + \" and a certificate that you can use when creating the\"\n\n     + \"envelope.\";\nvar oOptions = { bAllowPermGroups: false, cNote: Note,\n    bRequireEmail: true };\nvar oGroups = security.chooseRecipientsDialog( oOptions );\nvar env = app.openDoc( \"/c/temp/ePaperMailEnvelope.pdf\" );\nenv.addRecipientListCryptFilter( \"MyFilter\", oGroups );\nenv.importDataObject( \"secureMail0\", this.path, \"MyFilter\" );\nvar envPath = \"/c/temp/outMail.pdf\";\nenv.saveAs( envPath );\n```\n\n!! Note This script was executed in the console but is best executed as a folder JavaScript as part of a larger script for sending PDF documents securely."
+  ]
+}

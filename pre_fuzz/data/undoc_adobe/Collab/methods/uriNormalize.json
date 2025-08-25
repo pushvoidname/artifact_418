@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriNormalize",
+    "API_Type": "method",
+    "Parameters": {
+        "cURI": "string",
+        "bMock": "boolean"
+    }
+}

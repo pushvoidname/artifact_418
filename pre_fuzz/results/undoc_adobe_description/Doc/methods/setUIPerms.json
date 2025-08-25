@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "setUIPerms",
+    "API_Type": "Method",
+    "API_Description": "Sets the user interface permissions for a specific feature in the PDF document.",
+    "API_Description_Reason": "The method name 'setUIPerms' suggests it is used to set user interface permissions, and the parameters indicate it is for a specific feature.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used to configure settings and does not need to return a value.",
+    "Parameters": {
+        "cFeatureName": {
+            "description": "The name of the feature for which the user interface permissions are being set.",
+            "description_reason": "The parameter name 'cFeatureName' implies it specifies the feature related to the permissions being set.",
+            "type": "string",
+            "type_reason": "Feature names are typically represented as strings."
+        },
+        "bFeatureValue": {
+            "description": "A boolean value indicating whether the feature is enabled or disabled.",
+            "description_reason": "The parameter name 'bFeatureValue' and its type suggest it is a boolean flag to enable or disable the feature.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix and the context imply a true/false setting."
+        }
+    }
+}

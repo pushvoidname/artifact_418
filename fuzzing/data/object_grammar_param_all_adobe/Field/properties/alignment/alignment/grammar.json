@@ -1,0 +1,26 @@
+[
+    [
+        "PARAM_VALUE",
+        "{STRING}"
+    ],
+    [
+        "STRING",
+        "\"{ALIGNMENT}\""
+    ],
+    [
+        "ALIGNMENT",
+        "{ALIGNMENT_VALUE}"
+    ],
+    [
+        "ALIGNMENT_VALUE",
+        "left"
+    ],
+    [
+        "ALIGNMENT_VALUE",
+        "center"
+    ],
+    [
+        "ALIGNMENT_VALUE",
+        "right"
+    ]
+]

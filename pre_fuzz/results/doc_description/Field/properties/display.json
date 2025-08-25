@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "display",
+  "API_Type": "Properties",
+  "API_Description": "Controls whether the field is hidden or visible on screen and in print. The values for the `display` property are listed in the table below. Effect | Keyword ---------------- Field is visible on screen and in print | display.visible Field is hidden on screen and in print | display.hidden Field is visible on screen but does not print | display.noPrint Field is hidden on screen but prints | display.noView This property supersedes the older `hidden` and `print` properties. **Fields** all",
+  "Version_Key": "4.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example:\n\n```\n// Set the display property\nvar f = getField(\"myField\");\nf.display = display.noPrint;\n\n// Test whether field is hidden on screen and in print\nif (f.display == display.hidden) console.println(\"hidden\");\n```"
+  ]
+}

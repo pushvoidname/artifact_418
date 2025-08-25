@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "setOCGOrder",
+    "API_Type": "Method",
+    "API_Description": "Sets the order of Optional Content Groups (OCGs) in the document.",
+    "API_Description_Reason": "The method name 'setOCGOrder' suggests it is used to define or modify the sequence of OCGs, which are layers in a PDF that can be shown or hidden.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used to set a property or configuration within the document and does not need to return a value.",
+    "Parameters": {}
+}

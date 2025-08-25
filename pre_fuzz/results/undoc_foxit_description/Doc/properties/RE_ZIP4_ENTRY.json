@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_ZIP4_ENTRY",
+    "API_Type": "Property",
+    "API_Description": "Represents a regular expression pattern used for validating or matching ZIP+4 codes in a PDF form.",
+    "API_Description_Reason": "The name 'RE_ZIP4_ENTRY' suggests it is related to ZIP+4 code entries, and 'RE' typically stands for 'Regular Expression', indicating a pattern for validation or matching.",
+    "Returns": "A string representing the regular expression pattern for ZIP+4 codes.",
+    "Returns_Reason": "Since it is a property likely used for validation, it would return a string pattern that can be used to match or validate ZIP+4 codes.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value.",
+            "description_reason": "The 'type' parameter is likely used to specify the data type of the property, which is common in API documentation to clarify the expected data format.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is expected to be a string because it describes the data type of the property value, which is typically a string in the context of regular expressions."
+        }
+    }
+}

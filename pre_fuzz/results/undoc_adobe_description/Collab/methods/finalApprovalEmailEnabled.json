@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "finalApprovalEmailEnabled",
+    "API_Type": "Method",
+    "API_Description": "Checks if the final approval email feature is enabled in the collaboration workflow.",
+    "API_Description_Reason": "The method name 'finalApprovalEmailEnabled' suggests it checks the status of the final approval email feature, which is likely part of the collaboration process.",
+    "Returns": "A boolean indicating whether the final approval email feature is enabled.",
+    "Returns_Reason": "The method name implies a check or status query, which typically returns a boolean value to indicate true or false."
+}

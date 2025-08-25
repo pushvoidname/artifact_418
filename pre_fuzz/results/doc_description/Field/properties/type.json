@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "type",
+  "API_Type": "Properties",
+  "API_Description": "**Returns** the type of the field as a string. Valid types are: ``` button checkbox combobox listbox radiobutton signature text ``` **Fields** all",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": [
+    "Example: Count the number of text fields in the document.\n\n```\nvar count = 0;\nfor ( var i=0; i<this.numFields; i++) {\n    var fname = this.getNthFieldName(i);\n    if ( this.getField(fname).type == \"text\" ) count++; }\nconsole.println(\"There are \" + count + \" text fields.\");\n```"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Object": "Doc",
+  "API_Name": "setPageBoxes",
+  "API_Type": "Method",
+  "API_Description": "Sets a rectangle that encompasses the named box for the specified pages.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cBox": {
+      "description": "(optional) The box type value, one of:  Art Bleed Crop Media Trim  Note that the BBox box type is read-only and only supported in getPageBox. For definitions of these boxes, see the PDF Reference."
+    },
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages in the document to be operated on. If nStart and nEnd are not specified, operates on all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages in the document to be operated on. If nStart and nEnd are not specified, operates on all pages in the document."
+    },
+    "rBox": {
+      "description": "(optional) An array of four numbers in rotated user space to which to set the specified box. If not provided, the specified box is removed."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

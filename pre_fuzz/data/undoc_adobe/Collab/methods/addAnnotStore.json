@@ -1,0 +1,12 @@
+{
+    "Object": "Collab",
+    "API_Name": "addAnnotStore",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "cUIName": "string",
+        "factory": "unknown",
+        "cSettings": "string",
+        "bHidden": "boolean"
+    }
+}

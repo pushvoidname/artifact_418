@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "setPageTabOrder",
+    "API_Type": "Method",
+    "API_Description": "Sets the tab order for the pages in the document.",
+    "API_Description_Reason": "The method name 'setPageTabOrder' suggests that it is used to define or modify the tabbing sequence of form fields on the pages of a PDF document.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used to perform an action (setting tab order) without needing to return any value, which is common for setter methods.",
+    "Parameters": {}
+}

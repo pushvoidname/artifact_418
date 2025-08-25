@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "setPageAction",
+  "API_Type": "Method",
+  "API_Description": "Sets the action of a page in a document for a given trigger.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "NO",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based index of the page in the document to which an action is added."
+    },
+    "cTrigger": {
+      "description": "The trigger for the action. Values are:  Open Close"
+    },
+    "cScript": {
+      "description": "The JavaScript expression to be executed when the trigger is activated."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "This example causes the application to beep when the first page is opened.\n\n```\nthis.setPageAction(0, \"Open\", \"app.beep(0);\");\n```"
+  ]
+}

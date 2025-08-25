@@ -1,0 +1,17 @@
+{
+  "Object": "app",
+  "API_Name": "loadPolicyFile",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "url": {
+      "description": "The url of the location of a cross-domain policy file.  The length of url is limited to 1024 bytes . If a larger string is passed an exception is thrown.  -  This method does not take single object argument with properties that contain the arguments as many JavaScript for Acrobat methods do. The argument of this method is a string."
+    }
+  },
+  "Returns": "Nothing",
+  "Examples": []
+}

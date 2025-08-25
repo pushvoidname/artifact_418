@@ -1,0 +1,13 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "doc",
+  "API_Type": "Properties",
+  "API_Description": "The Doc that the bookmark resides in.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": []
+}

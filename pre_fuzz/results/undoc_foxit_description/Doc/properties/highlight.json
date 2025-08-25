@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "highlight",
+    "API_Type": "property",
+    "API_Description": "Represents the highlight state or settings of the document, possibly indicating whether text or annotations are highlighted.",
+    "API_Description_Reason": "The name 'highlight' suggests it is related to highlighting functionality, which is common in document viewers for text or annotations.",
+    "Returns": "The current highlight state or settings of the document.",
+    "Returns_Reason": "As a property, it likely returns a value representing the current state or configuration related to highlighting.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type or category of highlighting being referenced or modified.",
+            "description_reason": "The parameter 'type' is often used to specify a category or kind of operation, which aligns with the concept of different types of highlights (e.g., text, annotation).",
+            "type": "unknown",
+            "type_reason": "The type is unspecified in the provided information, indicating it could be a custom or complex type specific to the implementation."
+        }
+    }
+}

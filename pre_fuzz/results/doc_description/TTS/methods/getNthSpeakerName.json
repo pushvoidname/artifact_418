@@ -1,0 +1,19 @@
+{
+  "Object": "TTS",
+  "API_Name": "getNthSpeakerName",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "nIndex": {
+      "description": "The index of the desired speaker name."
+    }
+  },
+  "Returns": "The name of the specified speaker.",
+  "Examples": [
+    "Enumerate through all of the speakers available.\n\n```\nfor (var i = 0; i < tts.numSpeakers; i++) {\n    var cSpeaker = tts.getNthSpeakerName(i);\n    console.println(\"Speaker[\" + i + \"] = \" + cSpeaker);\n    tts.speaker = cSpeaker;\n    tts.qText (\"Hello\");\n    tts.talk();\n}\n```"
+  ]
+}

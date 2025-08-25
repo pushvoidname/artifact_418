@@ -1,0 +1,26 @@
+[
+    [
+        "PARAM_VALUE",
+        "{TEXT_ALIGN}"
+    ],
+    [
+        "TEXT_ALIGN",
+        "{ALIGN_VALUE}"
+    ],
+    [
+        "ALIGN_VALUE",
+        "left"
+    ],
+    [
+        "ALIGN_VALUE",
+        "center"
+    ],
+    [
+        "ALIGN_VALUE",
+        "right"
+    ],
+    [
+        "ALIGN_VALUE",
+        "justify"
+    ]
+]

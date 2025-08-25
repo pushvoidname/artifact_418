@@ -1,0 +1,32 @@
+{
+  "Object": "Field",
+  "API_Name": "signatureSign",
+  "API_Type": "Method",
+  "API_Description": "Signs the field with the specified security handler. See also `security.` getHandler and `securityHandler.` login .",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Requires",
+  "Parameters": {
+    "oSig": {
+      "description": "Specifies the SecurityHandler object to be used for signing. Throws an exception if the specified handler does not support signing operations. Some security handlers require that the user be logged in before signing can occur. If oSig is not specified, this method selects a handler based on user preferences or by prompting the user if bUI is true."
+    },
+    "oInfo": {
+      "description": "(optional) A SignatureInfo object specifying the writable properties of the signature. See also signatureInfo."
+    },
+    "cDIPath": {
+      "description": "(optional) The device-independent path to the file to save to following the application of the signature. If not specified, the file is saved back to its original location."
+    },
+    "bUI": {
+      "description": "(optional, Acrobat 6.0) A Boolean value specifying whether the security handler should show the user interface when signing. If true, oInfo and cDIPath are used as default values in the signing dialog boxes. If false (the default), the signing occurs without a user interface."
+    },
+    "cLegalAttest": {
+      "description": "(optional, Acrobat 6.0) A string that can be provided when creating an certification signature.  Certification signatures are signatures where the mdp property of the SignatureInfo object has a value other than allowAll. When creating an certification signature, the document is scanned for legal warnings and these warnings are embedded in the document. A caller can determine what legal warnings are found by first calling the Doc getLegalWarnings method. If warnings are to be embedded, an author may provide an attestation as to why these warnings are being applied to a document."
+    }
+  },
+  "Returns": "`true` if the signature was applied successfully, `false` otherwise.",
+  "Examples": [
+    "Sign the \u201cSignature\u201d field with the PPKLite signature handler:\n\n```\nvar myEngine = security.getHandler( \"Adobe.PPKLite\" );\nmyEngine.login( \"dps017\", \"/c/profile/dps.pfx\" );\nvar f = this.getField(\"Signature\");\n\n// Sign the field\nf.signatureSign( myEngine,\n    {   password: \"dps017\",             // provide password\n        location: \"San Jose, CA\",       // .\n        .. see note below\n        reason: \"I am approving this document\",\n        contactInfo: \"dpsmith@example.com\",\n        appearance: \"Fancy\"});\n```\n\n!! Note In the above example, a password was provided. This may or may not have been necessary depending whether the `PasswordTimeout` had expired. The `PasswordTimeout` can be set programmatically by `securityHandler.setPasswordTimeout` .",
+    "Sign an certification signature field.\n\n```\nvar myEngine = security.getHandler( \"Adobe.PPKLite\" );\nmyEngine.login( \"dps017\", \"/c/profile/dps.pfx\" );\n\nvar f = this.getField( \"AuthorSigFieldName\" );\nvar s = { reason: \"I am the author of this document\",\n        mdp: \"allowNone\" };\nf.signatureSign({\n    oSig: myEngine,\n    oInfo: s,\n    bUI: false,\n    cLegalAttest: \"To reduce file size, fonts are not embedded.\"\n});\n```"
+  ]
+}

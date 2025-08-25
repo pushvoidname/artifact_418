@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "getAnnot3D",
+  "API_Type": "Method",
+  "API_Description": "Gets an `Annot3D` object with a given name from a given page.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based page number that contains the Annot3D object."
+    },
+    "cName": {
+      "description": "The name of the Annot3D object."
+    }
+  },
+  "Returns": "The Annot3D object, or `undefined` if there is no such object.",
+  "Examples": []
+}

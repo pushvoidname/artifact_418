@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "viewerType",
+    "API_Type": "Property",
+    "API_Description": "Indicates the type of viewer in which the Acrobat application is running.",
+    "API_Description_Reason": "The name 'viewerType' suggests it provides information about the type of viewer or environment the application is operating in, such as distinguishing between different versions or modes of the Acrobat viewer.",
+    "Returns": "A string representing the type of viewer.",
+    "Returns_Reason": "Since 'viewerType' is a property, it likely returns a simple value, such as a string, that describes the viewer type. This is common for properties that provide configuration or environment information.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of viewer, such as 'Reader', 'Standard', or 'Pro'.",
+            "description_reason": "The parameter 'type' is likely used to specify or retrieve the specific viewer type, which is a common use case for properties that describe application state or configuration.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is expected to be a string because it represents a categorical value, such as the name or identifier of the viewer type."
+        }
+    }
+}

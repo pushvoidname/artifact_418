@@ -1,0 +1,8 @@
+{
+    "Object": "media",
+    "API_Name": "getAnnot",
+    "API_Type": "method",
+    "Return_Type": "Annotation",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

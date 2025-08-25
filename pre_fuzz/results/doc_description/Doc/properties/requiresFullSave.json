@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "requiresFullSave",
+  "API_Type": "Properties",
+  "API_Description": "This property is `true` if the document requires a full save because it is temporary or newly created. Otherwise, it is `false` .",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\nvar oDoc = app.newDoc();\nconsole.println(\"It is \" + oDoc.requiresFullSave\n    + \" that this document requires a full save.\");\n```"
+  ]
+}

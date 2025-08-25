@@ -1,0 +1,26 @@
+{
+  "Object": "Field",
+  "API_Name": "insertItemAt",
+  "API_Type": "Method",
+  "API_Description": "Inserts a new item into a combo box or a list box.",
+  "Version": "3.01",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "cName": {
+      "description": "The item name that will appear in the form."
+    },
+    "cExport": {
+      "description": "(optional) The export value of the field when this item is selected. If not provided, the cName is used as the export value."
+    },
+    "nIdx": {
+      "description": "(optional) The index in the list at which to insert the item. If 0 (the default), the new item is inserted at the top of the list. If \u20131, the new item is inserted at the end of the list."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "```\nvar l = this.getField(\"myList\");\nl.insertItemAt(\"sam\", \"s\", 0); /* inserts sam to top of list l */\n```"
+  ],
+  "Related methods": "and properties include numItems , getItemAt , deleteItemAt , clearItems , currentValueIndices and setItems ."
+}

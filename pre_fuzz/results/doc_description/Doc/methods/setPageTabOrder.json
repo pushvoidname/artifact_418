@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "setPageTabOrder",
+  "API_Type": "Method",
+  "API_Description": "Sets the tab order of the form fields on a page. The tab order can be set by row, by column, or by structure.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based index of the page number on which the tabbing order is to be set."
+    },
+    "cOrder": {
+      "description": "The order to be used. Values are:  rows columns structure"
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Set the page tab order for all pages to `rows` .\n\n```\nfor (var i = 0; i < this.numPages; i++)\n    this.setPageTabOrder(i, \"rows\");\n```"
+  ]
+}

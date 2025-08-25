@@ -1,0 +1,14 @@
+[
+    [
+        "TILE_LABEL",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

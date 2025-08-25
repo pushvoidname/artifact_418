@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "text",
+    "API_Type": "property",
+    "API_Description": "Represents the text content of the span object.",
+    "API_Description_Reason": "The 'text' property is typically used to access or modify the actual string content within a span, which is a common functionality for text-related objects.",
+    "Returns": "The text content of the span as a string.",
+    "Returns_Reason": "Since the property is named 'text' and is of type string, it is logical to assume it returns the text content of the span.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the text property, which is a string.",
+            "description_reason": "The 'type' parameter is used to specify the data type of the property, which is necessary for understanding how to interact with it.",
+            "type": "string",
+            "type_reason": "The 'text' property is expected to be a string as it represents textual content."
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "httpRequest",
+    "API_Type": "Method",
+    "API_Description": "Sends an HTTP request and returns the response.",
+    "API_Description_Reason": "The method name 'httpRequest' suggests functionality related to making HTTP requests, which typically involves sending a request to a server and receiving a response.",
+    "Returns": "The response from the HTTP request.",
+    "Returns_Reason": "HTTP request methods generally return the server's response, which can include data or status information.",
+    "Parameters": {}
+}

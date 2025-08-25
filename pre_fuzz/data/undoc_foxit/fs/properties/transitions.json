@@ -1,0 +1,8 @@
+{
+    "Object": "fs",
+    "API_Name": "transitions",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "unknown"
+    }
+}

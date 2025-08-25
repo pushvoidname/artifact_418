@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "lock",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the annotation is locked, which is equivalent to `readOnly` except that the annotation is accessible through the properties dialog box in the UI. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": []
+}

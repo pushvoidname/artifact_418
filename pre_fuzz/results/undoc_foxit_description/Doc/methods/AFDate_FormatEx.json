@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFDate_FormatEx",
+    "API_Type": "Method",
+    "API_Description": "Formats a date string according to a specified format pattern.",
+    "API_Description_Reason": "The method name 'AFDate_FormatEx' suggests it is an extended version of a date formatting function, likely used to format date strings in a specific way.",
+    "Returns": "A formatted date string.",
+    "Returns_Reason": "The method is expected to return a string that represents the date formatted according to the specified pattern, as it is a date formatting function.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string representing the date format pattern to apply.",
+            "description_reason": "The parameter is likely a format pattern string, as the method is for formatting dates, and such methods typically require a format pattern.",
+            "type": "string",
+            "type_reason": "Format patterns are usually specified as strings, which define how the date should be formatted."
+        }
+    }
+}

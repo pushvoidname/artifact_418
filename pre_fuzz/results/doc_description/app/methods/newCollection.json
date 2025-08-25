@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "newCollection",
+  "API_Type": "Method",
+  "API_Description": "Creates a new collection-based PDF, a PDF portfolio, with no content.",
+  "Version": "9.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "A Doc object of the newly created PDF.",
+  "Examples": [
+    "Create a new PDF portfolio and get the Doc object of the newly created PDF.\n\n```\nvar doc = app.newCollection();\n```"
+  ]
+}

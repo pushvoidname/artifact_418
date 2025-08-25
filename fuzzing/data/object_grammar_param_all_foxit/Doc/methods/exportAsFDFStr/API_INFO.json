@@ -1,0 +1,13 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAsFDFStr",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [
+        "aFields",
+        "cHRef"
+    ],
+    "Actions_Arg": [
+        "cHRef"
+    ]
+}

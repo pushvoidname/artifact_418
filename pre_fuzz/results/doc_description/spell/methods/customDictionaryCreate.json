@@ -1,0 +1,26 @@
+{
+  "Object": "spell",
+  "API_Name": "customDictionaryCreate",
+  "API_Type": "Method",
+  "API_Description": "Use this method to create a new custom dictionary file and add it to the list of available dictionaries.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "Dictionary name used in the spelling dialog box. It can be used as the input parameter to check, checkText, and checkWord methods."
+    },
+    "cLanguage": {
+      "description": "(optional) Use this parameter to associate this dictionary with a language. A list of available languages can be obtained from the spell.languages property."
+    },
+    "bShow": {
+      "description": "(optional) If true (the default), the cName parameter is combined with \u201cUser: \u201d and shown that name in all lists and menus. For Example, if cName is \u201cTest\u201d, \u201cUser: Test\u201d is added to all lists and menus. When bShow is false, this custom dictionary is not shown in any lists or menus."
+    }
+  },
+  "Returns": "`true` if successful, `false` on failure. This method will fail if the user does not have read and write permission to this directory.",
+  "Examples": [
+    ", if cName is \u201cTest\u201d, \u201cUser: Test\u201d is added to all lists and menus. When bShow is false, this custom dictionary is not shown in any lists or menus.\n\n**Returns**\n\n`true` if successful, `false` on failure. This method will fail if the user does not have read and write permission to this directory.",
+    "Open a PDF document in Acrobat and execute the following script in the console. This script extracts the first word of each bookmark. If that word is already in a dictionary, it is discarded. An unknown word is added into a newly created dictionary, called JavaScript\u201d in this case.\n\n```\nspell.customDictionaryCreate(\"JavaScript\", \"en\", true);\nfunction GetJSTerms(bm, nLevel)\n{\n    var newWord = bm.name.match(re);\n    var ckWord = spell.checkWord( newWord[0] );\n    if ( ckWord != null )\n    {\n        var cWord = spell.addWord( newWord[0], \"JavaScript\");\n        if ( cWord )  console.println( newWord[0] );\n    }\n    if (bm.children != null)\n    for (var i = 0; i < bm.children.length; i++)\n    GetJSTerms(bm.children[i], nLevel + 1);\n}\nconsole.println(\"nAdding New words to the \"JavaScript\" \"\n\n     + \"dictionary:\");\nvar re = /^w+/;\nGetJSTerms(this.bookmarkRoot, 0);\n```"
+  ]
+}

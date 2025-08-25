@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "insertChild",
+    "API_Type": "Method",
+    "API_Description": "Inserts a child bookmark at the specified index within the bookmarkRoot's children.",
+    "API_Description_Reason": "The method name 'insertChild' suggests that it is used to add a new child element to a collection, and the parameter 'nIndex' implies that the insertion is at a specific position.",
+    "Returns": "The newly inserted child bookmark object.",
+    "Returns_Reason": "Typically, methods that insert or create objects return the newly created or inserted object to allow further manipulation or reference.",
+    "Parameters": {
+        "nIndex": {
+            "description": "The position at which to insert the new child bookmark within the existing children of the bookmarkRoot.",
+            "description_reason": "The parameter name 'nIndex' indicates it is used to specify a position, which is common in methods that insert elements into a list or array.",
+            "type": "number",
+            "type_reason": "The use of 'n' as a prefix in 'nIndex' suggests a numerical value, which is standard for index parameters in programming."
+        }
+    }
+}

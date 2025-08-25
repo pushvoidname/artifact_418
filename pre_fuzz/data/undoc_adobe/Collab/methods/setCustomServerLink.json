@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "setCustomServerLink",
+    "API_Type": "method",
+    "Parameters": {
+        "cServerType": "string",
+        "cServerLink": "string"
+    }
+}

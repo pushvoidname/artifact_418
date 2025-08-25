@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "black",
+    "API_Type": "property",
+    "API_Description": "Represents the color black as an array of color values.",
+    "API_Description_Reason": "The property name 'black' suggests it represents the color black, and since the object is used to define basic colors, it likely returns a color array.",
+    "Returns": "An array representing the color black.",
+    "Returns_Reason": "The 'color' object is used to define colors as arrays, so the 'black' property would return an array corresponding to the black color.",
+    "Parameters": {
+        "unknown": {
+            "description": "An unknown parameter that might influence the color representation.",
+            "description_reason": "The parameter is listed as 'unknown', indicating its purpose is not documented.",
+            "type": "number",
+            "type_reason": "The parameter is specified as a number, suggesting it might be used for some numerical adjustment or configuration."
+        }
+    }
+}

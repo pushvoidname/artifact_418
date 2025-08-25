@@ -1,0 +1,9 @@
+{
+    "Object": "identity",
+    "API_Name": "corpAbbrev",
+    "API_Type": "property",
+    "API_Description": "Represents the abbreviation of the corporation associated with the current user.",
+    "API_Description_Reason": "The name 'corpAbbrev' suggests it is a property that holds an abbreviated form of the corporation's name, which is a common use case for such a property.",
+    "Returns": "A string representing the corporation's abbreviation.",
+    "Returns_Reason": "Since 'corpAbbrev' is likely a short form of a corporation's name, it is reasonable to assume it returns a string value."
+}

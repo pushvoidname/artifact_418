@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "importAnnotFromXFDF",
+    "API_Type": "Method",
+    "API_Description": "Imports annotations from an XFDF string into the PDF document.",
+    "API_Description_Reason": "The method name 'importAnnotFromXFDF' suggests that it imports annotations from an XFDF format, which is a common format for exporting and importing annotations in PDF documents.",
+    "Returns": "A boolean indicating the success of the import operation.",
+    "Returns_Reason": "Typically, import operations return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "xfdfString": {
+            "description": "The XFDF string containing the annotations to be imported into the PDF document.",
+            "description_reason": "The method is likely to require an XFDF string as input to import annotations, as suggested by the method name.",
+            "type": "string",
+            "type_reason": "XFDF data is typically represented as a string, which contains XML data describing the annotations."
+        }
+    }
+}

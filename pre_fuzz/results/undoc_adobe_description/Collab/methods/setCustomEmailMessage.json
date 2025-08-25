@@ -1,0 +1,35 @@
+{
+    "Object": "Collab",
+    "API_Name": "setCustomEmailMessage",
+    "API_Type": "Method",
+    "API_Description": "Sets a custom email message for a specific distribution method and review type.",
+    "API_Description_Reason": "The method name 'setCustomEmailMessage' suggests that it is used to define or modify the content of an email message. The parameters indicate that this customization is specific to a distribution method and review type.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used for setting a property or configuration, which typically does not return a value.",
+    "Parameters": {
+        "cMessage": {
+            "description": "The custom message to be used in the email.",
+            "description_reason": "The parameter name 'cMessage' implies it is the content of the email message.",
+            "type": "string",
+            "type_reason": "Email messages are typically represented as strings."
+        },
+        "cDistMethod": {
+            "description": "The distribution method for which the custom email message is set.",
+            "description_reason": "The parameter name 'cDistMethod' suggests it specifies the method of distribution, such as email or server-based.",
+            "type": "string",
+            "type_reason": "Distribution methods are usually identified by string identifiers."
+        },
+        "cReviewType": {
+            "description": "The type of review for which the custom email message is set.",
+            "description_reason": "The parameter name 'cReviewType' indicates it specifies the category or type of review, such as peer review or approval.",
+            "type": "string",
+            "type_reason": "Review types are typically represented as strings to denote different categories."
+        },
+        "bAcrobatCom": {
+            "description": "A boolean indicating whether the message is for Acrobat.com distribution.",
+            "description_reason": "The parameter name 'bAcrobatCom' suggests it is a flag to specify if the distribution involves Acrobat.com.",
+            "type": "boolean",
+            "type_reason": "Boolean values are used for flags that indicate a true or false condition."
+        }
+    }
+}

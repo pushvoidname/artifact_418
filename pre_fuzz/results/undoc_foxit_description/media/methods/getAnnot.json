@@ -1,0 +1,29 @@
+{
+    "Object": "media",
+    "API_Name": "getAnnot",
+    "API_Type": "Method",
+    "API_Description": "Retrieves an annotation from a media object based on the specified page number, annotation name, and annotation title.",
+    "API_Description_Reason": "The method name 'getAnnot' suggests it is used to retrieve an annotation. The parameters 'nPage', 'cAnnotName', and 'cAnnotTitle' imply that the method identifies the annotation by its page number, name, and title.",
+    "Returns": "The annotation object corresponding to the specified parameters.",
+    "Returns_Reason": "Since the method is named 'getAnnot', it is reasonable to assume that it returns an annotation object that matches the given criteria.",
+    "Parameters": {
+        "nPage": {
+            "description": "The 0-based index of the page from which to retrieve the annotation.",
+            "description_reason": "The parameter 'nPage' is typically used to specify a page number, and the context suggests it is used to identify the page containing the annotation.",
+            "type": "number",
+            "type_reason": "Page numbers are usually represented as numbers, making 'number' the appropriate type for this parameter."
+        },
+        "cAnnotName": {
+            "description": "The name of the annotation to retrieve.",
+            "description_reason": "The parameter 'cAnnotName' likely refers to the name of the annotation, which is a common way to identify specific annotations.",
+            "type": "string",
+            "type_reason": "Annotation names are typically strings, as they are identifiers or labels."
+        },
+        "cAnnotTitle": {
+            "description": "The title of the annotation to retrieve.",
+            "description_reason": "The parameter 'cAnnotTitle' suggests it is used to specify the title of the annotation, which can be another identifier.",
+            "type": "string",
+            "type_reason": "Titles are generally represented as strings, as they are textual identifiers."
+        }
+    }
+}

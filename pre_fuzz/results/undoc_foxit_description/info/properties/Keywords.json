@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Keywords",
+    "API_Type": "property",
+    "API_Description": "Represents the keywords associated with the document, typically used for search and indexing purposes.",
+    "API_Description_Reason": "The 'Keywords' property is commonly used in document metadata to store keywords that help in categorizing and searching documents.",
+    "Returns": "A string containing the keywords associated with the document.",
+    "Returns_Reason": "Since 'Keywords' is a property, it likely returns a string that lists the keywords, as this is a standard way to store multiple keywords in document metadata.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the Keywords property, which is expected to be a string.",
+            "description_reason": "The 'type' parameter indicates the data type of the property, which is typically a string for metadata fields like keywords.",
+            "type": "string",
+            "type_reason": "Metadata fields such as 'Keywords' are usually stored as strings to allow for easy manipulation and retrieval."
+        }
+    }
+}

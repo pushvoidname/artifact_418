@@ -1,0 +1,9 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "removeFormWorkflowFolder",
+    "API_Type": "method",
+    "Parameters": {
+        "cCategory": "string",
+        "cFolder": "string"
+    }
+}

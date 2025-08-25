@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "saveTrackerHTML",
+    "API_Type": "method",
+    "Parameters": {
+        "cHTMLString": "string"
+    }
+}

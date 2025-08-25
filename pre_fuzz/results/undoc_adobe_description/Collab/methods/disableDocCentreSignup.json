@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "disableDocCentreSignup",
+    "API_Type": "Method",
+    "API_Description": "Disables the signup functionality for the Document Centre.",
+    "API_Description_Reason": "The method name 'disableDocCentreSignup' suggests it is used to disable the signup feature related to a Document Centre, which is likely a part of the collaboration functionality.",
+    "Returns": "A boolean indicating whether the operation was successful.",
+    "Returns_Reason": "Typically, methods that perform an action like disabling a feature return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

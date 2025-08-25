@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "commitOnSelChange",
+  "API_Type": "Properties",
+  "API_Description": "Controls whether a field value is committed after a selection change: * If `true` , the field value is committed immediately when the selection is made. * If `false` , the user can change the selection multiple times without committing the field value. The value is committed only when the field loses focus, that is, when the user clicks outside the field. **Fields** `combobox` , `listbox`",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

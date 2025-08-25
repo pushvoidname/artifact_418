@@ -1,0 +1,34 @@
+{
+  "Object": "Doc",
+  "API_Name": "mailDoc",
+  "API_Type": "Method",
+  "API_Description": "Saves the current PDF document and mails it as an attachment to all recipients, with or without user interaction.",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "bUI": {
+      "description": "(optional) If true (the default), the rest of the parameters are used in a compose-new-message window that is displayed to the user. If false, the cTo parameter is required and all others are optional.   -  (Acrobat 7.0) When this method is executed in a non-privileged context, the bUI parameter is not honored and defaults to true. See Privileged context."
+    },
+    "cTo": {
+      "description": "(optional) The semicolon-delimited list of recipients for the message."
+    },
+    "cCc": {
+      "description": "(optional) The semicolon-delimited list of CC recipients for the message."
+    },
+    "cBcc": {
+      "description": "(optional) The semicolon-delimited list of BCC recipients for the message."
+    },
+    "cSubject": {
+      "description": "(optional) The subject of the message. The length limit is 64 KB."
+    },
+    "cMsg": {
+      "description": "(optional) The content of the message. The length limit is 64 KB."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Open the compose message window.\n\n```\nthis.mailDoc(true);\n```\n\nSend email with the attached PDF file to `apstory@example.com` and `dpsmith@example.com` . Beginning with Acrobat 7.0, the code below would have to be executed in a privileged context if the `bUI` parameter (set to `false` ) is to be honored.\n\n```\nthis.mailDoc({\n    bUI: false,\n    cTo: \"apstory@example.com\",\n    cCC: \"dpsmith@example.com\",\n\n     cSubject: \"The Latest News\",\n    cMsg: \"A.P., attached is my latest news story in PDF.\"\n});\n```"
+  ]
+}

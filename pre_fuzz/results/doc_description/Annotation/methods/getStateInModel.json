@@ -1,0 +1,19 @@
+{
+  "Object": "Annotation",
+  "API_Name": "getStateInModel",
+  "API_Type": "Method",
+  "API_Description": "Gets the current state of the annotation in the context of a state model. See also the transitionToState method.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Parameters": {
+    "cStateModel": {
+      "description": "The state model to determine the state of the annotation."
+    }
+  },
+  "Returns": "The result is an array of the identifiers for the current state of the annotation:\n\n*  If the state model was defined to be exclusive, there is only a single state (or no states if the state has not been set).\n\n*  If the state model is non-exclusive, there may be multiple states (or no entries if the state has not been set and there is no default).",
+  "Examples": [
+    "Report on the status of all annotations on all pages of this document.\n\n```\nannots = this.getAnnots()\nfor ( var i= 0; i< annots.length; i++) {\n    states = annots[i].getStateInModel(\"Review\");\n    if ( states.length > 0 ) {\n        for(j = 0; j < states.length; j++)\n        {\n            var d = util.printd(2, states[j].modDate);\n            var s = states[j].state;\n            var a = states[j].author;\n\n            console.println(annots[i].type + \": \" + a + \" \"\n                + s + \" \" + d + \"on page \"\n                + (annots[i].page+1) );\n        }\n\n    }\n}\n```"
+  ]
+}

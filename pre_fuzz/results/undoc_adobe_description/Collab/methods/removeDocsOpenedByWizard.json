@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "removeDocsOpenedByWizard",
+    "API_Type": "Method",
+    "API_Description": "Removes documents that were opened by the wizard from the current session.",
+    "API_Description_Reason": "The method name 'removeDocsOpenedByWizard' suggests that it is responsible for removing documents that were specifically opened by a wizard. This implies a cleanup or reset functionality related to documents handled by a wizard process.",
+    "Returns": "A boolean indicating whether the documents were successfully removed.",
+    "Returns_Reason": "Typically, methods that perform an action like removing items return a boolean to indicate success or failure. This is a common pattern for methods that modify state or perform operations with potential failure points.",
+    "Parameters": {}
+}

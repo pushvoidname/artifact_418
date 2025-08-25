@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "constants",
+  "API_Type": "Properties",
+  "API_Description": "A wrapper object for holding various constant values. Currently, this property returns an object with a single property, `align` . `app.constants.align` is an object that has the possible properties `left` , `center` , `right` , `top` , and `bottom` , indicating the type of alignment. These values can be used to specify alignment, such as when adding a watermark.",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": [
+    "Example: See the Doc object methods addWatermarkFromFile and addWatermarkFromText for examples."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "Object": "app",
+  "API_Name": "getPath",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cCategory": {
+      "description": "(optional) The category of folder sought. Valid values are app (the default) and user."
+    },
+    "cFolder": {
+      "description": "(optional) A platform-independent string that indicates the folder. Valid values are  root, eBooks, preferences, sequences, documents, javascript, stamps, dictionaries, plugIns spPlugIns,help, temp, messages, resource, update  The default is root."
+    }
+  },
+  "Returns": "The path to the folder determined by the parameters. An exception is thrown if the folder does not exist.",
+  "Examples": [
+    "Find the path to the user\u2019s Sequences folder.\n\n```\ntry {\n    var userBatch = app.getPath(\"user\",\"sequences\");\n} catch(e) {\n    var userBatch = \"User has not defined any custom batch sequences\";\n}\nconsole.println(userBatch);\n```",
+    "On a Windows platform, create and save a document to the My Documents folder.\n\n```\nvar myDoc = app.newDoc();\nvar myPath = app.getPath(\"user\", \"documents\") + \"/myDoc.pdf\"\nmyDoc.saveAs(myPath);\nmyDoc.closeDoc();\n```"
+  ]
+}

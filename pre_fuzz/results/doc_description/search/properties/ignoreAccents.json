@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "ignoreAccents",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether accents and diacriticals are ignored while searching the query term. The default is `false` .",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

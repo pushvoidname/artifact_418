@@ -1,0 +1,10 @@
+{
+    "Object": "media",
+    "API_Name": "getAnnot",
+    "API_Type": "method",
+    "Parameters": {
+        "nPage": "number",
+        "cAnnotName": "string",
+        "cAnnotTitle": "string"
+    }
+}

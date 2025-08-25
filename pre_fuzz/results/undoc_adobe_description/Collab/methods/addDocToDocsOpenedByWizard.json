@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "addDocToDocsOpenedByWizard",
+    "API_Type": "Method",
+    "API_Description": "Adds a document to the list of documents opened by the wizard.",
+    "API_Description_Reason": "The method name suggests it is used to add a document to a collection or list managed by a wizard, likely for tracking or management purposes.",
+    "Returns": "None",
+    "Returns_Reason": "The method name implies an action of adding a document to a list, which typically does not return a value but performs an operation.",
+    "Parameters": {
+        "cDocPath": {
+            "description": "The file path of the document to be added to the list of documents opened by the wizard.",
+            "description_reason": "The parameter name 'cDocPath' suggests it is a string representing the path to the document file.",
+            "type": "string",
+            "type_reason": "File paths are typically represented as strings in programming."
+        }
+    }
+}

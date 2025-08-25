@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "white",
+    "API_Type": "property",
+    "API_Description": "Represents the color white in the color object, typically used to set a property or call a method that requires a color array.",
+    "API_Description_Reason": "The 'white' property is part of the 'color' object, which defines basic colors for use in methods or properties requiring color arrays. 'White' is a standard color often included in such collections.",
+    "Returns": "An array representing the color white.",
+    "Returns_Reason": "Color properties in such objects usually return an array that represents the color in a specific format, such as RGB or RGBA.",
+    "Parameters": {
+        "unknown": {
+            "description": "This parameter is not documented, but it is likely related to the color representation or format.",
+            "description_reason": "The parameter is labeled as 'unknown', suggesting it might be an internal or less commonly used aspect of the color property.",
+            "type": "number",
+            "type_reason": "The parameter is specified as a number, which is common for values related to color components or indices."
+        }
+    }
+}

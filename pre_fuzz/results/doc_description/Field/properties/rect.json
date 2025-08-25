@@ -1,0 +1,16 @@
+{
+  "Object": "Field",
+  "API_Name": "rect",
+  "API_Type": "Properties",
+  "API_Description": "An array of four numbers in rotated user space that specify the size and placement of the form field. These four numbers are the coordinates of the bounding rectangle and are listed in the following order: upper-left , upper-left , lower-right and lower-right . !! Note The `Annotation` object also has a `rect` property. However, the coordinates are not in rotated user space and they are in a different order than in the Field object `rect` property. **Fields** all",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": [
+    "Example 1: Lay out a 2-inch-wide text field just to the right of the field \u201cmyText\u201d.\n\n```\nvar f = this.getField(\"myText\");  // Get the Field object\nvar myRect = f.rect;              // and get its rectangle\nmyRect[0] = f.rect[2];            // The ulx for new = lrx for old\nmyRect[2] += 2 * 72;               // Move two inches for lry\nf = this.addField(\"myNextText\", \"text\", this.pageNum, myRect);\nf.strokeColor = color.black;\n```",
+    "Example 2: Move an existing button field 10 points to the right.\n\n```\nvar b = this.getField(\"myButton\");\nvar aRect = b.rect;   // Make a copy of b.rect\naRect[0] += 10;       // Increment first x coordinate by 10\naRect[2] += 10;       // Increment second x coordinate by 10\nb.rect = aRect;       // Update the value of b.rect\n```"
+  ]
+}

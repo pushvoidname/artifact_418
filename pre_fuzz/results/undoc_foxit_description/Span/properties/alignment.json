@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "alignment",
+    "API_Type": "property",
+    "API_Description": "Specifies the alignment of the text within the span. This property determines how the text is aligned horizontally within its container.",
+    "API_Description_Reason": "The alignment property typically refers to the horizontal positioning of text, such as left, center, or right alignment, which is a common feature in text formatting.",
+    "Returns": "The alignment setting of the text within the span, typically as a string value such as 'left', 'center', or 'right'.",
+    "Returns_Reason": "Alignment properties usually return a string indicating the type of alignment applied to the text, which is standard in text formatting APIs.",
+    "Parameters": {
+        "type": {
+            "description": "The type of alignment to apply to the text within the span. Common values include 'left', 'center', and 'right'.",
+            "description_reason": "The type parameter is likely used to specify the desired alignment setting for the text, which is a common approach in text formatting APIs.",
+            "type": "string",
+            "type_reason": "Alignment settings are typically represented as strings, indicating the specific alignment type such as 'left', 'center', or 'right'."
+        }
+    }
+}

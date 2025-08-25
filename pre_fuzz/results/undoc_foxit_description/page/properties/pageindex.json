@@ -1,0 +1,17 @@
+{
+    "Object": "page",
+    "API_Name": "pageindex",
+    "API_Type": "property",
+    "API_Description": "Represents the 0-based index of the page within the document.",
+    "API_Description_Reason": "The name 'pageindex' suggests it refers to the index of a page, and since it is a property of the 'page' object, it likely indicates the position of the page within a collection of pages.",
+    "Returns": "The index of the page as a number.",
+    "Returns_Reason": "Since 'pageindex' is a property, it is expected to return a value representing the page's position, which is typically a numerical index.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the page index, which is expected to be a number.",
+            "description_reason": "The 'pageindex' property likely returns a numerical value representing the page's position, hence the type is a number.",
+            "type": "number",
+            "type_reason": "Index values are typically represented as numbers, indicating the position in a sequence."
+        }
+    }
+}

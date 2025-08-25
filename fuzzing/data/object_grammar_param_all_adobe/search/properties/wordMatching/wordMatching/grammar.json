@@ -1,0 +1,22 @@
+[
+    [
+        "WORD_MATCHING",
+        "{MATCH_TYPE}"
+    ],
+    [
+        "MATCH_TYPE",
+        "MatchPhrase"
+    ],
+    [
+        "MATCH_TYPE",
+        "MatchAllWords"
+    ],
+    [
+        "MATCH_TYPE",
+        "MatchAnyWord"
+    ],
+    [
+        "MATCH_TYPE",
+        "BooleanQuery"
+    ]
+]

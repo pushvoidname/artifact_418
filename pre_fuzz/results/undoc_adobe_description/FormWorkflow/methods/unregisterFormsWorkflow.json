@@ -1,0 +1,17 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "unregisterFormsWorkflow",
+    "API_Type": "Method",
+    "API_Description": "Removes the registration of a form workflow identified by its unique ID.",
+    "API_Description_Reason": "The method name 'unregisterFormsWorkflow' suggests it is used to remove or unregister a form workflow, and the parameter 'cFormWorkflowID' implies it operates on a specific workflow identified by this ID.",
+    "Returns": "A boolean indicating whether the unregistration was successful.",
+    "Returns_Reason": "Typically, methods that perform an action like unregistering return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cFormWorkflowID": {
+            "description": "The unique identifier of the form workflow to unregister.",
+            "description_reason": "The parameter name 'cFormWorkflowID' suggests it is an identifier for a specific form workflow.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context imply that this is a string, likely representing a unique ID."
+        }
+    }
+}

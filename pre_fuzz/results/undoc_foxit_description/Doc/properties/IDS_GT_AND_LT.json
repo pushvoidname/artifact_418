@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_GT_AND_LT",
+    "API_Type": "property",
+    "API_Description": "Represents a property related to greater than and less than operations within the document context.",
+    "API_Description_Reason": "The name 'IDS_GT_AND_LT' suggests it is related to identifiers or strings for greater than and less than operations, possibly used for validation or comparison purposes within the document.",
+    "Returns": "A string or identifier used for greater than and less than operations.",
+    "Returns_Reason": "The property name implies it returns a value related to comparison operations, likely a string or identifier used in such contexts.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the value returned by the IDS_GT_AND_LT property.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the data type of the property value.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified in the provided information, but it is likely a string or identifier based on the property name."
+        }
+    }
+}

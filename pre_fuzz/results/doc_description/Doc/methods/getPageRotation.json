@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageRotation",
+  "API_Type": "Method",
+  "API_Description": "Gets the rotation of the specified page. See also setPageRotations .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    }
+  },
+  "Returns": "The rotation value of 0, 90, 180, or 270.",
+  "Examples": []
+}

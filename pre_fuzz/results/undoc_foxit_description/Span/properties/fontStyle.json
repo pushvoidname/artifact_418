@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "fontStyle",
+    "API_Type": "property",
+    "API_Description": "Specifies the style of the font used in the text span, such as normal, italic, or oblique.",
+    "API_Description_Reason": "The fontStyle property typically refers to the style of the font, which includes options like normal, italic, or oblique. This is a common property in text styling APIs.",
+    "Returns": "The current font style of the text span.",
+    "Returns_Reason": "As a property, fontStyle would return the current style setting of the font for the text span, which is a standard behavior for properties in text styling.",
+    "Parameters": {
+        "type": {
+            "description": "The style of the font, such as normal, italic, or oblique.",
+            "description_reason": "The type parameter indicates the kind of font style to be applied, which is a common usage in text styling APIs.",
+            "type": "string",
+            "type_reason": "Font styles are typically represented as strings, such as 'normal', 'italic', or 'oblique', which is a standard convention in text styling."
+        }
+    }
+}

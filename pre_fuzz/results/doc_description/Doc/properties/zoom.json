@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "zoom",
+  "API_Type": "Properties",
+  "API_Description": "The current page zoom level. Allowed values are between 8.33% and 6400%, specified as a percentage number. For example, a zoom value of 100 specifies 100%.",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Number",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Zoom to twice the current zoom level.\n\n```\nthis.zoom *= 2;\n```\n\nSet the zoom to 200%.\n\n```\nthis.zoom = 200;\n```"
+  ]
+}

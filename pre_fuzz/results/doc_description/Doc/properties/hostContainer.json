@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "hostContainer",
+  "API_Type": "Properties",
+  "API_Description": "An instance of the `HostContainer` object if the PDF document is embedded in another container such as a web browser, otherwise undefined. !! Note This property is not implemented on the Mac OS platform.",
+  "Version_Key": "7.05",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "securityHandler",
+    "API_Type": "Property",
+    "API_Description": "Represents the security handler associated with the PDF document, which manages the document's security settings and permissions.",
+    "API_Description_Reason": "The term 'securityHandler' suggests it is related to managing security aspects of the document, such as encryption and permissions.",
+    "Returns": "An object or value representing the current security handler of the document.",
+    "Returns_Reason": "Since it is a property, it likely returns an object or value that provides information or functionality related to the document's security settings.",
+    "Parameters": {
+        "type": {
+            "description": "The type of security handler applied to the document, which could define the encryption method or permissions.",
+            "description_reason": "The 'type' parameter likely specifies the kind of security handler, which is common in security-related contexts to define the method or protocol used.",
+            "type": "string",
+            "type_reason": "Security handler types are typically represented as strings to denote different methods or protocols, such as 'Standard', 'AES', etc."
+        }
+    }
+}

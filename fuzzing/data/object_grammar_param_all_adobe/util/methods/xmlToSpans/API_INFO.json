@@ -1,0 +1,10 @@
+{
+    "Object": "util",
+    "API_Name": "xmlToSpans",
+    "API_Type": "method",
+    "Return_Type": "Array[Span]",
+    "Scripts_Arg": [
+        "NoParameterName"
+    ],
+    "Actions_Arg": []
+}

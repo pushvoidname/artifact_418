@@ -1,0 +1,16 @@
+{
+  "Object": "Field",
+  "API_Name": "alignment",
+  "API_Type": "Properties",
+  "API_Description": "Controls how the text is laid out within the text field. Values are ``` left center right ``` **Fields** `text`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example:\n\n```\nvar f = this.getField(\"MyText\");\nf.alignment = \"center\";\n```\n\nborderStyle\n\nVersion | Save-Prefs | Security | Product | Type | Access\n---------------------------------------------------------\n3.01 | D | No | F | String | R/W\n\nThe border style for a field. Valid border styles are\n\n```\nsolid\ndashed\nbeveled\ninset\nunderline\n```\n\nThe border style determines how the border for the rectangle is drawn. The `border` object is a static convenience constant that defines all the border styles of a field, as shown in the following table:\n\nType | Keyword | Description\n----------------------------\nsolid | border.s | Strokes the entire perimeter of the rectangle with a solid line.\nbeveled | border.b | Equivalent to the solid style with an additional beveled (pushed-out appearance) border applied inside the solid border.\ndashed | border.d | Strokes the perimeter with a dashed line.\ninset | border.i | Equivalent to the solid style with an additional inset (pushed-in appearance) border applied inside the solid border.\nunderline | border.u | Strokes the bottom portion of the rectangle\u2019s perimeter.\n\n**Fields**\n\nAll",
+    "Example: The following example shows how to set the border style of a field to `solid` :\n\n```\nvar f = this.getField(\"MyField\");\nf.borderStyle = border.s; /* border.s evaluates to \"solid\" */\n```"
+  ]
+}

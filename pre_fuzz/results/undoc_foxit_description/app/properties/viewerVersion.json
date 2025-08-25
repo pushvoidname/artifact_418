@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "viewerVersion",
+    "API_Type": "Property",
+    "API_Description": "Represents the version of the Acrobat viewer currently in use.",
+    "API_Description_Reason": "The name 'viewerVersion' suggests it provides information about the version of the viewer application, which is a common property in software applications to identify the version being used.",
+    "Returns": "A string representing the version number of the Acrobat viewer.",
+    "Returns_Reason": "Version numbers are typically represented as strings to accommodate various versioning formats, such as '1.0.0' or '2023.10'.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the viewerVersion property.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the property, which is common in API documentation to clarify what kind of value is expected.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown in the provided information, indicating that the exact data type is not documented or varies."
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "addAnnot",
+  "API_Type": "Method",
+  "API_Description": "Creates an `Annotation` object having the specified properties. Properties not specified are given their default values for the specified `type` of annotation.",
+  "Version": "5.0",
+  "Save-Prefs": "Saved",
+  "Security": "Yes",
+  "Product": "Required",
+  "Parameters": {
+    "NoParameterName": {
+      "description": "A generic object that specifies the properties of the Annotation object, such as type, rect, and page, to be created."
+    }
+  },
+  "Returns": "The new `Annotation` object.",
+  "Examples": [
+    "This minimal example creates a square annotation.\n\n```\nvar sqannot = this.addAnnot({type: \"Square\", page: 0});\n```\n\n`sqannot` will be created as a square annotation on the first page (using 0-based page numbering).",
+    "Add a Text annotation with various properties.\n\n```\nvar annot = this.addAnnot\n({\n    page: 0,\n    type: \"Text\",\n    author: \"A. C. Robat\",\n    point: [300,400],\n    strokeColor: color.yellow,\n    contents: \"Need a little help with this paragraph.\",\n    noteIcon: \"Help\"\n});\n```",
+    "Add a Square annotation with various properties.\n\n```\nvar annot = this.addAnnot({\n       page: 0,\n       type: \"Square\",\n       rect: [0, 0, 100, 100],\n       name: \"OnMarketShare\",\n       author: \"A. C. Robat\",\n       contents: \"This section needs revision.\"\n});\n```",
+    "A fancy ink annotation in the shape of a three-leaf rose.\n\n```\nvar inch = 72, x0 = 2*inch, y0 = 4*inch;\nvar scaledInch = .5*inch;\nvar nNodes = 60;\nvar theta = 2*Math.PI/nNodes;\nvar points = new Array();\nfor (var i = 0; i <= nNodes; i++) {\n    Theta = i*theta;\n    points[i] = [x0 + 2*Math.cos(3*Theta)*Math.cos(Theta)*scaledInch,\n    y0 + 2*Math.cos(3*Theta)*Math.sin(Theta)*scaledInch];\n}\nvar annot = this.addAnnot({\n    type: \"Ink\",\n    page: 0,\n    name: \"myRose\",\n    author: \"A. C. Robat\",\n    contents: \"Three leaf rose\",\n    gestures: [points],\n    strokeColor: color.red,\n    width: 1\n});\n```"
+  ]
+}

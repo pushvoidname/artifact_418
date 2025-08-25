@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "richChange",
+    "API_Type": "property",
+    "API_Description": "The 'richChange' property of the event object is used to handle changes in rich text fields. It provides information about the change event specific to rich text fields.",
+    "API_Description_Reason": "The name 'richChange' suggests it is related to changes in rich text fields, similar to how 'change' is used for general change events.",
+    "Returns": "The value or state of the rich text field after the change event.",
+    "Returns_Reason": "Properties typically return the current state or value they represent, so 'richChange' would return the state of the rich text field after a change.",
+    "Parameters": {
+        "type": {
+            "description": "The type of change that occurred in the rich text field.",
+            "description_reason": "The 'type' parameter is commonly used to specify the kind of event or change that has occurred.",
+            "type": "string",
+            "type_reason": "Event types are usually represented as strings to describe the nature of the event."
+        }
+    }
+}

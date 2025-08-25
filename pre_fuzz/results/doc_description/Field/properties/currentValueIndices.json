@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "currentValueIndices",
+  "API_Type": "Properties",
+  "API_Description": "Reads and writes single or multiple values of a list box or combo box. **Read** **Returns** the options-array indices of the strings that are the value of a list box or combo box field. These indices are 0-based. If the value of the field is a single string, it returns an integer. Otherwise, it returns an array of integers sorted in ascending order. If the current value of the field is not a member of the set of offered choices (as could happen in the case of an editable combo box) it returns -1. **Write** Sets the value of a list box or combo box. It accepts a single integer or array of integers as an argument. To set a single string as the value, pass an integer that is the 0-based index of that string in the options array. Note that in the case of an editable combo box, if the desired value is not a member of the set of offered choices, you must set the instead. Except for this case, `currentValueIndices` is the preferred way to set the value of a list box or combo box. To set a multiple selection for a list box that allows it, pass an array as argument to this property, containing the indices (sorted in ascending order) of those strings in the options array. If passed an array like this: `Field.value=[\"item1\", \"item3\"]` , it also selects the items. The ability for a list box to support multiple selections can be set through multipleSelection . **Related methods** and properties include numItems , getItemAt , insertItemAt , deleteItemAt and setItems . **Fields** `combobox` , `listbox` **Example (Read)** A mouse-up action of a button. The script gets the current value of a list box. ``` var f = this.getField(\"myList\"); var a = f.currentValueIndices; if (typeof a == \"number\") // A single selection console.println(\"Selection: \" + f.getItemAt(a, false)); else { // Multiple selections console.println(\"Selection:\"); for (var i = 0; i < a.length; i ++) console.println(\" \" + f.getItemAt(a[i], false)); } ``` **Example (Write)** The following code, selects the second and fourth (0-based index values, 1 and 3, respectively) in a list box. ``` var f = this.getField(\"myList\"); f.currentValueIndices = [1,3]; ```",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer  Array",
+  "Access": "R/W",
+  "Examples": []
+}

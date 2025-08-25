@@ -1,0 +1,14 @@
+[
+    [
+        "bGet",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

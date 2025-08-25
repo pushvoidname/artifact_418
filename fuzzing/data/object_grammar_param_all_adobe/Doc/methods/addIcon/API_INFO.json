@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "addIcon",
+    "API_Type": "method",
+    "Return_Type": "Icon",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

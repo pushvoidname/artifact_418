@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "xfa",
+    "API_Type": "Property",
+    "API_Description": "Provides access to the XML Forms Architecture (XFA) data within the PDF document, allowing for interaction with XFA forms.",
+    "API_Description_Reason": "The 'xfa' property is typically associated with accessing and manipulating XFA forms within a PDF document, which are XML-based forms used for complex form layouts and data handling.",
+    "Returns": "An object representing the XFA data structure within the PDF document.",
+    "Returns_Reason": "The 'xfa' property is expected to return an object that allows interaction with the XFA data, enabling operations such as data extraction, form filling, and form manipulation.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the XFA data structure being accessed or manipulated.",
+            "description_reason": "The 'type' parameter likely refers to the specific type or structure of the XFA data being interacted with, which can vary depending on the form's complexity and design.",
+            "type": "unknown",
+            "type_reason": "The exact type of the 'type' parameter is not specified, indicating it could be a complex or variable structure depending on the XFA form's design."
+        }
+    }
+}

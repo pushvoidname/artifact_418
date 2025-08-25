@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "activateCategory",
+    "API_Type": "Method",
+    "API_Description": "Activates a specific category within the Acrobat application interface.",
+    "API_Description_Reason": "The method name 'activateCategory' suggests that it is used to activate or bring focus to a particular category or section within the application. This is a common functionality in applications with multiple categories or sections.",
+    "Returns": "A boolean indicating whether the category was successfully activated.",
+    "Returns_Reason": "Methods that perform an action like 'activate' often return a boolean to indicate success or failure of the operation.",
+    "Parameters": {}
+}

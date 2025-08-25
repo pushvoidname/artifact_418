@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "scaleWhen",
+    "API_Type": "Property",
+    "API_Description": "Determines when the document should be scaled during printing or viewing. This property specifies the conditions under which scaling is applied, such as always, never, or only when necessary.",
+    "API_Description_Reason": "The name 'scaleWhen' suggests it controls the conditions or situations in which scaling occurs, likely related to document display or printing.",
+    "Returns": "A string indicating the scaling condition, such as 'always', 'never', or 'when necessary'.",
+    "Returns_Reason": "The property likely returns a string that specifies the condition for scaling, as it is common for such properties to return a descriptive string value."
+}

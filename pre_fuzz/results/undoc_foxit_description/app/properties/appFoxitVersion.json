@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "appFoxitVersion",
+    "API_Type": "Property",
+    "API_Description": "Represents the version of the Foxit application being used.",
+    "API_Description_Reason": "The name 'appFoxitVersion' suggests it provides information about the version of the Foxit application, similar to other version-related properties like 'viewerVersion'.",
+    "Returns": "A string representing the version of the Foxit application.",
+    "Returns_Reason": "Version properties typically return a string that indicates the version number, as seen with similar properties like 'viewerVersion'.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the version information being requested.",
+            "description_reason": "The parameter 'type' is likely used to specify the format or detail level of the version information, although its exact purpose is unknown.",
+            "type": "unknown",
+            "type_reason": "The parameter type is listed as unknown, indicating that its specific data type is not documented."
+        }
+    }
+}

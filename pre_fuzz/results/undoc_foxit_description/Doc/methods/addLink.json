@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "addLink",
+    "API_Type": "Method",
+    "API_Description": "Adds a link annotation to a specified page in the PDF document.",
+    "API_Description_Reason": "The method name 'addLink' suggests that it is used to add a link annotation to a PDF document, which is a common feature in PDF manipulation.",
+    "Returns": "The newly created Link annotation object.",
+    "Returns_Reason": "Typically, methods that add annotations or objects to a document return the created object for further manipulation or reference.",
+    "Parameters": {
+        "unknown": {
+            "description": "The parameters for this method are not documented, but they likely include details such as the page number, rectangle coordinates, and the action or destination for the link.",
+            "description_reason": "The method is undocumented, but similar methods usually require parameters specifying the location and behavior of the link.",
+            "type": "array",
+            "type_reason": "The parameters are listed as an array, which suggests multiple values are needed, possibly including page number, coordinates, and link action."
+        }
+    }
+}

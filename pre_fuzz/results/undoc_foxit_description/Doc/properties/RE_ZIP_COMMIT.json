@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_ZIP_COMMIT",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used to validate ZIP code entries upon form submission.",
+    "API_Description_Reason": "The name 'RE_ZIP_COMMIT' suggests it is a regular expression (RE) used for validating ZIP codes when a form is committed or submitted.",
+    "Returns": "A string representing the regular expression pattern for ZIP code validation.",
+    "Returns_Reason": "Since it is a property likely used for validation, it would return a string pattern that can be used to match valid ZIP codes.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property, which is expected to be a string representing a regular expression.",
+            "description_reason": "The property is likely a regular expression pattern, which is typically represented as a string.",
+            "type": "string",
+            "type_reason": "Regular expressions are usually defined as strings in programming languages."
+        }
+    }
+}

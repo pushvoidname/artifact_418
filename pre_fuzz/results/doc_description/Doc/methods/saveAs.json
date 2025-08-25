@@ -1,0 +1,36 @@
+{
+  "Object": "Doc",
+  "API_Name": "saveAs",
+  "API_Type": "Method",
+  "API_Description": "Saves the file to the device-independent path specified by the required parameter, `cPath` . The file is not saved optimized for the web. Beginning with Acrobat 6.0, the document can be converted to another file type (other than PDF) and saved as specified by the value of the `cConvID` parameter.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Requires",
+  "Parameters": {
+    "cPath": {
+      "description": "The device-independent path in which to save the file.  -  The parameter cPath must have a safe path (see Safe path) and an extension appropriate to the value of cConvID. See the Values of cConvID and Valid Extensions table below. This method will throw a NotAllowedError (see Error object) exception if these security conditions are not met, and the method will fail."
+    },
+    "cConvID": {
+      "description": "(optional, Acrobat 6.0) A conversion ID string that specifies the conversion file type. Currently supported values for cConvID are listed by the app.fromPDFConverters. If cConvID is not specified, PDF is assumed."
+    },
+    "cFS": {
+      "description": "(optional, Acrobat 7.0) A string that specifies the source file system name. Two values are supported: \u201c\u201d (the empty string) representing the default file system and \u201cCHTTP\u201d. The default is the default file system. This parameter is only relevant if the web server supports WebDAV."
+    },
+    "bCopy": {
+      "description": "(optional, Acrobat 7.0) A Boolean value which, if true, saves the PDF file as a copy. The default is false."
+    },
+    "bPromptToOverwrite": {
+      "description": "(optional, Acrobat 7.0) A Boolean value which, if true, prompts the user if the destination file already exists. The default is false."
+    }
+  },
+  "Returns": "The value `undefined` is returned on success. An exception is thrown if an error occurs. For example, this method will throw a `NotAllowedError` (see Error object) if the user disallows an overwrite.\n\n!! Note Prior to Acrobat 7.0, this method had no return value.",
+  "Examples": [
+    "The following code, which could appear as a batch sequence, is an outline of a script. It assumes a PDF file containing form fields is open. The fields must be populated from a database and the document saved.\n\n```\n// code lines to read from a database and populate the form with data\n// now save file to a folder; use customerID from database record\n// as name\nvar row = statement.getRow();\n.......\nthis.saveAs(\"/c/customer/invoices/\" + row.customerID + \".pdf\");\n```",
+    "You can use `newDoc` and `addField` to dynamically lay out a form, then populate it from a database and save.\n\n```\nvar myDoc = app.newDoc()\n// layout some dynamic form fields\n// connect to database, populate with data, perhaps from a database\n..........\n// save the doc and/or print it; print it silently this time\n// to default printer\nmyDoc.saveAs(\"/c/customer/invoices/\" + row.customerID + \".pdf\");\nmyDoc.closeDoc(true);       // close the doc, no notification\n```\n\n**Example 3 (Acrobat 6.0)**\n\nSave the current document in rich text format:\n\n```\nthis.saveAs(\"/c/myDocs/myDoc.rtf\", \"com.adobe.acrobat.rtf\");\n```\n\nSee fromPDFConverters for a listing of supported conversion ID strings.\n\n**Example 3 (Acrobat 7.0)**\n\nSave the document to a WebDAV folder.\n\n```\nthis.saveAs({\n    cPath: \"http://www.example.com/WebDAV/myDoc.pdf\",\n    bPromptToOverwrite: true,\n    cFS: \"CHTTP\"\n});\n```"
+  ],
+  "Values of cConvID and Valid Extensions": "cConvID | Valid extensions\n--------------------------\ncom.adobe.acrobat.eps | eps\ncom.adobe.acrobat.html | html, htm\ncom.adobe.acrobat.jpeg | jpeg, jpg, jpe\ncom.adobe.acrobat.jp2k | jpf, jpx, jp2, j2k, j2c, jpc\ncom.adobe.acrobat.docx | docx\ncom.adobe.acrobat.doc | doc\ncom.callas.preflight.pdfa | pdf\ncom.callas.preflight.pdfe | pdf\ncom.callas.preflight.pdfx | pdf\ncom.adobe.acrobat.png | png\ncom.adobe.acrobat.ps | ps\ncom.adobe.acrobat.rtf | rft\ncom.adobe.acrobat.xlsx | xlsx\ncom.adobe.acrobat.spreadsheet | xml\ncom.adobe.acrobat.accesstext | txt\ncom.adobe.acrobat.plain-text | txt\ncom.adobe.acrobat.tiff | tiff, tif\ncom.adobe.acrobat.xml-1-00 | xml\ncom.adobe.acrobat.pptx (Acrobat Professional only) | pptx",
+  "Deprecated Values of cConvID (as of Acrobat 10)": "The conversion IDs listed below are deprecated in Acrobat 10. They are not registered but (only when used with the JavaScript doc.saveAs call) are internally mapped to valid, registered conversion IDs. Support for the deprecated conversion IDs will be fully removed in subsequent Acrobat releases.\n\nDeprecated cConvID | Equivalent Valid cConvID\n---------------------------------------------\ncom.adobe.acrobat.html-3-20 | com.adobe.acrobat.html\ncom.adobe.acrobat.htm l- 4-01-css-1-00 | com.adobe.acrobat.html\n\n!! Note When the conversion ID corresponds to `jpeg` , `jp2k` , `png` , or `tiff` , this method saves each page individually under a file name obtained by appending `\"_Page_#\"` to the basename of the file name provided. For example, if the value of the `cPath` is `\"/C/temp/mySaveAsDocs/myJPGs.jpg\"` , the names of the files generated will be `myJPGs_Page_1.jpg` , `myJPGs_Page_2.jpg` , and so on.",
+  "Example 3 (Acrobat 6.0)": "Save the current document in rich text format:\n\n```\nthis.saveAs(\"/c/myDocs/myDoc.rtf\", \"com.adobe.acrobat.rtf\");\n```\n\nSee fromPDFConverters for a listing of supported conversion ID strings.",
+  "Example 3 (Acrobat 7.0)": "Save the document to a WebDAV folder.\n\n```\nthis.saveAs({\n    cPath: \"http://www.example.com/WebDAV/myDoc.pdf\",\n    bPromptToOverwrite: true,\n    cFS: \"CHTTP\"\n});\n```"
+}

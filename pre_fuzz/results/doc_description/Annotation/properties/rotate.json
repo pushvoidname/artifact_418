@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "rotate",
+  "API_Type": "Properties",
+  "API_Description": "The number of degrees (0, 90, 180, 270) the annotation is rotated counterclockwise relative to the page. This property is only significant for free text annotations. **Annotations** : FreeText",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "integer",
+  "Access": "R/W",
+  "Examples": []
+}

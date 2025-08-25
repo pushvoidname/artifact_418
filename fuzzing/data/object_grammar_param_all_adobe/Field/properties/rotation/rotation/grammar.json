@@ -1,0 +1,26 @@
+[
+    [
+        "ROTATION",
+        "{VALID_ROTATION}"
+    ],
+    [
+        "VALID_ROTATION",
+        "{INTEGER}"
+    ],
+    [
+        "INTEGER",
+        "0"
+    ],
+    [
+        "INTEGER",
+        "90"
+    ],
+    [
+        "INTEGER",
+        "180"
+    ],
+    [
+        "INTEGER",
+        "270"
+    ]
+]

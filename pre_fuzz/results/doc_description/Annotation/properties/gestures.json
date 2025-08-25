@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "gestures",
+  "API_Type": "Properties",
+  "API_Description": "An array of arrays, each representing a stroked path. Each array is a series of alternating and coordinates in default user space, specifying points along the path. When drawn, the points are connected by straight lines or curves in an implementation-dependent way. See the PDF Reference for more details. **Annotations** : Ink",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": []
+}

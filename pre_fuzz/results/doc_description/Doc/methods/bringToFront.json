@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "bringToFront",
+  "API_Type": "Method",
+  "API_Description": "Brings an open document to the front.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "This example searches among the open documents for one with a title of \u201cAnnual Report\u201d and brings it to the front.\n\n```\nvar d = app.activeDocs;\nfor (var i = 0; i < d.length; i++)\n    if (d[i].info.Title == \"Annual Report\") d[i].bringToFront();\n```"
+  ]
+}

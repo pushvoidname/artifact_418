@@ -1,0 +1,22 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "insertChild",
+  "API_Type": "Method",
+  "API_Description": "Inserts the specified bookmark as a child of this bookmark. If the bookmark already exists in the bookmark tree, it is unlinked before inserting it back into the tree. In addition, the insertion is checked for circularities and disallowed if one exists. This prevents users from inserting a bookmark as a child or grandchild of itself. See also the children property and the createChild and methods.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "oBookmark": {
+      "description": "A bookmark object to add as the child of this bookmark."
+    },
+    "nIndex": {
+      "description": "(optional) The 0-based index into the children array of the bookmark at which to insert the new child. The default is 0."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Take the first child bookmark and move it to the end of the bookmarks.\n\n```\nvar bm = bookmarkRoot.children[0];\nbookmarkRoot.insertChild(bm, bookmarkRoot.children.length);\n```"
+  ]
+}

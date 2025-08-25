@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "isPathWritable",
+    "API_Type": "method",
+    "Parameters": {
+        "cPath": "string",
+        "cFS": "string"
+    }
+}

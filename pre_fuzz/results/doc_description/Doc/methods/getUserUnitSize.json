@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "getUserUnitSize",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based index of the page."
+    }
+  },
+  "Returns": "A number indicating the UserUnit value for the page.",
+  "Examples": [
+    "(Acrobat)**\n\nDetermine the page size in inches:\n\n```\nvar aRect = this.getPageBox(\"Media\");\nvar pageHeight = aRect[1];\nvar pageWidth = aRect[2];\nvar userUnit  = this.getUserUnitSize(0);\nvar pageHeightInches = ((pageHeight * userUnit) / 72);\nvar pageWidthInches = ((pageWidth * userUnit) / 72);\nconsole.println(\"nPage 1 height : \" + pageHeightInches +\n           \" inches nPage 1 width : \" + pageWidthInches + \" inchesn\");\n```"
+  ],
+  "Example (Acrobat)": "Determine the page size in inches:\n\n```\nvar aRect = this.getPageBox(\"Media\");\nvar pageHeight = aRect[1];\nvar pageWidth = aRect[2];\nvar userUnit  = this.getUserUnitSize(0);\nvar pageHeightInches = ((pageHeight * userUnit) / 72);\nvar pageWidthInches = ((pageWidth * userUnit) / 72);\nconsole.println(\"nPage 1 height : \" + pageHeightInches +\n           \" inches nPage 1 width : \" + pageWidthInches + \" inchesn\");\n```"
+}

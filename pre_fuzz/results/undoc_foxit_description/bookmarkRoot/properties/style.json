@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "style",
+    "API_Type": "Property",
+    "API_Description": "Represents the style attributes of the bookmarkRoot object, allowing customization of its appearance.",
+    "API_Description_Reason": "The 'style' property typically refers to visual or formatting attributes in many APIs, suggesting it controls the appearance of the bookmarkRoot.",
+    "Returns": "An object or value representing the style settings of the bookmarkRoot.",
+    "Returns_Reason": "Since 'style' is a property, it likely returns the current style settings or attributes associated with the bookmarkRoot.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the style property, which could define the format or structure of the style settings.",
+            "description_reason": "The 'type' parameter is often used to specify the data type or format of a property, which is crucial for understanding how to interact with it.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified, indicating it could be a complex object or a simple value, depending on the implementation."
+        }
+    }
+}

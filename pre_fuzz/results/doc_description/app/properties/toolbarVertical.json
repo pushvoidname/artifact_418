@@ -1,0 +1,13 @@
+{
+  "Object": "app",
+  "API_Name": "toolbarVertical",
+  "API_Type": "Properties",
+  "API_Description": "!! Note This property has been deprecated in Acrobat 5.0 and later. If accessed, it acts like `toolbar` . Allows a script to show or hide the Acrobat vertical toolbar. It does not hide the toolbar in external windows (that is, in an Acrobat window within a web browser).",
+  "Version_Key": "deprecated",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "P",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": []
+}

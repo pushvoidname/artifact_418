@@ -1,0 +1,10 @@
+{
+    "Object": "TTS",
+    "API_Name": "getNthSpeakerName",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "nIndex"
+    ]
+}

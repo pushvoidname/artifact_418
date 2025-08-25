@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANSB_Subject",
+    "API_Type": "property",
+    "API_Description": "Represents the subject of the PDF document, typically used for categorizing or describing the content of the document.",
+    "API_Description_Reason": "The property name 'ANSB_Subject' suggests it is related to the subject or topic of the document, which is a common metadata field in documents.",
+    "Returns": "A string representing the subject of the document.",
+    "Returns_Reason": "Since 'subject' is typically a text field in document metadata, it is reasonable to assume that this property returns a string.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the subject property, which is expected to be a string.",
+            "description_reason": "The subject of a document is usually a textual description, hence it is likely to be a string.",
+            "type": "string",
+            "type_reason": "Document metadata fields like subject are generally represented as strings."
+        }
+    }
+}

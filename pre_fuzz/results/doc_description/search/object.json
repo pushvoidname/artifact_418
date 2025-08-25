@@ -1,0 +1,10 @@
+{
+  "object": "search",
+  "apiName": "search",
+  "apiType": "Object",
+  "apiDescription": "The `search` object is a static object that accesses the functionality provided by the Acrobat Search plug-in. This plug-in must be installed to interface with the `search` object (see ). See also the `Index` object, which is returned by some of the methods of the `search` object. The results for `query` calls are displayed in the Find dialog box of Acrobat. !! Note Acrobat 7.0 indexes are incompatible with the search engines of Acrobat 5.0 and earlier versions. As well, in Acrobat 7.0, searching indexes created by versions of Acrobat 5.0 and earlier is not possible on the Mac OS platform.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

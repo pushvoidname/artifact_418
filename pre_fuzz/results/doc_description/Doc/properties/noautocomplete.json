@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "noautocomplete",
+  "API_Type": "Properties",
+  "API_Description": "This property can be used to turn off the auto-complete feature of Acrobat forms, for this document only: * If `true` , no suggestions are made as the user enters data into a field. * If `false` , auto-complete respects the user preference Forms > Auto-Complete. Setting this property does not change the user\u2019s auto-complete preferences. Initially, this property has a value of `undefined` .",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: The following script could be executed from an open page action or as a top-level document JavaScript. It turns off the auto-complete feature:\n\n```\nthis.noautocomplete = true;\n```"
+  ]
+}

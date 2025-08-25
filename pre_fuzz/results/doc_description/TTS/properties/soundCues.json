@@ -1,0 +1,13 @@
+{
+  "Object": "TTS",
+  "API_Name": "soundCues",
+  "API_Type": "Properties",
+  "API_Description": "Deprecated. Returns `false` .",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

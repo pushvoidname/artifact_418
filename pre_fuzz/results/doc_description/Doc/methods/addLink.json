@@ -1,0 +1,23 @@
+{
+  "Object": "Doc",
+  "API_Name": "addLink",
+  "API_Type": "Method",
+  "API_Description": "Adds a new link to the specified page with the specified coordinates, if the user has permission to add links to the document. See also getLinks , removeLinks and the Link object.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "The page on which to add the new link."
+    },
+    "oCoords": {
+      "description": "An array of four numbers in rotated user space specifying the size and placement of the link. The numbers are the coordinates of the bounding rectangle in the following order: upper-left x, upper-left y, lower-right x and lower-right y ."
+    }
+  },
+  "Returns": "The newly created `Link` object.",
+  "Examples": [
+    "Create simple navigational links in the lower left and right corners of each page of the current document. The link in lower left corner goes to the previous page; the one in the lower right corner goes to the next page.\n\n```\nvar linkWidth = 36, linkHeight = 18;\nfor ( var i=0; i < this.numPages; i++)\n{\n    var cropBox = this.getPageBox(\"Crop\", i);\n    var linkRect1 = [0,linkHeight,linkWidth,0];\n    var offsetLink = cropBox[2] - cropBox[0] - linkWidth;\n    var linkRect2 = [offsetLink,linkHeight,linkWidth + offsetLink,0]\n    var lhLink = this.addLink(i, linkRect1);\n    var rhLink = this.addLink(i, linkRect2);\n    var nextPage = (i + 1) % this.numPages;\n    var prevPage = (i - 1) % this.numPages;\n    var prevPage = (prevPage>=0) ? prevPage : -prevPage;\n    lhLink.setAction( \"this.pageNum = \" + prevPage);\n    lhLink.borderColor = color.red;\n    lhLink.borderWidth = 1;\n    rhLink.setAction( \"this.pageNum = \" + nextPage);\n    rhLink.borderColor = color.red;\n    rhLink.borderWidth = 1;\n}\n```\n\nSee the Link object for information on setting the properties and the action of a link.",
+    "Search through the document for the word \u201cAcrobat\u201d and create a link around that word.\n\n```\nfor (var p = 0; p < this.numPages; p++)\n{\n    var numWords = this.getPageNumWords(p);\n    for (var i=0; i<numWords; i++)\n    {\n        var ckWord = this.getPageNthWord(p, i, true);\n        if ( ckWord == \"Acrobat\")\n        {\n            var q = this.getPageNthWordQuads(p, i);\n            // Convert quads in default user space to rotated\n            // User space used by Links.\n            m = (new Matrix2D).fromRotated(this,p);\n            mInv = m.invert()\n            r = mInv.transform(q)\n            r=r.toString()\n            r = r.split(\",\");\n            l = addLink(p, [r[4], r[5], r[2], r[3]]);\n            l.borderColor = color.red;\n            l.borderWidth = 1;\n            l.setAction(\"this.getURL('http://www.example.com/')\");\n        }\n    }\n}\n```"
+  ]
+}

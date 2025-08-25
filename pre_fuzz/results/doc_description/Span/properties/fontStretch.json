@@ -1,0 +1,13 @@
+{
+  "Object": "Span",
+  "API_Name": "fontStretch",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the normal, condensed or extended face from a font family to be used to draw the text. The values of `fontStretch` are ``` ultra-condensed, extra-condensed, condensed, semi-condensed, normal, semi-expanded, expanded, extra-expanded, ultra-expanded ``` The default value is `normal` .",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": []
+}

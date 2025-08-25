@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "getPageIndexByPageObjNum",
+    "API_Type": "Method",
+    "API_Description": "Returns the index of a page given its page object number.",
+    "API_Description_Reason": "The method name suggests it retrieves the page index using the page object number, which is a common way to reference pages in PDF documents.",
+    "Returns": "The 0-based index of the page corresponding to the given page object number.",
+    "Returns_Reason": "The method is expected to return an index, which is typically a number, representing the position of the page in the document.",
+    "Parameters": {
+        "nPageObjNum": {
+            "description": "The object number of the page whose index is to be retrieved.",
+            "description_reason": "The method name implies that it requires a page object number to find the corresponding page index.",
+            "type": "number",
+            "type_reason": "Page object numbers are typically represented as numbers in PDF structures."
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "makeAllCommentsReadOnly",
+    "API_Type": "Method",
+    "API_Description": "Sets all comments in the specified document to read-only mode, preventing further edits.",
+    "API_Description_Reason": "The method name 'makeAllCommentsReadOnly' suggests that it changes the state of comments to be non-editable. This is a common feature in collaboration tools to lock comments after a certain stage.",
+    "Returns": "A boolean indicating whether the operation was successful.",
+    "Returns_Reason": "Methods that perform an action typically return a success status to indicate if the operation was completed as expected.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object containing the comments to be made read-only.",
+            "description_reason": "The parameter 'doc' is likely the document on which the operation is performed, as it is common to pass the target document to such methods.",
+            "type": "object",
+            "type_reason": "The 'doc' parameter is described as a built-in object, which suggests it is a complex data type representing a document."
+        },
+        "undoable": {
+            "description": "A boolean flag indicating whether the action can be undone.",
+            "description_reason": "The parameter 'undoable' suggests that the operation might be reversible, and this flag would control that behavior.",
+            "type": "boolean",
+            "type_reason": "The name 'undoable' implies a true/false value, which is typically represented as a boolean."
+        },
+        "selfDestruct": {
+            "description": "A boolean flag indicating whether the read-only state should automatically revert after a certain condition or time.",
+            "description_reason": "The term 'selfDestruct' implies an automatic reversal or expiration of the read-only state, which would be controlled by this flag.",
+            "type": "boolean",
+            "type_reason": "The name 'selfDestruct' suggests a true/false condition, which is commonly represented as a boolean."
+        }
+    }
+}

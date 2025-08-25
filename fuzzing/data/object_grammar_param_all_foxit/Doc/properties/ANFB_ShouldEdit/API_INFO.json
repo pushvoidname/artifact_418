@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldEdit",
+    "API_Type": "property",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

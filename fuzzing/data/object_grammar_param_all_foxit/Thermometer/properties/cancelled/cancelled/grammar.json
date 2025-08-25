@@ -1,0 +1,14 @@
+[
+    [
+        "CANCELLED",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

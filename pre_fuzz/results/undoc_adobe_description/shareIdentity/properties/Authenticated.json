@@ -1,0 +1,17 @@
+{
+    "Object": "shareIdentity",
+    "API_Name": "Authenticated",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the user is authenticated.",
+    "API_Description_Reason": "The property name 'Authenticated' suggests it is a boolean flag that represents the authentication status of a user.",
+    "Returns": "A boolean value indicating the authentication status.",
+    "Returns_Reason": "The parameter type is boolean, which typically represents a true or false state, suitable for authentication status.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value representing the authentication status of the user.",
+            "description_reason": "The parameter is named 'type' and is of boolean type, which is commonly used to represent true/false states such as authentication.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, which is appropriate for a property indicating a binary state like authentication."
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "Object": "Annotation",
+  "API_Name": "getProps",
+  "API_Type": "Method",
+  "API_Description": "Get the collected properties of an annotation. Can be used to copy an annotation.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Parameters": {},
+  "Returns": "An object literal of the properties of the annotation. The object literal is just like the one passed to the Doc object `addAnnot` method.",
+  "Examples": [
+    "Copy a given annotation to every page in the document.\n\n```\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"Text\",\n    rect: [40, 40, 140, 140]\n});\n\n// Make a copy of the properties of annot\nvar copy_props = annot.getProps();\n\n// Now create a new annot with the same properties on every page\nvar numpages = this.numPages;\nfor (var i=0; i < numpages; i++) {\n    var copy_annot = this.addAnnot(copy_props);\n    // but move it to page i\n    copy_annot.page=i;\n}\n```",
+    "Display all properties and values of an annotation.\n\n```\nvar a = this.getAnnots(0);     // get all annots on page 0\nif ( a != null ) {\n    var p = a[0].getProps();     // get the properties of first one\n    for ( o in p ) console.println( o + \" : \" + p[o] );\n}\n```"
+  ]
+}

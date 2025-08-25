@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getTemplate",
+  "API_Type": "Method",
+  "API_Description": "Gets the named template from the document. See also templates , createTemplate , , and the Template object.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the template to retrieve."
+    }
+  },
+  "Returns": "The `Template` object or `null` if the named template does not exist in the document.",
+  "Examples": [
+    "Try to get a particular template and determine if it is hidden or visible.\n\n```\nvar t = this.getTemplate(\"myTemplate\");\nif ( t != null ) console.println( \"myTemplate exists and is \"\n    + eval( '( t.hidden) ? \"hidden\" : \"visible\"' ) + \".\");\nelse console.println( \"myTemplate is not present!\");\n```"
+  ]
+}

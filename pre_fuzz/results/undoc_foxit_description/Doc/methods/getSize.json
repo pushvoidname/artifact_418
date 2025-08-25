@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getSize",
+    "API_Type": "Method",
+    "API_Description": "Returns the size of the PDF document in bytes.",
+    "API_Description_Reason": "The method name 'getSize' suggests it retrieves the size of the document, and given the context of a PDF document, it is logical to assume it refers to the file size in bytes.",
+    "Returns": "The size of the PDF document in bytes as a number.",
+    "Returns_Reason": "Since the method is named 'getSize', it is reasonable to assume it returns a numerical value representing the size, which is typically measured in bytes for files.",
+    "Parameters": {}
+}

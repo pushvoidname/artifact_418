@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "embedDocAsDataObject",
+    "API_Type": "Method",
+    "API_Description": "Embeds a PDF document as a data object within the current PDF document.",
+    "API_Description_Reason": "The method name 'embedDocAsDataObject' suggests that it is used to embed a document as a data object within another document.",
+    "Returns": "A boolean indicating success or failure of the embedding operation.",
+    "Returns_Reason": "Typically, methods that perform an operation like embedding return a boolean to indicate whether the operation was successful.",
+    "Parameters": {
+        "unknown": {
+            "description": "The parameters for this method are not documented, but it likely includes the document to be embedded and possibly options for embedding.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating that the specific details are not provided. However, based on the method's purpose, it likely involves specifying the document to embed.",
+            "type": "unknown",
+            "type_reason": "The exact type is not documented, but it could be a string (file path) or an object representing the document to embed."
+        }
+    }
+}

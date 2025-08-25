@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "textFont",
+  "API_Type": "Properties",
+  "API_Description": "Determines the font that is used when laying out text in a free text annotation. Valid fonts are defined as properties of the `font` object (see the Field object property). An arbitrary font can be used when laying out a free text annotation by setting the value of `textFont` equal to a string that represents the PostScript name of the font. **Annotations** : FreeText",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a FreeText annotation using the Helvetica font.\n\n```\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"FreeText\",\n    textFont: font.Helv, // or, textFont: \"Viva-Regular\",\n    textSize: 10,\n    rect: [200, 300, 200+150, 300+3*12], // height for three lines\n    width: 1,\n    alignment: 1 });\n```"
+  ]
+}

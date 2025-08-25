@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldNone",
+    "API_Type": "property",
+    "API_Description": "Indicates whether a specific feature or action should not be performed on the document.",
+    "API_Description_Reason": "The name 'ANFB_ShouldNone' suggests a boolean property that determines if no action should be taken, likely related to a feature or behavior in the document.",
+    "Returns": "A boolean value indicating if the action should not be performed.",
+    "Returns_Reason": "The property name implies a true or false condition, which is typically represented by a boolean value.",
+    "Parameters": {
+        "type": {
+            "description": "The type of action or feature that is being evaluated for non-performance.",
+            "description_reason": "The parameter 'type' is likely used to specify the context or category of the action being considered.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or an enumeration representing different actions or features."
+        }
+    }
+}

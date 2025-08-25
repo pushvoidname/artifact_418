@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "collection",
+  "API_Type": "Properties",
+  "API_Description": "The value of the `collection` property is a collection object of the collection in this PDF. Properties of the collection may be changed through the collection object. !! Note A PDF file cannot be converted into a PDF collection. The attribute of a document as a PDF collection cannot be removed. If a new collection is desired, use `app.newCollection` . ``` if (this.collection) { var collection = this.collection; // Do something with the collection... } ```",
+  "Version_Key": "9.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Collection object or a null object if there is no collection in this PDF.",
+  "Access": "R",
+  "Examples": []
+}

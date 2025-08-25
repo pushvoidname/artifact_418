@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "AVUMAddStringToPayloadWrapper",
+    "API_Type": "method",
+    "Parameters": {
+        "name": "string",
+        "val": "string"
+    }
+}

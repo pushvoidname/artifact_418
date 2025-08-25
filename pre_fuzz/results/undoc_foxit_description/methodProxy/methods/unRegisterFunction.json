@@ -1,0 +1,17 @@
+{
+    "Object": "methodProxy",
+    "API_Name": "unRegisterFunction",
+    "API_Type": "Method",
+    "API_Description": "Removes a previously registered function from the method proxy.",
+    "API_Description_Reason": "The method name 'unRegisterFunction' suggests it is used to unregister or remove a function that was previously registered, likely using a complementary 'registerFunction' method.",
+    "Returns": "A boolean indicating whether the function was successfully unregistered.",
+    "Returns_Reason": "Typically, methods that perform an action like unregistering return a boolean to indicate success or failure.",
+    "Parameters": {
+        "unknown": {
+            "description": "The identifier or reference of the function to unregister.",
+            "description_reason": "Since the method is unregistering a function, it likely requires some form of identifier or reference to the function that needs to be removed.",
+            "type": "unknown",
+            "type_reason": "The exact type is unspecified, but it could be a string, function reference, or object depending on how functions are registered."
+        }
+    }
+}

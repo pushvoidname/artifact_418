@@ -1,0 +1,17 @@
+{
+    "Object": "identity",
+    "API_Name": "lastName",
+    "API_Type": "property",
+    "API_Description": "Represents the last name of the current user.",
+    "API_Description_Reason": "The property is named 'lastName', which typically refers to a user's surname or family name.",
+    "Returns": "The last name of the user as a string.",
+    "Returns_Reason": "Since 'lastName' is a property related to user identity, it is reasonable to assume it returns a string representing the user's last name.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the lastName property.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the property.",
+            "type": "unknown",
+            "type_reason": "The provided information does not specify the exact data type, hence it is marked as unknown."
+        }
+    }
+}

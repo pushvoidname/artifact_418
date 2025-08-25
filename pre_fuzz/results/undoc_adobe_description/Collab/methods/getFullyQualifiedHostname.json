@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getFullyQualifiedHostname",
+    "API_Type": "Method",
+    "API_Description": "Returns the fully qualified hostname for a given host string.",
+    "API_Description_Reason": "The method name 'getFullyQualifiedHostname' suggests that it retrieves the complete domain name for a given host, which is a common operation in network-related functionalities.",
+    "Returns": "A string representing the fully qualified hostname.",
+    "Returns_Reason": "The method is expected to return a string because hostnames are typically represented as strings.",
+    "Parameters": {
+        "cHost": {
+            "description": "The host string for which the fully qualified hostname is to be retrieved.",
+            "description_reason": "The parameter name 'cHost' implies it is a host string, which is used to determine the fully qualified hostname.",
+            "type": "string",
+            "type_reason": "Hostnames are generally represented as strings, hence the parameter is of type string."
+        }
+    }
+}

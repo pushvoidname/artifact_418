@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Title",
+    "API_Type": "property",
+    "API_Description": "Represents the title of the document.",
+    "API_Description_Reason": "The Title property typically refers to the title metadata of a document, which is a common attribute in document information objects.",
+    "Returns": "The title of the document as a string.",
+    "Returns_Reason": "Since the parameter type is specified as a string, it is reasonable to assume that the Title property returns a string representing the document's title.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the Title property.",
+            "description_reason": "The parameter 'type' indicates the expected data type for the Title property, which is a common practice in API documentation to specify the type of data returned or accepted.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is explicitly stated as a string, which aligns with the typical representation of a document title."
+        }
+    }
+}

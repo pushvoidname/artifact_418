@@ -1,0 +1,16 @@
+{
+  "Object": "app",
+  "API_Name": "endPriv",
+  "API_Type": "Method",
+  "API_Description": "Revokes any privilege bestowed upon the current stack frame by `app.beginPriv` . Does not revoke privilege bestowed by the current event.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "`undefined` on success, exception on failure",
+  "Examples": [
+    "For examples of usage, see trustedFunction and trustPropagatorFunction ."
+  ],
+  "Related methods": "are `app.` trustedFunction , `app.` trustPropagatorFunction and `app.` beginPriv ."
+}

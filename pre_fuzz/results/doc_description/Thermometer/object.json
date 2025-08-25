@@ -1,0 +1,10 @@
+{
+  "object": "Thermometer",
+  "apiName": "Thermometer",
+  "apiType": "Object",
+  "apiDescription": "This object is a combined status window and progress bar that indicates to the user that a lengthy operation is in progress. To acquire a Thermometer object, use `app.thermometer` . Example: This example shows how to use all properties and methods of the Thermometer object. ``` var t = app.thermometer; // Acquire a thermometer object t.duration = this.numPages; t.begin(); for ( var i = 0; i < this.numPages; i++) { t.value = i; t.text = \"Processing page \" + (i + 1); if (t.cancelled) break; // Break if the operation is cancelled . .. process the page ... } t.end(); ```",
+  "version": "6.0",
+  "savePrefs": "No",
+  "security": "No",
+  "product": "All"
+}

@@ -1,0 +1,34 @@
+{
+  "Object": "app",
+  "API_Name": "mailGetAddrs",
+  "API_Type": "Method",
+  "API_Description": "!! Note This method is a Windows-only feature.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cTo": {
+      "description": "(optional) A semicolon-separated list of \u201cTo\u201d addressees to use."
+    },
+    "cCc": {
+      "description": "(optional) A semicolon-separated list of CC addressees to use."
+    },
+    "cBcc": {
+      "description": "(optional) A semicolon-separated list of BCC addressees to use."
+    },
+    "cCaption": {
+      "description": "(optional) A string to appear on the caption bar of the address dialog box."
+    },
+    "bCc": {
+      "description": "(optional) A Boolean value to indicate whether the user can choose CC recipients."
+    },
+    "bBcc": {
+      "description": "(optional) A Boolean value to indicate whether the user can choose BCC recipients. This Boolean should only be used when bCc is true ; otherwise, the method fails (and returns undefined)."
+    }
+  },
+  "Returns": "On failure (the user cancelled), returns undefined. On success, returns an array of three strings for To, CC, and BCC.",
+  "Examples": [
+    "Give the user two chances to provide mail addresses.\n\n```\nvar attempts = 2;\nwhile (attempts > 0)\n{\n    var recipients = app.mailGetAddrs\n    ({\n        cCaption: \"Select Recipients, Please\",\n        bBcc: false\n    })\n    if (typeof recipients == \"undefined\" ) {\n        if (--attempts == 1)\n            app.alert(\"You did not choose any recipients, try again\");\n    } else break;\n}\nif (attempts == 0)\n    app.alert(\"Cancelling the mail message\");\nelse {\n    // JavaScript statements to send mail\n}\n```"
+  ]
+}

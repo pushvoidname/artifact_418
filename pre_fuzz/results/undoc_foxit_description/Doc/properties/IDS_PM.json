@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_PM",
+    "API_Type": "Property",
+    "API_Description": "Represents a specific identifier or message related to the document, possibly used for internal or localization purposes.",
+    "API_Description_Reason": "The name 'IDS_PM' suggests it is an identifier string, often used in software for internal messages or localization. 'IDS' typically stands for 'Identifier String' or 'ID String'.",
+    "Returns": "A string value representing the identifier or message.",
+    "Returns_Reason": "Since 'IDS_PM' is a property, it likely returns a string value that serves as an identifier or message, which is common for properties prefixed with 'IDS'.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the IDS_PM property, which is likely a string.",
+            "description_reason": "The 'type' parameter is unknown, but given the context of 'IDS_PM', it is likely a string representing an identifier or message.",
+            "type": "string",
+            "type_reason": "Properties with 'IDS' prefix typically hold string values for identifiers or messages."
+        }
+    }
+}

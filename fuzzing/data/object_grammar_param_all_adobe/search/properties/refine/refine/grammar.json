@@ -1,0 +1,14 @@
+[
+    [
+        "REFINE",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

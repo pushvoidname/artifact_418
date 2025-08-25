@@ -1,0 +1,10 @@
+{
+    "Object": "SOAP",
+    "API_Name": "streamFromString",
+    "API_Type": "method",
+    "Return_Type": "ReadStream",
+    "Scripts_Arg": [
+        "cString"
+    ],
+    "Actions_Arg": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "dash",
+  "API_Type": "Properties",
+  "API_Description": "A dash array defining a pattern of dashes and gaps to be used in drawing a dashed border. For example, a value of [3, 2] specifies a border drawn with 3-point dashes alternating with 2-point gaps. To set the dash array, the `style` property must be set to `D` . **Annotations** : FreeText, Line, PolyLine, Polygon, Circle, Square, Ink",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Assuming `annot` is an `Annotation` object, this example changes the border to dashed.\n\n```\nannot.setProps({ style: \"D\", dash: [3,2] });\n```\n\nSee also the example following the delay property."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "SOAP",
+  "API_Name": "wireDump",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , synchronous SOAP requests will cause the XML request and response to be dumped to the JavaScript Console. This is useful for debugging SOAP problems. !! Note Beginning with Acrobat 8.0, this property is deprecated, new services should use `Net.SOAP.wireDump` .",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,10 @@
+{
+  "object": "Annotation",
+  "apiName": "Annotation",
+  "apiType": "Object",
+  "apiDescription": "This object represents an Acrobat annotation. Annotations can be created using the Acrobat annotation tool or by using the Doc object method `addAnnot` . Before an annotation can be accessed, it must be bound to a JavaScript variable through a Doc object method such as `getAnnot` : ``` var a = this.getAnnot(0, \"Important\"); ``` The script can then manipulate the annotation named \u201cImportant\u201d on page 1 (0-based page numbering system) by means of the variable `a` . For example, the following code first stores the type of annotation in the variable `thetype` , then changes the author to \u201cJohn Q. Public\u201d. ``` var thetype = a.type; // read property a.author = \"John Q. Public\"; // write property ``` Another way of accessing the Annotation object is through the Doc object `getAnnots` method. !! Note In Adobe Reader 5.1 or later, you can get the value of any annotation property except `contents` . The ability to set these properties depends on Comments document rights, as indicated by the C icon. !! Note The user interface in Acrobat refers to annotations as comments .",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

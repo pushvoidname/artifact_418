@@ -1,0 +1,14 @@
+[
+    [
+        "PERM_STATUS_READY",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

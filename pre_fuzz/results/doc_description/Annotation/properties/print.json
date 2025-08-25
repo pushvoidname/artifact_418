@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "print",
+  "API_Type": "Properties",
+  "API_Description": "Indicates whether the annotation should be printed ( `true` ) or not ( `false` ). **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": []
+}

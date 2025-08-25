@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "loadHtmlView",
+    "API_Type": "Method",
+    "API_Description": "Loads an HTML view into the application.",
+    "API_Description_Reason": "The method name 'loadHtmlView' suggests that it is responsible for loading an HTML view, likely for display or interaction purposes within the application.",
+    "Returns": "A boolean indicating success or failure of loading the HTML view.",
+    "Returns_Reason": "Typically, methods that perform an action like loading a view return a boolean to indicate whether the operation was successful.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string parameter whose purpose is to specify the HTML content or URL to be loaded.",
+            "description_reason": "The parameter is of type string, which is commonly used for URLs or HTML content, aligning with the method's purpose of loading an HTML view.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, which is appropriate for specifying HTML content or a URL."
+        }
+    }
+}

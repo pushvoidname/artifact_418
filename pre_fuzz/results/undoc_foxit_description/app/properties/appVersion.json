@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "appVersion",
+    "API_Type": "Property",
+    "API_Description": "Represents the version of the Acrobat application.",
+    "API_Description_Reason": "The name 'appVersion' suggests it provides information about the version of the application, which is a common property in software applications to identify the version number.",
+    "Returns": "A string representing the version of the Acrobat application.",
+    "Returns_Reason": "Version information is typically represented as a string to accommodate version numbers, which may include numbers and dots (e.g., '2023.1.0').",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the appVersion property.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the appVersion property.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not documented or may vary."
+        }
+    }
+}

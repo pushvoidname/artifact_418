@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFPercent_Format",
+    "API_Type": "Method",
+    "API_Description": "Formats a number as a percentage string.",
+    "API_Description_Reason": "The method name 'AFPercent_Format' suggests that it is used to format numbers into a percentage format, which is a common operation in document processing.",
+    "Returns": "A string representing the formatted percentage.",
+    "Returns_Reason": "Since the method is likely formatting a number into a percentage, it would return the formatted result as a string.",
+    "Parameters": {}
+}

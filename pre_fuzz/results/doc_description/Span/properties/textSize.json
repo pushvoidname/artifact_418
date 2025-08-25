@@ -1,0 +1,15 @@
+{
+  "Object": "Span",
+  "API_Name": "textSize",
+  "API_Type": "Properties",
+  "API_Description": "The point size of the text. The value of `textSize` can be any number between 0 and 32767, inclusive. A text size of zero means to use the largest point size that will allow all text data to fit in the field\u2019s rectangle. The default text size is 12.0. Type | Access ------------- Number | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": [
+    "Example: The example following the Field object property uses `textSize` ."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "Bookmark",
+    "API_Name": "children",
+    "API_Type": "properties",
+    "Return_Type": "Array[Bookmark]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

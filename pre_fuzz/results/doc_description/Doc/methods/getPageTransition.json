@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageTransition",
+  "API_Type": "Method",
+  "API_Description": "Gets the transition of the specified page. See also setPageTransitions .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    }
+  },
+  "Returns": "An array of three values: `[ nDuration, cTransition, nTransDuration ]` .\n\n*  `nDuration` is the maximum amount of time the page is displayed before the viewer automatically turns to the next page. A duration of -1 indicates that there is no automatic page turning.\n\n*  `cTransition` is the name of the transition to apply to the page. See the property `app.fs.`  transitions for a list of valid transitions.\n\n*  `cTransDuration` is the duration (in seconds) of the transition effect.",
+  "Examples": []
+}

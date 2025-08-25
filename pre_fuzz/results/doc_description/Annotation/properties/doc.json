@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "doc",
+  "API_Type": "Properties",
+  "API_Description": "The Doc object of the document in which the annotation resides. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "C",
+  "Type": "object",
+  "Access": "R",
+  "Examples": [
+    "Example: Construct an annotation, and illustrate the use of the `doc` property.\n\n```\nvar inch = 72;\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"Square\",\n    rect: [1*inch, 3*inch, 2*inch, 3.5*inch]\n});\n/* displays, for example, \"file:///C|/Adobe/Annots/myDoc.pdf\" */\nconsole.println(annot.doc.URL);\n```"
+  ]
+}

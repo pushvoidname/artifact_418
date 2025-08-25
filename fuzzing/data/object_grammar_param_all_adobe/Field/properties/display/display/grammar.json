@@ -1,0 +1,22 @@
+[
+    [
+        "DISPLAY",
+        "{DISPLAY_VALUE}"
+    ],
+    [
+        "DISPLAY_VALUE",
+        "display.visible"
+    ],
+    [
+        "DISPLAY_VALUE",
+        "display.hidden"
+    ],
+    [
+        "DISPLAY_VALUE",
+        "display.noPrint"
+    ],
+    [
+        "DISPLAY_VALUE",
+        "display.noView"
+    ]
+]

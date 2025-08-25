@@ -1,0 +1,8 @@
+{
+    "Object": "Annotation",
+    "API_Name": "creationDate",
+    "API_Type": "properties",
+    "Return_Type": "Date",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

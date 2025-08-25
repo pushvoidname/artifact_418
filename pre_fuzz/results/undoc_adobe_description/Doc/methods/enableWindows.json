@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "enableWindows",
+    "API_Type": "Method",
+    "API_Description": "Enables the windowing system for the PDF document, allowing for user interaction with the document's windows.",
+    "API_Description_Reason": "The method name 'enableWindows' suggests it is used to activate or enable window-related functionalities, likely allowing user interaction with document windows.",
+    "Returns": "A boolean indicating whether the windows were successfully enabled.",
+    "Returns_Reason": "Methods that perform an action like enabling a feature often return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

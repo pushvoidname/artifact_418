@@ -1,0 +1,10 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "getAggregateFormWorkflowInfo",
+    "API_Type": "Method",
+    "API_Description": "Retrieves aggregated information about all form workflows.",
+    "API_Description_Reason": "The method name suggests it gathers and returns comprehensive data regarding form workflows, likely summarizing or compiling details from multiple workflows.",
+    "Returns": "An object containing aggregated information about form workflows.",
+    "Returns_Reason": "The method is expected to return a summary or collection of data, as indicated by the term 'aggregate' in its name.",
+    "Parameters": {}
+}

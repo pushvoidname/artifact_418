@@ -1,0 +1,19 @@
+{
+  "Object": "search",
+  "API_Name": "addIndex",
+  "API_Type": "Method",
+  "API_Description": "Adds the specified index to the list of searchable indexes.",
+  "Version": "5.0",
+  "Save-Prefs": "P",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cDIPath": {
+      "description": "(optional) Whether the index should be selected for searching."
+    }
+  },
+  "Returns": "An `Index` object.",
+  "Examples": [
+    "Adds the standard help index for Acrobat to the index list:\n\n```\nsearch.addIndex(\"/c/program files/adobe/Acrobat 5.0/help/exchhelp.pdx\", true);\n```"
+  ]
+}

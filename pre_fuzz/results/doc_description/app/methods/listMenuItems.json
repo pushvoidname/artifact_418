@@ -1,0 +1,17 @@
+{
+  "Object": "app",
+  "API_Name": "listMenuItems",
+  "API_Type": "Method",
+  "API_Description": "Beginning with Acrobat 6.0, returns an array of `TreeItem` objects, which describes a menu hierarchy.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "Array of `TreeItem` objects.",
+  "Examples": [
+    "List all menu item names to the console.\n\n```\nvar menuItems = app.listMenuItems()\nfor( var i in menuItems)\n    console.println(menuItems[i] + \"n\")\n```",
+    "List all menu items to the console using a fancy format.\n\n```\nfunction FancyMenuList(m, nLevel)\n{\n    var s = \"\";\n    for (var i = 0; i < nLevel; i++) s += \" \";\n    console.println(s + \"+-\" + m.cName);\n    if ( m.oChildren != null )\n        for ( var i = 0; i < m.oChildren.length; i++ )\n            FancyMenuList(m.oChildren[i], nLevel + 1);\n}\nvar m = app.listMenuItems();\nfor ( var i=0; i < m.length; i++ ) FancyMenuList(m[i], 0);\n```"
+  ],
+  "TreeItem Object": "A generic JavaScript object that represents a menu or toolbar item hierarchy. An array of these objects is returned by `app.listMenuItems` and `app.listToolbarButtons` (starting in Acrobat 6.0). It contains the following properties.\n\ncName | The name of a menu item or toolbar button.\n--------------------------------------------------\noChildren | (optional) An array of treeItem objects containing the submenus or flyout buttons."
+}

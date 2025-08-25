@@ -1,0 +1,17 @@
+{
+    "Object": "thermometer",
+    "API_Name": "cancelled",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the thermometer operation has been cancelled.",
+    "API_Description_Reason": "The property name 'cancelled' suggests it is a boolean flag that represents the cancellation state of an operation.",
+    "Returns": "A boolean value indicating the cancellation state.",
+    "Returns_Reason": "Properties named 'cancelled' typically return a boolean value to indicate true or false states.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the 'cancelled' property.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the data type of the property.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not documented."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "TTS",
+  "API_Name": "available",
+  "API_Type": "Properties",
+  "API_Description": "`true` if the TTS object is available and the Text-To-Speech engine can be used. Type | Access ------------- Boolean | R",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": [
+    "Example:\n\n```\nconsole.println(\"Text to speech available: \" + tts.available);\n```"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "util",
+    "API_Name": "charToByte",
+    "API_Type": "method",
+    "Parameters": {
+        "cStr": "string"
+    }
+}

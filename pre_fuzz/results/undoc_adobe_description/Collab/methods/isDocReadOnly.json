@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "isDocReadOnly",
+    "API_Type": "Method",
+    "API_Description": "Determines if a document at the specified path is read-only.",
+    "API_Description_Reason": "The method name 'isDocReadOnly' suggests it checks the read-only status of a document. The parameter 'cDocPath' indicates it operates on a document specified by a path.",
+    "Returns": "A boolean indicating whether the document is read-only.",
+    "Returns_Reason": "The method name implies a true/false return value, typical for 'is' prefixed methods that check a condition.",
+    "Parameters": {
+        "cDocPath": {
+            "description": "The file path of the document to check.",
+            "description_reason": "The parameter name 'cDocPath' suggests it is a string representing the path to the document.",
+            "type": "string",
+            "type_reason": "File paths are typically represented as strings in programming."
+        }
+    }
+}

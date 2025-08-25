@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldSummarize",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document should be summarized.",
+    "API_Description_Reason": "The property name 'ANFB_ShouldSummarize' suggests it is a boolean flag that determines if the document should be summarized.",
+    "Returns": "A boolean value indicating the summarization status.",
+    "Returns_Reason": "The property likely returns a boolean value because it is a flag that indicates whether a specific action (summarization) should occur.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the property value.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown in the provided information, indicating that the exact data type is not documented."
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "execHtmlDialog",
+    "API_Type": "Method",
+    "API_Description": "Displays an HTML dialog box within the Acrobat application.",
+    "API_Description_Reason": "The method name 'execHtmlDialog' suggests that it executes or displays an HTML-based dialog, which is a common functionality in applications to show custom dialogs or interfaces.",
+    "Returns": "A boolean indicating whether the dialog was successfully executed.",
+    "Returns_Reason": "Typically, methods that execute dialogs return a boolean to indicate success or failure, allowing the calling code to handle the result appropriately.",
+    "Parameters": {}
+}

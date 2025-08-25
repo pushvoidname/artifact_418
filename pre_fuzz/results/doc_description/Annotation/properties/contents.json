@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "contents",
+  "API_Type": "Properties",
+  "API_Description": "Accesses the contents of any annotation that has a pop-up window. For sound and file attachment annotations, specifies the text to be displayed as a description. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a text annotation, with author and contents specified.\n\n```\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"Text\",\n    point: [400,500],\n    author: \"A. C. Robat\",\n    contents: \"Call Smith to get help on this paragraph.\",\n    noteIcon: \"Help\"\n});\n```\n\nSee also the Doc object addAnnot method."
+  ]
+}

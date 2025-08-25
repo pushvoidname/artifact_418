@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "streamToDocument",
+    "API_Type": "method",
+    "Return_Type": "Document",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "stream"
+    ]
+}

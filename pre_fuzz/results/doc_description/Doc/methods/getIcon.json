@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getIcon",
+  "API_Type": "Method",
+  "API_Description": "Obtains a specific `icon` object. See also the icons property, the addIcon , importIcon , and removeIcon methods, and the Field object methods buttonGetIcon , buttonImportIcon , and buttonSetIcon .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the icon object to obtain."
+    }
+  },
+  "Returns": "An `Icon` object associated with the specified name in the document or `null` if no icon of that name exists.",
+  "Examples": [
+    "The following is a custom keystroke script from a combo box. The face names of the items in the combo box are the names of some of the icons that populate the document. As the user chooses different items from the combo box, the corresponding icon appears as the button face of the field \u201cmyPictures\u201d.\n\n```\nif (!event.willCommit) {\n    var b = this.getField(\"myPictures\");\n    var i = this.getIcon(event.change);\n    b.buttonSetIcon(i);\n}\n```\n\nSee the Field object buttonSetIcon method or a more elaborate variation on this example."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "inReplyTo",
+  "API_Type": "Properties",
+  "API_Description": "If non-empty, specifies the `name` value of the annotation that this annotation is in reply to. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

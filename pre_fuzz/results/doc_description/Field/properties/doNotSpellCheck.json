@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "doNotSpellCheck",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , spell checking is not performed on this editable text field. Setting this property to `true` or `false` corresponds to unchecking or checking the Check Spelling attribute in the Options tab of the Field Properties dialog box. **Fields** `combobox` (editable), `text`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

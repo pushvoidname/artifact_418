@@ -1,0 +1,8 @@
+{
+    "Object": "Field",
+    "API_Name": "rect",
+    "API_Type": "properties",
+    "Return_Type": "Array[Number]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

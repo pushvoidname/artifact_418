@@ -1,0 +1,17 @@
+{
+    "Object": "util",
+    "API_Name": "fixOldString",
+    "API_Type": "Method",
+    "API_Description": "Processes and updates a given string to conform to a newer format or standard.",
+    "API_Description_Reason": "The method name 'fixOldString' suggests that it is intended to modify or update an older string format to a newer or corrected version.",
+    "Returns": "The updated string after processing.",
+    "Returns_Reason": "Since the method is likely intended to 'fix' or update a string, it would return the modified version of the input string.",
+    "Parameters": {
+        "cText": {
+            "description": "The string that needs to be processed and updated.",
+            "description_reason": "The parameter name 'cText' implies that it is a string input, likely representing the content to be fixed or updated.",
+            "type": "string",
+            "type_reason": "The parameter is named 'cText', which is a common convention for indicating a string type in JavaScript."
+        }
+    }
+}

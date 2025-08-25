@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "name",
+  "API_Type": "Properties",
+  "API_Description": "This property returns the fully qualified field name of the field as a string object. Beginning with Acrobat 6.0, if the Field object represents one individual widget, the returned name includes an appended \u2018.\u2019 followed by the widget index. **Fields** all",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": [
+    "Example: Get a Field object and write the `name` of the field to the console.\n\n```\nvar f = this.getField(\"myField\");\n\n// Displays \"myField\" in the console window\nconsole.println(f.name);\n```"
+  ]
+}

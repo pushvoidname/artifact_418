@@ -1,0 +1,29 @@
+{
+    "Object": "Doc",
+    "API_Name": "createIcon",
+    "API_Type": "Method",
+    "API_Description": "Creates a new icon from a stream of image data and returns it as an Icon object.",
+    "API_Description_Reason": "The method name 'createIcon' suggests that it is responsible for creating an icon, and the parameters indicate it uses a stream of image data to define the icon's appearance.",
+    "Returns": "The newly created Icon object.",
+    "Returns_Reason": "The method is expected to return an object representing the icon created from the provided image data, as it is common for creation methods to return the created object.",
+    "Parameters": {
+        "cStream": {
+            "description": "A string representing the image data stream used to create the icon.",
+            "description_reason": "The parameter name 'cStream' implies it is a stream of data, likely in a string format, used to define the icon's image.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest it is a string, which is a common format for data streams in APIs."
+        },
+        "nWidth": {
+            "description": "The width of the icon in points.",
+            "description_reason": "The parameter name 'nWidth' indicates it specifies the width dimension of the icon, likely in points, which is a standard unit in PDF documents.",
+            "type": "number",
+            "type_reason": "The 'n' prefix suggests a numeric value, which is appropriate for specifying dimensions."
+        },
+        "nHeight": {
+            "description": "The height of the icon in points.",
+            "description_reason": "The parameter name 'nHeight' indicates it specifies the height dimension of the icon, likely in points, which is a standard unit in PDF documents.",
+            "type": "number",
+            "type_reason": "The 'n' prefix suggests a numeric value, which is appropriate for specifying dimensions."
+        }
+    }
+}

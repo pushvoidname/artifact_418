@@ -1,0 +1,22 @@
+{
+  "Object": "Field",
+  "API_Name": "checkThisBox",
+  "API_Type": "Method",
+  "API_Description": "Checks or unchecks the specified widget.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "nWidget": {
+      "description": "The 0-based index of an individual check box or radio button widget for this field. The index is determined by the order in which the individual widgets of this field were created (and is unaffected by tab-order).  Every entry in the Fields panel has a suffix giving this index; for example, MyField #0."
+    },
+    "bCheckIt": {
+      "description": "(optional) Specifies whether the widget should be checked. The default is true."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Check a check box.\n\n```\nvar f = this.getField(\"ChkBox\");\nf.checkThisBox(0,true);\n```"
+  ]
+}

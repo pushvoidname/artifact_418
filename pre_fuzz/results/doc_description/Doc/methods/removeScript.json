@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "removeScript",
+  "API_Type": "Method",
+  "API_Description": "Removes a document-level JavaScript, if permissions for script removal is granted.",
+  "Version": "7.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the template to remove."
+    }
+  },
+  "Returns": "The value `undefined` on success. The method throws an exception if the script is not found.",
+  "Examples": [
+    "Add a document-level script, then remove it.\n\n```\nthis.addScript(\"myScript\", \"app.alert('A.C. Robat welcomes you!')\");\n```\n\nNow remove this script:\n\n```\nthis.removeScript(\"myScript\");\n```\n\nremoveTemplate\n\nVersion | Save-Prefs | Security | Product\n-----------------------------------------\n5.0 | D | Yes | Not allowed in Reader: Only available in Acrobat products\n\nRemoves the named template from the document.\n\nSee also templates , createTemplate , getTemplate , and the Template object.\n\n!! Note This method can only be executed during a batch or console event. See Privileged context . See the event object for a discussion of JavaScript events.\n\n**Parameters**\n\ncName | The name of the template to remove.\n\nThe template name is a property of the `Template` object. A name is given to a template when it is created, either by the Acrobat UI or by the JavaScript method `getTemplate` ."
+  ]
+}

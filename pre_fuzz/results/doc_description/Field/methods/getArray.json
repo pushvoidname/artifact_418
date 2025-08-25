@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "getArray",
+  "API_Type": "Method",
+  "API_Description": "Gets the array of terminal child fields (that is, fields that can have a value) for this Field object, the parent field.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "An array of Field objects",
+  "Examples": [
+    "Make a calculation of the values of the child fields of the parent field.\n\n```\n// f has 3 children: f.v1, f.v2, f.v3\nvar f = this.getField(\"f\");\nvar a = f.getArray();\nvar v = 0.0;\nfor (j =0; j < a.length; j++) v += a[j].value;\n// v contains the sum of all the children of field \"f\"\n```"
+  ]
+}

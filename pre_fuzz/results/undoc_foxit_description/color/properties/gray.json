@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "gray",
+    "API_Type": "property",
+    "API_Description": "Represents a shade of gray color, where the intensity is determined by the provided number.",
+    "API_Description_Reason": "The property is named 'gray', which suggests it represents a gray color. The parameter 'unknown' is a number, likely indicating the intensity or shade of gray.",
+    "Returns": "An array representing the gray color in a specific format.",
+    "Returns_Reason": "The 'color' object is used to set properties or call methods that require a color array, so it is reasonable to assume that 'gray' returns a color array.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number representing the intensity of the gray color, where 0 might be black and 1 might be white.",
+            "description_reason": "The parameter is a number, which is typically used to represent intensity or level in color properties.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated as a number, which is common for representing intensity or shades in color properties."
+        }
+    }
+}

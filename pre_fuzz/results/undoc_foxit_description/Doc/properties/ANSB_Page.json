@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANSB_Page",
+    "API_Type": "property",
+    "API_Description": "Represents a specific page within the document, providing access to page-level properties and methods.",
+    "API_Description_Reason": "The name 'ANSB_Page' suggests it is related to a page within the document. As a property, it likely provides access to page-specific information or functionality.",
+    "Returns": "An object or value representing the page, possibly with methods or properties to interact with the page.",
+    "Returns_Reason": "Since it is a property related to a page, it likely returns an object or value that allows interaction with or retrieval of information about a specific page.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type or category of the page being accessed or represented.",
+            "description_reason": "The parameter 'type' suggests it categorizes or specifies the kind of page or the nature of the page interaction.",
+            "type": "unknown",
+            "type_reason": "The type is listed as unknown, indicating that the specific data type or expected value is not documented."
+        }
+    }
+}

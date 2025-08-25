@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "appRightsValidate",
+    "API_Type": "method",
+    "Parameters": {
+        "oSecHdlr": "built-in object",
+        "nValidateOption": "number",
+        "bUI": "boolean"
+    }
+}

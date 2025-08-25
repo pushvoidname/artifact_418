@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriEncode",
+    "API_Type": "Method",
+    "API_Description": "Encodes a given URI string to ensure it is safe for transmission over the internet.",
+    "API_Description_Reason": "The method name 'uriEncode' suggests that it is used to encode a URI, which is a common operation to ensure that special characters are properly represented in a URL format.",
+    "Returns": "A URI-encoded string.",
+    "Returns_Reason": "The method is expected to return the encoded version of the input URI string, as encoding typically transforms the input into a safe format.",
+    "Parameters": {
+        "cURI": {
+            "description": "The URI string that needs to be encoded.",
+            "description_reason": "The parameter name 'cURI' indicates that it is a URI string that will be processed by the method.",
+            "type": "string",
+            "type_reason": "URIs are typically represented as strings, and encoding operations are performed on string data."
+        }
+    }
+}

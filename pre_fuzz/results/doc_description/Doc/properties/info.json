@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "info",
+  "API_Type": "Properties",
+  "API_Description": "Specifies an object with properties from the document information dictionary in the PDF file. (See the PDF Reference ) Standard entries are: ``` Title Author Authors (Acrobat 9.0) Subject Keywords Creator Producer CreationDate ModDate Trapped ``` For Acrobat, properties of this object are writeable and setting a property dirties the document. Additional document information fields can be added by setting non-standard properties. In Adobe Reader, writing to any property in this object throws an exception. !! Note Standard entries are case insensitive, that is, `info.Keywords` is the same as `info.keywords` . Acrobat 9.0 intoduces the `Authors` ( `authors` ) property of the `info` object. Use `Authors` to retrieve a seim-colon delimited list of authors. Author information is saved in the XMP metadata, and Doc `.info.Authors` retrieves the information from the metadata as an array. Individual authors can be accessed. See Example 3 (Acrobat 9.0) below.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R/W (Adobe Reader: R only)",
+  "Examples": [
+    "Example 1: Get the title of the current document.\n\n```\nvar docTitle = this.info.Title;\n```",
+    "Example 2: Get information about the document.\n\n```\nthis.info.Title = \"JavaScript, The Definitive Guide\";\nthis.info.ISBN = \"1-56592-234-4\";\nthis.info.PublishDate = new Date();\nfor (var i in this.info)\n    console.println(i + \": \"+ this.info[i]);\n```\n\nThe above script could produce the following output:\n\n```\nCreationDate: Mon Jun 12 14:54:09 GMT-0500 (Central Daylight Time) 2000\nProducer: Acrobat Distiller 4.05 for Windows\nTitle: JavaScript, The Definitive Guide\nCreator: FrameMaker 5.5.6p145\nModDate: Wed Jun 21 17:07:22 GMT-0500 (Central Daylight Time) 2000\nSavedBy: Adobe Acrobat 4.0 Jun 19 2000\nPublishDate: Tue Aug 8 10:49:44 GMT-0500 (Central Daylight Time) 2000\nISBN: 1-56592-234-4\n```\n\n**Example 3 (Acrobat 9.0)**\n\nThis example demonstrates how to set and to get multiple authors. Multiple authors may also be entered through the Description tab of the Document Properties dialog box.\n\nSet three authors for this document.\n\n```\nthis.info.Authors=[\"Robat, A. C.\", \"Obe, A. D.\",\"Torys, D. P.\"];\n```\n\nExecute `this.info.Authors` in the JavaScript Debugger Console window, the result is given below.\n\n```\nRobat, A. C.,Obe, A. D.,Torys, D. P.\n```\n\nGet each of the authors.\n\n```\nfor (var i=0; i<this.info.Authors.length; i++)\n    console.println((i+1) + \": \" + this.info.Authors[i]);\n```\n\nThe result,as reported in the Console window, is given below.\n\n```\n1: Robat, A. C.\n2: Obe, A. D.\n3: Torys, D. P.\n```"
+  ]
+}

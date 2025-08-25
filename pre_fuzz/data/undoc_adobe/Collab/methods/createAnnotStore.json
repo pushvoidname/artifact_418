@@ -1,0 +1,11 @@
+{
+    "Object": "Collab",
+    "API_Name": "createAnnotStore",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "doc": "built-in object",
+        "cUser": "string",
+        "cSettings": "string"
+    }
+}

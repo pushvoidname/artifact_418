@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "rect",
+  "API_Type": "Properties",
+  "API_Description": "The `rect` array consists of four numbers [ , , , ] specifying the lower-left , lower-left , upper-right , and upper-right coordinates\u2014in default user space\u2014of the rectangle defining the location of the annotation on the page. See also the popupRect property. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,14 @@
+{
+    "Object": "app",
+    "API_Name": "getResolvedAddresses",
+    "API_Type": "method",
+    "Parameters": {
+        "bUI": "boolean",
+        "cTo": "string",
+        "cCc": "string",
+        "cBcc": "string",
+        "bShowProgress": "boolean",
+        "cProgressMessage": "string",
+        "bNoError": "boolean"
+    }
+}

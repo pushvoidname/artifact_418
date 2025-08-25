@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "timestampSign",
+  "API_Type": "Method",
+  "API_Description": "Adds an invisible timestamp to a document.",
+  "Version": "10.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "oSig": {
+      "description": "(optional) The signature engine object. If this parameter is not specified, the default (internal) signature engine is used."
+    },
+    "cDIPath": {
+      "description": "(optional) The file path for saving the signed file. If this parameter is not specified, the file is saved over itself."
+    },
+    "bUI": {
+      "description": "(optional) Set TRUE to enable UI interaction. May be FALSE if a path is supplied. The default is FALSE."
+    }
+  },
+  "Returns": "Example:\n\n```\nvar myEngine = security.getHandler( \"Adobe.PPKLite\" );\n// Note that login is not required\n\nthis.timestampSign({\n    oSig:myEngine,\n    cDIPath:\"/c/temp/TSsigSign.pdf\",\n    bUI:false\n});\n```",
+  "Examples": [
+    "```\nvar myEngine = security.getHandler( \"Adobe.PPKLite\" );\n// Note that login is not required\n\nthis.timestampSign({\n    oSig:myEngine,\n    cDIPath:\"/c/temp/TSsigSign.pdf\",\n    bUI:false\n});\n```"
+  ]
+}

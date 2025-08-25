@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAllAnnots",
+    "API_Type": "Method",
+    "API_Description": "Exports all annotations from the PDF document.",
+    "API_Description_Reason": "The method name 'exportAllAnnots' suggests that it is responsible for exporting all annotations present in the document.",
+    "Returns": "A data structure containing all exported annotations.",
+    "Returns_Reason": "Since the method is named 'exportAllAnnots', it is reasonable to assume that it returns a collection of annotations, possibly in a structured format like an array or object.",
+    "Parameters": {}
+}

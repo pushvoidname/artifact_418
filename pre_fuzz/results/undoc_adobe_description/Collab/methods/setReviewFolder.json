@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "setReviewFolder",
+    "API_Type": "Method",
+    "API_Description": "Sets the folder path for storing review documents associated with a specific category and document.",
+    "API_Description_Reason": "The method name 'setReviewFolder' suggests it is used to specify a folder for review purposes. The parameters indicate it involves a category, document, and folder path, which aligns with setting a storage location for reviews.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used for configuration purposes, setting a folder path, and does not need to return any value.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category of the review for which the folder is being set.",
+            "description_reason": "The parameter name 'cCategory' implies it specifies a category, likely to organize or differentiate between different types of reviews.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest it is a string, typically used for identifiers or names."
+        },
+        "oDoc": {
+            "description": "The document identifier for which the review folder is being set.",
+            "description_reason": "The parameter name 'oDoc' suggests it refers to a document, likely an identifier or reference to a specific document.",
+            "type": "string",
+            "type_reason": "The 'o' prefix and context suggest it is a string, commonly used for document identifiers or paths."
+        },
+        "cFolder": {
+            "description": "The path to the folder where review documents will be stored.",
+            "description_reason": "The parameter name 'cFolder' indicates it specifies a folder path, which is typically a string representing a directory location.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest it is a string, as folder paths are usually represented as strings."
+        }
+    }
+}

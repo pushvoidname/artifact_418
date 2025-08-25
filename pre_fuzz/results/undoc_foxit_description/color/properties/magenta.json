@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "magenta",
+    "API_Type": "property",
+    "API_Description": "Represents the magenta color in the color object, typically used to set or compare color values in a color array.",
+    "API_Description_Reason": "The magenta property is part of the color object, which defines basic colors for use in color arrays. It is likely used to represent the magenta color value.",
+    "Returns": "An array representing the magenta color value.",
+    "Returns_Reason": "Since the color object is used to define basic colors, the magenta property likely returns an array that represents the magenta color.",
+    "Parameters": {
+        "unknown": {
+            "description": "This parameter is not documented, but it might be used internally or for specific configurations related to the magenta color.",
+            "description_reason": "The parameter is labeled as unknown, indicating it might not be intended for public use or is used internally.",
+            "type": "number",
+            "type_reason": "The parameter is specified as a number, which suggests it might be used for numerical configurations or adjustments."
+        }
+    }
+}

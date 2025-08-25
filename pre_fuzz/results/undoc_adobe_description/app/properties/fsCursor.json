@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsCursor",
+    "API_Type": "Property",
+    "API_Description": "Specifies the cursor type to be used in full-screen mode.",
+    "API_Description_Reason": "The name 'fsCursor' suggests it relates to the cursor in full-screen mode, and similar properties like 'fsTransition' and 'fsLoop' are related to full-screen settings.",
+    "Returns": "The current cursor type setting for full-screen mode.",
+    "Returns_Reason": "As a property, it likely returns the current setting or value associated with the cursor type in full-screen mode.",
+    "Parameters": {
+        "type": {
+            "description": "The numeric value representing the cursor type to be used in full-screen mode.",
+            "description_reason": "The parameter 'type' is likely a numeric code that corresponds to different cursor styles or behaviors in full-screen mode.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly defined as a number, indicating it is likely an enumeration or code for different cursor types."
+        }
+    }
+}

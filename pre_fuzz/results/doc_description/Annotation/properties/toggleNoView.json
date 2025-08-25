@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "toggleNoView",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the noView flag is toggled when the mouse hovers over the annotation or the annotation is selected. If an annotation has both the `noView` and `toggleNoView` flags set, the annotation is usually invisible. However, when the mouse is over it or it is selected, it becomes visible. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

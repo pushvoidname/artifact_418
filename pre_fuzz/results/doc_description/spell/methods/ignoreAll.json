@@ -1,0 +1,22 @@
+{
+  "Object": "spell",
+  "API_Name": "ignoreAll",
+  "API_Type": "Method",
+  "API_Description": "Adds or removes a word from the Spelling ignored-words list of the current document.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cWord": {
+      "description": "The word to be added or removed from the ignored list."
+    },
+    "bIgnore": {
+      "description": "(optional) If true (the default), the word is added to the document ignored word list; if false, the word is removed from the ignored list."
+    }
+  },
+  "Returns": "`true` if successful. This method throws an exception if no document is open.",
+  "Examples": [
+    "```\nvar bIgnored = spell.ignoreAll(\"foo\");\nif (bIgnored) console.println(\"\"foo\" will be ignored);\n```"
+  ]
+}

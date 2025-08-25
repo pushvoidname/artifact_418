@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "selectedAnnots",
+    "API_Type": "properties",
+    "Return_Type": "Array[Annotation]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

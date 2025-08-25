@@ -1,0 +1,10 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "update",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "cURL"
+    ],
+    "Actions_Arg": []
+}

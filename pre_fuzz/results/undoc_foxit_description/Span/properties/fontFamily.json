@@ -1,0 +1,10 @@
+{
+    "Object": "Span",
+    "API_Name": "fontFamily",
+    "API_Type": "property",
+    "API_Description": "Specifies the font family used for the text within the span.",
+    "API_Description_Reason": "The fontFamily property is typically used to define the typeface of the text, which is a common attribute in text formatting.",
+    "Returns": "The name of the font family as a string.",
+    "Returns_Reason": "Font family names are usually represented as strings, indicating the typeface to be used for rendering the text.",
+    "Parameters": {}
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "fs",
+  "API_Type": "Properties",
+  "API_Description": "A `FullScreen` object, which can be used to access the fullscreen properties.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\n// This code puts the viewer into fullscreen (presentation) mode.\napp.fs.isFullScreen = true;\n```\n\nSee also `fullScreenObject.` isFullScreen ."
+  ]
+}

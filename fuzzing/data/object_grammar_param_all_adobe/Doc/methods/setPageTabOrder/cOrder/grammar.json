@@ -1,0 +1,18 @@
+[
+    [
+        "PARAM_VALUE",
+        "{ORDER_TYPE}"
+    ],
+    [
+        "ORDER_TYPE",
+        "rows"
+    ],
+    [
+        "ORDER_TYPE",
+        "columns"
+    ],
+    [
+        "ORDER_TYPE",
+        "structure"
+    ]
+]

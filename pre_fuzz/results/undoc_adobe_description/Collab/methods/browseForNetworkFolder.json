@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "browseForNetworkFolder",
+    "API_Type": "Method",
+    "API_Description": "Opens a dialog for the user to browse and select a network folder.",
+    "API_Description_Reason": "The method name 'browseForNetworkFolder' suggests functionality related to opening a dialog for browsing network folders, similar to 'browseForFolder' which typically allows folder selection.",
+    "Returns": "The path of the selected network folder as a string.",
+    "Returns_Reason": "Methods that involve browsing for a folder typically return the path of the selected folder, allowing the application to use this path for further operations.",
+    "Parameters": {}
+}

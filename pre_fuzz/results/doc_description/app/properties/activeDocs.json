@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "activeDocs",
+  "API_Type": "Properties",
+  "API_Description": "An array containing the Doc object for each active document. If no documents are active, `activeDocs` returns nothing; that is, it has the same behavior as `d` `=` `new Array(0)` in core JavaScript. In versions of Acrobat earlier than 7.0, executing the script `d = app.activeDocs` in the console returned `[object Global]` to the console. Beginning with Acrobat 7.0, no `toString()` value is output to the console. !! Note You should be aware of the following version-related information: * In Acrobat 5.0, this property returns an array containing the Doc object for each active document. * In Acrobat 5.0.5, this property was changed to return an array of Doc objects of only those open documents that have the Doc object `disclosed` property set to `true` . * Beginning with the Acrobat 5.0.5 Accessibility and Forms Patch and continuing with Acrobat 6.0 and later, the behavior is as follows: During a batch, console or menu event, `activeDocs` ignores the `disclosed` property and returns an array of Doc objects of the active documents. During any other event, `activeDocs` returns an array of Doc objects of only those active documents that have `disclosed` set to `true` . * Beginning with Acrobat 7.0, execution of JavaScript through a menu event is no longer privileged. See Privileged context . The array returned by `app.activeDocs` includes any documents opened by `app.openDoc` with the `bHidden` parameter set to `true` , subject to the security restrictions described above.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Type": "array",
+  "Access": "R",
+  "Examples": [
+    "Example: This example searches among the open documents for the document with a title of `myDoc` , then inserts a button in that document using the Doc object `addField` method. Whether the documents must be `disclosed` depends on the version of Acrobat executing this code and on the placement of the code (for example, console versus mouse-up action).\n\n```\nvar d = app.activeDocs;\nfor (var i=0; i < d.length; i++)\nif (d[i].info.Title == \"myDoc\") {\n    var f = d[i].addField(\"myButton\", \"button\", 0, [20, 100, 100, 20]);\n    f.setAction(\"MouseUp\",\"app.beep(0)\");\n    f.fillColor=color.gray;99849106\n}\n```"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "Object": "app",
+    "API_Name": "findComponent",
+    "API_Type": "method",
+    "Parameters": {
+        "cType": "string",
+        "cName": "string",
+        "cDesc": "string",
+        "cVer": "string",
+        "bSilent": "boolean",
+        "oParams": "unknown"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "util",
+  "API_Name": "stringFromStream",
+  "API_Type": "Method",
+  "API_Description": "Converts a `ReadStream` object to a string.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oStream": {
+      "description": "ReadStream object to be converted into a string."
+    },
+    "cCharSet": {
+      "description": "(optional) The encoding for the string in oStream. The options are utf-8, utf-16, Shift-JIS, BigFive, GBK, UHC. The default is utf-8."
+    }
+  },
+  "Returns": "String",
+  "Examples": [
+    "Assume there is a text file embedded in this document. This example reads the contents of the attachment and displays it in the multiline text field.\n\n```\nvar oFile = this.getDataObjectContents(\"MyNotes.txt\");\nvar cFile = util.stringFromStream(oFile, \"utf-8\");\nthis.getField(\"myTextField\").value = cFile;\n```\n\nThis example uses `getDataObjectContents` to get the file stream of the attached document."
+  ]
+}

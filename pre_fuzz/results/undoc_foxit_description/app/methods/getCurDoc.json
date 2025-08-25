@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "getCurDoc",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the currently active document in the Acrobat application.",
+    "API_Description_Reason": "The method name 'getCurDoc' suggests it is used to get the current document. In the context of an application like Acrobat, this would likely refer to the document that is currently open or active.",
+    "Returns": "The currently active Document object.",
+    "Returns_Reason": "Since the method is named 'getCurDoc', it is reasonable to assume it returns the current document, which would be represented as a Document object in the application.",
+    "Parameters": {}
+}

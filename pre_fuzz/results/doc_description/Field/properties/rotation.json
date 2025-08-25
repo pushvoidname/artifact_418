@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "rotation",
+  "API_Type": "Properties",
+  "API_Description": "The rotation of a widget in counterclockwise increments. Valid values are 0, 90, 180, and 270. **Fields** all",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "Not available in Reader",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a rotated text field on each page and fill it with text.\n\n```\nfor ( var i=0; i < this.numPages; i++) {\n    var f = this.addField(\"myRotatedText\"+i,\"text\",i,[6, 6+72, 18, 6]);\n    f.rotation = 90; f.value = \"Confidential\";\n    f.textColor = color.red; f.readonly = true;\n}\n```"
+  ]
+}

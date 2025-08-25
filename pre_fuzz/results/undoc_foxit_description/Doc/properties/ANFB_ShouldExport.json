@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldExport",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document should be exported based on certain conditions or flags.",
+    "API_Description_Reason": "The name 'ANFB_ShouldExport' suggests a boolean property that determines if the document is eligible for export. The prefix 'ANFB' might be an internal code or flag system related to document handling.",
+    "Returns": "A boolean value indicating the export eligibility of the document.",
+    "Returns_Reason": "The property name implies a true or false condition, which is typically represented by a boolean value.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type or category of export being considered, if applicable.",
+            "description_reason": "The parameter 'type' is often used to specify categories or subtypes in API properties, which might influence the export decision.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified in the provided information, indicating it might be a custom or internal type."
+        }
+    }
+}

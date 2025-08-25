@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "cursor",
+    "API_Type": "property",
+    "API_Description": "Represents the type of cursor to be displayed.",
+    "API_Description_Reason": "The name 'cursor' typically refers to the visual representation of the pointer on the screen, and the parameter 'type' suggests it controls the cursor's appearance.",
+    "Returns": "The current cursor type as a number.",
+    "Returns_Reason": "Since the parameter 'type' is a number, it is reasonable to assume that the property returns a number representing the cursor type.",
+    "Parameters": {
+        "type": {
+            "description": "A number representing the type of cursor to display.",
+            "description_reason": "The parameter is named 'type' and is a number, indicating it likely specifies different cursor styles or modes.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly defined as a number, suggesting it is used to set or get a numeric value representing the cursor type."
+        }
+    }
+}

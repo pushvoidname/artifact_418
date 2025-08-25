@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "importDataObject",
+  "API_Type": "Method",
+  "API_Description": "Imports an external file into the document and associates the specified name with the `data` object. Data objects can later be extracted or manipulated.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name to associate with the data object."
+    },
+    "cDIPath": {
+      "description": "(optional) A device-independent path to a data file on the user\u2019s hard drive. This path may be absolute or relative to the current document. If not specified, the user is prompted to locate a data file."
+    },
+    "cCryptFilter": {
+      "description": "(optional, Acrobat 6.0) The language-independent name of a crypt filter to use when encrypting this data object. This crypt filter must have previously been added to the document\u2019s list of crypt filters, using the Doc addRecipientListCryptFilter method, otherwise an exception will be thrown. To leave this data object unencrypted in a file that is encrypted by the Doc encryptForRecipients method, the predefined Identity crypt filter can be used."
+    }
+  },
+  "Returns": "`true` on success. An exception is thrown on failure.",
+  "Examples": [
+    "Attach two files into current document, and write all Data object information to the console.\n\n```\nfunction DumpDataObjectInfo(dataobj)\n{\n    for (var i in dataobj)\n        console.println(dataobj.name + \"[\" + i + \"]=\" + dataobj[i]);\n}\n// Prompt the user for a data file to embed.\nthis.importDataObject(\"MyData\");\nDumpDataObjectInfo(this.getDataObject(\"MyData\"));\n// Embed Foo.xml (found in the parent directory for this doc).\nthis.importDataObject(\"MyData2\", \"../Foo.xml\");\nDumpDataObjectInfo(this.getDataObject(\"MyData2\"));\n```"
+  ]
+}

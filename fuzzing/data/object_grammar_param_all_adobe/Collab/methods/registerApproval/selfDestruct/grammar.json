@@ -1,0 +1,14 @@
+[
+    [
+        "SELF_DESTRUCT",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

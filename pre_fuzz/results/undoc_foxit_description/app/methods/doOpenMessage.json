@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "doOpenMessage",
+    "API_Type": "Method",
+    "API_Description": "Displays a message or notification to the user within the Acrobat application.",
+    "API_Description_Reason": "The method name 'doOpenMessage' suggests that it is responsible for opening or displaying a message, likely to inform or alert the user about something within the application.",
+    "Returns": "undefined",
+    "Returns_Reason": "Typically, methods that perform an action such as displaying a message do not return a value, hence it is assumed to return 'undefined'.",
+    "Parameters": {}
+}

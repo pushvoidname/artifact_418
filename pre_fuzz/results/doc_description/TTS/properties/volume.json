@@ -1,0 +1,13 @@
+{
+  "Object": "TTS",
+  "API_Name": "volume",
+  "API_Type": "Properties",
+  "API_Description": "Sets the volume for the speech. Valid values are 0 (mute) to 10 (loudest).",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,27 @@
+{
+  "Object": "SOAP",
+  "API_Name": "resolveService",
+  "API_Type": "Method",
+  "API_Description": "Allows a service name to be bound to a network address and port in order for a connection to be made. The connection information is returned asynchronously and should be treated as temporary since the network location of a service may change over time (for example, if a DHCP lease expires or if a service moves to a new server).",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cType": {
+      "description": "The DNS SRV Service Name to resolve."
+    },
+    "cDomain": {
+      "description": "The domain that the service was located in."
+    },
+    "cService": {
+      "description": "The service name to resolve."
+    },
+    "oResult": {
+      "description": "An object that will be called when the service is resolved.  See oResult parameter."
+    }
+  },
+  "Returns": "A service query object that manages the duration of the resolve. The resolve will continue until one of the following conditions is met:\n\n*  The service query object returned from `resolveService` is garbage collected.\n\n*  The `resolve` method of the `oResult` object is called indicating that the operation completed (either by resolving the service, error, or a timeout).\n\n*  The `stop` method of the service query object returned from `resolveService` is called.\n\nMethod | Description\n--------------------\nstop | Causes the resolve to terminate. This method can be called from a notification callback but the operation will not stop until idle time.",
+  "Examples": [],
+  "Exceptions": "Standard Acrobat exceptions.\n\nAdditional notes on the"
+}

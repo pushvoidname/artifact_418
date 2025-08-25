@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "isCpdf",
+    "API_Type": "Method",
+    "API_Description": "Determines if the current document is a certified PDF (cPDF).",
+    "API_Description_Reason": "The method name 'isCpdf' suggests it checks whether the document is a certified PDF, as 'cPDF' is commonly used to denote certified PDFs.",
+    "Returns": "A boolean value indicating whether the document is a certified PDF.",
+    "Returns_Reason": "The method likely returns a boolean because it is a check (indicated by 'is' in the method name) to determine the status of the document as a certified PDF.",
+    "Parameters": {}
+}

@@ -1,0 +1,29 @@
+{
+    "Object": "Discovery",
+    "API_Name": "queryServices",
+    "API_Type": "Method",
+    "API_Description": "Queries available services based on the specified criteria.",
+    "API_Description_Reason": "The method name 'queryServices' suggests it is used to query or search for services, likely based on certain criteria or parameters.",
+    "Returns": "A list of services that match the query criteria.",
+    "Returns_Reason": "Since the method is named 'queryServices', it is reasonable to assume it returns a list or collection of services that match the query parameters.",
+    "Parameters": {
+        "cType": {
+            "description": "The type of services to query.",
+            "description_reason": "The parameter name 'cType' suggests it specifies the type or category of services to be queried.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context imply that this parameter is a string representing a category or type."
+        },
+        "oAsync": {
+            "description": "An object to handle asynchronous operations.",
+            "description_reason": "The parameter name 'oAsync' suggests it is an object related to handling asynchronous operations, possibly a callback or promise.",
+            "type": "object",
+            "type_reason": "The 'o' prefix indicates that this parameter is an object, likely used for asynchronous handling."
+        },
+        "aDomains": {
+            "description": "A list of domains to include in the query.",
+            "description_reason": "The parameter name 'aDomains' suggests it is an array of domains to be considered in the query.",
+            "type": "array",
+            "type_reason": "The 'a' prefix indicates that this parameter is an array, likely containing domain names or identifiers."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "spell",
+  "API_Name": "languageOrder",
+  "API_Type": "Properties",
+  "API_Description": "The dictionary search order as an array of ISO 639-2, 3166 language codes. It is the order specified by the user on the Spelling Preferences panel. The Spelling plug-in searches for words first in the Doc `spellLanguageOrder` array if it has been set for the document, followed by this array of languages.",
+  "Version_Key": "6.0. For Adobe Reader, 7.0 or later.",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: Get a listing of the dictionary search order.\n\n```\nconsole.println( spell.languageOrder.toSource() );\n```"
+  ]
+}

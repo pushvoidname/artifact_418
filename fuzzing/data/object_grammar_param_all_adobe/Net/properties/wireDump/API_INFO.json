@@ -1,0 +1,8 @@
+{
+    "Object": "Net",
+    "API_Name": "wireDump",
+    "API_Type": "property",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

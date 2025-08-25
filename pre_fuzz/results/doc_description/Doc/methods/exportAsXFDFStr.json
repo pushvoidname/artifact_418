@@ -1,0 +1,31 @@
+{
+  "Object": "Doc",
+  "API_Name": "exportAsXFDFStr",
+  "API_Type": "Method",
+  "API_Description": "Computes the same results as calling the `doc.exportAsXFDF` method, but returns the results as a string instead of saving to a file.",
+  "Version": "8.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "bAllFields": {
+      "description": "(optional) If true, all fields are exported, including those that have no value. If false (the default), excludes those fields that currently have no value."
+    },
+    "bNoPassword": {
+      "description": "(optional) If true (the default), do not include text fields that have the password flag set in the exported XFDF file."
+    },
+    "aFields": {
+      "description": "(optional) The array of field names to submit or a string containing a single field name:  -  If specified, only these fields are exported, except those excluded by bNoPassword.  -  If aFields is an empty array, no fields are exported. The XFDF file might still contain data, depending on the bAnnotations parameter. -  If this parameter is omitted or is null, all fields in the form are exported, except those excluded by bNoPassword.   Specify non-terminal field names to export an entire subtree of fields."
+    },
+    "bAnnotations": {
+      "description": "Must be false, which is the default. Annotations are not supported."
+    },
+    "cHRef": {
+      "description": "When supplied, its value is inserted as the source or target file of the returned XFDF expression (i.e., the value of the href attribute of the f element child of the xfdf element)."
+    }
+  },
+  "Returns": "The contents of the file as would be produced by the `doc.exportAsXFDF` method, returned as a string. If supplied, the `cHRef` parameter is inserted as the value of the `href` attribute of the `f` element child of the `xfdf` element. If not supplied, the `href` attribute of the `f` element key contains the value as `doc.exportAsXFDF` would produce.",
+  "Examples": [
+    "Get the values of the form fields `FirstName` , `LastName` and `Address` in XFDF format as a string.\n\n```\nvar cXFDF = this.exportAsXFDFStr({\n   aFields: [\"FirstName\", \"LastName\", \"Address\"],\n   cHRef: \"http://www.example.com/formcatalog/ThisFormName.pdf\"\n});\n```"
+  ]
+}

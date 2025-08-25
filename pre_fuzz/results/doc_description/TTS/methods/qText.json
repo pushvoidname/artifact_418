@@ -1,0 +1,19 @@
+{
+  "Object": "TTS",
+  "API_Name": "qText",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cText": {
+      "description": "The text to convert to speech."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "```\ntts.qText(\"Hello, how are you?\");\n```"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "Object": "Doc",
+    "API_Name": "stampAPFromPage",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "doc": "built-in object",
+        "nPage": "number",
+        "cLang": "string",
+        "rect": "unknown",
+        "bIncludeAnnots": "boolean",
+        "bWhiteBackground": "boolean",
+        "matrix": {
+            "a": "number",
+            "b": "number",
+            "c": "number",
+            "d": "number",
+            "h": "number",
+            "v": "number"
+        }
+    }
+}

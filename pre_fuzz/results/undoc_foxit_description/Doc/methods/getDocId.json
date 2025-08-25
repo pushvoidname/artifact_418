@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getDocId",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the unique identifier of the PDF document.",
+    "API_Description_Reason": "The method name 'getDocId' suggests that it is used to obtain the document's unique identifier, which is commonly used to distinguish between different documents.",
+    "Returns": "A string representing the unique document identifier.",
+    "Returns_Reason": "Document identifiers are typically represented as strings, which can include alphanumeric characters and possibly dashes or other symbols.",
+    "Parameters": {}
+}

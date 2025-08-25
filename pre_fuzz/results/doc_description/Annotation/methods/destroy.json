@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "destroy",
+  "API_Type": "Method",
+  "API_Description": "Destroys the annotation, removing it from the page. The object becomes invalid.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Remove all \u201cFreeText\u201d annotations on page 0.\n\n```\nvar annots = this.getAnnots({ nPage:0 });\nfor (var i = 0; i < annots.length; i++)\n    if (annots[i].type == \"FreeText\") annots[i].destroy();\n```"
+  ]
+}

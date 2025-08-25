@@ -1,0 +1,13 @@
+{
+  "Object": "Net",
+  "API_Name": "HTTP",
+  "API_Type": "Properties",
+  "API_Description": "The `Net.HTTP` object allows access to web services that use HTTP. These methods allow communication with a wider variety of services than the `Net.SOAP` object. The `HTTP` object can be used to implement any messaging protocol that utilizes HTTP, for example, WebDAV or the ATOM Publishing Protocol. See Net.HTTP for full documentation of the methods of the `HTTP` object.",
+  "Version_Key": "8.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": []
+}

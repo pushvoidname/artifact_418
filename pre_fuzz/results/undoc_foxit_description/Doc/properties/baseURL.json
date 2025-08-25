@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "baseURL",
+    "API_Type": "Property",
+    "API_Description": "Specifies the base URL for relative URLs in the PDF document. This property is used to resolve relative URLs to absolute URLs when accessing resources linked in the document.",
+    "API_Description_Reason": "The baseURL property is typically used to define a base path for resolving relative URLs within a document, which is a common use case in web and document contexts.",
+    "Returns": "A string representing the base URL for the document.",
+    "Returns_Reason": "Since baseURL is a property, it is expected to return a value that represents the base URL, which is typically a string.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the baseURL property, which is a string.",
+            "description_reason": "The baseURL is expected to be a URL, which is represented as a string in most programming contexts.",
+            "type": "string",
+            "type_reason": "URLs are generally represented as strings, hence the type for baseURL is string."
+        }
+    }
+}

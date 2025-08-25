@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldEdit",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document should be editable based on certain conditions or flags.",
+    "API_Description_Reason": "The name 'ANFB_ShouldEdit' suggests a boolean property that determines if editing is allowed, likely based on some internal or external conditions.",
+    "Returns": "A boolean value indicating if the document is editable.",
+    "Returns_Reason": "The property name implies a true or false condition, which is typically represented by a boolean value.",
+    "Parameters": {
+        "type": {
+            "description": "The type of condition or flag that influences the editability of the document.",
+            "description_reason": "The parameter 'type' is likely related to the conditions or flags that determine if editing is allowed.",
+            "type": "unknown",
+            "type_reason": "The exact nature of 'type' is not specified, so it remains unknown without further context."
+        }
+    }
+}

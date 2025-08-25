@@ -1,0 +1,10 @@
+{
+  "object": "SOAP",
+  "apiName": "SOAP",
+  "apiType": "Object",
+  "apiDescription": "The SOAP object allows remote procedure calls to be made to, or sends an XML Message to, a remote server from JavaScript. The SOAP 1.1 protocol (see http://www.w3.org/TR/SOAP/ ) is used to marshall JavaScript parameters to a remote procedure call (either synchronously or asynchronously) and to unmarshall the result as a JavaScript object. The SOAP object also has the ability to communicate with web services, described by the Web Services Description Language (WSDL\u2014see http://www.w3.org/TR/wsdl ). !! Note The SOAP methods `connect` , `request` and `response` are available only for documents open in Acrobat Pro and Acrobat Standard.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

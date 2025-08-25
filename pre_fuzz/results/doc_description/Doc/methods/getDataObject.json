@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getDataObject",
+  "API_Type": "Method",
+  "API_Description": "Obtains a specific `Data` object. See also dataObjects , createDataObject , exportDataObject , importDataObject , and removeDataObject .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the data object to obtain."
+    }
+  },
+  "Returns": "The `Data` object corresponding to the specified name.",
+  "Examples": [
+    "Get a specific file attachment, and write various information to the console.\n\n```\nvar MyData = this.getDataObject(\"MyData\");\nconsole.show(); console.clear();\nfor (var i in MyData) console.println(\"MyData.\" + i + \"=\" + MyData[i]);\n```"
+  ]
+}

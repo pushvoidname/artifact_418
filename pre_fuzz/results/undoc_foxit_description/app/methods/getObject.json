@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "getObject",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a specific object from the Acrobat application environment.",
+    "API_Description_Reason": "The method name 'getObject' suggests it is used to retrieve or access a particular object within the application, which is a common pattern in API design.",
+    "Returns": "The requested object from the Acrobat application.",
+    "Returns_Reason": "The method name implies that it returns an object, as it is a common convention for methods prefixed with 'get' to return a value or object.",
+    "Parameters": {}
+}

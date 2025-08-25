@@ -1,0 +1,34 @@
+[
+    [
+        "PARAM_VALUE",
+        "{FIELD_TYPE}"
+    ],
+    [
+        "FIELD_TYPE",
+        "text"
+    ],
+    [
+        "FIELD_TYPE",
+        "button"
+    ],
+    [
+        "FIELD_TYPE",
+        "combobox"
+    ],
+    [
+        "FIELD_TYPE",
+        "listbox"
+    ],
+    [
+        "FIELD_TYPE",
+        "checkbox"
+    ],
+    [
+        "FIELD_TYPE",
+        "radiobutton"
+    ],
+    [
+        "FIELD_TYPE",
+        "signature"
+    ]
+]

@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getIcon",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the icon associated with a given collaboration feature.",
+    "API_Description_Reason": "The method name 'getIcon' suggests it is used to retrieve an icon, and since it is part of the 'Collab' object, it likely pertains to collaboration features.",
+    "Returns": "The icon associated with the specified collaboration feature.",
+    "Returns_Reason": "The method is expected to return an icon based on the name provided, as indicated by the method name 'getIcon'.",
+    "Parameters": {
+        "cIconName": {
+            "description": "The name of the icon to retrieve, corresponding to a specific collaboration feature.",
+            "description_reason": "The parameter 'cIconName' implies it is used to specify which icon to retrieve, likely by name.",
+            "type": "string",
+            "type_reason": "The parameter is named 'cIconName', where 'c' typically denotes a string type in API naming conventions."
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "FX",
+    "API_Name": "i18n_getMessage",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a localized message string based on the current language settings.",
+    "API_Description_Reason": "The method name 'i18n_getMessage' suggests it is related to internationalization (i18n) and involves fetching a message, likely in a localized format.",
+    "Returns": "A string containing the localized message.",
+    "Returns_Reason": "The method is expected to return a message, which is typically a string, especially in the context of internationalization.",
+    "Parameters": {}
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "Annotation",
+    "API_Name": "vertices",
+    "API_Type": "properties",
+    "Return_Type": "Array[Array[Number]]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

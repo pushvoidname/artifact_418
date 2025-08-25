@@ -1,0 +1,53 @@
+{
+    "Object": "Collab",
+    "API_Name": "dcSignup",
+    "API_Type": "Method",
+    "API_Description": "Registers a new user for the collaboration service using their email, password, and personal details.",
+    "API_Description_Reason": "The method name 'dcSignup' suggests a signup or registration process, and the parameters include typical user information required for account creation.",
+    "Returns": "A confirmation of successful signup or an error message if the signup fails.",
+    "Returns_Reason": "Signup methods typically return a success confirmation or an error message to indicate the result of the operation.",
+    "Parameters": {
+        "cEmail": {
+            "description": "The email address of the user signing up for the collaboration service.",
+            "description_reason": "Email is a standard requirement for user identification and communication in signup processes.",
+            "type": "string",
+            "type_reason": "Email addresses are typically represented as strings."
+        },
+        "cPassword": {
+            "description": "The password chosen by the user for their account.",
+            "description_reason": "A password is required for account security and user authentication.",
+            "type": "string",
+            "type_reason": "Passwords are generally stored and processed as strings."
+        },
+        "cFirstName": {
+            "description": "The first name of the user.",
+            "description_reason": "First name is a common personal detail collected during user registration.",
+            "type": "string",
+            "type_reason": "Names are typically represented as strings."
+        },
+        "cLastName": {
+            "description": "The last name of the user.",
+            "description_reason": "Last name is a common personal detail collected during user registration.",
+            "type": "string",
+            "type_reason": "Names are typically represented as strings."
+        },
+        "cCountryCode": {
+            "description": "The country code representing the user's country of residence.",
+            "description_reason": "Country code is often used for localization and regional settings.",
+            "type": "string",
+            "type_reason": "Country codes are usually represented as strings (e.g., 'US', 'CA')."
+        },
+        "cEmailPerm": {
+            "description": "Indicates whether the user has given permission to receive emails.",
+            "description_reason": "Email permission is often required for marketing or communication purposes.",
+            "type": "boolean",
+            "type_reason": "Permissions are typically represented as boolean values (true/false)."
+        },
+        "cConnectPerm": {
+            "description": "Indicates whether the user has given permission to connect with other users.",
+            "description_reason": "Connection permissions are important for social or collaborative features.",
+            "type": "boolean",
+            "type_reason": "Permissions are typically represented as boolean values (true/false)."
+        }
+    }
+}

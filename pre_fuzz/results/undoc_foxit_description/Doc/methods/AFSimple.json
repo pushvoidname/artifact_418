@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSimple",
+    "API_Type": "Method",
+    "API_Description": "Performs a simple arithmetic operation on a set of numbers.",
+    "API_Description_Reason": "The name 'AFSimple' suggests a straightforward or basic operation, likely related to arithmetic functions, as it is common in PDF JavaScript APIs to have methods for simple calculations.",
+    "Returns": "The result of the arithmetic operation.",
+    "Returns_Reason": "Since the method is assumed to perform arithmetic operations, it is logical that it returns the result of such an operation.",
+    "Parameters": {
+        "unknown": {
+            "description": "A set of numbers or expressions on which the arithmetic operation is performed.",
+            "description_reason": "The parameter is labeled as 'unknown', but given the context of arithmetic operations, it likely involves numbers or expressions.",
+            "type": "array",
+            "type_reason": "An array is a common data structure for holding multiple values, which is suitable for performing operations on a set of numbers."
+        }
+    }
+}

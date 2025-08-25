@@ -1,0 +1,13 @@
+{
+    "Object": "Collab",
+    "API_Name": "swConnect",
+    "API_Type": "method",
+    "Parameters": {
+        "cUsername": "string",
+        "cPassword": "string",
+        "bSaveCred": "boolean",
+        "bValidateEmail": "boolean",
+        "bShowProgressMonitor": "boolean",
+        "cDriver": "string"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "sync",
+    "API_Type": "method",
+    "Parameters": {
+        "cUser": "string",
+        "bUpdateStore": "boolean",
+        "bUpdateDoc": "boolean"
+    }
+}

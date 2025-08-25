@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriToDIPath",
+    "API_Type": "method",
+    "Parameters": {
+        "cURI": "string",
+        "cIgnErr": "boolean"
+    }
+}

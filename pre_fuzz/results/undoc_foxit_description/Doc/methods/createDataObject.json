@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "createDataObject",
+    "API_Type": "Method",
+    "API_Description": "Creates a new data object within the PDF document.",
+    "API_Description_Reason": "The method name 'createDataObject' suggests that it is responsible for creating a new data object within the PDF document.",
+    "Returns": "The newly created data object.",
+    "Returns_Reason": "Since the method is named 'createDataObject', it is logical to assume that it returns the data object that was created.",
+    "Parameters": {}
+}

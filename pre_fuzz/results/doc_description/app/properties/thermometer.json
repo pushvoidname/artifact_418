@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "thermometer",
+  "API_Type": "Properties",
+  "API_Description": "A `Thermometer` object, which is a combined status window/progress bar that indicates to the user that a lengthy operation is in progress.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": [
+    "Example: See the object."
+  ]
+}

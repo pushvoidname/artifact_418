@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "signOut",
+    "API_Type": "Method",
+    "API_Description": "Logs the user out of the Acrobat application.",
+    "API_Description_Reason": "The method name 'signOut' suggests functionality related to logging out or ending a user session.",
+    "Returns": "A boolean indicating whether the sign-out process was successful.",
+    "Returns_Reason": "Typically, a sign-out method would return a status indicating success or failure of the operation.",
+    "Parameters": {}
+}

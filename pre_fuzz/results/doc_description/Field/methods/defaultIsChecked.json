@@ -1,0 +1,22 @@
+{
+  "Object": "Field",
+  "API_Name": "defaultIsChecked",
+  "API_Type": "Method",
+  "API_Description": "Sets the specified widget to be checked or unchecked by default.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nWidget": {
+      "description": "The 0-based index of an individual radio button or check box widget for this field. The index is determined by the order in which the individual widgets of this field were created (and is unaffected by tab-order).  Every entry in the Fields panel has a suffix giving this index (for example, MyField #0)."
+    },
+    "bIsDefaultChecked": {
+      "description": "(optional) If true (the default), the widget should be checked by default (for example, when the field gets reset). If false, it should be unchecked by default."
+    }
+  },
+  "Returns": "`true` on success.",
+  "Examples": [
+    "Change the default of \u201cChkBox\u201d to checked, then reset the field to reflect the default value.\n\n```\nvar f = this.getField(\"ChkBox\");\nf.defaultIsChecked(0,true);\nthis.resetForm([\"ChkBox\"]);\n```"
+  ]
+}

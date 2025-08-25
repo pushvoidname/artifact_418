@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "opacity",
+  "API_Type": "Properties",
+  "API_Description": "The constant opacity value to be used in painting the annotation. This value applies to all visible elements of the annotation in its closed state (including its background and border), but not to the pop-up window that appears when the annotation is opened. Permissible values are 0.0 - 1.0. A value of 0.5 makes the annotation semitransparent. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "number",
+  "Access": "R/W",
+  "Examples": []
+}

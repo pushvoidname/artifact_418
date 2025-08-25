@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageNthWord",
+  "API_Type": "Method",
+  "API_Description": "Gets the th word on the page.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    },
+    "nWord": {
+      "description": "(optional) The 0-based index of the word. The default is 0, the first word on the page."
+    },
+    "bStrip": {
+      "description": "(optional) Specifies whether punctuation and white space should be removed from the word before returning. The default is true."
+    }
+  },
+  "Returns": "The th word on the page.",
+  "Examples": [
+    "See `spell.checkWord` for an example."
+  ]
+}

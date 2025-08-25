@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "returnToInitiator",
+    "API_Type": "Method",
+    "API_Description": "Returns the review process to the initiator, typically used to revert control or status of a review back to the person who started it.",
+    "API_Description_Reason": "The method name 'returnToInitiator' suggests that it involves returning or reverting something to the initiator, likely the control or status of a review process.",
+    "Returns": "A boolean indicating whether the operation to return to the initiator was successful.",
+    "Returns_Reason": "Methods that perform an operation often return a boolean to indicate success or failure, especially in collaboration or workflow contexts.",
+    "Parameters": {
+        "cReviewID": {
+            "description": "The unique identifier of the review that needs to be returned to the initiator.",
+            "description_reason": "The parameter name 'cReviewID' implies it is an identifier for a review, which is necessary to specify which review should be returned to the initiator.",
+            "type": "string",
+            "type_reason": "Identifiers are typically strings as they often consist of alphanumeric characters."
+        }
+    }
+}

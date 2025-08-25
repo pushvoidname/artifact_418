@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFMakeNumber",
+    "API_Type": "Method",
+    "API_Description": "Converts a string representation of a number into a numeric value.",
+    "API_Description_Reason": "The method name 'AFMakeNumber' suggests it is used to convert or make a number from a given input, likely a string.",
+    "Returns": "A numeric value converted from the input string.",
+    "Returns_Reason": "The method is expected to return a numeric value since it is converting a string to a number.",
+    "Parameters": {
+        "unknown": {
+            "description": "The string representation of a number to be converted.",
+            "description_reason": "The parameter is likely a string that represents a number, as the method is converting it to a numeric value.",
+            "type": "string",
+            "type_reason": "The parameter is expected to be a string because the method is converting a string representation of a number into a numeric value."
+        }
+    }
+}

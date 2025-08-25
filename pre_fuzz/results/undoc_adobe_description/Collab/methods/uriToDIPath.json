@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriToDIPath",
+    "API_Type": "Method",
+    "API_Description": "Converts a given URI to a DI (Document Integration) path, optionally ignoring errors.",
+    "API_Description_Reason": "The method name 'uriToDIPath' suggests it is responsible for converting a URI to a DI path. The presence of a boolean parameter 'cIgnErr' implies that the method can handle errors during the conversion process, possibly by ignoring them.",
+    "Returns": "A string representing the DI path corresponding to the provided URI.",
+    "Returns_Reason": "The method is likely to return a DI path as a string, given that it converts a URI to a DI path, which is typically represented as a string.",
+    "Parameters": {
+        "cURI": {
+            "description": "The URI to be converted to a DI path.",
+            "description_reason": "The parameter name 'cURI' indicates that it represents a URI, which is the input for the conversion process.",
+            "type": "string",
+            "type_reason": "URIs are generally represented as strings, hence the type is string."
+        },
+        "cIgnErr": {
+            "description": "A boolean flag indicating whether to ignore errors during the conversion process.",
+            "description_reason": "The parameter name 'cIgnErr' suggests it is a flag for ignoring errors, which is a common practice in methods that can encounter errors during execution.",
+            "type": "boolean",
+            "type_reason": "Flags for enabling or disabling certain behaviors are typically represented as boolean values."
+        }
+    }
+}

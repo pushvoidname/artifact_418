@@ -1,0 +1,56 @@
+{
+    "Object": "Doc",
+    "API_Name": "printWithParams",
+    "API_Type": "method",
+    "Parameters": {
+        "printParams": "built-in object",
+        "interactive": "number",
+        "psLevel": "number",
+        "flags": "number",
+        "printContent": "number",
+        "fontPolicy": "number",
+        "outputType": "number",
+        "printAsImage": "unknown",
+        "downloadFarEastFonts": "unknown",
+        "saveToner": "unknown",
+        "firstPage": "built-in object",
+        "reversePages": "unknown",
+        "printRange": [
+            "unknown"
+        ],
+        "pageSubset": "number",
+        "colorProfile": "string",
+        "pageHandling": "number",
+        "selectedArea": [
+            "number",
+            "unknown",
+            "unknown",
+            "unknown"
+        ],
+        "tileOverlap": "number",
+        "tileScale": "number",
+        "tileLabel": "unknown",
+        "tileMark": "number",
+        "nUpNumPagesH": "number",
+        "nUpNumPagesV": "number",
+        "nUpPageOrder": "number",
+        "nUpPageBorder": "unknown",
+        "nUpAutoRotate": "unknown",
+        "rasterFlags": "number",
+        "transparencyLevel": "number",
+        "bitmapDPI": "number",
+        "gradientDPI": "number",
+        "colorOverride": "number",
+        "usePrinterCRD": "number",
+        "useT1Conversion": "number",
+        "printerName": "string",
+        "NumCopies": "number",
+        "DuplexType": "number",
+        "booklet": {
+            "binding": "number",
+            "duplexMode": "number",
+            "subsetFrom": "number",
+            "subsetTo": "number"
+        }
+    }
+}

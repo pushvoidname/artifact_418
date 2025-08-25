@@ -1,0 +1,23 @@
+{
+  "Object": "app",
+  "API_Name": "newDoc",
+  "API_Type": "Method",
+  "API_Description": "Creates a new document and returns its Doc object. The optional parameters specify the media box dimensions of the document in points.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "nWidth": {
+      "description": "(optional) The width (in points) for the new document. The default value is 612."
+    },
+    "nHeight": {
+      "description": "(optional) The height (in points) for the new document. The default value is 792."
+    }
+  },
+  "Returns": "The object of the newly created document.",
+  "Examples": [
+    "Add a New item to the Acrobat File menu. Within New, there are three menu items: Letter, A4, and Custom. This script should go in a folder-level JavaScripts `.js` file.\n\n```\napp.addSubMenu({ cName: \"New\", cParent: \"File\", nPos: 0 })\napp.addMenuItem({ cName: \"Letter\", cParent: \"New\", cExec:\n    \"app.newDoc();\"});\napp.addMenuItem({ cName: \"A4\", cParent: \"New\", cExec:\n    \"app.newDoc(420,595)\"});\napp.addMenuItem({ cName: \"Custom...\", cParent: \"New\", cExec:\n    \"var nWidth = app.response({ cQuestion:'Enter Width in Points',\n        cTitle:     'Custom Page Size'});\"\n    +\"if (nWidth == null) nWidth = 612;\"\n    +\"var nHeight = app.response({ cQuestion:'Enter Height in Points',\n        cTitle: 'Custom Page Size'});\"\n    +\"if (nHeight == null) nHeight = 792;\"\n    +\"app.newDoc({ nWidth: nWidth, nHeight: nHeight })\"});\n```\n\nThe script above works for versions of Acrobat prior to 7.0. For Acrobat 7.0, it works correctly if the user JavaScript preference Enable Menu Items JavaScript Execution Privileges is enabled.\n\nIf this item is not checked, the `app.newDoc` method must be executed through a `trustedFunction` because execution of JavaScript through a menu event is no longer privileged beginning with Acrobat 7.0. See Privileged context .\n\nThe same example can be worked as follows:\n\n```\ntrustedNewDoc = app.trustedFunction( function (nWidth, nHeight)\n{\n    app.beginPriv();\n        switch( arguments.length ) {\n            case 2:\n                app.newDoc( nWidth, nHeight );\n                break;\n            case 1:\n                app.newDoc( nWidth );\n                break;\n            default:\n                app.newDoc();\n        }\n    app.endPriv();\n})\napp.addSubMenu({ cName: \"New\", cParent: \"File\", nPos: 0 })\napp.addMenuItem({ cName: \"Letter\", cParent: \"New\", cExec:\n    \"trustedNewDoc();\"});\napp.addMenuItem({ cName: \"A4\", cParent: \"New\", cExec:\n    \"trustedNewDoc(420,595)\"});\napp.addMenuItem({ cName: \"Custom...\", cParent: \"New\", cExec:\n    \"var nWidth = app.response({ cQuestion:'Enter Width in Points',\n        cTitle: 'Custom Page Size'});\"\n    +\"if (nWidth == null) nWidth = 612;\"\n    +\"var nHeight = app.response({ cQuestion:'Enter Height in Points',\n        cTitle: 'Custom Page Size'});\"\n    +\"if (nHeight == null) nHeight = 792;\"\n    +\"trustedNewDoc(nWidth, nHeight) \"});\n```\n\nThe code is incomplete. In the case of the Custom menu item, additional lines can be inserted to prevent the user from entering the empty string, or a value too small or too large. See the PDF Reference for the current limitations.",
+    "Create a blank document and acquire the Doc object, then insert a watermark.\n\n```\nvar myNewDoc = app.newDoc();\nmyNewDoc.addWatermarkFromText(\"Confidential\",0,font.Helv,24,color.red);\n```\n\nThis example uses the Doc object addWatermarkFromText method."
+  ]
+}

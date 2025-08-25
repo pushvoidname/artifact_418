@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "addReviewFolder",
+    "API_Type": "Method",
+    "API_Description": "Adds a new review folder to the collaboration system under a specified category.",
+    "API_Description_Reason": "The method name 'addReviewFolder' suggests that it is used to add a folder related to reviews. The parameters 'cCategory' and 'cFolder' imply that the folder is categorized, which is common in collaboration systems to organize review documents.",
+    "Returns": "A boolean indicating whether the review folder was successfully added.",
+    "Returns_Reason": "Methods that perform an action like adding an item typically return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category under which the review folder should be added.",
+            "description_reason": "The parameter name 'cCategory' suggests it specifies a category, which is a common way to organize items in a system.",
+            "type": "string",
+            "type_reason": "Categories are typically represented as strings to allow for descriptive names."
+        },
+        "cFolder": {
+            "description": "The name of the review folder to be added.",
+            "description_reason": "The parameter name 'cFolder' indicates it represents the folder name, which is usually a string to allow for descriptive naming.",
+            "type": "string",
+            "type_reason": "Folder names are typically strings to allow for descriptive and flexible naming."
+        }
+    }
+}

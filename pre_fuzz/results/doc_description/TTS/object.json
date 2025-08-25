@@ -1,0 +1,10 @@
+{
+  "object": "TTS",
+  "apiName": "TTS",
+  "apiType": "Object",
+  "apiDescription": "The JavaScript `TTS` object allows users to transform text into speech. To be able to use the `TTS` object, the user\u2019s computer must have a Text-To-Speech engine installed on it. The Text-To-Speech engine will render text as digital audio and then speak it. It has been implemented mostly with accessibility in mind but can potentially have many other applications. The `TTS` object is present on both the Windows and Mac OS platforms (since it is a JavaScript object). !! Note Acrobat 5.0 has taken a very different approach to providing accessibility for disabled users by integrating directly with popular screen readers. Therefore, some of the screen reading features defined in 4.05 using the TTS object have been removed in 5.0 because they conflict with the screen reader. The TTS object remains, however, because it still has useful functionality in its own right that might be popular for multimedia documents.",
+  "version": "4.05",
+  "savePrefs": "No",
+  "security": "No",
+  "product": "All"
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "thermometer",
+    "API_Name": "duration",
+    "API_Type": "property",
+    "API_Description": "Represents the duration for which the thermometer has been active or measuring.",
+    "API_Description_Reason": "The name 'duration' typically refers to a time span or period, suggesting it measures how long the thermometer has been active or in use.",
+    "Returns": "A number representing the duration in a specific unit of time, such as seconds or minutes.",
+    "Returns_Reason": "Since the parameter type is a number, it is logical to assume that the property returns a numerical value representing time.",
+    "Parameters": {
+        "type": {
+            "description": "The unit of time for the duration, such as seconds, minutes, or hours.",
+            "description_reason": "The parameter 'type' is a number, which suggests it might be used to specify the unit of time for the duration.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated to be a number, indicating it likely represents a numerical value related to time measurement."
+        }
+    }
+}

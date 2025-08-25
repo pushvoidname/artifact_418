@@ -1,0 +1,8 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "insertChild",
+    "API_Type": "method",
+    "Return_Type": "Bookmark",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "search",
+    "API_Name": "getNthIndex",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the index object at the specified position in the list of available indexes.",
+    "API_Description_Reason": "The method name 'getNthIndex' suggests it retrieves an index from a collection based on its position, which is a common pattern for such methods.",
+    "Returns": "The Index object at the specified position.",
+    "Returns_Reason": "The method likely returns an Index object because it is part of the search functionality, which deals with indexes, and the method name implies retrieval of an index.",
+    "Parameters": {
+        "unknown": {
+            "description": "The 0-based position of the index to retrieve from the list of available indexes.",
+            "description_reason": "The parameter is likely a number representing a position, as 'Nth' typically refers to an ordinal position in a collection.",
+            "type": "number",
+            "type_reason": "The parameter is expected to be a number because it represents a position in a list, which is commonly indexed numerically."
+        }
+    }
+}

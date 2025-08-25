@@ -1,0 +1,8 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "open",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "boolean"
+    }
+}

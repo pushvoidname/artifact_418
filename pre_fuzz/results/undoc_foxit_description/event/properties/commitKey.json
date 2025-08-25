@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "commitKey",
+    "API_Type": "property",
+    "API_Description": "Indicates the key used to commit the current event, typically in a form field context.",
+    "API_Description_Reason": "The name 'commitKey' suggests it relates to a key action that finalizes or commits an event, likely in a form or input scenario.",
+    "Returns": "The key value that was used to commit the event.",
+    "Returns_Reason": "Since it is a property, it likely returns a value representing the key involved in the commit action.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the commitKey property, which is typically a string representing the key.",
+            "description_reason": "Properties related to key events usually return a string that represents the key pressed.",
+            "type": "string",
+            "type_reason": "Key values in JavaScript are generally represented as strings, such as 'Enter', 'Tab', etc."
+        }
+    }
+}

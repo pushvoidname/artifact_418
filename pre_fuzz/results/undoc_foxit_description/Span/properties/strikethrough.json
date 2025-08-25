@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "strikethrough",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the text within the span is displayed with a strikethrough effect.",
+    "API_Description_Reason": "The property is named 'strikethrough', which typically refers to a text formatting style where a line is drawn through the text. The boolean type suggests it is a toggle for this effect.",
+    "Returns": "A boolean value indicating the presence of the strikethrough effect.",
+    "Returns_Reason": "The property type is boolean, which usually indicates a true/false state, in this case, whether the strikethrough effect is applied.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set or get the strikethrough state of the text.",
+            "description_reason": "The parameter is named 'type' and is of boolean type, suggesting it is used to enable or disable the strikethrough effect.",
+            "type": "boolean",
+            "type_reason": "The property is described as a boolean, which is appropriate for a toggle state like enabling or disabling a text effect."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_PHONE_ENTRY",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used for validating phone number entries in a PDF form.",
+    "API_Description_Reason": "The name 'RE_PHONE_ENTRY' suggests it is a regular expression (RE) for phone number entry validation.",
+    "Returns": "A string representing the regular expression pattern for phone number validation.",
+    "Returns_Reason": "Since it is a property likely used for validation, it would return a string pattern that can be used to match or validate phone numbers.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the regular expression pattern.",
+            "description_reason": "The parameter 'type' is likely indicating the data type of the property, which is a string in this context.",
+            "type": "string",
+            "type_reason": "Regular expressions are typically represented as strings, hence the type is assumed to be a string."
+        }
+    }
+}

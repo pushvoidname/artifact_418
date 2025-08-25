@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "expandPanel",
+    "API_Type": "Method",
+    "API_Description": "Expands a specified panel within the Acrobat application interface.",
+    "API_Description_Reason": "The method name 'expandPanel' suggests functionality related to expanding a UI component, such as a panel, within the application.",
+    "Returns": "A boolean indicating whether the panel was successfully expanded.",
+    "Returns_Reason": "Methods that perform an action on the UI often return a boolean to indicate success or failure of the operation.",
+    "Parameters": {}
+}

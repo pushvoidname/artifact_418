@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "swSendVerifyEmail",
+    "API_Type": "method",
+    "Parameters": {
+        "cUsername": "string",
+        "cPassword": "string"
+    }
+}

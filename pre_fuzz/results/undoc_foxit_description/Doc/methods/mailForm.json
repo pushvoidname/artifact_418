@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "mailForm",
+    "API_Type": "Method",
+    "API_Description": "Sends the form data via email using the specified parameters.",
+    "API_Description_Reason": "The method name 'mailForm' suggests functionality related to sending form data through email. This is a common feature in PDF document handling where form data needs to be submitted via email.",
+    "Returns": "A boolean indicating whether the form was successfully sent.",
+    "Returns_Reason": "Typically, methods that perform an action like sending data return a boolean to indicate success or failure.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string parameter whose purpose is not documented, possibly used to specify email-related settings or recipient information.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating its purpose is not documented. However, given the method's name, it likely relates to email settings or recipient details.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, which is common for email addresses or configuration settings."
+        }
+    }
+}

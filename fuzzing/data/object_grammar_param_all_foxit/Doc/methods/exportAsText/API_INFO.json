@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAsText",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [
+        "cPath"
+    ],
+    "Actions_Arg": []
+}

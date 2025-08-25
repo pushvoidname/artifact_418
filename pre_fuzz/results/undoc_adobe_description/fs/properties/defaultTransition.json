@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "defaultTransition",
+    "API_Type": "property",
+    "API_Description": "Specifies the default transition effect to be used.",
+    "API_Description_Reason": "The name 'defaultTransition' suggests it sets or gets a default transition effect, which is commonly used in contexts involving animations or slides.",
+    "Returns": "The current default transition effect as a string.",
+    "Returns_Reason": "Since the parameter type is a string, it is reasonable to assume that the property returns a string representing the transition effect.",
+    "Parameters": {
+        "type": {
+            "description": "The type of transition effect to set as the default.",
+            "description_reason": "The parameter 'type' indicates it specifies the kind of transition effect, which aligns with the property's purpose of setting a default transition.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, which is typical for specifying types or names of effects."
+        }
+    }
+}

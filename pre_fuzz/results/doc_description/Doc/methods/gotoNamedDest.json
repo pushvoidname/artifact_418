@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "gotoNamedDest",
+  "API_Type": "Method",
+  "API_Description": "Goes to a named destination within the PDF document. For details on named destinations and how to create them, see the PDF Reference .",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the destination within a document."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Open a document, and go to a named destination within that document. The example assumes the document being opened by `openDoc` is `disclosed` .\n\n```\n// Open a new document\n\n var myNovelDoc = app.openDoc(\"/c/fiction/myNovel.pdf\");\n// Go to a destination in this new doc\nmyNovelDoc.gotoNamedDest(\"chapter5\");\n// Close the old document\nthis.closeDoc();\n```\n\nSee Example 6 (Acrobat 8.0) following openDoc for a more efficient way of performing this same task."
+  ]
+}

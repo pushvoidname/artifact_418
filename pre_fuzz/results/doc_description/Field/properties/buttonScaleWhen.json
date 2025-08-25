@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonScaleWhen",
+  "API_Type": "Properties",
+  "API_Description": "Controls when an icon is scaled to fit inside the button face. The convenience `scaleWhen` object defines all of the valid alternatives: When is icon scaled | Keyword ----------------------------- Always | scaleWhen.always Never | scaleWhen.never If icon is too big | scaleWhen.tooBig If icon is too small | scaleWhen.tooSmall **Fields** `button`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

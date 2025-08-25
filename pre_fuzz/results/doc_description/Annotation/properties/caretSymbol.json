@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "caretSymbol",
+  "API_Type": "Properties",
+  "API_Description": "The symbol associated with a Caret annotation, which is a visual symbol that indicates the presence of text edits. Valid values are \u201c\u201d (nothing), \u201cP\u201d (paragraph symbol) or \u201cS\u201d (space symbol). **Annotations** : Caret",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "dynamicXFAForm",
+  "API_Type": "Properties",
+  "API_Description": "**Returns** `true` if the document is a dynamic XFA form and `false` otherwise. A dynamic XFA form is one in which some of the fields can grow or shrink in size to accommodate the values they contain.",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": [
+    "Example: See the xfa object for an example of usage."
+  ]
+}

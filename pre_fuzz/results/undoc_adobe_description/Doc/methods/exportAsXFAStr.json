@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAsXFAStr",
+    "API_Type": "Method",
+    "API_Description": "Exports the XFA data of the PDF document as a string.",
+    "API_Description_Reason": "The method name 'exportAsXFAStr' suggests that it exports XFA (XML Forms Architecture) data as a string, similar to other export methods like 'exportAsXFDFStr'.",
+    "Returns": "A string containing the XFA data of the document.",
+    "Returns_Reason": "The method name includes 'Str', which typically indicates that the return type is a string representation of the data being exported.",
+    "Parameters": {}
+}

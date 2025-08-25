@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "addIcon",
+  "API_Type": "Method",
+  "API_Description": "Adds a new named `Icon` object to the document-level icon tree, storing it under the specified name.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the new object"
+    },
+    "icon": {
+      "description": "The Icon object to add."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "This example takes an icon already attached to a form button field in the document and assigns a name to it. This name can be used to retrieve the icon object with `getIcon` for use in another button, for example.\n\n```\nvar f = this.getField(\"myButton\");\nthis.addIcon(\"myButtonIcon\", f.buttonGetIcon());\n```"
+  ]
+}

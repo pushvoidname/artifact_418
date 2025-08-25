@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriNormalize",
+    "API_Type": "Method",
+    "API_Description": "Normalizes a given URI, potentially modifying it to conform to a standard format.",
+    "API_Description_Reason": "The method name 'uriNormalize' suggests that it processes a URI to ensure it adheres to a standard or expected format. This is a common operation in handling URIs to ensure consistency and compatibility.",
+    "Returns": "A normalized URI string.",
+    "Returns_Reason": "The method likely returns the modified or verified URI after normalization, as the purpose of normalization is to produce a standardized output.",
+    "Parameters": {
+        "cURI": {
+            "description": "The URI string to be normalized.",
+            "description_reason": "The parameter name 'cURI' indicates it is a URI, and the context of normalization implies this is the input to be processed.",
+            "type": "string",
+            "type_reason": "URIs are typically represented as strings, and the parameter name 'cURI' suggests it is a string type."
+        },
+        "bMock": {
+            "description": "A boolean flag indicating whether to perform a mock normalization without actual changes.",
+            "description_reason": "The parameter name 'bMock' suggests it is a boolean used to toggle a mock or test mode, which is common in methods that can operate in a non-destructive manner for testing purposes.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bMock' is a common convention for boolean variables, indicating it is a true/false flag."
+        }
+    }
+}

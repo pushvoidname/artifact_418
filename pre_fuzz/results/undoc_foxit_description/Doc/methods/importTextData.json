@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "importTextData",
+    "API_Type": "Method",
+    "API_Description": "Imports text data from a specified file into the PDF document, starting at a given row.",
+    "API_Description_Reason": "The method name 'importTextData' suggests that it is used to import text data into the PDF. The parameters 'cPath' and 'nRow' imply that the method specifies a file path and a starting row for the import operation.",
+    "Returns": "A boolean indicating the success of the import operation.",
+    "Returns_Reason": "Typically, import operations return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "cPath": {
+            "description": "The file path of the text data to be imported.",
+            "description_reason": "The parameter name 'cPath' suggests it is a string representing the path to the file containing the text data.",
+            "type": "string",
+            "type_reason": "File paths are generally represented as strings in programming."
+        },
+        "nRow": {
+            "description": "The row number in the text file from which to start importing data.",
+            "description_reason": "The parameter name 'nRow' suggests it specifies a row number, indicating where the import should begin.",
+            "type": "number",
+            "type_reason": "Row numbers are typically represented as numbers."
+        }
+    }
+}

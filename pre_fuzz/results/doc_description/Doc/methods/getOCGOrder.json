@@ -1,0 +1,14 @@
+{
+  "Object": "Doc",
+  "API_Name": "getOCGOrder",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "An array containing OCG objects, strings, and similar subarrays, or `null` if no OCGs are present.\n\nSee setOCGOrder for a description of the order array.",
+  "Examples": [],
+  "Related methods": "are getOCGs and setOCGOrder , and the OCG object."
+}

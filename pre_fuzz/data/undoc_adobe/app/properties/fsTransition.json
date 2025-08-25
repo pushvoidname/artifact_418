@@ -1,0 +1,8 @@
+{
+    "Object": "app",
+    "API_Name": "fsTransition",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "string"
+    }
+}

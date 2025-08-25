@@ -1,0 +1,13 @@
+{
+  "Object": "app",
+  "API_Name": "viewerVariation",
+  "API_Type": "Properties",
+  "API_Description": "Indicates the packaging of the running viewer application. It can be one of these values: ``` Reader Fill-In Business Tools Full ```",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": []
+}

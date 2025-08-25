@@ -1,0 +1,8 @@
+{
+    "Object": "Field",
+    "API_Name": "richValue",
+    "API_Type": "properties",
+    "Return_Type": "Array[Span]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

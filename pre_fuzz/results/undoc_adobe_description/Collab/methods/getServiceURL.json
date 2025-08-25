@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getServiceURL",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the service URL for a given collaboration resource.",
+    "API_Description_Reason": "The method name 'getServiceURL' suggests that it is used to obtain a URL related to a service, likely within the context of collaboration functionalities.",
+    "Returns": "A string representing the service URL.",
+    "Returns_Reason": "The method is expected to return a URL, which is typically represented as a string.",
+    "Parameters": {
+        "cURL": {
+            "description": "The base URL or identifier for which the service URL is to be retrieved.",
+            "description_reason": "The parameter name 'cURL' implies it is a URL or a component of a URL that the method will use to determine the full service URL.",
+            "type": "string",
+            "type_reason": "URLs are generally represented as strings, and the parameter name 'cURL' suggests it is a string input."
+        }
+    }
+}

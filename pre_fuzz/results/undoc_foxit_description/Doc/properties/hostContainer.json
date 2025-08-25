@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "hostContainer",
+    "API_Type": "Property",
+    "API_Description": "Represents the container hosting the PDF document, providing access to the environment in which the document is displayed.",
+    "API_Description_Reason": "The name 'hostContainer' suggests it refers to the environment or container in which the PDF is hosted, which is common in APIs that interact with embedded or hosted content.",
+    "Returns": "An object representing the host environment of the PDF document.",
+    "Returns_Reason": "Properties typically return a value or object that represents the state or configuration of the object they belong to. In this case, 'hostContainer' likely returns an object related to the hosting environment."
+}

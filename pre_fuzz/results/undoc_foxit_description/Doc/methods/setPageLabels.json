@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "setPageLabels",
+    "API_Type": "Method",
+    "API_Description": "Sets the labels for the pages in the PDF document. This method allows you to define custom labels for each page, which can be useful for documents with sections or chapters.",
+    "API_Description_Reason": "The method name 'setPageLabels' suggests that it is used to assign labels to pages in a document. This is a common feature in PDF documents where pages can have custom labels instead of just numeric page numbers.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used to set properties (page labels) on the document and does not need to return any value. It performs an action rather than computing a result.",
+    "Parameters": {}
+}

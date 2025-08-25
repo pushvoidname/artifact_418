@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getURI",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the URI associated with the PDF document.",
+    "API_Description_Reason": "The method name 'getURI' suggests that it retrieves a URI related to the document, which is a common operation for accessing or referencing the document's location or related resources.",
+    "Returns": "A string representing the URI of the PDF document.",
+    "Returns_Reason": "Since the method is named 'getURI', it is reasonable to assume that it returns a URI, which is typically represented as a string.",
+    "Parameters": {}
+}

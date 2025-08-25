@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldPrint",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document should be printed based on certain conditions or flags.",
+    "API_Description_Reason": "The name 'ANFB_ShouldPrint' suggests it is a boolean property that determines if the document is eligible or allowed to be printed.",
+    "Returns": "A boolean value indicating the print eligibility of the document.",
+    "Returns_Reason": "The property name implies a true or false condition, which is typically represented by a boolean value.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the property, which is likely a boolean indicating the print status.",
+            "description_reason": "The property name suggests a binary state (should or should not print), which is commonly represented by a boolean.",
+            "type": "boolean",
+            "type_reason": "The property likely represents a true/false condition, which is best represented by a boolean type."
+        }
+    }
+}

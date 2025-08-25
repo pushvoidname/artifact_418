@@ -1,0 +1,17 @@
+{
+  "Object": "TTS",
+  "API_Name": "qSound",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cSound": {
+      "description": "The sound cue name to use."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

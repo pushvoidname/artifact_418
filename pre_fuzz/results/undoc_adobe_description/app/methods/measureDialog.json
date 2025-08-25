@@ -1,0 +1,29 @@
+{
+    "Object": "app",
+    "API_Name": "measureDialog",
+    "API_Type": "Method",
+    "API_Description": "Displays a dialog for measuring distances and areas within a PDF document.",
+    "API_Description_Reason": "The name 'measureDialog' suggests functionality related to measurement, and dialogs are typically used for user interaction within applications.",
+    "Returns": "An object containing the measurement results or user interaction details.",
+    "Returns_Reason": "Since the method is likely to involve user interaction for measurement, it would return results or details of the interaction.",
+    "Parameters": {
+        "description": {
+            "description": "An unknown parameter, possibly related to the description or context of the measurement.",
+            "description_reason": "The parameter name 'description' suggests it might provide context or details about the measurement.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified, but it could be a string or object providing context."
+        },
+        "resourceContext": {
+            "description": "A string representing the context or resource within which the measurement is being performed.",
+            "description_reason": "The parameter name 'resourceContext' implies it specifies the context or resource for the measurement operation.",
+            "type": "string",
+            "type_reason": "The name suggests it is a string identifier for the resource context."
+        },
+        "read": {
+            "description": "A built-in object that might be used to read or interpret measurement data.",
+            "description_reason": "The parameter name 'read' implies functionality related to reading or interpreting data.",
+            "type": "built-in object",
+            "type_reason": "The type is specified as a built-in object, likely used for data operations."
+        }
+    }
+}

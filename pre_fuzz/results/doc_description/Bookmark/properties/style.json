@@ -1,0 +1,15 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "style",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the style for the bookmark\u2019s font: 0 is normal, 1 is italic, 2 is bold, and 3 is bold-italic. See also the property.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "Not available in Reader",
+  "Type": "Integer",
+  "Access": "R/W (Adobe Reader: R only)",
+  "Examples": [
+    "Example: The following code puts the top-level bookmark in bold.\n\n```\nvar bkm = this.bookmarkRoot.children[0];\nbkm.style = 2;\n```"
+  ]
+}

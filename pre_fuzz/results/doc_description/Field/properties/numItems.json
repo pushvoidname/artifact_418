@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "numItems",
+  "API_Type": "Properties",
+  "API_Description": "The number of items in a combo box or list box. **Fields** `combobox` , `listbox`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R",
+  "Examples": [
+    "Example: Get the number of items in a list box.\n\n```\nvar f = this.getField(\"myList\");\nconsole.println(\"There are \" + f.numItems + \" in this list box\");\n```\n\nFace names and values of a combo box or list box can be accessed through the getItemAt method. See that method for an additional example of `numItems` ."
+  ]
+}

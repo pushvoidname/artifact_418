@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getVersionID",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the version identifier of the PDF document.",
+    "API_Description_Reason": "The method name 'getVersionID' suggests that it is used to obtain the version identifier of the document, which is a common requirement for understanding the document's compatibility and features.",
+    "Returns": "A string representing the version identifier of the PDF document.",
+    "Returns_Reason": "The return type is assumed to be a string because version identifiers are typically represented as strings (e.g., '1.7', '2.0').",
+    "Parameters": {}
+}

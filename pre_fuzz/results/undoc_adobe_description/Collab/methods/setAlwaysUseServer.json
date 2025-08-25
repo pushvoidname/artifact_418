@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "setAlwaysUseServer",
+    "API_Type": "Method",
+    "API_Description": "Configures the collaboration settings to always use a specified server for review operations.",
+    "API_Description_Reason": "The method name 'setAlwaysUseServer' suggests it sets a preference or configuration to always use a server, likely for collaboration or review purposes.",
+    "Returns": "void",
+    "Returns_Reason": "The method name 'setAlwaysUseServer' implies it is a setter method, which typically does not return a value.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL of the server to be used for collaboration.",
+            "description_reason": "The parameter name 'cURL' suggests it is a string representing a URL, which is commonly used to specify server locations.",
+            "type": "string",
+            "type_reason": "URLs are typically represented as strings in programming."
+        },
+        "cUIName": {
+            "description": "The user interface name associated with the server.",
+            "description_reason": "The parameter name 'cUIName' implies it is a string representing a name used in the user interface, possibly for display purposes.",
+            "type": "string",
+            "type_reason": "Names are generally represented as strings."
+        },
+        "cReviewType": {
+            "description": "The type of review process to be used with the server.",
+            "description_reason": "The parameter name 'cReviewType' suggests it specifies the type of review, which is likely a predefined category or type.",
+            "type": "string",
+            "type_reason": "Types or categories are often represented as strings."
+        }
+    }
+}

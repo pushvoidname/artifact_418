@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "dataObjects",
+  "API_Type": "Properties",
+  "API_Description": "An array containing all the named data objects in the document. Related properties and methods are openDataObject , getDataObject , createDataObject , importDataObject , removeDataObject , getDataObjectContents , and setDataObjectContents .",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: List all embedded files in the document.\n\n```\nvar d = this.dataObjects;\nfor (var i = 0; i < d.length; i++)\n    console.println(\"Data Object[\" + i + \"]=\" + d[i].name);\n```"
+  ]
+}

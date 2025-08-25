@@ -1,0 +1,8 @@
+{
+    "Object": "shareIdentity",
+    "API_Name": "FullName",
+    "API_Type": "property",
+    "Return_Type": "String",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "blue",
+    "API_Type": "property",
+    "API_Description": "Represents the blue color in the color object, typically used to set or compare color values.",
+    "API_Description_Reason": "The property is named 'blue', which suggests it represents the blue color value within the color object.",
+    "Returns": "An array representing the blue color value.",
+    "Returns_Reason": "Since the color object is used to define basic colors, the 'blue' property likely returns an array that represents the blue color.",
+    "Parameters": {
+        "unknown": {
+            "description": "An unspecified parameter that might influence the shade or representation of the blue color.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating its purpose is not documented, but it might affect the color output.",
+            "type": "number",
+            "type_reason": "The parameter is specified as a number, which suggests it could be a numeric value affecting the color representation."
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "isShowAllPinNote",
+    "API_Type": "Method",
+    "API_Description": "Determines whether all pin notes are currently set to be shown in the Acrobat application.",
+    "API_Description_Reason": "The method name 'isShowAllPinNote' suggests it checks a condition related to the visibility of pin notes, which are typically annotations or comments in a document.",
+    "Returns": "A boolean value indicating whether all pin notes are shown.",
+    "Returns_Reason": "The method name starts with 'is', which commonly indicates a boolean return type in programming, suggesting a true or false condition.",
+    "Parameters": {}
+}

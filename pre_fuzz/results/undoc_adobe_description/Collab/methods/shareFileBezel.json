@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "shareFileBezel",
+    "API_Type": "Method",
+    "API_Description": "Displays a bezel with a message and link for sharing a file, and specifies the upload path.",
+    "API_Description_Reason": "The method name 'shareFileBezel' suggests it is related to sharing files and displaying a bezel, which is a type of notification or message display. The parameters indicate it involves messages and a path, likely for sharing purposes.",
+    "Returns": "void",
+    "Returns_Reason": "The method appears to be for displaying a message and does not suggest any return value based on its name and parameters.",
+    "Parameters": {
+        "bezelMessage": {
+            "description": "The message to be displayed in the bezel when sharing the file.",
+            "description_reason": "The parameter name 'bezelMessage' indicates it is the message content for the bezel display.",
+            "type": "string",
+            "type_reason": "The parameter is a message, which is typically represented as a string."
+        },
+        "bezelLinkMessage": {
+            "description": "The link message to be included in the bezel, possibly providing a URL or additional information.",
+            "description_reason": "The parameter name 'bezelLinkMessage' suggests it is a message related to a link, likely a URL or hyperlink text.",
+            "type": "string",
+            "type_reason": "Links or URLs are usually represented as strings."
+        },
+        "uploadPathName": {
+            "description": "The path where the file to be shared is uploaded.",
+            "description_reason": "The parameter name 'uploadPathName' indicates it specifies the file path for uploading.",
+            "type": "string",
+            "type_reason": "File paths are typically represented as strings."
+        }
+    }
+}

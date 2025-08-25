@@ -1,0 +1,25 @@
+{
+  "Object": "search",
+  "API_Name": "query",
+  "API_Type": "Method",
+  "API_Description": "Searches the specified document or index for the specified text. Properties associated with the `search` object (such as `matchCase` , `matchWholeWord` , `stem` ) may affect the result.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cQuery": {
+      "description": "The text for which to search."
+    },
+    "cWhere": {
+      "description": "(optional) Specifies where the text should be searched. Values are:  ActiveDoc Folder Index ActiveIndexes  The default is ActiveIndexes."
+    },
+    "cDIPath": {
+      "description": "(optional) A device-independent path to a folder or Catalog index on the user\u2019s computer.  When cWhere is Folder or Index, this parameter is required."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "s**\n\nSearch for the word \u201cAcrobat\u201d.\n\ncWhere | Query\n--------------\nActiveIndexes | search.query(\u201cAcrobat\u201d); // \u201cActiveIndexes\u201d is the default. search.query(\u201cAcrobat\u201d, \u201cActiveIndexes\u201d);\nActiveDoc | search.query(\"Acrobat\", \"ActiveDoc\");\nFolder | search.query(\u201cAcrobat\u201d,\u201dFolder\u201d,\u201d/c/myDocuments\u201d); search.query(\u201cAcrobat\u201d,\u201dFolder\u201d,app.getPath(\u201cuser\u201d,\u201ddocuments\u201d)); search.query(\u201cAcrobat\u201d, \u201cFolder\u201d, \u201c//myserver/myDocuments\u201d);\nIndex | search.query(\"Acrobat\", \"Index\", \"/c/Myfiles/public/index.pdx\");"
+  ]
+}

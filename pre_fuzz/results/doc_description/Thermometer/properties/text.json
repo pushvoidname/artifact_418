@@ -1,0 +1,13 @@
+{
+  "Object": "Thermometer",
+  "API_Name": "text",
+  "API_Type": "Properties",
+  "API_Description": "Sets the text string that is displayed by the thermometer. Type | Access ------------- String | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

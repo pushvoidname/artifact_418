@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFNumber_Keystroke",
+    "API_Type": "Method",
+    "API_Description": "Handles keystroke events for number fields, ensuring that input is formatted correctly as a number.",
+    "API_Description_Reason": "The method name 'AFNumber_Keystroke' suggests it is related to handling keystrokes for number fields, likely to ensure proper number formatting and validation during input.",
+    "Returns": "A boolean indicating whether the keystroke is valid for a number field.",
+    "Returns_Reason": "Keystroke handling methods typically return a boolean to indicate whether the input is valid and should be accepted.",
+    "Parameters": {}
+}

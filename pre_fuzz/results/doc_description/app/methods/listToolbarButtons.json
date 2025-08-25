@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "listToolbarButtons",
+  "API_Type": "Method",
+  "API_Description": "Beginning with Acrobat 6.0, returns an array of `treeItem` objects that describes a toolbar hierarchy (with flyout toolbars).",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "Array of `TreeItem` objects",
+  "Examples": [
+    "List all toolbar names in the console.\n\n```\nvar toolbarItems = app.listToolbarButtons()\nfor( var i in toolbarItems)\n    console.println(toolbarItems[i] + \"n\")\n```\n\nSee also the hideToolbarButton method."
+  ]
+}

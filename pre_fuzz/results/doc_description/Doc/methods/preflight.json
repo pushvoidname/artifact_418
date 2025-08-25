@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "preflight",
+  "API_Type": "Method",
+  "API_Description": "Runs a Preflight profile for the document. An exception is thrown if the Preflight run fails.",
+  "Version": "9.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Acrobat",
+  "Parameters": {
+    "oProfile": {
+      "description": "The Preflight profile to be used for the Preflight run, described by a PreflightProfile object."
+    },
+    "bOmitFixups": {
+      "description": "(optional) Omit all fixups in the Preflight profile. If bOmitFixups is not specified, false is used."
+    },
+    "oThermometer": {
+      "description": "(optional) Show the status window and progress bar that indicates to the user that a lengthy operation is in progress. To acquire a Thermometer object, use app.thermometer. If oThermometer is not specified, no progress is shown."
+    }
+  },
+  "Returns": "A PreflightResult object.",
+  "Examples": [
+    "Run a Preflight profile and show the progress of the operation.\n\n```\nvar oProfile = Preflight.getProfileByName(\"Magazine Ads\")\nif( oProfile != undefined )\n{\n   var oThermometer = app.thermometer;\n   var myPreflightResult = this.preflight( oProfile, false, oThermometer);\n   if( myPreflightResult.numErrors > 0 ) {\n   console.println( \"Preflight found \" + myPreflightResult.numErrors + \" Errors.\");\n} else {\n   console.println( \"Preflight found no Errors.\");\n}\n```"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "open",
+    "API_Type": "Property",
+    "API_Description": "Indicates whether the bookmark root is expanded or collapsed.",
+    "API_Description_Reason": "The 'open' property typically suggests a boolean state, such as whether a UI element is expanded or collapsed.",
+    "Returns": "A boolean value indicating the open state of the bookmark root.",
+    "Returns_Reason": "Since the parameter is of type boolean, it is logical that the property returns a boolean value representing the open or closed state.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set the open state of the bookmark root.",
+            "description_reason": "The parameter 'type' is a boolean, which suggests it is used to set the state of the property.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, indicating it is used to represent a true or false state."
+        }
+    }
+}

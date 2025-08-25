@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "usePageTiming",
+    "API_Type": "property",
+    "API_Description": "Determines whether the page timing feature is enabled or disabled.",
+    "API_Description_Reason": "The name 'usePageTiming' suggests a boolean property that toggles the use of page timing, which is a common feature in presentation or slideshow software to control the timing of page transitions.",
+    "Returns": "The current state of the page timing feature, either true or false.",
+    "Returns_Reason": "Since the parameter type is boolean, it is logical that the property returns a boolean value indicating whether the page timing feature is currently enabled or not.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to enable or disable the page timing feature.",
+            "description_reason": "The parameter 'type' is a boolean, which typically indicates a toggle or switch for a feature, in this case, enabling or disabling page timing.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, which is used for true/false or on/off states."
+        }
+    }
+}

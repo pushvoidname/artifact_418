@@ -1,0 +1,12 @@
+{
+    "Object": "Discovery",
+    "API_Name": "queryServices",
+    "API_Type": "method",
+    "Parameters": {
+        "cType": "string",
+        "oAsync": "built-in object",
+        "aDomains": [
+            "unknown"
+        ]
+    }
+}

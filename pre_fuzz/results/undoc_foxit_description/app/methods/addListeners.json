@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "addListeners",
+    "API_Type": "Method",
+    "API_Description": "Registers event listeners for various events within the Acrobat application.",
+    "API_Description_Reason": "The method name 'addListeners' suggests it is used to add or register event listeners, which are typically used to handle events in an application.",
+    "Returns": "Undefined or void.",
+    "Returns_Reason": "Methods that register event listeners typically do not return a value, as their primary purpose is to set up event handling.",
+    "Parameters": {}
+}

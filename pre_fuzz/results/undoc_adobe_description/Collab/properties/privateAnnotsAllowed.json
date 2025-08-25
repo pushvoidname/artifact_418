@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "privateAnnotsAllowed",
+    "API_Type": "property",
+    "API_Description": "Indicates whether private annotations are allowed in the collaboration functionality.",
+    "API_Description_Reason": "The property name 'privateAnnotsAllowed' suggests it is a boolean flag that determines if private annotations can be used within the collaboration context.",
+    "Returns": "A boolean value indicating the permission status for private annotations.",
+    "Returns_Reason": "Since the property type is boolean, it logically returns true or false based on whether private annotations are permitted.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value that sets or gets the permission status for private annotations.",
+            "description_reason": "The parameter 'type' is described as boolean, which typically represents a true or false state, aligning with the property's purpose of allowing or disallowing private annotations.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, which is appropriate for a property that toggles a feature on or off."
+        }
+    }
+}

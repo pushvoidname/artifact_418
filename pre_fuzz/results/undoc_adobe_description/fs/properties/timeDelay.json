@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "timeDelay",
+    "API_Type": "property",
+    "API_Description": "Specifies the delay time in seconds before an action is executed.",
+    "API_Description_Reason": "The name 'timeDelay' suggests it controls a delay period, likely in seconds, before an action or transition occurs.",
+    "Returns": "The delay time in seconds.",
+    "Returns_Reason": "As a property, it likely returns a numeric value representing the delay duration.",
+    "Parameters": {
+        "type": {
+            "description": "The delay time in seconds.",
+            "description_reason": "The parameter 'type' is likely the value of the delay, given the context of a time delay property.",
+            "type": "number",
+            "type_reason": "The parameter is a number because it represents a duration in seconds."
+        }
+    }
+}

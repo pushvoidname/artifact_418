@@ -1,0 +1,8 @@
+{
+    "Object": "thermometer",
+    "API_Name": "cancelled",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "unknown"
+    }
+}

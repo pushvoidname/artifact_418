@@ -1,0 +1,27 @@
+{
+  "Object": "SOAP",
+  "API_Name": "queryServices",
+  "API_Type": "Method",
+  "API_Description": "Locates network services that have published themselves using DNS Service Discovery (DNS-SD). This method can locate services that have registered using Multicast DNS (mDNS) for location on a local networking link or through unicast DNS for location within an enterprise. The results of service location are always returned asynchronously and the query continues (with notification as services become available or unavailable) until it is stopped.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cType": {
+      "description": "The DNS SRV Service Name to search for. Some possible examples are:  \u201chttp\u201d : Locate web servers  \u201cftp\u201d : Locate FTP servers  See the DNS SRV Service Name Registry for more examples"
+    },
+    "oAsync": {
+      "description": "A notification object that is notified when services are located on the network or when services that had previously been reported are removed. The notification methods are not called until the queryServices method returns and are called during idle processing. The oAsync parameter should implement the following methods:"
+    },
+    "aDomains": {
+      "description": "(optional) An array of domains that the query should be made for. The only valid domains are:"
+    }
+  },
+  "Returns": "A service query object that manages the duration of the query. The query will continue until one of the following conditions is met:\n\n*  The service query object returned from `queryServices` is garbage collected.\n\n*  The `stop` method of the service query object returned from `queryServices` is called.\n\nMethod | Description\n--------------------\nstop | Causes the query to terminate. This method can be called from a notification callback but the operation will not stop until idle processing time.",
+  "Examples": [
+    "Locates network services that have published themselves using DNS Service Discovery.\n\nThis example code will produce different output depending on where it is run.\n\n```\nvar oNotifications =\n{\n    addServices: function(services)\n    {\n        for(var i = 0; i < services.length; i++)\n        console.println(\"ADD: \"+ services[i].name + \" in domain \"\n            + services[i].domain);\n    },\n    removeServices: function(services)\n    {\n        for(var i = 0; i < services.length; i++)\n        console.println(\"DEL: \" + services[i].name + \" in domain \"\n\n             + services[i].domain);\n    }\n};\nSOAP.queryServices({\n    cType:\"http\",\n    oAsync:oNotifications,\n    aDomains:[ServiceDiscovery.local, ServiceDiscovery.DNS]\n});\n```\n\nThe output depends on the current network environment; if there are no services advertised by DNS Service Discovery, the example will produce no output. The following is a representative output:\n\n```\nADD: My Web Server in domain local.\nADD: Joe's Web Server in domain local.\nADD: Example.org Web Server in domain example.org.\n```"
+  ],
+  "Exceptions": "Standard Acrobat exceptions.",
+  "Service Description Object": "The service description object passed to `addServices` and `removeServices` have the following properties:\n\nProperty | Description\n----------------------\nname | The Unicode display name of the service.\ndomain | The DNS domain in which the service was located. If the service was located in the local networking link, the domain name will be \u201clocal\u201d.\ntype | The DNS SRV Service Name of the service that was located-this will be the same as the cType parameter passed to queryServices. This can be useful when the same notification callback is being used for multiple queries."
+}

@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "colorConvertPage",
+  "API_Type": "Method",
+  "API_Description": "Performs color conversion on a page of the document.",
+  "Version": "8.0",
+  "Save-Prefs": "D",
+  "Security": "NO",
+  "Product": "Acrobat",
+  "Parameters": {
+    "pageNum": {
+      "description": "A 0-based index that defines the page number of the document that should be converted."
+    },
+    "actions": {
+      "description": "An array of colorConvertAction objects for this color conversion. See colorConvertAction object for a listing of its properties.  For each object on the page, the actions are matched against the object\u2019s attributes and color spaces in the order in which they occur in the actions array, until a match is found and that action is executed. The list of actions is analogous to the list of filters in most email clients: each object is compared against the selection criteria for each of the actions, in order, until a matching action is found. The action is then executed on the object. Note that actions do not chain, except in the case of aliased ink definitions."
+    },
+    "inkActions": {
+      "description": "An array of colorConvertAction objects which describes the ink actions for this color conversion. The list of inks defines the actions for individual separations, whether they occur in Separation or DeviceN. This allows one to define, among other things, ink aliases.  If a DeviceN contains some inks to be aliased and some to be converted, the color is converted using OPP technology, so that the converted part ends up as process and the aliased part stays as spot.  For ink actions, the match fields are ignored.  There should be an underlying Separation or DeviceN defined in the action list describing what to do, and the aliases in the ink action list apply if the action in the action list for the underlying space is Preserve or Decalibrate."
+    }
+  },
+  "Returns": "A Boolean value, returns `true` if the page was changed, otherwise, returns `false` .",
+  "Examples": [
+    "See getColorConvertAction for an example."
+  ]
+}

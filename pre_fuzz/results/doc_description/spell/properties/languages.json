@@ -1,0 +1,15 @@
+{
+  "Object": "spell",
+  "API_Name": "languages",
+  "API_Type": "Properties",
+  "API_Description": "This property returns the array of available ISO 639-2/3166-1 language/country codes. A subset of this array can be passed to the `check` , `checkText` , `checkWord` , and `customDictionaryCreate` methods, and to the Doc `spellLanguageOrder` property to force the use of a specific language or languages and the order they should be searched. Depending on the user\u2019s installation, valid language/country codes can include codes from the following list. Code | Description ------------------ ca_ES | Catalan cs_CZ | Czech da_DK | Danish nl_NL | Dutch en_CA | English-Canadian en_GB | English-UK en_US | English-US fi_FI | Finnish fr_CA | French-Canadian fr_FR | French de_DE | German de_CH | German-Swiss el_GR | Greek hu_HU | Hungarian it_IT | Italian nb_NO | Norwegian-Bokmal nn_NO | Norwegian-Nynorsk pl_PL | Polish pt_BR | Portuguese-Brazil pt_PT | Portuguese ru_RU | Russian es_ES | Spanish sv_SE | Swedish tr_TR | Turkish !! Note In Acrobat 7.0, the entries in this array are different from the entries returned in Acrobat 6.0. On input from JavaScript, the Acrobat 6.0 ISO codes are internally mapped onto the new ISO codes in order not to break any JavaScript code developed for Acrobat 6.0. Codes are not translated on output.",
+  "Version_Key": "6.0. For Adobe Reader, 7.0 or later.",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: List all available language codes.\n\n```\nconsole.println( spell.languages.toSource() );\n```"
+  ]
+}

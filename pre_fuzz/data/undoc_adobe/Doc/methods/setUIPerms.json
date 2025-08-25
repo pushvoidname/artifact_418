@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "setUIPerms",
+    "API_Type": "method",
+    "Parameters": {
+        "cFeatureName": "unknown",
+        "bFeatureValue": "boolean"
+    }
+}

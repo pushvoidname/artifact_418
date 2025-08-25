@@ -1,0 +1,8 @@
+{
+    "Object": "SOAP",
+    "API_Name": "connect",
+    "API_Type": "method",
+    "Return_Type": "WSDL Service Proxy",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

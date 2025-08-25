@@ -1,0 +1,12 @@
+{
+    "Object": "Collab",
+    "API_Name": "setReviewFolderForMultipleReviews",
+    "API_Type": "method",
+    "Parameters": {
+        "cCategory": "string",
+        "oDocIDs": [
+            "unknown"
+        ],
+        "cFolder": "string"
+    }
+}

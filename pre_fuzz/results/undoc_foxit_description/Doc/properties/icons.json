@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "icons",
+    "API_Type": "property",
+    "API_Description": "Represents the collection of icons associated with the PDF document.",
+    "API_Description_Reason": "The name 'icons' suggests it is a collection or list of icon objects related to the document, possibly used for annotations or other visual elements.",
+    "Returns": "An array or collection of icon objects.",
+    "Returns_Reason": "Since 'icons' is a property, it likely returns a collection of icon objects that can be used or manipulated within the document.",
+    "Parameters": {
+        "type": {
+            "description": "The type of icons contained within the collection.",
+            "description_reason": "The parameter 'type' is likely used to specify or filter the kind of icons in the collection.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or enumeration representing different icon types."
+        }
+    }
+}

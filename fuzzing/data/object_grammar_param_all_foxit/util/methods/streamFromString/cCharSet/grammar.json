@@ -1,0 +1,30 @@
+[
+    [
+        "PARAM_VALUE",
+        "{ENCODING}"
+    ],
+    [
+        "ENCODING",
+        "utf-8"
+    ],
+    [
+        "ENCODING",
+        "utf-16"
+    ],
+    [
+        "ENCODING",
+        "Shift-JIS"
+    ],
+    [
+        "ENCODING",
+        "BigFive"
+    ],
+    [
+        "ENCODING",
+        "GBK"
+    ],
+    [
+        "ENCODING",
+        "UHC"
+    ]
+]

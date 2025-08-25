@@ -1,0 +1,23 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "addFeed",
+    "API_Type": "Method",
+    "API_Description": "Adds a new feed to the subscription list using the provided URL and content type.",
+    "API_Description_Reason": "The method name 'addFeed' suggests it is used to add a new feed to a collection or list, and the parameters 'cURL' and 'cType' imply that it requires a URL and a content type to perform this action.",
+    "Returns": "A confirmation message or object indicating the feed was successfully added.",
+    "Returns_Reason": "Typically, methods that perform an addition or creation operation return a confirmation or status message to indicate success or failure.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL of the feed to be added to the subscription list.",
+            "description_reason": "The parameter name 'cURL' suggests it is a string representing the URL of the feed.",
+            "type": "string",
+            "type_reason": "URLs are typically represented as strings in programming contexts."
+        },
+        "cType": {
+            "description": "The content type of the feed, specifying the format or type of content the feed provides.",
+            "description_reason": "The parameter name 'cType' suggests it specifies the type of content, which is common when dealing with feeds or data streams.",
+            "type": "string",
+            "type_reason": "Content types are usually represented as strings, such as 'application/rss+xml' or 'application/json'."
+        }
+    }
+}

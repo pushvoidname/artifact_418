@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "lastBBRURL",
+    "API_Type": "Property",
+    "API_Description": "Represents the last URL used for a browser-based review (BBR) in the collaboration functionality.",
+    "API_Description_Reason": "The name 'lastBBRURL' suggests it stores the most recent URL used for a browser-based review, which is a common feature in collaboration tools.",
+    "Returns": "The URL as a string.",
+    "Returns_Reason": "Since the property is named 'lastBBRURL' and the parameter type is specified as 'string', it is logical to assume that it returns a URL in string format.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the URL, typically indicating the protocol or specific use case for the URL.",
+            "description_reason": "The parameter 'type' is often used to specify the kind or category of a value, which in this context likely refers to the type of URL.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a 'string', which is appropriate for specifying types or categories."
+        }
+    }
+}

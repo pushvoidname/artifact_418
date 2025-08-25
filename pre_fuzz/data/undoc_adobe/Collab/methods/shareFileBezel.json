@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "shareFileBezel",
+    "API_Type": "method",
+    "Parameters": {
+        "bezelMessage": "string",
+        "bezelLinkMessage": "string",
+        "uploadPathName": "string"
+    }
+}

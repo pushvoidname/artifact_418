@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFDate_Format",
+    "API_Type": "Method",
+    "API_Description": "Formats a date according to a specified format pattern.",
+    "API_Description_Reason": "The method name 'AFDate_Format' suggests it is used for formatting dates, similar to other date formatting functions in programming libraries.",
+    "Returns": "A string representing the formatted date.",
+    "Returns_Reason": "Date formatting functions typically return a string that represents the date in the specified format.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number representing the date to be formatted.",
+            "description_reason": "The parameter is likely a number because date formatting functions often take a date object or timestamp as input.",
+            "type": "number",
+            "type_reason": "The parameter is labeled as 'unknown (number)', indicating it is a numeric value, possibly a timestamp or date index."
+        }
+    }
+}

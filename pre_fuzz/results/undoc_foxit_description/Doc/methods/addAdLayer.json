@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "addAdLayer",
+    "API_Type": "Method",
+    "API_Description": "Adds an advertisement layer to the PDF document.",
+    "API_Description_Reason": "The method name 'addAdLayer' suggests that it is used to add an advertisement layer to the document. This is inferred from the common use of 'Ad' as an abbreviation for 'advertisement' and 'Layer' indicating a separate overlay or section within the document.",
+    "Returns": "A boolean indicating whether the advertisement layer was successfully added.",
+    "Returns_Reason": "The return type is assumed to be a boolean based on the typical pattern of methods that perform an action and return a success status.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string parameter whose purpose is not documented.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating that its specific purpose is not documented. It is assumed to be a string based on the provided parameter type.",
+            "type": "string",
+            "type_reason": "The parameter type is explicitly given as 'string'."
+        }
+    }
+}

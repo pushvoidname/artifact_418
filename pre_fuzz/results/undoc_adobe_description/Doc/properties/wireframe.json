@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "wireframe",
+    "API_Type": "property",
+    "API_Description": "A boolean property that indicates whether the document is displayed in wireframe mode.",
+    "API_Description_Reason": "The property is of type boolean, which suggests it is a toggle or flag. The term 'wireframe' typically refers to a simplified visual representation, often used in design and modeling contexts, indicating that this property likely controls or indicates such a mode in the document viewer.",
+    "Returns": "A boolean value indicating the current state of the wireframe mode.",
+    "Returns_Reason": "Since the property is of type boolean, it logically returns a true or false value representing whether the wireframe mode is active or not.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set or get the wireframe mode state.",
+            "description_reason": "The parameter is of type boolean, which is typically used to represent a true/false state or toggle, aligning with the concept of enabling or disabling a mode.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, indicating it accepts true or false values to represent the state of the wireframe mode."
+        }
+    }
+}

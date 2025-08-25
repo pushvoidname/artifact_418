@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getFdfUrl",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the URL for the FDF (Forms Data Format) associated with a collaboration session.",
+    "API_Description_Reason": "The method name 'getFdfUrl' suggests that it returns a URL related to FDF, which is commonly used in collaborative document workflows to handle form data.",
+    "Returns": "A string representing the URL of the FDF document.",
+    "Returns_Reason": "The method is expected to return a URL, which is typically represented as a string.",
+    "Parameters": {
+        "cURL": {
+            "description": "The base URL or identifier used to retrieve the FDF document.",
+            "description_reason": "The parameter name 'cURL' implies it is a URL or a component of a URL used to locate the FDF document.",
+            "type": "string",
+            "type_reason": "URLs are generally represented as strings, which aligns with the parameter name 'cURL'."
+        }
+    }
+}

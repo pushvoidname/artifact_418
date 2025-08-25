@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "getAnnots",
+    "API_Type": "method",
+    "Return_Type": "Array[Annotation]",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

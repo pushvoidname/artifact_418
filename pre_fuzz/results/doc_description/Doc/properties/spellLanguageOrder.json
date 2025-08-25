@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "spellLanguageOrder",
+  "API_Type": "Properties",
+  "API_Description": "An array specifying the language array search order for this document. The Spelling plug-in first searches for words in this array, then it searches the languages the user has selected on the Spelling Preferences panel. The user\u2019s preferred order is available from `spell.languageOrder` . An array of currently installed languages can be obtained using the `spell.languages` property.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "Not allowed in Reader: Only available in Acrobat products",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": []
+}

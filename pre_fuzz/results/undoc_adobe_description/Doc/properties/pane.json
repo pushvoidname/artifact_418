@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "pane",
+    "API_Type": "property",
+    "API_Description": "Represents the type of pane currently being viewed in the PDF document.",
+    "API_Description_Reason": "The 'pane' property likely indicates the current view or section of the document being displayed, such as a page pane, bookmark pane, or attachment pane.",
+    "Returns": "The type of pane currently active in the document viewer.",
+    "Returns_Reason": "Since 'pane' is a property, it would return a value representing the current state or type of pane being viewed, which aligns with the parameter 'type' being a string.",
+    "Parameters": {
+        "type": {
+            "description": "The type of pane currently active in the document viewer, such as 'page', 'bookmark', or 'attachment'.",
+            "description_reason": "The parameter 'type' suggests it specifies or describes the kind of pane being viewed, which is typically a string representing different sections or views within a PDF viewer.",
+            "type": "string",
+            "type_reason": "The parameter 'type' is explicitly defined as a string, indicating it holds textual data representing the pane type."
+        }
+    }
+}

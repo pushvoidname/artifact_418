@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "removeRequirement",
+  "API_Type": "Method",
+  "API_Description": "Removes an existing requirement present in a PDF document. Removing a requirement frees Acrobat from having to fulfill it to open the document. The document may not function properly if a requirement is removed.",
+  "Version": "7.0.5",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cType": {
+      "description": "The type of requirement to be removed. The types are described by the Requirements Enumerator object."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

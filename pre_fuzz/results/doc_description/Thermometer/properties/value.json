@@ -1,0 +1,13 @@
+{
+  "Object": "Thermometer",
+  "API_Name": "value",
+  "API_Type": "Properties",
+  "API_Description": "Sets the current value of the thermometer and updates the display. The value can range from 0 (empty) to the value set in `duration` . For example, if the thermometer\u2019s duration is 10, the current value must be between 0 and 10, inclusive. If the value is less than zero, it is set to zero. If the value is greater than `duration` , it is set to `duration` . Type | Access ------------- Number | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

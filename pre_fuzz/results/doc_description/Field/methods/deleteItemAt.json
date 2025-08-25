@@ -1,0 +1,19 @@
+{
+  "Object": "Field",
+  "API_Name": "deleteItemAt",
+  "API_Type": "Method",
+  "API_Description": "Deletes an item in a combo box or a list box.",
+  "Version": "4.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "nIdx": {
+      "description": "(optional) The 0-based index of the item in the list to delete. If not specified, the currently selected item is deleted."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Delete the current item in the list, then select the top item in the list.\n\n```\nvar a = this.getField(\"MyListBox\");\na.deleteItemAt();              // Delete current item, and...\na.currentValueIndices = 0;     // select top item in list\n```"
+  ]
+}

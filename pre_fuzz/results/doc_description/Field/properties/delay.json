@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "delay",
+  "API_Type": "Properties",
+  "API_Description": "Delays the redrawing of a field\u2019s appearance. It is generally used to buffer a series of changes to the properties of the field before requesting that the field regenerate its appearance. Setting the property to `true` forces the field to wait until `delay` is set to `false` . The update of its appearance then takes place, redrawing the field with its latest settings. There is a corresponding Doc delay flag if changes are being made to many fields at once. **Fields** all",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Change the appearance of a check box. Set `delay` to `true` , makes changes, and sets `delay` to `false` .\n\n```\n// Get the myCheckBox field\nvar f = this.getField(\"myCheckBox\");\n// Set the delay and change the fields properties\n// to beveled edge and medium thickness line.\nf.delay = true;\nf.borderStyle = border.b;\n.\n..        // A number of other changes\nf.strokeWidth = 2;\nf.delay = false; // Force the changes now\n```"
+  ]
+}

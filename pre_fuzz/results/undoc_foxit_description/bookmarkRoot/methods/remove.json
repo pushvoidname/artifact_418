@@ -1,0 +1,10 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "remove",
+    "API_Type": "Method",
+    "API_Description": "Removes the bookmark from its parent, effectively deleting it from the hierarchy.",
+    "API_Description_Reason": "The method name 'remove' suggests that it deletes or removes the bookmark from its current context or parent.",
+    "Returns": "A boolean indicating whether the removal was successful.",
+    "Returns_Reason": "Typically, a remove operation would return a boolean to indicate success or failure of the operation.",
+    "Parameters": {}
+}

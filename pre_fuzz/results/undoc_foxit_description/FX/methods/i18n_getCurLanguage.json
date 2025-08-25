@@ -1,0 +1,10 @@
+{
+    "Object": "FX",
+    "API_Name": "i18n_getCurLanguage",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the current language setting of the application.",
+    "API_Description_Reason": "The method name 'i18n_getCurLanguage' suggests it is related to internationalization (i18n) and is used to get the current language setting.",
+    "Returns": "A string representing the current language code, such as 'en' for English or 'fr' for French.",
+    "Returns_Reason": "Since the method is likely retrieving a language setting, it would return a language code, which is typically represented as a string.",
+    "Parameters": {}
+}

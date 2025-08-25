@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "ModDate",
+    "API_Type": "property",
+    "API_Description": "Represents the date and time when the document was last modified.",
+    "API_Description_Reason": "The name 'ModDate' suggests it is related to the modification date of the document, which is a common property in document metadata.",
+    "Returns": "The modification date of the document as a string.",
+    "Returns_Reason": "Modification dates are typically represented as strings in a standard date-time format.",
+    "Parameters": {
+        "type": {
+            "description": "The format in which the modification date is returned.",
+            "description_reason": "The parameter 'type' likely specifies the format of the date string, which is common for date-related properties.",
+            "type": "string",
+            "type_reason": "Formats are usually specified as strings, indicating the desired output format."
+        }
+    }
+}

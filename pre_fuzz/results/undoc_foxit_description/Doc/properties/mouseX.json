@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "mouseX",
+    "API_Type": "Property",
+    "API_Description": "Represents the current horizontal position of the mouse cursor within the PDF document's coordinate space.",
+    "API_Description_Reason": "The name 'mouseX' suggests it is related to the X-coordinate of the mouse position. In the context of a PDF viewer, this would likely refer to the horizontal position of the mouse cursor within the document.",
+    "Returns": "A number representing the X-coordinate of the mouse cursor.",
+    "Returns_Reason": "Since 'mouseX' is a property, it is expected to return a value. Given the context, it would return a numerical value indicating the horizontal position of the mouse cursor."
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "textSize",
+  "API_Type": "Properties",
+  "API_Description": "The text size (in points) for a free text annotation. Valid text sizes include zero and the range from 4 to 144, inclusive. Zero indicates the largest point size that allows all the text to fit in the annotation\u2019s rectangle. **Annotations** : FreeText",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "number",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the property."
+  ]
+}

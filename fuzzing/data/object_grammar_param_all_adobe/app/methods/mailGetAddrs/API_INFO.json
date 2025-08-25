@@ -1,0 +1,8 @@
+{
+    "Object": "app",
+    "API_Name": "mailGetAddrs",
+    "API_Type": "method",
+    "Return_Type": "Array[String]",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

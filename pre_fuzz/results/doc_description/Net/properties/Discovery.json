@@ -1,0 +1,13 @@
+{
+  "Object": "Net",
+  "API_Name": "Discovery",
+  "API_Type": "Properties",
+  "API_Description": "The `Discovery` object allows for the dynamic discovery of network services. The `Net.Discovery` object has two methods. See the referenced link for full documentation. Net.Discovery method | Short Description ---------------------------------------- queryServices | Locates network services that have published themselves using DNS Service Discovery (DNS-SD). resolveService | Allows a service name to be bound to a network address and port in order for a connection to be made.",
+  "Version_Key": "8.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": []
+}

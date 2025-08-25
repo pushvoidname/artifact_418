@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "children",
+    "API_Type": "Property",
+    "API_Description": "Represents the child bookmarks of the current bookmark node.",
+    "API_Description_Reason": "The 'children' property typically refers to the child elements or nodes in a hierarchical structure, such as bookmarks in a document.",
+    "Returns": "An array of bookmark objects that are children of the current bookmark node.",
+    "Returns_Reason": "Since 'children' usually implies multiple elements, it is reasonable to assume it returns an array of bookmark objects.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the children property, which is likely an array of bookmark objects.",
+            "description_reason": "The 'children' property in hierarchical structures often contains multiple elements, suggesting an array type.",
+            "type": "array",
+            "type_reason": "Given the hierarchical nature of bookmarks, 'children' is expected to be an array containing bookmark objects."
+        }
+    }
+}

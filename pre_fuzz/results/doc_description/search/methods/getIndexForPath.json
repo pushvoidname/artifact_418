@@ -1,0 +1,17 @@
+{
+  "Object": "search",
+  "API_Name": "getIndexForPath",
+  "API_Type": "Method",
+  "API_Description": "Searches the index list and returns the `Index` object whose path corresponds to the specified path.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cDIPath": {
+      "description": "A device-independent path to an index file on the user\u2019s hard drive."
+    }
+  },
+  "Returns": "The `Index` object whose path corresponds to the specified path.",
+  "Examples": []
+}

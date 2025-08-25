@@ -1,0 +1,13 @@
+{
+  "Object": "app",
+  "API_Name": "language",
+  "API_Type": "Properties",
+  "API_Description": "The language of the running Acrobat viewer. It can be one of the following strings. String | Language ----------------- CHS | Chinese Simplified CHT | Chinese Traditional DAN | Danish DEU | German ENU | English ESP | Spanish FRA | French ITA | Italian KOR | Korean JPN | Japanese NLD | Dutch NOR | Norwegian PTB | Brazilian Portuguese SUO | Finnish SVE | Swedish",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": []
+}

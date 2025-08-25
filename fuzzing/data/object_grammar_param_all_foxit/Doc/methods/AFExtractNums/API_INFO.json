@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFExtractNums",
+    "API_Type": "method",
+    "Return_Type": "Array[Number]",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

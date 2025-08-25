@@ -1,0 +1,29 @@
+{
+  "Object": "Doc",
+  "API_Name": "applyRedactions",
+  "API_Type": "Method",
+  "API_Description": "Applies redaction marks to the document, removing all underlying content, and optionally removing the marks themselves.",
+  "Version": "9.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "aMarks": {
+      "description": "(optional) An array of redaction annotations that should be applied. If not specified, then all redaction marks in the document are applied."
+    },
+    "bKeepMarks": {
+      "description": "(optional) A boolean, if true, the redaction marks are not removed after they are applied. If not specified, or set to false, the redaction marks are removed. The default is false."
+    },
+    "bShowConfirmation": {
+      "description": "(optional) A boolean, if true, a confirmation dialog is presented to the user before any redaction marks are applied or removed. If not specified, or set to false, a confirmation is not shown. The default is false."
+    },
+    "cProgText": {
+      "description": "(optional) A string to be displayed in the UI along with a progress monitor for this operation. If blank or not specified, no progress is displayed."
+    }
+  },
+  "Returns": "`true` if the document was changed, `false` otherwise.",
+  "Examples": [
+    "Apply all redaction marks in the current document with the provided progress message\n\n```\nthis.applyRedactions({cProgText: \"Applying redactions through JS...\"});\n```",
+    "Apply redaction marks found only on the first page, and display a confirmation first.\n\n```\nvar markArray = Array();\nvar pageAnnots = this.getAnnots(0);\nfor (var i=0; i < pageAnnots.length; i++) {\n   if (pageAnnots[i].type == \"Redact\") {\n       markArray[markArray.length] = pageAnnots[i];\n   }\n}\nif (markArray.length > 0) {\n   this.applyRedactions({\n       aMarks:\nmarkArray,\n       bKeepMarks:\nfalse,\n       bShowConfirmation:\ntrue,\n       cProgText:\n\"Applying page 1 redactions...\"\n   });\n}\n```"
+  ]
+}

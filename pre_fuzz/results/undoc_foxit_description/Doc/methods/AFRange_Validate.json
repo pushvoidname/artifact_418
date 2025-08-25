@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFRange_Validate",
+    "API_Type": "Method",
+    "API_Description": "Validates a range of values within a PDF document.",
+    "API_Description_Reason": "The method name 'AFRange_Validate' suggests it is used for validating a range of values, likely to ensure they fall within a specified range or meet certain criteria.",
+    "Returns": "A boolean indicating whether the range is valid.",
+    "Returns_Reason": "Validation methods typically return a boolean to indicate success or failure of the validation process.",
+    "Parameters": {}
+}

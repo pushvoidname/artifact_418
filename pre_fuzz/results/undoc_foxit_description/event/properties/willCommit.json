@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "willCommit",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the event is about to be committed. This property is typically used in the context of form field events to determine if the current value is in the process of being finalized.",
+    "API_Description_Reason": "The name 'willCommit' suggests a boolean property that indicates an impending commit action, which is common in form processing to check if changes are about to be saved.",
+    "Returns": "A boolean value indicating if the event is in the commit phase.",
+    "Returns_Reason": "The property likely returns a boolean because it is used to check a condition (whether the event will commit), which is typically represented as true or false.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the willCommit property, which is expected to be a boolean.",
+            "description_reason": "The 'willCommit' property is likely a boolean as it represents a state (whether an event will commit or not), which is typically a true/false condition.",
+            "type": "boolean",
+            "type_reason": "Boolean is the appropriate type for a property that indicates a binary state, such as whether an event is about to commit."
+        }
+    }
+}

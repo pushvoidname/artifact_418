@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "AFCheckSubmitButtonStatus",
+    "API_Type": "Method",
+    "API_Description": "Checks the status of the submit button for a given platform path.",
+    "API_Description_Reason": "The method name 'AFCheckSubmitButtonStatus' suggests it is used to check the status of a submit button, likely in a collaborative or form submission context. The parameter 'cPlatformPath' implies that the status check is related to a specific path or location.",
+    "Returns": "A boolean indicating whether the submit button is enabled or not.",
+    "Returns_Reason": "The method is likely checking the status of a button, which typically results in a boolean value indicating whether the button is active (enabled) or inactive (disabled).",
+    "Parameters": {
+        "cPlatformPath": {
+            "description": "The platform-specific path for which the submit button status is being checked.",
+            "description_reason": "The parameter name 'cPlatformPath' suggests it is a path related to the platform, possibly indicating where the form or document is located.",
+            "type": "string",
+            "type_reason": "Paths are typically represented as strings, as they consist of text that specifies the location of a file or resource."
+        }
+    }
+}

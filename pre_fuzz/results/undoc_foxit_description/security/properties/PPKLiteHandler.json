@@ -1,0 +1,17 @@
+{
+    "Object": "security",
+    "API_Name": "PPKLiteHandler",
+    "API_Type": "property",
+    "API_Description": "Represents a specific security handler used for managing public key infrastructure (PKI) operations within a PDF document.",
+    "API_Description_Reason": "The name 'PPKLiteHandler' suggests it is related to handling PKI operations, which are typically associated with digital signatures and encryption, fitting the context of the security object.",
+    "Returns": "An object representing the PPKLite security handler.",
+    "Returns_Reason": "As a property, it likely returns an object that provides methods and properties specific to handling PKI operations, consistent with other security handlers.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type or variant of the PPKLiteHandler being referenced.",
+            "description_reason": "The parameter 'type' is often used to specify a variant or subtype of an object, which aligns with the context of selecting a specific handler.",
+            "type": "unknown",
+            "type_reason": "The type is not specified in the provided information, indicating it might be a complex or internal type not exposed in the documentation."
+        }
+    }
+}

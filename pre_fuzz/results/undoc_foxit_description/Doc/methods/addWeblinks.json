@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "addWeblinks",
+    "API_Type": "Method",
+    "API_Description": "Automatically detects and adds web links to the PDF document based on recognizable URL patterns.",
+    "API_Description_Reason": "The method name 'addWeblinks' suggests that it is responsible for adding web links to the document. Given the context of a PDF document, this likely involves detecting text patterns that resemble URLs and converting them into clickable links.",
+    "Returns": "A boolean indicating whether web links were successfully added.",
+    "Returns_Reason": "The method likely returns a boolean to indicate success or failure of the operation, which is a common pattern for methods that perform an action without returning a specific object.",
+    "Parameters": {}
+}

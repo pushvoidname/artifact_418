@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "borderEffectIntensity",
+  "API_Type": "Properties",
+  "API_Description": "The intensity of the border effect, if any. This represents how cloudy a cloudy rectangle, polygon, or oval is. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

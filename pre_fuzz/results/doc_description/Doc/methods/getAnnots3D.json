@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "getAnnots3D",
+  "API_Type": "Method",
+  "API_Description": "This method returns an array of `Annot3D` objects for a page.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based page number that contains the Annot3D objects."
+    }
+  },
+  "Returns": "An array of Annot3D objects, or `undefined` if none is found.",
+  "Examples": []
+}

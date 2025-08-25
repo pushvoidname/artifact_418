@@ -1,0 +1,21 @@
+{
+  "Object": "Doc",
+  "API_Name": "getField",
+  "API_Type": "Method",
+  "API_Description": "Maps a Field object in the PDF document to a JavaScript variable.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the field of interest."
+    }
+  },
+  "Returns": "A Field object representing a form field in the PDF document.",
+  "Examples": [
+    "Make a text field multiline and triple its height\n\n```\nvar f = this.getField(\"myText\");\nvar aRect = f.rect;               // Get bounding rectangle\nf.multiline = true;               // Make it multiline\nvar height = aRect[1]-aRect[3];   // Calculate height\naRect[3] -= 2* height;            // Triple the height of the text field\nf.rect = aRect;                   // and make it so\n```\n\n**Example 2 (Acrobat 6.0)**\n\nAttach a JavaScript action to an individual widget, in this case, a radio button:\n\n```\nvar f = this.getField(\"myRadio.0\");\nf.setAction(\"MouseUp\",\n    \"app.alert('Thanks for selecting the first choice.');\");\n```",
+    "List all properties of a field. This technique can be used to programmatically duplicate a field and its properties.\n\n```\nf = this.getField(\"myField\");\nfor ( var i in f ) {\n    try {\n        if ( typeof f[i] != \"function\" )    // Do not list field methods\n            console.println( i + \":\" + f[i] )\n    } catch(e) {}           // An exception occurs when we get a property\n}                         // that does not apply to this field type.\n```"
+  ],
+  "Example 2 (Acrobat 6.0)": "Attach a JavaScript action to an individual widget, in this case, a radio button:\n\n```\nvar f = this.getField(\"myRadio.0\");\nf.setAction(\"MouseUp\",\n    \"app.alert('Thanks for selecting the first choice.');\");\n```"
+}

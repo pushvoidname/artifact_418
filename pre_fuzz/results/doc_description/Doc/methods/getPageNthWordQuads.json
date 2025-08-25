@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageNthWordQuads",
+  "API_Type": "Method",
+  "API_Description": "Gets the quads list for the th word on the page. The `quads` property of the `Annotation` object can be used for constructing text markup, underline, strikeout, highlight and squiggly annotations. See also getPageNthWord , getPageNumWords , and selectPageNthWord .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    },
+    "nWord": {
+      "description": "(optional) The 0-based index of the word. The default is 0, the first word on the page."
+    }
+  },
+  "Returns": "The quads list for the th word on the page.",
+  "Examples": [
+    "Underline the fifth word on the second page of a document.\n\n```\nvar annot = this.addAnnot({\n    page: 1,\n    type: \"Underline\",\n    quads:  this.getPageNthWordQuads(1, 4),\n    author: \"A. C. Robat\",\n    contents: \"Fifth word on second page\"\n});\n```\n\nSee `spell.` checkWord for an additional example."
+  ]
+}

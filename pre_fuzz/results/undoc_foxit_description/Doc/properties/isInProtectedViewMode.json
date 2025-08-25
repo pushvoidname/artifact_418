@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "isInProtectedViewMode",
+    "API_Type": "Property",
+    "API_Description": "Indicates whether the document is currently open in protected view mode.",
+    "API_Description_Reason": "The name 'isInProtectedViewMode' suggests that it is a boolean property that checks if the document is in a specific mode, namely protected view mode.",
+    "Returns": "A boolean value indicating the protected view status of the document.",
+    "Returns_Reason": "The prefix 'isIn' typically implies a boolean return type, which checks for a condition or state.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property, which is boolean.",
+            "description_reason": "The property name suggests a boolean type, as it checks for a specific condition (protected view mode).",
+            "type": "boolean",
+            "type_reason": "The 'isIn' prefix in the property name indicates a boolean type, as it is used to check a true/false condition."
+        }
+    }
+}

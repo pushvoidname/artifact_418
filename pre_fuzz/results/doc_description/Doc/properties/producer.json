@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "producer",
+  "API_Type": "Properties",
+  "API_Description": "!! Note This property has been superseded by the info property. The producer of the document (for example, \u201cAcrobat Distiller\u201d or \u201cPDFWriter\u201d).",
+  "Version_Key": "deprecated",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": []
+}

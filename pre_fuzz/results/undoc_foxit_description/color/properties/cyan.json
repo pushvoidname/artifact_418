@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "cyan",
+    "API_Type": "property",
+    "API_Description": "Represents the cyan color in the color object, typically used to set or compare color values.",
+    "API_Description_Reason": "The cyan property is part of the color object, which defines basic colors for use in setting properties or calling methods that require color arrays.",
+    "Returns": "An array representing the cyan color in the color space used by the application.",
+    "Returns_Reason": "The color object properties typically return an array that represents the color in a specific color space, such as RGB or CMYK.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number that might represent an index or a value related to the color space.",
+            "description_reason": "The parameter is labeled as 'unknown', suggesting it might be an internal or less commonly used parameter related to the color property.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly defined as a number, indicating it is likely used for numerical operations or indexing."
+        }
+    }
+}

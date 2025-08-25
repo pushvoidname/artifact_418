@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "backgroundColor",
+    "API_Type": "Property",
+    "API_Description": "Specifies the background color of the object.",
+    "API_Description_Reason": "The name 'backgroundColor' typically refers to a property that sets or gets the color used for the background of an object.",
+    "Returns": "The current background color value.",
+    "Returns_Reason": "Properties usually return the current value when accessed, and 'backgroundColor' would return the color value set for the background.",
+    "Parameters": {
+        "type": {
+            "description": "The format or type of the color value, which could be a string representing a color name, a hexadecimal color code, or an RGB value.",
+            "description_reason": "The 'type' parameter likely refers to the format in which the color is specified, as background colors can be defined in various formats.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it is common for color properties to accept multiple formats such as strings or arrays."
+        }
+    }
+}

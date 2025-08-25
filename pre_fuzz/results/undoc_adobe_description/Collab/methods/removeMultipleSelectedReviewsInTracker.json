@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "removeMultipleSelectedReviewsInTracker",
+    "API_Type": "Method",
+    "API_Description": "Removes multiple selected reviews from the tracker.",
+    "API_Description_Reason": "The method name suggests it is used to remove multiple reviews that are selected within a tracking system, likely part of a collaboration or review process.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action like removal return a boolean to indicate whether the operation was successful.",
+    "Parameters": {}
+}

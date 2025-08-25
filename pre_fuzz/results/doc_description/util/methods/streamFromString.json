@@ -1,0 +1,22 @@
+{
+  "Object": "util",
+  "API_Name": "streamFromString",
+  "API_Type": "Method",
+  "API_Description": "Converts a string to a `ReadStream` object.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cString": {
+      "description": "The string to be converted into a ReadStream object."
+    },
+    "cCharSet": {
+      "description": "(optional) The encoding for the string in cString. The options are utf-8, utf-16, Shift-JIS, BigFive, GBK, UHC. The default is utf-8."
+    }
+  },
+  "Returns": "`ReadStream` object",
+  "Examples": [
+    "Take the response given in a text field of this document and append it to an attached document.\n\n```\nvar v = this.getField(\"myTextField\").value;\nvar oFile = this.getDataObjectContents(\"MyNotes.txt\");\nvar cFile = util.stringFromStream(oFile, \"utf-8\");\ncFile += \"rn\" + cFile;\noFile = util.streamFromString( cFile, \"utf-8\");\nthis.setDataObjectContents(\"MyNotes.txt\", oFile);\n```\n\nThis example uses the Doc methods `getDataObjectContents` and `setDataObjectContents` and `util.stringFromStream` ."
+  ]
+}

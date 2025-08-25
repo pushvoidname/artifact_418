@@ -1,0 +1,14 @@
+[
+    [
+        "SAVE_TONER",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

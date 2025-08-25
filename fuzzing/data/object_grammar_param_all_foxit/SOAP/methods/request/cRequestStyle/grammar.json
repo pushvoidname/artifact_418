@@ -1,0 +1,22 @@
+[
+    [
+        "cRequestStyle",
+        "{STYLE_OPTION}"
+    ],
+    [
+        "STYLE_OPTION",
+        "{RPC}"
+    ],
+    [
+        "STYLE_OPTION",
+        "{XML}"
+    ],
+    [
+        "RPC",
+        "rpc"
+    ],
+    [
+        "XML",
+        "xml"
+    ]
+]

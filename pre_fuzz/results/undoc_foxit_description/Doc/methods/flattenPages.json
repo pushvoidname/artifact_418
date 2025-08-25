@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "flattenPages",
+    "API_Type": "Method",
+    "API_Description": "Flattens the form fields and annotations in the PDF document, making them part of the page content.",
+    "API_Description_Reason": "The method name 'flattenPages' suggests that it is used to flatten interactive elements like form fields and annotations into the static content of the PDF pages.",
+    "Returns": "A boolean indicating whether the flattening operation was successful.",
+    "Returns_Reason": "Typically, methods that perform operations on documents return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

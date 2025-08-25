@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "activePin",
+    "API_Type": "Method",
+    "API_Description": "Activates a pin annotation within the PDF document, allowing for interaction or highlighting of specific content.",
+    "API_Description_Reason": "The method name 'activePin' suggests functionality related to activating or interacting with a pin, which is often used to mark or highlight specific areas within a document.",
+    "Returns": "A boolean indicating whether the pin was successfully activated.",
+    "Returns_Reason": "Methods that perform an action like 'activate' typically return a boolean to indicate success or failure of the operation.",
+    "Parameters": {}
+}

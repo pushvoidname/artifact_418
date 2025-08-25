@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFPercent_Keystroke",
+    "API_Type": "Method",
+    "API_Description": "Handles keystroke events for percentage input fields, ensuring that the input is formatted correctly as a percentage.",
+    "API_Description_Reason": "The method name 'AFPercent_Keystroke' suggests it is related to handling keystrokes for percentage fields, similar to other 'AF' prefixed methods that handle specific input types.",
+    "Returns": "A boolean indicating whether the keystroke is valid for a percentage field.",
+    "Returns_Reason": "Keystroke handling methods typically return a boolean to indicate if the input is valid or should be rejected.",
+    "Parameters": {}
+}

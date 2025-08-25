@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "stringToUTF8",
+    "API_Type": "method",
+    "Return_Type": "Array[Number]",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

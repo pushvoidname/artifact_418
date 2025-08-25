@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "loginWithUI",
+    "API_Type": "Method",
+    "API_Description": "Initiates a login process with a user interface prompt for user credentials.",
+    "API_Description_Reason": "The method name 'loginWithUI' suggests it involves a login process that includes a user interface component, likely prompting the user for credentials.",
+    "Returns": "A boolean indicating the success or failure of the login process.",
+    "Returns_Reason": "Login methods typically return a boolean to indicate whether the login was successful or not.",
+    "Parameters": {}
+}

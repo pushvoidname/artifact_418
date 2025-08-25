@@ -1,0 +1,19 @@
+{
+  "Object": "util",
+  "API_Name": "xmlToSpans",
+  "API_Type": "Method",
+  "API_Description": "Converts an XML (XFA) string, as described in the PDF Reference , to an array of Span objects suitable for specifying as the `richValue` or `richContents` of a field or annotation.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "NoParameterName": {
+      "description": "An XML (XFA) string to be converted to an array of Span objects."
+    }
+  },
+  "Returns": "An Array of `Span` objects",
+  "Examples": [
+    "Get the rich text string from \u201cText1\u201d, convert it to XML, then convert it back to an array of Span objects and repopulate the text field.\n\n```\nvar f = getField(\"Text1\");\nvar spans = f.richValue;\nvar str = util.spansToXML(spans);\nvar spans = util.xmlToSpans(str);\nf.richValue = spans;\n```"
+  ]
+}

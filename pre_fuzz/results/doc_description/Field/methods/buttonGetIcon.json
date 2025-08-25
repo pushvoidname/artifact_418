@@ -1,0 +1,19 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonGetIcon",
+  "API_Type": "Method",
+  "API_Description": "Gets the `Icon` object of a specified type associated with a button.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nFace": {
+      "description": "(optional) If specified, gets an icon of the given type:"
+    }
+  },
+  "Returns": "The `Icon` object.",
+  "Examples": [
+    "```\n// Swap two button icons.\nvar f = this.getField(\"Button1\");\nvar g = this.getField(\"Button2\");\nvar temp = f.buttonGetIcon();\nf.buttonSetIcon(g.buttonGetIcon());\ng.buttonSetIcon(temp);\n```\n\nSee also buttonSetIcon and buttonImportIcon ."
+  ]
+}

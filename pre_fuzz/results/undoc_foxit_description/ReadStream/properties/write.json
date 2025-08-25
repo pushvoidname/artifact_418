@@ -1,0 +1,17 @@
+{
+    "Object": "ReadStream",
+    "API_Name": "write",
+    "API_Type": "property",
+    "API_Description": "Allows writing data to the stream, modifying its contents.",
+    "API_Description_Reason": "The 'write' property suggests functionality related to writing data, which complements the 'read' method that reads data from the stream.",
+    "Returns": "None",
+    "Returns_Reason": "As a property, 'write' likely modifies the stream directly and does not return a value.",
+    "Parameters": {
+        "type": {
+            "description": "Specifies the type of data to be written to the stream.",
+            "description_reason": "The parameter 'type' indicates the format or nature of the data being written, which is common in stream operations.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, likely representing a data type or format."
+        }
+    }
+}

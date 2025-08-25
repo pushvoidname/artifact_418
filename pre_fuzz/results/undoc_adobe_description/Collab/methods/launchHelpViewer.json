@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "launchHelpViewer",
+    "API_Type": "Method",
+    "API_Description": "Launches the help viewer with the specified help ID.",
+    "API_Description_Reason": "The method name 'launchHelpViewer' suggests that it is responsible for opening or launching a help viewer interface, and the parameter 'cHelpID' implies that it uses a specific help identifier to determine which help content to display.",
+    "Returns": "None",
+    "Returns_Reason": "The method is likely intended to perform an action (launching a help viewer) rather than returning a value, which is common for methods that trigger UI changes or external applications.",
+    "Parameters": {
+        "cHelpID": {
+            "description": "The identifier for the help content to be displayed in the help viewer.",
+            "description_reason": "The parameter name 'cHelpID' indicates it is used to specify which help content should be shown, likely corresponding to a specific topic or section in the help documentation.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cHelpID' suggests it is a string, which is a common convention for naming string parameters, and identifiers are typically represented as strings."
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "getAlwaysUseServer",
+    "API_Type": "method",
+    "Parameters": {
+        "cReviewType": "string"
+    }
+}

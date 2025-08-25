@@ -1,0 +1,32 @@
+{
+    "Object": "media",
+    "API_Name": "openPlayer",
+    "API_Type": "method",
+    "Parameters": {
+        "rendition": "built-in object",
+        "doc": "built-in object",
+        "URL": "string",
+        "mimeType": "string",
+        "settings": {
+            "windowType": "number",
+            "name": "string",
+            "autoPlay": "boolean",
+            "baseURL": "string",
+            "bgOpacity": "number",
+            "duration": "number",
+            "layout": "number",
+            "page": "number",
+            "repeat": "number",
+            "showUI": "boolean",
+            "visible": "boolean",
+            "volume": "number",
+            "players": [
+                "unknown"
+            ],
+            "data": "built-in object",
+            "floating": {
+                "unknown_field": "unknown"
+            }
+        }
+    }
+}

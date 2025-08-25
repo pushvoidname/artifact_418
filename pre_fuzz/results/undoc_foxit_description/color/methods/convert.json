@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "convert",
+    "API_Type": "Method",
+    "API_Description": "Converts a color name or code into a color array.",
+    "API_Description_Reason": "The method is likely used to transform a string representation of a color into a format that can be used by other methods or properties that require a color array.",
+    "Returns": "An array representing the color in a format suitable for use in the system.",
+    "Returns_Reason": "Since the object is used to define basic colors, the method likely returns a standardized color array that can be used in various contexts.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string representing the color to be converted. This could be a color name or a hexadecimal color code.",
+            "description_reason": "The parameter is named 'unknown', suggesting it is a flexible input that can accept different types of color representations.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, which is typical for color names or codes."
+        }
+    }
+}

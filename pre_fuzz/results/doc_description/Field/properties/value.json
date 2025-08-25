@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "value",
+  "API_Type": "Properties",
+  "API_Description": "The value of the field data that the user has entered. Depending on the `type` of the field, may be a String, Date, or Number. Typically, the `value` is used to create calculated fields. Beginning with Acrobat 6.0, if a field contains rich text formatting, modifying this property will discard the formatting and regenerate the field value and appearance using the `defaultStyle` and plain text value. To modify the field value and maintain formatting use the `richValue` property. !! Note For signature fields, if the field has been signed, a non- `null` string is returned as the value. For Acrobat 5.0 or later, if the field is a list box that accepts multiple selections (see multipleSelection ), you can pass an array to set the `value` of the field, and `value` returns an array for a list box with multiple values currently selected. The `currentValueIndices` of a list box that has multiple selections is the preferred and most efficient way to get and set the value of this type of field. See also valueAsString and `event.` . **Fields** all except `button`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "various",
+  "Access": "R/W",
+  "Examples": [
+    "Example: In this example, the `value` of the field being calculated is set to the sum of the \u201cOil\u201d and \u201cFilter\u201d fields and multiplied by the state sales tax.\n\n```\nvar oil = this.getField(\"Oil\");\nvar filter = this.getField(\"Filter\");\nevent.value = (oil.value + filter.value) * 1.0825;\n```"
+  ]
+}

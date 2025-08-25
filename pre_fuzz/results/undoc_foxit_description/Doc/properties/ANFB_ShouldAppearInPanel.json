@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldAppearInPanel",
+    "API_Type": "Property",
+    "API_Description": "Indicates whether the document should appear in a specific panel within the viewer interface.",
+    "API_Description_Reason": "The name 'ANFB_ShouldAppearInPanel' suggests that it is a boolean property determining the visibility or presence of the document in a panel, likely related to user interface settings.",
+    "Returns": "A boolean value indicating the visibility status of the document in the panel.",
+    "Returns_Reason": "The property name implies a true or false condition, which is typical for boolean properties that control visibility or appearance.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property, which is expected to be a boolean.",
+            "description_reason": "The property name suggests a binary state (appear or not appear), which is commonly represented by a boolean.",
+            "type": "boolean",
+            "type_reason": "Boolean is the appropriate type for properties that represent a yes/no or true/false condition."
+        }
+    }
+}

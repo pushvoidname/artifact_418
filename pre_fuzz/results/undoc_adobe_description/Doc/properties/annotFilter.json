@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "annotFilter",
+    "API_Type": "Property",
+    "API_Description": "Specifies a filter for annotations in the document, allowing only certain annotations to be processed or displayed based on the filter criteria.",
+    "API_Description_Reason": "The name 'annotFilter' suggests it is used to filter annotations, which are often referred to as 'annots' in PDF terminology. The purpose of a filter is typically to limit or specify a subset of items based on certain criteria.",
+    "Returns": "A filter object or criteria that determines which annotations are included or excluded.",
+    "Returns_Reason": "Since 'annotFilter' is a property, it likely holds a value or object that represents the filtering criteria for annotations. This would be used to determine which annotations are affected by operations or displayed.",
+    "Parameters": {}
+}

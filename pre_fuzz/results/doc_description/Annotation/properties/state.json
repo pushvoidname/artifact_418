@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "state",
+  "API_Type": "Properties",
+  "API_Description": "The state of the text annotation. The values of this property depend on the stateModel. For a state model of Marked, values are Marked and Unmarked. For a Review state model, the values are Accepted, Rejected, Cancelled, Completed and None. **Annotations** : Text",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

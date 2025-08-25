@@ -1,0 +1,59 @@
+{
+    "Object": "app",
+    "API_Name": "mailMsgWithAttachment",
+    "API_Type": "Method",
+    "API_Description": "Sends an email message with an attachment using the default email client.",
+    "API_Description_Reason": "The method name 'mailMsgWithAttachment' suggests that it is used to send an email message with an attachment. This is a common functionality in applications that interact with email clients.",
+    "Returns": "A boolean indicating whether the email was successfully sent.",
+    "Returns_Reason": "Typically, methods that perform an action like sending an email return a boolean to indicate success or failure.",
+    "Parameters": {
+        "bUI": {
+            "description": "A boolean indicating whether to display the email client user interface.",
+            "description_reason": "The parameter name 'bUI' suggests it controls the visibility of the user interface, a common option in email-sending functions.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bUI' indicates a boolean type, which is a common naming convention."
+        },
+        "cTo": {
+            "description": "The email address of the primary recipient.",
+            "description_reason": "The parameter name 'cTo' is a standard naming convention for specifying the recipient's email address.",
+            "type": "string",
+            "type_reason": "Email addresses are typically represented as strings."
+        },
+        "cCc": {
+            "description": "The email address of the carbon copy recipient.",
+            "description_reason": "The parameter name 'cCc' follows the standard email terminology for carbon copy recipients.",
+            "type": "string",
+            "type_reason": "Email addresses are typically represented as strings."
+        },
+        "cBcc": {
+            "description": "The email address of the blind carbon copy recipient.",
+            "description_reason": "The parameter name 'cBcc' follows the standard email terminology for blind carbon copy recipients.",
+            "type": "string",
+            "type_reason": "Email addresses are typically represented as strings."
+        },
+        "cSubject": {
+            "description": "The subject line of the email.",
+            "description_reason": "The parameter name 'cSubject' clearly indicates it is used for the email's subject line.",
+            "type": "string",
+            "type_reason": "Subject lines are typically represented as strings."
+        },
+        "cMsg": {
+            "description": "The body content of the email message.",
+            "description_reason": "The parameter name 'cMsg' suggests it is used for the message content of the email.",
+            "type": "string",
+            "type_reason": "Email message bodies are typically represented as strings."
+        },
+        "cAttachment": {
+            "description": "The file path of the attachment to include in the email.",
+            "description_reason": "The parameter name 'cAttachment' indicates it is used to specify the file to attach to the email.",
+            "type": "string",
+            "type_reason": "File paths are typically represented as strings."
+        },
+        "cFS": {
+            "description": "A string representing the file system or format specifics for the attachment.",
+            "description_reason": "The parameter name 'cFS' suggests it relates to file system or format specifics, which might be necessary for handling attachments.",
+            "type": "string",
+            "type_reason": "File system or format specifics are typically represented as strings."
+        }
+    }
+}

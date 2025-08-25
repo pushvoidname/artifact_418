@@ -1,0 +1,8 @@
+{
+    "Object": "app",
+    "API_Name": "fsClick",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "boolean"
+    }
+}

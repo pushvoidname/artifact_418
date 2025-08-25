@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "parent",
+    "API_Type": "Property",
+    "API_Description": "Represents the parent of the current bookmark node, allowing navigation up the bookmark hierarchy.",
+    "API_Description_Reason": "The 'parent' property typically refers to the parent node in a hierarchical structure, which is common in tree-like data structures such as bookmarks.",
+    "Returns": "The parent bookmark node or null if the current node is the root.",
+    "Returns_Reason": "In a hierarchical structure, the 'parent' property would return the node that is one level above the current node, or null if there is no parent (i.e., the current node is the root).",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the parent property, which is likely an object representing a bookmark node.",
+            "description_reason": "The 'parent' property would logically be of the same type as the nodes it connects, which are likely objects representing bookmarks.",
+            "type": "object",
+            "type_reason": "In a tree structure, nodes are typically objects, so the parent would also be an object representing a bookmark node."
+        }
+    }
+}

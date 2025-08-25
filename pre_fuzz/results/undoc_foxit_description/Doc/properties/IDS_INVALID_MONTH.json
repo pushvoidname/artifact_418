@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_INVALID_MONTH",
+    "API_Type": "Property",
+    "API_Description": "A string constant used to represent an error message indicating an invalid month input.",
+    "API_Description_Reason": "The name 'IDS_INVALID_MONTH' suggests it is an identifier for a string resource related to an invalid month error, commonly used in form validation or date input handling.",
+    "Returns": "A string containing the error message for an invalid month.",
+    "Returns_Reason": "Since it is a property likely representing a constant error message, it would return a string describing the error.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value.",
+            "description_reason": "The 'type' parameter is likely used to specify the data type of the property, which is common in API documentation to clarify the expected data format.",
+            "type": "string",
+            "type_reason": "Given that IDS_INVALID_MONTH is a property representing an error message, the type would be a string, as error messages are typically text."
+        }
+    }
+}

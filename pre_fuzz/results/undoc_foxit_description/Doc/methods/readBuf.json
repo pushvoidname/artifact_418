@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "readBuf",
+    "API_Type": "Method",
+    "API_Description": "Reads data from the document's buffer and returns it as a string or binary data.",
+    "API_Description_Reason": "The method name 'readBuf' suggests it reads from a buffer, which is typically used to handle data in memory. Given the context of a PDF document, it likely reads data from the document's internal buffer.",
+    "Returns": "The data read from the document's buffer, either as a string or binary data.",
+    "Returns_Reason": "Since the method is reading from a buffer, it is reasonable to assume it returns the data contained within that buffer, which could be in string or binary format depending on the implementation.",
+    "Parameters": {}
+}

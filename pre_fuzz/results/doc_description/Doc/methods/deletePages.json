@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "deletePages",
+  "API_Type": "Method",
+  "API_Description": "Deletes pages from the document. If neither page of the range is specified, the first page (page 0) is deleted. See also , extractPages , and replacePages .",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) The 0-based index of the first page in the range of pages to be deleted. The default is 0, the first page in the document."
+    },
+    "nEnd": {
+      "description": "(optional) The last page in the range of pages to be deleted. If nEnd is not specified, only the page specified by nStart is deleted."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Delete pages 1 through 3 (base 0), inclusive.\n\n```\nthis.deletePages({nStart: 1, nEnd: 3});\n```"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "saveOfflineCopy",
+    "API_Type": "Method",
+    "API_Description": "Saves a copy of the PDF document for offline access.",
+    "API_Description_Reason": "The method name 'saveOfflineCopy' suggests that it is used to save a version of the document that can be accessed without an internet connection.",
+    "Returns": "A boolean indicating whether the operation was successful.",
+    "Returns_Reason": "Typically, save operations return a boolean to indicate success or failure, allowing the calling code to handle any errors or confirm the action.",
+    "Parameters": {}
+}

@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "removeApprovalDocScript",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object",
+        "scriptName": "string"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Object": "Net",
+    "API_Name": "stringEncode",
+    "API_Type": "method",
+    "Parameters": {
+        "cString": "string",
+        "cEncoder": "string"
+    }
+}

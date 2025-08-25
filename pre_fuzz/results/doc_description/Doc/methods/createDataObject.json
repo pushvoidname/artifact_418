@@ -1,0 +1,28 @@
+{
+  "Object": "Doc",
+  "API_Name": "createDataObject",
+  "API_Type": "Method",
+  "API_Description": "Creates a `Data` object.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "cName": {
+      "description": "The name to associate with the data object."
+    },
+    "cValue": {
+      "description": "A string containing the data to be embedded."
+    },
+    "cMIMEType": {
+      "description": "(optional) The MIME type of the data. The default is \u201ctext/plain\u201d."
+    },
+    "cCryptFilter": {
+      "description": "(optional, Acrobat 6.0) The language-independent name of a crypt filter to use when encrypting this data object. This crypt filter must have previously been added to the document\u2019s list of crypt filters, using the Doc addRecipientListCryptFilter method, otherwise an exception will be thrown. The predefined Identity crypt filter can be used so that this data object is not encrypted in a file that is otherwise encrypted by the Doc encryptForRecipients method."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "```\nthis.createDataObject(\"MyData.txt\", \"This is some data.\");\n```\n\nSee also the example that follows addRecipientListCryptFilter ."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Object": "app",
+  "API_Name": "addMenuItem",
+  "API_Type": "Method",
+  "API_Description": "Adds a menu item to a menu.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The language-independent name of the menu item. This name can be used by other methods (for example, hideMenuItem) to access the menu item."
+    },
+    "cUser": {
+      "description": "(optional) The user string (language-dependent name) to display as the menu item name. If cUser is not specified, cName is used."
+    },
+    "cParent": {
+      "description": "The name of the parent menu item. Its submenu will have the new menu item added to it. If cParent has no submenu, an exception is thrown.  Menu item names can be obtained with the listMenuItems method."
+    },
+    "nPos": {
+      "description": "(optional) The position within the submenu to locate the new menu item. The default behavior is to append to the end of the submenu. Specifying nPos as 0 adds the menu to the top of the submenu. Beginning with Acrobat 6.0, the value of nPos can also be the language-independent name of a menu item.  (Acrobat 6.0) If the value nPos is a string, this string is interpreted as a named item in the menu (a language-independent name of a menu item). The named item determines the position at which the new menu item is to be inserted. See bPrepend for additional details.  The nPos parameter is ignored in certain menus that are alphabetized. The alphabetized menus are  -  The first section of View > Navigation Panels. -  The first section of View > Toolbars. -  When nPos is a number, nPos is not obeyed in the Tools menu. A menu item introduced into the Tools menu comes in at the top of the menu. nPos is obeyed when it is a string referencing another user-defined menu item."
+    },
+    "cExec": {
+      "description": "An expression string to evaluate when the menu item is selected by the user.  -  Beginning with Acrobat 7.0, execution of JavaScript through a menu event is no longer privileged. See Privileged context."
+    },
+    "cEnable": {
+      "description": "(optional) An expression string that is evaluated to determine whether to enable the menu item. The default is that the menu item is always enabled. This expression should set event.rc to false to disable the menu item."
+    },
+    "cMarked": {
+      "description": "(optional) An expression string that determines whether the menu item has a check mark next to it. The expression should set event.rc to false to uncheck the menu item and true to check it. The default is that the menu item is not marked."
+    },
+    "bPrepend": {
+      "description": "(optional, Acrobat 6.0) Determines the position of the new menu item relative to the position specified by nPos. The default value is false. If bPrepend is true, the rules for insertion are as follows:   -  If nPos is a string, the new item is placed before the named item. -  If nPos is a number, the new item is placed before the numbered item. -  If the named item cannot be found or nPos is not between zero and the number of items in the list, inclusive, the new item is inserted as the first item in the menu (rather than at the end of the menu).  bPrepend is useful when the named item is the first item in a group."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "At the top of the File menu, add a menu item that opens an alert dialog box displaying the active document title. This menu is only enabled if a document is opened.\n\n```\napp.addMenuItem({ cName: \"Hello\", cParent: \"File\",\n    cExec: \"app.alert(event.target.info.title, 3);\",\n    cEnable: \"event.rc = (event.target != null);\",\n    nPos: 0\n});\n```\n\n**Example 2 (Acrobat 6.0)**\n\nPlace two menu items in the File menu, one before the Close item and the other after the Close item.\n\n```\n// Insert after the \"Close\" item (the default behavior)\napp.addMenuItem( { cName: \"myItem1\", cUser: \"My Item 1\", cParent:\n    \"File\", cExec: \"_myProc1()\", nPos: \"Close\"});\n// Insert before the \"Close\" item, set bPrepend to true.\napp.addMenuItem( { cName: \"myItem2\", cUser: \"My Item 2\", cParent:\n    \"File\", cExec: \"_myProc2()\", nPos: \"Close\", bPrepend: true });\n```"
+  ],
+  "Example 2 (Acrobat 6.0)": "Place two menu items in the File menu, one before the Close item and the other after the Close item.\n\n```\n// Insert after the \"Close\" item (the default behavior)\napp.addMenuItem( { cName: \"myItem1\", cUser: \"My Item 1\", cParent:\n    \"File\", cExec: \"_myProc1()\", nPos: \"Close\"});\n// Insert before the \"Close\" item, set bPrepend to true.\napp.addMenuItem( { cName: \"myItem2\", cUser: \"My Item 2\", cParent:\n    \"File\", cExec: \"_myProc2()\", nPos: \"Close\", bPrepend: true });\n```"
+}

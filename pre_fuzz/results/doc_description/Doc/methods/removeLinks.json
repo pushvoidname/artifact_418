@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "removeLinks",
+  "API_Type": "Method",
+  "API_Description": "If the user has permission to remove links from the document, removes all the links on the specified page within the specified coordinates",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based index of the page from which to remove links."
+    },
+    "oCoords": {
+      "description": "An array of four numbers in rotated user space, the coordinates of a rectangle listed in the following order: upper-left x, upper-left y, lower-right x, and lower-right y ."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Remove all links from the document.\n\n```\n// Remove all links from the document\nfor ( var p = 0; p < this.numPages; p++)\n{\n    var b = this.getPageBox(\"Crop\", p);\n    this.removeLinks(p, b);\n}\n```\n\nUse `getLinks` to help count the number of links removed."
+  ]
+}

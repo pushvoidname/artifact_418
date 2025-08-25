@@ -1,0 +1,12 @@
+{
+    "Object": "Field",
+    "API_Name": "setAction",
+    "API_Type": "method",
+    "Return_Type": "void",
+    "Scripts_Arg": [
+        "cScript"
+    ],
+    "Actions_Arg": [
+        "cTrigger"
+    ]
+}

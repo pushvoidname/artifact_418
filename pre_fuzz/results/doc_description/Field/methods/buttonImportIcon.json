@@ -1,0 +1,23 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonImportIcon",
+  "API_Type": "Method",
+  "API_Description": "Imports the appearance of a button from another PDF file. If neither optional parameter is passed, the user is prompted to select a file.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cPath": {
+      "description": "(optional, Acrobat 5.0) The device-independent path for the file.  Beginning with Acrobat 6.0, Acrobat first attempts to open cPath as a PDF file. On failure, Acrobat tries to convert the file to PDF from one of the known graphics formats (BMP, GIF, JPEG, PCX, PNG, TIFF) and then import the converted file as a button icon."
+    },
+    "nPage": {
+      "description": "(optional, Acrobat 5.0) The 0-based page number from the file to turn into an icon. The default is 0."
+    }
+  },
+  "Returns": "An integer, as follows:\n\n*  1 : The user cancelled the dialog\n\n*  0 : No error\n\n*  -1 : The selected file could not be opened\n\n*  -2 : The selected page was invalid",
+  "Examples": [
+    "(Acrobat 5.0)**\n\nIt is assumed that we are connected to an employee information database. We communicate with the database using the `ADBC` object and related objects. An employee\u2019s record is requested and three columns are utilized, , , and . The column, from the database, contains a device-independent path to the employee\u2019s picture, stored in PDF format. The script might look like this:\n\n```\nvar f = this.getField(\"myPicture\");\nf.buttonSetCaption(row.FirstName.value + \" \" + row.LastName.value);\nif (f.buttonImportIcon(row.Picture.value) != 0)\n    f.buttonImportIcon(\"/F/employee/pdfs/NoPicture.pdf\");\n```\n\nThe button field \u201cmyPicture\u201d has been set to display both icon and caption. The employee\u2019s first and last names are concatenated to form the caption for the picture. Note that if there is an error in retrieving the icon, a substitute icon can be imported."
+  ],
+  "Example (Acrobat 5.0)": "It is assumed that we are connected to an employee information database. We communicate with the database using the `ADBC` object and related objects. An employee\u2019s record is requested and three columns are utilized, , , and . The column, from the database, contains a device-independent path to the employee\u2019s picture, stored in PDF format. The script might look like this:\n\n```\nvar f = this.getField(\"myPicture\");\nf.buttonSetCaption(row.FirstName.value + \" \" + row.LastName.value);\nif (f.buttonImportIcon(row.Picture.value) != 0)\n    f.buttonImportIcon(\"/F/employee/pdfs/NoPicture.pdf\");\n```\n\nThe button field \u201cmyPicture\u201d has been set to display both icon and caption. The employee\u2019s first and last names are concatenated to form the caption for the picture. Note that if there is an error in retrieving the icon, a substitute icon can be imported."
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "addWeblinks",
+  "API_Type": "Method",
+  "API_Description": "Scans the specified pages looking for instances of text with an `http:` scheme and converts them into links with URL actions.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages. If nStart and nEnd are not specified, the range of pages is for all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages. If nStart and nEnd are not specified, the range of pages is for all pages in the document. If only nEnd is specified, the range of a pages is 0 to nEnd."
+    }
+  },
+  "Returns": "The number of web links added to the document.",
+  "Examples": [
+    "Search the entire document and convert all content that appears to be a web address into a web link. Report back the number of links created.\n\n```\nvar numWeblinks = this.addWeblinks();\nconsole.println(\"There were \" + numWeblinks +\n\n     \" instances of text that looked like a web address,\"\n\n     +\" and converted as such.\");\n```"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "cursor",
+    "API_Name": "delay",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "unknown"
+    }
+}

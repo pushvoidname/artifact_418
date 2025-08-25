@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFParseDateEx",
+    "API_Type": "Method",
+    "API_Description": "Parses a date string according to a specified format and returns a Date object.",
+    "API_Description_Reason": "The method name 'AFParseDateEx' suggests it is an extended version of a date parsing function, likely converting a string representation of a date into a Date object.",
+    "Returns": "A Date object representing the parsed date.",
+    "Returns_Reason": "The method is expected to return a Date object because it is parsing a date string, which typically results in a Date object in programming contexts.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string representing the date to be parsed, possibly including format specifiers.",
+            "description_reason": "The parameter is likely a string because the method is parsing a date, which usually involves converting a string representation of a date into a Date object.",
+            "type": "string",
+            "type_reason": "Date parsing functions typically take a string as input to convert it into a Date object."
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "TTS",
+    "API_Name": "qTone",
+    "API_Type": "Method",
+    "API_Description": "Generates a tone or sound effect using the Text-To-Speech engine.",
+    "API_Description_Reason": "The method name 'qTone' suggests it is related to generating a tone or sound. Given the context of the TTS object, it likely uses the TTS engine to produce this sound.",
+    "Returns": "A boolean indicating success or failure of generating the tone.",
+    "Returns_Reason": "Methods that perform an action often return a boolean to indicate whether the action was successful, especially when no other return value is obvious.",
+    "Parameters": {}
+}

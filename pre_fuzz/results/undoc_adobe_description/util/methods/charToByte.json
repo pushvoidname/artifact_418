@@ -1,0 +1,17 @@
+{
+    "Object": "util",
+    "API_Name": "charToByte",
+    "API_Type": "Method",
+    "API_Description": "Converts a string of characters into a byte array.",
+    "API_Description_Reason": "The method name 'charToByte' suggests a conversion from characters to bytes, which is a common utility function for encoding strings.",
+    "Returns": "An array of bytes representing the encoded string.",
+    "Returns_Reason": "The method likely returns a byte array as it is converting a string into its byte representation.",
+    "Parameters": {
+        "cStr": {
+            "description": "The string of characters to be converted into a byte array.",
+            "description_reason": "The parameter name 'cStr' implies it is a string input, which is to be converted to bytes.",
+            "type": "string",
+            "type_reason": "The parameter is expected to be a string as it represents characters that need to be converted to bytes."
+        }
+    }
+}

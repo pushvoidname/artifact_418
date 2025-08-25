@@ -1,0 +1,10 @@
+{
+  "object": "Doc",
+  "apiName": "Doc",
+  "apiType": "Object",
+  "apiDescription": "This object provides the interface between a PDF document open in the viewer and the JavaScript interpreter. It provides methods and properties for accessing the PDF document. You can access the Doc object from JavaScript in a variety of ways: * The `this` object usually points to the Doc object of the underlying document. * Some properties and methods, such as `extractPages` , `app.activeDocs` , and `app.openDoc` , return the Doc object. * The Doc object can often be accessed through `event` objects, which are created for each event by which a JavaScript is executed: **Example 1: Access through this object** Use `this` to get the number of pages in this document: ``` var nPages = this.numPages; // Get the crop box for \"this\" document: var aCrop = this.getPageBox(); ``` **Example 2: Access through return values** **Returns** values from one document to open, modify, save and close another. ``` // Path relative to \"this\" doc: var myDoc = app.openDoc(\"myNovel.pdf\", this); myDoc.info.Title = \"My Great Novel\"; myDoc.saveAs(myDoc.path); myDoc.closeDoc(true); ``` **Example 3: Access through the event object.** For mouse, calculate, validate, format, focus, and blur events: ``` var myDoc = event.target.doc; ``` For all other events (for example, batch or console events): ``` var myDoc = event.target; ```",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

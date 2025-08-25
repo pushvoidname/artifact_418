@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getSound",
+    "API_Type": "method",
+    "Return_Type": "Sound",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

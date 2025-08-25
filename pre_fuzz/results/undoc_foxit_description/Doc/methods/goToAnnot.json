@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "goToAnnot",
+    "API_Type": "Method",
+    "API_Description": "Navigates to a specific annotation within the PDF document.",
+    "API_Description_Reason": "The method name 'goToAnnot' suggests functionality related to navigating or jumping to a specific annotation within the document.",
+    "Returns": "A boolean indicating whether the navigation to the annotation was successful.",
+    "Returns_Reason": "Navigation methods typically return a boolean to indicate success or failure of the operation.",
+    "Parameters": {
+        "nPageNum": {
+            "description": "The 0-based index of the page containing the annotation to navigate to.",
+            "description_reason": "Page numbers are commonly used to specify the location of content within a document.",
+            "type": "number",
+            "type_reason": "Page numbers are typically represented as numbers."
+        },
+        "cAnnotName": {
+            "description": "The name or identifier of the annotation to navigate to.",
+            "description_reason": "Annotations are often identified by a unique name or ID within a document.",
+            "type": "string",
+            "type_reason": "Names or identifiers are usually represented as strings."
+        }
+    }
+}

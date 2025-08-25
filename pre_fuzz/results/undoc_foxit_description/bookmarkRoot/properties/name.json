@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "name",
+    "API_Type": "Property",
+    "API_Description": "Represents the name of the bookmark root.",
+    "API_Description_Reason": "The 'name' property typically refers to a label or identifier for an object, and in the context of a bookmark root, it likely represents the name or title of the bookmark.",
+    "Returns": "A string representing the name of the bookmark root.",
+    "Returns_Reason": "The 'name' property is commonly a string that provides a human-readable identifier or label for an object.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the 'name' property.",
+            "description_reason": "The 'type' parameter is used to specify the data type of the property, which is typically a string for a 'name' property.",
+            "type": "string",
+            "type_reason": "The 'name' property is usually a string, as it represents a textual identifier or label."
+        }
+    }
+}

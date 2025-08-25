@@ -1,0 +1,8 @@
+{
+    "Object": "event",
+    "API_Name": "change",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "string"
+    }
+}

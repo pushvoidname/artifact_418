@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "richContents",
+  "API_Type": "Properties",
+  "API_Description": "This property gets the text contents and formatting of an annotation. The rich text contents are represented as an array of `Span` objects containing the text contents and formatting of the annotation. **Annotations** : All except Sound, FileAttachment",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "Array of Span objects",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a text annotation and give it some rich text contents.\n\n```\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"Text\",\n    point: [72,500],\n    popupRect: [72, 500,6*72,500-2*72],\n    popupOpen: true,\n    noteIcon: \"Help\"\n});\n\nvar spans = new Array();\nspans[0] = new Object();\nspans[0].text = \"Attention:r\";\nspans[0].textColor = color.blue;\nspans[0].textSize = 18;\n\nspans[1] = new Object();\nspans[1].text = \"Adobe Acrobat 6.0r\";\nspans[1].textColor = color.red;\nspans[1].textSize = 20;\nspans[1].alignment = \"center\";\n\nspans[2] = new Object();\nspans[2].text = \"will soon be here!\";\nspans[2].textColor = color.green;\nspans[2].fontStyle = \"italic\";\nspans[2].underline = true;\nspans[2].alignment = \"right\";\n\n// Now give the rich field a rich value\nannot.richContents = spans;\n```\n\nSee also the Field object method and the `event` object methods , richChange , and richChangeEx for examples of using the `Span` object."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "TTS",
+  "API_Name": "talk",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "```\ntts.qText(\"Hello there!\");\ntts.talk();\n```"
+  ]
+}

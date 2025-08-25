@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "encryptDocument",
+    "API_Type": "Method",
+    "API_Description": "Encrypts the current document using a specified encryption algorithm and settings.",
+    "API_Description_Reason": "The method name 'encryptDocument' suggests that it is used to apply encryption to a document, which is a common operation in document management systems to ensure data security.",
+    "Returns": "A boolean indicating whether the encryption was successful.",
+    "Returns_Reason": "Encryption methods typically return a success status to indicate whether the operation was completed successfully or if there was an error.",
+    "Parameters": {}
+}

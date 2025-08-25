@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "submitName",
+  "API_Type": "Properties",
+  "API_Description": "If nonempty, used during form submission instead of name . Only applicable if submitting in HTML format (that is, URL-encoded). **Fields** all",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": []
+}

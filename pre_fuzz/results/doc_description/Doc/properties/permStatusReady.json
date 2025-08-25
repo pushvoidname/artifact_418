@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "permStatusReady",
+  "API_Type": "Properties",
+  "API_Description": "A Boolean value specifying whether the permissions for this document have been resolved. When downloading over a network connection, `false` can indicate that the document is not available, in the case where permissions must be determined based on an certification signature that covers the entire document.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "cAttachmentPath",
+  "API_Type": "Properties",
+  "API_Description": "(Optional) Represents the device-independent path of the file to be attached. If this property is not set, the user is prompted to select a data file using the File Open dialog box. This property does not apply to annotation types other than `FileAttachment` . See the PDF Reference for additional details. **Annotations** : FileAttachment",
+  "Version_Key": "11.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "W",
+  "Examples": [
+    "Example:\n\n```\nvar annot = this.addAnnot({\n       page: 0,\n       type: \"FileAttachment\",\n       point: [400,500],\n       author: \"A. C. Robat\",\n       contents: \"Call Smith to get help on this paragraph.\",\n       cAttachmentPath: \"/d/a.pdf\"\n   });\n```"
+  ]
+}

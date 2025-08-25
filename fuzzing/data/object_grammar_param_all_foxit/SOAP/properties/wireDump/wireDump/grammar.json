@@ -1,0 +1,14 @@
+[
+    [
+        "WIRE_DUMP",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

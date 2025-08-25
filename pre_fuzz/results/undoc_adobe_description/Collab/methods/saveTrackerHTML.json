@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "saveTrackerHTML",
+    "API_Type": "Method",
+    "API_Description": "Saves the provided HTML string to the collaboration tracker.",
+    "API_Description_Reason": "The method name 'saveTrackerHTML' suggests that it is responsible for saving HTML content related to a collaboration tracker.",
+    "Returns": "A boolean indicating whether the HTML was successfully saved.",
+    "Returns_Reason": "Methods that perform save operations typically return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cHTMLString": {
+            "description": "The HTML content to be saved to the collaboration tracker.",
+            "description_reason": "The parameter name 'cHTMLString' implies that it is a string containing HTML content.",
+            "type": "string",
+            "type_reason": "The parameter is expected to be a string as it represents HTML content, which is typically in string format."
+        }
+    }
+}

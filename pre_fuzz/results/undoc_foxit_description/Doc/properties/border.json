@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "border",
+    "API_Type": "Property",
+    "API_Description": "Specifies the border style and width for annotations or form fields within the PDF document.",
+    "API_Description_Reason": "The term 'border' typically refers to the visual boundary or outline of an element, such as an annotation or form field, within a document. In the context of a PDF, it is likely used to define the appearance of these elements.",
+    "Returns": "An object or value representing the border style and width settings.",
+    "Returns_Reason": "Since 'border' is a property, it likely returns a value or object that describes the border's characteristics, such as style, width, and possibly color.",
+    "Parameters": {
+        "type": {
+            "description": "The type of border, which may include style and width settings.",
+            "description_reason": "The parameter 'type' suggests that it defines the kind of border applied, which could include attributes like style (solid, dashed) and width.",
+            "type": "unknown",
+            "type_reason": "The exact type is unspecified, but it is likely a string or object that encapsulates border attributes."
+        }
+    }
+}

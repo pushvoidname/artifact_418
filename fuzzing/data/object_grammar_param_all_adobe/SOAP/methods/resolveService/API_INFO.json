@@ -1,0 +1,10 @@
+{
+    "Object": "SOAP",
+    "API_Name": "resolveService",
+    "API_Type": "method",
+    "Return_Type": "ServiceQuery",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "oResult"
+    ]
+}

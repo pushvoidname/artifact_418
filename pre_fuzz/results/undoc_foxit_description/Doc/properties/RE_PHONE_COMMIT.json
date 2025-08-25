@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_PHONE_COMMIT",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used for validating phone number input upon form submission.",
+    "API_Description_Reason": "The name 'RE_PHONE_COMMIT' suggests it is a regular expression (RE) used for phone number validation at the commit stage, which typically refers to form submission or data entry finalization.",
+    "Returns": "A string representing the regular expression pattern for phone number validation.",
+    "Returns_Reason": "Since it is a property likely holding a regular expression, it would return a string pattern used for validation purposes.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the regular expression pattern.",
+            "description_reason": "The parameter 'type' is likely indicating the data type of the property value, which is a regular expression pattern.",
+            "type": "string",
+            "type_reason": "Regular expressions are typically represented as strings in JavaScript, hence the type is assumed to be a string."
+        }
+    }
+}

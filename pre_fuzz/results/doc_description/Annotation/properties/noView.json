@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "noView",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the annotation is hidden, but if the annotation has an appearance, that appearance should be used for printing only. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the toggleNoView property."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "doCaption",
+  "API_Type": "Properties",
+  "API_Description": "**Annotations** : Line",
+  "Version_Key": "7.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the example following the points property."
+  ]
+}

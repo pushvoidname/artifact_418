@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getNumberOfReviewsOnServer",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the number of reviews available on the specified server.",
+    "API_Description_Reason": "The method name suggests it returns a count of reviews from a server, which is a common operation in collaboration systems to track or manage reviews.",
+    "Returns": "The number of reviews on the specified server as an integer.",
+    "Returns_Reason": "The method is expected to return a count, which is typically represented as an integer.",
+    "Parameters": {
+        "cServer": {
+            "description": "The identifier or URL of the server from which to retrieve the number of reviews.",
+            "description_reason": "The parameter name 'cServer' implies it is used to specify the server, which is necessary to determine where to count the reviews.",
+            "type": "string",
+            "type_reason": "Server identifiers or URLs are commonly represented as strings."
+        }
+    }
+}

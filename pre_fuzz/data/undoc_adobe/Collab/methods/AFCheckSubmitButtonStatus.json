@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "AFCheckSubmitButtonStatus",
+    "API_Type": "method",
+    "Parameters": {
+        "cPlatformPath": "string"
+    }
+}

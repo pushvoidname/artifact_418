@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "movePage",
+    "API_Type": "Method",
+    "API_Description": "Moves a page from one position to another within the document.",
+    "API_Description_Reason": "The method name 'movePage' suggests functionality related to changing the position of a page within the document.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action like moving a page return a boolean to indicate whether the operation was successful.",
+    "Parameters": {
+        "nPage": {
+            "description": "The 0-based index of the page to move.",
+            "description_reason": "To move a page, the method needs to know which page to move, hence an index is required.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        },
+        "nLocation": {
+            "description": "The 0-based index of the new location for the page.",
+            "description_reason": "The method needs to know where to move the page, so a target index is necessary.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        }
+    }
+}

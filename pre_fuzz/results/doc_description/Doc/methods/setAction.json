@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "setAction",
+  "API_Type": "Method",
+  "API_Description": "Sets the JavaScript action of the document for a given trigger.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cTrigger": {
+      "description": "The name of the trigger point to which to attach the action. Values are:  WillClose WillSave DidSave WillPrint DidPrint"
+    },
+    "cScript": {
+      "description": "The JavaScript expression to be executed when the trigger is activated."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Insert `WillSave` and `DidSave` actions. The code gets the file size before saving and after saving, and compares the two.\n\n```\n// WillSave script\nvar myWillSave = 'var filesizeBeforeSave = this.filesize;r'\n    + 'console.println(\"File size before saving is \" + '\n    + ' filesizeBeforeSave );';\n\n// DidSave script\nvar myDidSave =  'var filesizeAfterSave = this.filesize;r'\n    + 'console.println(\"File size after saving is \"'\n\n     + 'filesizeAfterSave);r'\n    + 'var difference = filesizeAfterSave - filesizeBeforeSave;r'\n    + 'console.println(\"The difference is \" + difference );r'\n    + 'if ( difference < 0 )rt'\n    + 'console.println(\"Reduced filesize!\");r'\n    + 'elsert'\n    + 'console.println(\"Increased filesize!\");'\n\n// Set document actions...\nthis.setAction(\"WillSave\", myWillSave);\nthis.setAction(\"DidSave\", myDidSave);\n```"
+  ]
+}

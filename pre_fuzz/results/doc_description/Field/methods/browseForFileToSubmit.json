@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "browseForFileToSubmit",
+  "API_Type": "Method",
+  "API_Description": "If invoked on a text field for which the `fileSelect` flag is set (checked), opens a standard file-selection dialog box. The path entered through the dialog box is automatically assigned as the value of the text field.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "The following code references a text field with the file select flag checked. It is a mouse-up action of a button field.\n\n```\nvar f = this.getField(\"resumeField\");\nf.browseForFileToSubmit();\n```"
+  ]
+}

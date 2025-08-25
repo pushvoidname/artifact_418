@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "embedOutputIntent",
+  "API_Type": "Method",
+  "API_Description": "Embeds a color profile as a PDF/X Output Intent (see the PDF Reference ).",
+  "Version": "8.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Acrobat",
+  "Parameters": {
+    "outputIntentColorSpace": {
+      "description": "A string containing the description of the profile to use for the output intent. A list of available color profiles can be obtained from the printColorProfiles property of the app object."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Embed a color profile.\n\n```\nthis.embedOutputIntent(\"U.S. Sheetfed Coated v2\")\n```"
+  ]
+}

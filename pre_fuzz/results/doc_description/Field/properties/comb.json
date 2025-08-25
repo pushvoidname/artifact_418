@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "comb",
+  "API_Type": "Properties",
+  "API_Description": "If set to `true` , the field background is drawn as series of boxes (one for each character in the value of the field) and each character of the content is drawn within those boxes. The number of boxes drawn is determined from the `charLimit` property. It applies only to text fields. The setter will also raise if any of the following field properties are also set `multiline` , `password` , and `fileSelect` . A side-effect of setting this property is that the `doNotScroll` property is also set. **Fields** `text`",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a comb field in the upper left corner of a newly created document.\n\n```\nvar myDoc = app.newDoc();                 // Create a blank doc\nvar Bbox = myDoc.getPageBox(\"Crop\");      // Get crop box\nvar inch = 72;\n\n// Add a text field at the top of the document\nvar f = myDoc.addField(\"Name.Last\", \"text\", 0,\n    [ inch, Bbox[1]-inch, 3*inch, Bbox[1]- inch - 14 ] );\n// Add some attributes to this text field\nf.strokeColor = color.black;\nf.textColor = color.blue;\nf.fillColor = [\"RGB\",1,0.66,0.75];\n\nf.comb = true;                            // Declare this is a comb field\nf.charLimit = 10;                         // Max number of characters\n```"
+  ]
+}

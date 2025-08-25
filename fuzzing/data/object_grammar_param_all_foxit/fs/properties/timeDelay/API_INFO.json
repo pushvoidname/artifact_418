@@ -1,0 +1,8 @@
+{
+    "Object": "fs",
+    "API_Name": "timeDelay",
+    "API_Type": "property",
+    "Return_Type": "Number",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

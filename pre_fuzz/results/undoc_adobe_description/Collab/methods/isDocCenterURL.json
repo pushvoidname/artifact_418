@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "isDocCenterURL",
+    "API_Type": "Method",
+    "API_Description": "Determines if the provided URL is a valid Document Center URL.",
+    "API_Description_Reason": "The method name 'isDocCenterURL' suggests it checks whether a given URL corresponds to a Document Center, which is likely a specific type of URL used within the collaboration functionality.",
+    "Returns": "A boolean indicating whether the URL is a Document Center URL.",
+    "Returns_Reason": "The method name 'isDocCenterURL' implies a true or false result, which is typical for methods that check a condition or validate input.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL to be checked if it is a Document Center URL.",
+            "description_reason": "The parameter name 'cURL' suggests it is a string representing a URL, which the method will evaluate.",
+            "type": "string",
+            "type_reason": "URLs are typically represented as strings, and the parameter name 'cURL' indicates it is a string input."
+        }
+    }
+}

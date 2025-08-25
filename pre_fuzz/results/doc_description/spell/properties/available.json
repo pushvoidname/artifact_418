@@ -1,0 +1,15 @@
+{
+  "Object": "spell",
+  "API_Name": "available",
+  "API_Type": "Properties",
+  "API_Description": "`true` if the `spell` object is available.",
+  "Version_Key": "5.0.  For Adobe Reader, 7.0 or later.",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\nconsole.println(\"Spell checking available: \" + spell.available);\n```"
+  ]
+}

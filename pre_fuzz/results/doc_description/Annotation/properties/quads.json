@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "quads",
+  "API_Type": "Properties",
+  "API_Description": "An array of 8 x numbers specifying the coordinates of quadrilaterals in default user space. Each quadrilateral encompasses a word or group of contiguous words in the text underlying the annotation. See the PDF Reference for more details. The `quads` for a word can be obtained through calls to the Doc object `getPageNthWordQuads` method. **Annotations** : Highlight, StrikeOut, Underline, Squiggly,Redact",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the Doc object getPageNthWordQuads method."
+  ]
+}

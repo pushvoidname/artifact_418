@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "hidden",
+  "API_Type": "Properties",
+  "API_Description": "This property is `true` if the document\u2019s window is hidden. A window may be hidden, for example, because it is being operated on in batch mode or if it was explicitly opened hidden. The `openDataObject` and `app.openDoc` methods can be used to open a document with a hidden window.",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": [
+    "Example: Open a document and verify its hidden status.\n\n```\noDoc = app.openDoc({\n    cPath:\"/C/myDocs/myHidden.pdf\",\n    bHidden: true\n});\nconsole.println(\"It is \" + oDoc.hidden + \" that this document hidden.\");\noDoc.closeDoc();\n```"
+  ]
+}

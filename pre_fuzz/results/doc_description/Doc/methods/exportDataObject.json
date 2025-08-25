@@ -1,0 +1,30 @@
+{
+  "Object": "Doc",
+  "API_Name": "exportDataObject",
+  "API_Type": "Method",
+  "API_Description": "Extracts the specified data object to an external file.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the data object to extract."
+    },
+    "cDIPath": {
+      "description": "(optional) A device-independent path to which to extract the data object. This path may be absolute or relative to the current document. If not specified, the user is prompted to specify a save location.  -  (Acrobat 6.0) The use of this parameter is no longer supported and should not be used. See the security notes above."
+    },
+    "bAllowAuth": {
+      "description": "(optional, Acrobat 6.0) If true, a dialog box is used to obtain user authorization. Authorization may be required if the data object was encrypted using the encryptForRecipients method. Authorization dialog boxes are allowed if bAllowAuth is true. The default value is false."
+    },
+    "nLaunch": {
+      "description": "(optional, Acrobat 6.0) nLaunch controls whether the file is launched, or opened, after it is saved. Launching may involve opening an external application if the file is not a PDF file. The values of nLaunch are:  -  If the value is 0, the file will not be launched after it is saved.  -  If the value is 1, the file will be saved and then launched. Launching will prompt the user with a security alert warning if the file is not a PDF file. The user will be prompted for a save path.  -  If the value is 2, the file will be saved and then launched. Launching will prompt the user with a security alert warning if the file is not a PDF file. A temporary path is used, and the user will not be prompted for a save path. The temporary file that is created will be deleted by Acrobat upon application shutdown.   The default value is 0."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Prompt the user for a file and location to extract to.\n\n```\nthis.exportDataObject(\"MyData\");\n```\n\n**Example 2 (Acrobat 6.0)**\n\nExtract a PDF document and launch it in the viewer.\n\n```\nthis.exportDataObject({ cName: \"MyPDF.pdf\", nLaunch: 2 });\n```",
+    "When a file attachment is imported using the `importDataObject` method, the value of its `Data.name` property is assigned by that method\u2019s `cName` parameter. However, when a file is attached using the UI, its `name` is automatically assigned. The attachments are assigned the sequential names \u201cUntitled Object\u201d, \u201cUntitled Object 2\u201d, \u201cUntitled Object 3\u201d, and so on.\n\nTo export a file attached through the UI, the `name` of the attachment must be found. For the code that follows, the last file attached by the UI, if any, is exported.\n\n```\nvar d = this.dataObjects;\nif ( d == null ) console.println(\"No file attachments\");\nelse {\n    for ( var i = d.length - 1; i>=0; i--)\n        if ( d[i].name.indexOf(\"Untitled Object\") != -1 ) break;\n    if ( i != -1 ) this.exportDataObject(d[i].name);\n    else console.println(\"No attachment was embedded by UI\");\n}\n```"
+  ],
+  "Example 2 (Acrobat 6.0)": "Extract a PDF document and launch it in the viewer.\n\n```\nthis.exportDataObject({ cName: \"MyPDF.pdf\", nLaunch: 2 });\n```"
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "mailForm",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "string"
+    }
+}

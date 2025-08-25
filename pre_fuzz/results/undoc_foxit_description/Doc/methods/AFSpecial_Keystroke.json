@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSpecial_Keystroke",
+    "API_Type": "Method",
+    "API_Description": "Handles special keystroke events for form fields, allowing for custom validation or formatting as the user types.",
+    "API_Description_Reason": "The name 'AFSpecial_Keystroke' suggests it is related to handling keystrokes, likely for special cases such as validation or formatting in form fields.",
+    "Returns": "A boolean indicating whether the keystroke is valid.",
+    "Returns_Reason": "Keystroke handling functions typically return a boolean to indicate whether the keystroke should be accepted or rejected.",
+    "Parameters": {
+        "unknown": {
+            "description": "A numeric parameter whose purpose is not documented, possibly representing a key code or a flag for the keystroke event.",
+            "description_reason": "The parameter is labeled as 'unknown', but given the context of keystroke handling, it might relate to key codes or event flags.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly described as a number, which aligns with typical representations of key codes or flags."
+        }
+    }
+}

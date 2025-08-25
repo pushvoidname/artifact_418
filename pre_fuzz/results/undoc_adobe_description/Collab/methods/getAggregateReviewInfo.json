@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "getAggregateReviewInfo",
+    "API_Type": "Method",
+    "API_Description": "Retrieves aggregated information about the reviews associated with the collaboration functionality.",
+    "API_Description_Reason": "The method name 'getAggregateReviewInfo' suggests that it gathers or retrieves comprehensive information about reviews, likely summarizing or compiling data from multiple reviews.",
+    "Returns": "An object containing aggregated review information.",
+    "Returns_Reason": "The method is expected to return a structured set of data, likely in the form of an object, that encapsulates the aggregated details of reviews, as implied by the method name.",
+    "Parameters": {}
+}

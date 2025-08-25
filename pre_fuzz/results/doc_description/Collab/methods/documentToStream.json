@@ -1,0 +1,17 @@
+{
+  "Object": "Collab",
+  "API_Name": "documentToStream",
+  "API_Type": "Method",
+  "API_Description": "Saves a copy of a Doc and returns the contents as a stream object.",
+  "Version": "7.0.5",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "oDocument": {
+      "description": "The Doc."
+    }
+  },
+  "Returns": "A `ReadStream` object.",
+  "Examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "runtimeHighlight",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the background color and hover color for form fields are shown.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "Acrobat Pro only",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: If run-time highlighting is off ( `false` ), do nothing, otherwise change the preferences.\n\n```\nif (!app.runtimeHighlight)\n{\n    app.runtimeHighlight = true;\n    app.runtimeHighlightColor = color.red;\n}\n```"
+  ]
+}

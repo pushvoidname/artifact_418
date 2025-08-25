@@ -1,0 +1,17 @@
+{
+    "Object": "RSS",
+    "API_Name": "update",
+    "API_Type": "Method",
+    "API_Description": "Updates the RSS feed with the provided cURL string.",
+    "API_Description_Reason": "The method likely updates an RSS feed, and the cURL parameter suggests it uses a URL or command to perform the update.",
+    "Returns": "A boolean indicating the success of the update operation.",
+    "Returns_Reason": "Typically, update methods return a success status, often as a boolean.",
+    "Parameters": {
+        "cURL": {
+            "description": "The cURL string used to update the RSS feed.",
+            "description_reason": "The parameter is named cURL, which suggests it is a string representing a URL or command for updating the feed.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, likely representing a URL or command."
+        }
+    }
+}

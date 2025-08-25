@@ -1,0 +1,22 @@
+{
+  "Object": "Annotation",
+  "API_Name": "transitionToState",
+  "API_Type": "Method",
+  "API_Description": "Sets the state of the annotation to `cState` by performing a state transition. The state transition is recorded in the audit trail of the annotation.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Parameters": {
+    "cStateModel": {
+      "description": "The state model in which to perform the state transition. cStateModel must have been previously added by calling the Collab method addStateModel."
+    },
+    "cState": {
+      "description": "A valid state in the state model to transition to."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Define a custom set of transition states, then set the state of an annotation.\n\n```\ntry {\n    // Create a document\n    var myDoc = app.newDoc();\n    // Create an annot\n    var myAnnot = myDoc.addAnnot\n    ({\n        page: 0,\n        type: \"Text\",\n        point: [300,400],\n        name: \"myAnnot\",\n    });\n    // Create the state model\n    var myStates = new Object();\n    myStates[\"initial\"] = {cUIName: \"Haven't reviewed it\"};\n    myStates[\"approved\"] = {cUIName: \"I approve\"};\n    myStates[\"rejected\"] = {cUIName: \"Forget it\"};\n    myStates[\"resubmit\"] = {cUIName: \"Make some changes\"};\n    Collab.addStateModel({\n        cName: \"ReviewStates\",\n        cUIName: \"My Review\",\n        oStates: myStates,\n        cDefault: \"initial\"\n    });\n} catch(e) { console.println(e); }\n// Change the states\nmyAnnot.transitionToState(\"ReviewStates\", \"resubmit\");\nmyAnnot.transitionToState(\"ReviewStates\", \"approved\");\n```"
+  ]
+}

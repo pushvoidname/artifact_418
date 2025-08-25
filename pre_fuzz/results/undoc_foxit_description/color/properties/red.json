@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "red",
+    "API_Type": "property",
+    "API_Description": "Represents the red color in the color object, typically used to set or compare color values.",
+    "API_Description_Reason": "The property is named 'red', which suggests it represents the color red. It is part of a set of color properties in the color object.",
+    "Returns": "An array representing the red color in a specific color space.",
+    "Returns_Reason": "Color properties in similar APIs usually return an array that defines the color in a specific color space, such as RGB or CMYK.",
+    "Parameters": {
+        "unknown": {
+            "description": "This parameter is not documented, but it might be used internally or reserved for future use.",
+            "description_reason": "The parameter is listed as 'unknown', indicating it is not documented or its purpose is not publicly defined.",
+            "type": "number",
+            "type_reason": "The parameter is specified as a number, which suggests it might be used for numerical operations or settings related to the color."
+        }
+    }
+}

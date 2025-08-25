@@ -1,0 +1,34 @@
+{
+  "Object": "Doc",
+  "API_Name": "mailForm",
+  "API_Type": "Method",
+  "API_Description": "Exports the form data and mails the resulting FDF file as an attachment to all recipients, with or without user interaction. The method does not support signed signature fields.",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "bUI": {
+      "description": "If true, the rest of the parameters are used in a compose-new-message window that is displayed to the user. If false, the cTo parameter is required and all others are optional.   -  (Acrobat 7.0) When this method is executed in a non-privileged context, the bUI parameter is not honored and defaults to true. See Privileged context."
+    },
+    "cTo": {
+      "description": "(required if bUI is true) A semicolon-delimited list of recipients for the message."
+    },
+    "cCc": {
+      "description": "(optional) A semicolon-delimited list of CC recipients for the message."
+    },
+    "cBcc": {
+      "description": "(optional) A semicolon-delimited list of BCC recipients for the message."
+    },
+    "cSubject": {
+      "description": "(optional) The subject of the message. The length limit is 64 KB."
+    },
+    "cMsg": {
+      "description": "(optional) The content of the message. The length limit is 64 KB."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Open the compose message window.\n\n```\nthis.mailForm(true);\n```\n\nSend the mail with the attached FDF file to `fun1@example.com` and `fun2@example.com` .\n\n```\nthis.mailForm(false, \"fun1@example.com; fun2@example.com\", \"\", \"\",\n    \"This is the subject\", \"This is the body of the mail.\");\n```"
+  ]
+}

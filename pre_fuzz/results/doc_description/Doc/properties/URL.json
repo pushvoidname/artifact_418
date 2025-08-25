@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "URL",
+  "API_Type": "Properties",
+  "API_Description": "The document\u2019s URL. If the document is local, it returns a URL with a `file:///` scheme for Windows and UNIX and `file://localhost/` for Mac OS. This may be different from the `baseURL` . See also the path and documentFileName properties.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": []
+}

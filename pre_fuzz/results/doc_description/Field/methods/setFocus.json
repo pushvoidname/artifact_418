@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "setFocus",
+  "API_Type": "Method",
+  "API_Description": "Sets the keyboard focus to this field. This can involve changing the page that the user is currently on or causing the view to scroll to a new position in the document. This method brings the document in which the field resides to the front, if it is not already there.",
+  "Version": "4.05",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Search for a certain open document, then focus on the field of interest. This script uses `app.activeDocs` , which requires the `disclosed` property of the documents to be `true` , or the script to be run during console, batch or menu events.\n\n```\nvar d = app.activeDocs;\nfor (var i = 0; i < d.length; i++) {\n    if (d[i].info.Title == \"Response Document\") {\n        d[i].getField(\"name\").value=\"Enter your name here: \"\n        // also brings the doc to front.\n        d[i].getField(\"name\").setFocus();\n        break;\n    }\n}\n```"
+  ]
+}

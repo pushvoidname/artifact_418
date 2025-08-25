@@ -1,0 +1,8 @@
+{
+    "Object": "Span",
+    "API_Name": "fontWeight",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "number"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "AP",
+  "API_Type": "Properties",
+  "API_Description": "The named appearance of the stamp to be used in displaying a stamp annotation. The names of the standard stamp annotations are given below: * Approved * AsIs * Confidential * Departmental * Draft * Experimental * Expired * Final * ForComment * ForPublicRelease * NotApproved * NotForPublicRelease * Sold * TopSecret **Annotations** : Stamp",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Programmatically add a stamp annotation.\n\n```\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"Stamp\",\n    author: \"A. C. Robat\",\n    name: \"myStamp\",\n    rect: [400, 400, 550, 500],\n    contents: \"Try it again, this time with order and method!\",\n    AP: \"NotApproved\" });\n```\n\n!! Note The name of a particular stamp can be found by opening the PDF file in the `Stamps` folder that contains the stamp in question. For a list of stamp names currently in use in the document, see the Doc object icons property."
+  ]
+}

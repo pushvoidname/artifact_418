@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "sync",
+    "API_Type": "Method",
+    "API_Description": "Synchronizes the collaboration state, updating the document and/or the store as specified.",
+    "API_Description_Reason": "The method name 'sync' suggests it is used to synchronize or update the state of the collaboration, possibly involving both the document and the store.",
+    "Returns": "A boolean indicating the success of the synchronization operation.",
+    "Returns_Reason": "Typically, a sync operation would return a success status to indicate whether the synchronization was completed successfully.",
+    "Parameters": {
+        "cUser": {
+            "description": "The user identifier for whom the synchronization is being performed.",
+            "description_reason": "The parameter name 'cUser' suggests it is related to a user, likely identifying which user's data or state is being synchronized.",
+            "type": "string",
+            "type_reason": "User identifiers are commonly represented as strings, which can include usernames or user IDs."
+        },
+        "bUpdateStore": {
+            "description": "A boolean flag indicating whether the store should be updated during the synchronization.",
+            "description_reason": "The parameter name 'bUpdateStore' implies a boolean value that determines if the store component should be updated.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix suggests a boolean type, which is commonly used for flags or toggles."
+        },
+        "bUpdateDoc": {
+            "description": "A boolean flag indicating whether the document should be updated during the synchronization.",
+            "description_reason": "The parameter name 'bUpdateDoc' implies a boolean value that determines if the document component should be updated.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix suggests a boolean type, which is commonly used for flags or toggles."
+        }
+    }
+}

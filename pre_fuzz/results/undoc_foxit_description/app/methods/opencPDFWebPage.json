@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "opencPDFWebPage",
+    "API_Type": "Method",
+    "API_Description": "Opens a PDF document from a specified web page URL.",
+    "API_Description_Reason": "The method name 'opencPDFWebPage' suggests that it is used to open a PDF document from a web page. The prefix 'open' indicates an action to access or display content, and 'cPDFWebPage' implies the content is a PDF from a web page.",
+    "Returns": "A boolean value indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action like opening a document return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {}
+}

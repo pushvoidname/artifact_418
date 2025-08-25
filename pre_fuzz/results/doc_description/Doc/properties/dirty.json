@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "dirty",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether the document needs to be saved as the result of a changes to the document. It is useful to reset the `dirty` flag when performing changes that do not warrant saving, such as updating a status field. !! Note If the document is temporary or newly created, setting `dirty` to `false` has no effect. That is, the user is still asked to save changes before closing the document. See requiresFullSave .",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "Not available in Reader",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example 1: Reset a form and sets `dirty` to `false` . After the reset, the user can close the document without having to dismiss a Save dialog box.\n\n```\nvar f = this.getField(\"MsgField\");\nf.value = \"You have made too many mistakes, I'm resetting the form. \"\n    + \"Start over, this time follow the directions!\";\nthis.resetForm();\nthis.dirty = false;\n```",
+    "Example 2: Fill a text field to instruct the user to complete the form. The script is constructed so that populating the field does not change the save state of the document.\n\n```\nvar f = this.getField(\"MsgField\");\nvar b = this.dirty;\nf.value = \"Please fill in the fields below.\";\nthis.dirty = b;\n```"
+  ]
+}

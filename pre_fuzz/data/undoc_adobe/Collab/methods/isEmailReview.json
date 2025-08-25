@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "isEmailReview",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object",
+        "bLax": "boolean"
+    }
+}

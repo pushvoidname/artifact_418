@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "convertDIPathToPlatformPath",
+    "API_Type": "method",
+    "Parameters": {
+        "cDIPath": "string",
+        "bResolveMounts": "boolean"
+    }
+}

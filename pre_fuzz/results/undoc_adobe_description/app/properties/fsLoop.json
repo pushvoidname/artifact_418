@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsLoop",
+    "API_Type": "property",
+    "API_Description": "A property that determines whether the full-screen mode presentation loops back to the beginning after reaching the end.",
+    "API_Description_Reason": "The name 'fsLoop' suggests it is related to looping functionality in full-screen mode, which is a common feature in presentation software to allow continuous playback.",
+    "Returns": "A boolean value indicating if the full-screen presentation will loop.",
+    "Returns_Reason": "Since the parameter type is boolean, it is logical that the property returns a boolean value to indicate the loop status.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set or get the loop status of the full-screen presentation.",
+            "description_reason": "The parameter 'type' being boolean suggests it is used to enable or disable the looping feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, indicating it is used to toggle a true/false state."
+        }
+    }
+}

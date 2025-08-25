@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_STARTUP_CONSOLE_MSG",
+    "API_Type": "Property",
+    "API_Description": "A property that holds a message displayed in the console during the startup of the application.",
+    "API_Description_Reason": "The name 'IDS_STARTUP_CONSOLE_MSG' suggests it is related to a message (MSG) shown in the console during startup (STARTUP). 'IDS' often stands for 'Identifier String', indicating a string resource.",
+    "Returns": "A string containing the startup console message.",
+    "Returns_Reason": "Since the property name includes 'MSG', it is likely to return a message, which is typically a string.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the message, which is expected to be a string.",
+            "description_reason": "The property is likely a string because it represents a message, which is usually textual.",
+            "type": "string",
+            "type_reason": "Messages are typically represented as strings in programming."
+        }
+    }
+}

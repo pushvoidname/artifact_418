@@ -1,0 +1,17 @@
+{
+    "Object": "constants",
+    "API_Name": "align",
+    "API_Type": "property",
+    "API_Description": "Specifies the alignment type for a given context, such as text or graphical elements.",
+    "API_Description_Reason": "The term 'align' typically refers to the arrangement or positioning of elements, suggesting that this property is used to define how elements are aligned.",
+    "Returns": "The alignment type value.",
+    "Returns_Reason": "As a property, 'align' likely returns a value that represents the alignment setting, such as 'left', 'center', or 'right'.",
+    "Parameters": {
+        "type": {
+            "description": "The type of alignment to be applied, which could include options like 'left', 'center', 'right', or other alignment types depending on the context.",
+            "description_reason": "The parameter 'type' suggests it defines the kind of alignment, which is a common requirement for alignment properties.",
+            "type": "string",
+            "type_reason": "Alignment types are typically represented as strings, such as 'left', 'center', or 'right'."
+        }
+    }
+}

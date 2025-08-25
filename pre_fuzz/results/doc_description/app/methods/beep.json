@@ -1,0 +1,17 @@
+{
+  "Object": "app",
+  "API_Name": "beep",
+  "API_Type": "Method",
+  "API_Description": "Causes the system to play a sound.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nType": {
+      "description": "(optional) The sound type. Values are associated with sounds as follows:"
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

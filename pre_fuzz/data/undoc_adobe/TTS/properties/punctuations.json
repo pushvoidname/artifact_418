@@ -1,0 +1,8 @@
+{
+    "Object": "tts",
+    "API_Name": "punctuations",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "string"
+    }
+}

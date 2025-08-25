@@ -1,0 +1,10 @@
+{
+    "Object": "util",
+    "API_Name": "charToByte",
+    "API_Type": "method",
+    "Return_Type": "Array[Number]",
+    "Scripts_Arg": [
+        "cStr"
+    ],
+    "Actions_Arg": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "useTimer",
+    "API_Type": "property",
+    "API_Description": "A boolean property that determines whether a timer is used within the context of the fs object.",
+    "API_Description_Reason": "The name 'useTimer' suggests a boolean property that enables or disables a timer feature. This is a common pattern for properties prefixed with 'use'.",
+    "Returns": "A boolean value indicating the current state of the timer usage.",
+    "Returns_Reason": "Since the parameter type is boolean, it is logical that the property returns a boolean value representing whether the timer is currently enabled or not.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set the timer usage. If true, the timer is enabled; if false, it is disabled.",
+            "description_reason": "The parameter 'type' is a boolean, which typically indicates a toggle or switch for enabling or disabling a feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly stated to be of type boolean, which is used for true/false values."
+        }
+    }
+}

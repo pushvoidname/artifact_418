@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "gotoPage",
+    "API_Type": "Method",
+    "API_Description": "Navigates to a specified page in the PDF document.",
+    "API_Description_Reason": "The method name 'gotoPage' suggests functionality related to navigating or moving to a specific page within the document.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely intended to perform an action (navigating to a page) without returning any value, as is common with navigation methods.",
+    "Parameters": {
+        "nPageNum": {
+            "description": "The 0-based index of the page to navigate to.",
+            "description_reason": "Navigation methods typically require a page number or index to specify the destination page.",
+            "type": "number",
+            "type_reason": "Page numbers or indices are usually represented as numbers, especially when referring to a specific position in a sequence."
+        }
+    }
+}

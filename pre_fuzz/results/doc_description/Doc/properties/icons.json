@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "icons",
+  "API_Type": "Properties",
+  "API_Description": "An array of named `Icon` objects that are present in the document-level named icons tree. If there are no named icons in the document, the property has a value of `null` . See also addIcon , getIcon , importIcon , removeIcon , the Field object properties buttonGetIcon , buttonImportIcon , buttonSetIcon , and the Icon object.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array  null",
+  "Access": "R",
+  "Examples": [
+    "Example 1: Report the number of named icons in the current document.\n\n```\nif (this.icons == null)\n    console.println(\"No named icons in this doc\");\nelse\n    console.println(\"There are \" + this.icons.length\n        + \" named icons in this doc\");\n```",
+    "Example 2: List all named icons the current document.\n\n```\nfor (var i = 0; i < this.icons.length; i++) {\n    console.println(\"icon[\" + i + \"]=\" + this.icons[i].name);\n}\n```"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "readOnly",
+  "API_Type": "Properties",
+  "API_Description": "**Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": []
+}

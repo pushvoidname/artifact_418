@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageNumWords",
+  "API_Type": "Method",
+  "API_Description": "Gets the number of words on the page.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    }
+  },
+  "Returns": "The number of words on the page.",
+  "Examples": [
+    "Count the number of words in a document\n\n```\nvar cnt=0;\nfor (var p = 0; p < this.numPages; p++)\n    cnt += getPageNumWords(p);\nconsole.println(\"There are \" + cnt + \" words in this doc.\");\n```\n\nSee `spell.` in checkWord for an additional example."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Thermometer",
+  "API_Name": "duration",
+  "API_Type": "Properties",
+  "API_Description": "Sets the value that corresponds to a full thermometer display. The thermometer is subsequently filled in by setting its `value` . The default duration is 100. Type | Access ------------- Number | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

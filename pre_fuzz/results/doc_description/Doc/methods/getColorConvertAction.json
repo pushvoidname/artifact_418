@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "getColorConvertAction",
+  "API_Type": "Method",
+  "API_Description": "Gets a colorConvertAction object that reflects default color conversion settings.",
+  "Version": "8.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Acrobat",
+  "Parameters": {},
+  "Returns": "A colorConvertAction object",
+  "Examples": [
+    "Get a colorConvertAction object, set it up to convert everything to RGB. (Note that we do not convert any alternate spaces, hence the \u201cspace type\u201d match is for anything but alternate spaces.)\n\n```\n// Get a color convert action\nvar toRGB = this.getColorConvertAction();\n\n// Set up the action for a conversion to RGB\ntoRGB.matchAttributesAny = -1;\ntoRGB.matchSpaceTypeAny = ~toRGB.constants.spaceFlags.AlternateSpace;\ntoRGB.matchIntent = toRGB.constants.renderingIntents.Any;\ntoRGB.convertProfile = \"Apple RGB\";\ntoRGB.convertIntent = toRGB.constants.renderingIntents.Document;\ntoRGB.embed = true;\ntoRGB.preserveBlack = false;\ntoRGB.useBlackPointCompensation = true;\ntoRGB.action = toRGB.constants.actions.Convert;\n\n// Convert the first page of the document\nvar result = this.colorConvertPage(0,[toRGB],[]);\n```"
+  ]
+}

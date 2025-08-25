@@ -1,0 +1,17 @@
+{
+    "Object": "identity",
+    "API_Name": "firstName",
+    "API_Type": "property",
+    "API_Description": "Represents the first name of the current user.",
+    "API_Description_Reason": "The property is named 'firstName', which typically refers to a user's given name.",
+    "Returns": "The first name of the user as a string.",
+    "Returns_Reason": "Since 'firstName' is a property that likely holds a user's given name, it is reasonable to assume it returns a string.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the firstName property.",
+            "description_reason": "The property is expected to store a user's first name, which is typically a string.",
+            "type": "string",
+            "type_reason": "Names are generally represented as strings in programming."
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "media",
+    "API_Name": "closeReason",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "unknown"
+    }
+}

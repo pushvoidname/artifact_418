@@ -1,0 +1,13 @@
+{
+  "Object": "TTS",
+  "API_Name": "speechRate",
+  "API_Type": "Properties",
+  "API_Description": "Sets the speed at which text will be spoken by the Text-To-Speech engine. The value for `speechRate` is expressed in number of words per minute.",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

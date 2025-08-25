@@ -1,0 +1,8 @@
+{
+    "Object": "search",
+    "API_Name": "docXMP",
+    "API_Type": "properties",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

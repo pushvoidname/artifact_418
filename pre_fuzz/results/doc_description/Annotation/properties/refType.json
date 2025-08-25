@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "refType",
+  "API_Type": "Properties",
+  "API_Description": "The reference type of the annotation. The property distinguishes whether `inReplyTo` indicates a plain threaded discussion relationship or a group relationship. Recognized values are \u201cR\u201d and \u201cGroup\u201d. See the PDF Reference for additional details. **Annotations** : All",
+  "Version_Key": "7.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,26 @@
+{
+  "Object": "Doc",
+  "API_Name": "setDataObjectContents",
+  "API_Type": "Method",
+  "API_Description": "Replaces the file attachment specified by the parameter `cName` with the contents of the `oStream` parameter.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "cName": {
+      "description": "The name associated with the Data object that is to be replaced with oStream."
+    },
+    "oStream": {
+      "description": "A ReadStream object representing the contents of the file attachment."
+    },
+    "cCryptFilter": {
+      "description": "(optional) The language-independent name of a crypt filter to use when encrypting this data object. This crypt filter must have previously been added to the document\u2019s list of crypt filters, using the addRecipientListCryptFilter method, otherwise, an exception will be thrown. The predefined Identity crypt filter can be used so that this data object is not encrypted in a file that is otherwise encrypted by the encryptForRecipients method."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "See getDataObjectContents .",
+    "This document has a file attachment named `Acrobat.xml` . The attachment is opened, the XML data is updated, then the new XML document is saved back to the attachment. It is possible to submit this XML file attachment. See the submitForm method. This example uses the XML data defined in the example following `XMLData.` applyXPath .\n\n```\n// Get the file stream object of the attachment\nvar Acrobat = this.getDataObjectContents(\"Acrobat.xml\");\n\n// Convert to a string\nvar cAcrobat = util.stringFromStream(Acrobat, \"utf-8\");\n\n// Parse this and get XFAObject\nvar myXML = XMLData.parse(cAcrobat,false);\n\n// Change the value of grandad's income\nmyXML.family.grandad.personal.income.value = \"300000\";\n\n// Save the XML document as a string, cAcrobat\nvar cAcrobat = myXML.saveXML('pretty');\n\n// Convert to a file stream\nvar Acrobat = util.streamFromString(cAcrobat, \"utf-8\");\n\n// Now \"update\" the attachment Acrobat.xml with this file stream\nthis.setDataObjectContents(\"Acrobat.xml\", Acrobat);\n```\n\nRelated objects, properties, and methods are dataObjects , getDataObject , openDataObject , createDataObject , importDataObject , getDataObjectContents , and removeDataObject , and the data object."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "app",
+    "API_Name": "sendEmail",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "string"
+    }
+}

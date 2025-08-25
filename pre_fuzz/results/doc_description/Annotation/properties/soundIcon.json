@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "soundIcon",
+  "API_Type": "Properties",
+  "API_Description": "The name of an icon to be used in displaying the sound annotation. A value of \u201cSpeaker\u201d is recognized. **Annotations** : Sound",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

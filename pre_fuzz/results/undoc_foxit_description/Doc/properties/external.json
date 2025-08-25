@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "external",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document is being viewed in an external viewer or application.",
+    "API_Description_Reason": "The term 'external' suggests a relationship with an external viewer or application, which is common in document viewing contexts.",
+    "Returns": "A boolean value indicating the external status of the document.",
+    "Returns_Reason": "Properties typically return a value representing their state or configuration. A boolean is a common return type for properties indicating a binary state, such as being external or not.",
+    "Parameters": {
+        "type": {
+            "description": "The type of external viewer or application, if applicable.",
+            "description_reason": "The parameter 'type' suggests a categorization or specification, which aligns with identifying the type of external viewer or application.",
+            "type": "unknown",
+            "type_reason": "The parameter type is listed as unknown, indicating that the specific data type or structure is not documented."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANSB_Type",
+    "API_Type": "property",
+    "API_Description": "Represents the type of annotation or object within the PDF document.",
+    "API_Description_Reason": "The name 'ANSB_Type' suggests it is related to the type of an annotation or object, as 'ANSB' could be an acronym related to annotations or objects within the document.",
+    "Returns": "A string indicating the type of annotation or object.",
+    "Returns_Reason": "Properties typically return a value that represents the state or characteristic of the object. In this case, 'ANSB_Type' likely returns a string that specifies the type of annotation or object.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of annotation or object being referenced.",
+            "description_reason": "The parameter 'type' is likely used to specify or filter the type of annotation or object, given the context of the property name.",
+            "type": "string",
+            "type_reason": "The parameter 'type' is expected to be a string as it likely represents a category or name of an annotation or object type."
+        }
+    }
+}

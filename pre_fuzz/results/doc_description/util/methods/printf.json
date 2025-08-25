@@ -1,0 +1,22 @@
+{
+  "Object": "util",
+  "API_Name": "printf",
+  "API_Type": "Method",
+  "API_Description": "Formats one or more arguments as a string according to a format string. It is similar to the C function of the same name. This method converts and formats incoming arguments into a result string according to a format string ( `cFormat` ).",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cFormat": {
+      "description": "The format string to use."
+    },
+    "arguments": {
+      "description": "The optional arguments(s) that contain the data to be inserted in place of the % tags specified in the first parameter, the format string. The number of optional arguments must be the same as the number of % tags."
+    }
+  },
+  "Returns": "A result string formatted as specified.",
+  "Examples": [
+    "Take an irrational number and display it using various formats of `util.printf` .\n\n```\nvar n = Math.PI * 100;\nconsole.clear();\nconsole.show();\nconsole.println(util.printf(\"Decimal format: %d\", n));\nconsole.println(util.printf(\"Hex format: %x\", n));\nconsole.println(util.printf(\"Float format: %.2f\", n));\nconsole.println(util.printf(\"String format: %s\", n));\n```\n\nThe output of the above script is as follows:\n\n```\nDecimal format: 314\nHex format: 13A\nFloat format: 314.16\nString format: 314.159265358979\n```"
+  ]
+}

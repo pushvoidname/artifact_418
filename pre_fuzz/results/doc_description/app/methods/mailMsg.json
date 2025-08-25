@@ -1,0 +1,34 @@
+{
+  "Object": "app",
+  "API_Name": "mailMsg",
+  "API_Type": "Method",
+  "API_Description": "Sends out an e-mail message with or without user interaction.",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "bUI": {
+      "description": "Indicates whether user interaction is required. If true, the remaining parameters are used to seed the compose-new-message window that is displayed to the user. If false, the cTo parameter is required and others are optional.   -  (Acrobat 7.0) When this method is executed in a non-privileged context, the bUI parameter is not honored and defaults to true. See Privileged context."
+    },
+    "cTo": {
+      "description": "A semicolon-separated list of addressees."
+    },
+    "cCc": {
+      "description": "(optional) A semicolon-separated list of CC addressees."
+    },
+    "cBcc": {
+      "description": "(optional) A semicolon-separated list of BCC addressees."
+    },
+    "cSubject": {
+      "description": "(optional) Subject line text. The length limit is 64 KB."
+    },
+    "cMsg": {
+      "description": "(optional) Mail message text. The length limit is 64 KB."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Open the compose new message window.\n\n```\napp.mailMsg(true);\n```\n\nSend the message to `fun1@example.com` and `fun2@example.com` .\n\n```\napp.mailMsg(false, \"fun1@example.com; fun2@example.com\", \"\", \"\",\n\"This is the subject\", \"This is the body of the mail.\");\n```\n\nIt is possible to compose a message containing form data.\n\n```\nvar cMyMsg = \"Below are the current budget figures:nn\";\ncMyMsg += \"Date Compiled: \" + this.getField(\"date\").value + \"n\";\ncMyMsg += \"Current Estimate: \" + this.getField(\"budget\").value + \"n\";\napp.mailMsg({\n    bUI: true,\n    cTo: \"myBoss@example.com\",\n    cSubject: \"The latest budget figures\",\n    cMsg: cMyMsg\n} );\n```"
+  ]
+}

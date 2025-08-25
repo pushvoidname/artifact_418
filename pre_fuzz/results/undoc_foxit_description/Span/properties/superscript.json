@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "superscript",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the text in the span is formatted as superscript.",
+    "API_Description_Reason": "The property name 'superscript' suggests it controls the superscript formatting of the text within the span.",
+    "Returns": "A boolean value indicating if the text is superscript.",
+    "Returns_Reason": "The parameter type is boolean, which implies the property returns a boolean value to indicate the presence or absence of superscript formatting.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set or get the superscript state of the text.",
+            "description_reason": "The parameter 'type' being boolean suggests it is used to toggle or check the superscript state.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, indicating it is used to represent a true or false state."
+        }
+    }
+}

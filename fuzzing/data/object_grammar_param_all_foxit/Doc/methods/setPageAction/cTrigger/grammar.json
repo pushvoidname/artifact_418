@@ -1,0 +1,18 @@
+[
+    [
+        "cTrigger",
+        "{TRIGGER_VALUE}"
+    ],
+    [
+        "TRIGGER_VALUE",
+        "{TRIGGER_OPTION}"
+    ],
+    [
+        "TRIGGER_OPTION",
+        "Open"
+    ],
+    [
+        "TRIGGER_OPTION",
+        "Close"
+    ]
+]

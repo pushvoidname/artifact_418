@@ -1,0 +1,13 @@
+{
+  "Object": "Span",
+  "API_Name": "fontStyle",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the text is drawn with an italic or oblique font. ``` italic normal ``` The default is `normal` .",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": []
+}

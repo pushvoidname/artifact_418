@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "ltGray",
+    "API_Type": "property",
+    "API_Description": "Represents the color light gray as an array of numbers, typically used in graphical contexts to set colors.",
+    "API_Description_Reason": "The name 'ltGray' suggests it is a shorthand for 'light gray', which is a common color used in design and graphics. As a property of the 'color' object, it likely provides a predefined color value.",
+    "Returns": "An array of numbers representing the light gray color in a specific color space, such as RGB.",
+    "Returns_Reason": "Color properties in graphical APIs often return an array of numbers that define the color in a specific color space. Since 'ltGray' is a color property, it is reasonable to assume it returns such an array.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number that might be used to adjust the shade or intensity of the light gray color.",
+            "description_reason": "The parameter is labeled as 'unknown', suggesting it might modify the default light gray color in some way, such as adjusting its intensity or shade.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly described as a number, indicating it is likely used for numerical adjustments or calculations related to the color."
+        }
+    }
+}

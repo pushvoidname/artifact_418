@@ -1,0 +1,10 @@
+{
+  "object": "Net",
+  "apiName": "Net",
+  "apiType": "Object",
+  "apiDescription": "The `Net` object allows for the discovery and access to networking services through a variety of protocols. The `Net` object forms a namespace for the networking services that currently exist in the global namespace (SOAP). The existing objects will be maintained for backwards-compatibility however any new services should use the new namespace.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

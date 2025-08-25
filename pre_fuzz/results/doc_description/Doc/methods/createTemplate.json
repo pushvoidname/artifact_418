@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "createTemplate",
+  "API_Type": "Method",
+  "API_Description": "!! Note In Adobe Reader 5.1 and later, this method was allowed with Advanced Form Features rights. Beginning with version 7.0 of Adobe Reader, this method is not allowed and will throw a `NotAllowedError` exception.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name to be associated with this page."
+    },
+    "nPage": {
+      "description": "(optional) The 0-based index of the page to operate on. The default is 0, the first page in the document."
+    }
+  },
+  "Returns": "The newly created `Template` object.",
+  "Examples": [
+    "Convert all pages beginning with page 2 to hidden templates. As the templates are hidden, `this.numPages` is updated to reflect that change in the number of (visible) pages. Notice that in the loop below, only page 2 is made a template and then hidden. The next page will become the new page 2.\n\n```\nnumNewTemplates = this.numPages - 2;\nfor ( var i = 0; i < numNewTemplates; i++)\n{\n    var t = this.createTemplate({cName:\"myTemplate\"+i, nPage:2 });\n    t.hidden = true;\n}\n```"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_NUMBER_COMMIT_COMMA_SEP",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used for validating or formatting numbers with a comma as the decimal separator.",
+    "API_Description_Reason": "The name 'RE_NUMBER_COMMIT_COMMA_SEP' suggests it is a regular expression (RE) related to numbers, specifically for committing or validating numbers with a comma separator.",
+    "Returns": "A string representing the regular expression pattern.",
+    "Returns_Reason": "Since it is a property likely representing a regular expression, it would return a string pattern used for matching or validating input.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value, which is a regular expression pattern.",
+            "description_reason": "The property is expected to hold a regular expression pattern, which is typically represented as a string.",
+            "type": "string",
+            "type_reason": "Regular expressions are usually defined as strings in JavaScript."
+        }
+    }
+}

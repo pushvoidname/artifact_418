@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "AVUMStartPayloadWrapper",
+    "API_Type": "Method",
+    "API_Description": "Initializes a payload wrapper for a specific event within a collaboration context.",
+    "API_Description_Reason": "The method name suggests it is related to starting or initializing a payload wrapper, likely for handling events in a collaboration setting.",
+    "Returns": "A boolean indicating the success of the payload initialization.",
+    "Returns_Reason": "Methods that start or initialize processes often return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cat": {
+            "description": "The category of the event for which the payload is being initialized.",
+            "description_reason": "The parameter name 'cat' is likely a shorthand for 'category', which is commonly used to classify events.",
+            "type": "string",
+            "type_reason": "Categories are typically represented as strings to allow for descriptive naming."
+        },
+        "subcat": {
+            "description": "The subcategory of the event, providing a more specific classification within the main category.",
+            "description_reason": "The parameter name 'subcat' suggests it is a subcategory, which provides further granularity within a category.",
+            "type": "string",
+            "type_reason": "Subcategories are usually strings to allow for detailed and specific naming."
+        },
+        "evnt": {
+            "description": "The specific event identifier for which the payload is being initialized.",
+            "description_reason": "The parameter 'evnt' likely stands for 'event', indicating the specific event being handled.",
+            "type": "string",
+            "type_reason": "Event identifiers are typically strings to allow for unique and descriptive naming."
+        }
+    }
+}

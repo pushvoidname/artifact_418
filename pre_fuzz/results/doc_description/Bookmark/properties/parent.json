@@ -1,0 +1,13 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "parent",
+  "API_Type": "Properties",
+  "API_Description": "The parent bookmark of the bookmark or `null` if the bookmark is the root bookmark. See also the children and bookmarkRoot properties.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object  null",
+  "Access": "R",
+  "Examples": []
+}

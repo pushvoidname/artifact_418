@@ -1,0 +1,19 @@
+{
+  "Object": "spell",
+  "API_Name": "customDictionaryExport",
+  "API_Type": "Method",
+  "API_Description": "Exports a custom dictionary to a new file that was opened using the spell methods `customDictionaryOpen` or `customDictionaryCreate` .",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "The dictionary name used when this dictionary was opened or created."
+    }
+  },
+  "Returns": "`true` if successful, `false` on failure. This method will fail if the user does not have sufficient file system permission.",
+  "Examples": [
+    "Export a custom dictionary, which can then be sent to other users. (See the example that follows customDictionaryCreate .)\n\n```\nspell.customDictionaryExport(\"JavaScript\");\n```"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "removePreflightAuditTrail",
+  "API_Type": "Method",
+  "API_Description": "Removes the current audit trail from the document.",
+  "Version": "9.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Acrobat",
+  "Parameters": {},
+  "Returns": "`true` if successfully removed, `false` otherwise.",
+  "Examples": []
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "getFormWorkflowInfo",
+    "API_Type": "method",
+    "Parameters": {
+        "cFormWorkflowID": "string"
+    }
+}

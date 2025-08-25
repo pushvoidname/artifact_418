@@ -1,0 +1,35 @@
+{
+    "Object": "security",
+    "API_Name": "importFromFile",
+    "API_Type": "Method",
+    "API_Description": "Imports security settings from a specified file.",
+    "API_Description_Reason": "The method name 'importFromFile' suggests that it is used to import settings or data from a file, and given the context of the 'security' object, it is likely related to importing security settings.",
+    "Returns": "A boolean indicating success or failure of the import operation.",
+    "Returns_Reason": "Methods that perform an import operation typically return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "cType": {
+            "description": "The type of security settings to import.",
+            "description_reason": "The parameter name 'cType' suggests it specifies the category or type of content being imported.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cType' indicates a string type, which is common for specifying types or categories."
+        },
+        "cDIPath": {
+            "description": "The file path from which to import the security settings.",
+            "description_reason": "The parameter name 'cDIPath' implies it is a path to a file, as 'Path' is commonly used to denote file paths.",
+            "type": "string",
+            "type_reason": "File paths are typically represented as strings."
+        },
+        "bUI": {
+            "description": "A boolean indicating whether to display a user interface during the import process.",
+            "description_reason": "The 'b' prefix in 'bUI' suggests a boolean type, and 'UI' implies it controls the display of a user interface.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix is a common convention for boolean types."
+        },
+        "cMsg": {
+            "description": "A message to display to the user during the import process.",
+            "description_reason": "The parameter name 'cMsg' suggests it is a message string, likely used for user communication during the import.",
+            "type": "string",
+            "type_reason": "The 'c' prefix indicates a string type, which is appropriate for messages."
+        }
+    }
+}

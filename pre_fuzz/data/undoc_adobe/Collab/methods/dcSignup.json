@@ -1,0 +1,14 @@
+{
+    "Object": "Collab",
+    "API_Name": "dcSignup",
+    "API_Type": "method",
+    "Parameters": {
+        "cEmail": "string",
+        "cPassword": "string",
+        "cFirstName": "string",
+        "cLastName": "string",
+        "cCountryCode": "string",
+        "cEmailPerm": "boolean",
+        "cConnectPerm": "boolean"
+    }
+}

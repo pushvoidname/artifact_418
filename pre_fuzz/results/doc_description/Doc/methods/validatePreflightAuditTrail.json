@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "validatePreflightAuditTrail",
+  "API_Type": "Method",
+  "API_Description": "Validates the current embedded audit trail.",
+  "Version": "9.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Acrobat",
+  "Parameters": {},
+  "Returns": "The validity status ofthe current embedded audit trail. Validity values are.\n\nValue | Description\n-------------------\n-1 | Not a signature field.\n0 | The signature is blank.\n1 | Unknown status.\n2 | The signature is invalid.\n3 | The signature of the document is valid but the identity of signer could not be verified.\n4 | The signature of the document is valid and the identity of signer is valid.",
+  "Examples": []
+}

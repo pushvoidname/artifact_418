@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getPageCount",
+    "API_Type": "Method",
+    "API_Description": "Returns the total number of pages in the PDF document.",
+    "API_Description_Reason": "The method name 'getPageCount' suggests that it retrieves the count of pages in the document, which is a common functionality for document objects.",
+    "Returns": "The total number of pages in the document as an integer.",
+    "Returns_Reason": "Since the method is expected to return a count, it is logical to assume it returns an integer representing the number of pages.",
+    "Parameters": {}
+}

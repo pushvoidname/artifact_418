@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "fontWeight",
+    "API_Type": "Property",
+    "API_Description": "Specifies the weight (thickness) of the font used in the text span. The font weight determines how bold or light the text appears.",
+    "API_Description_Reason": "The fontWeight property typically controls the thickness of the text, which is a common attribute in text formatting APIs.",
+    "Returns": "The current font weight of the text span as a number.",
+    "Returns_Reason": "The property is expected to return a numerical value representing the font weight, which is a standard practice in text formatting to allow for different levels of boldness.",
+    "Parameters": {
+        "type": {
+            "description": "A numerical value representing the weight of the font. Common values include 400 for normal weight and 700 for bold.",
+            "description_reason": "Font weight is often represented by numerical values, with specific numbers corresponding to different levels of boldness.",
+            "type": "number",
+            "type_reason": "Font weight is typically defined using numerical values to allow for a range of weights from light to bold."
+        }
+    }
+}

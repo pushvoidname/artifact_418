@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "setStoreNoSettings",
+    "API_Type": "Method",
+    "API_Description": "Sets the store to operate without specific settings based on the provided parameters.",
+    "API_Description_Reason": "The method name 'setStoreNoSettings' suggests it configures a store to function without certain settings, likely controlled by the boolean parameter.",
+    "Returns": "void",
+    "Returns_Reason": "The method name 'setStoreNoSettings' implies it performs a configuration action without returning a value.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the store to configure.",
+            "description_reason": "The parameter 'cName' is typically used to denote a name or identifier, suggesting it specifies the store to be configured.",
+            "type": "string",
+            "type_reason": "The 'cName' parameter is a string, as it represents a name or identifier."
+        },
+        "bNoSettings": {
+            "description": "A boolean flag indicating whether to disable settings for the specified store.",
+            "description_reason": "The parameter 'bNoSettings' is a boolean, likely used to enable or disable settings, as suggested by its name.",
+            "type": "boolean",
+            "type_reason": "The 'bNoSettings' parameter is a boolean, as it represents a true/false condition."
+        }
+    }
+}

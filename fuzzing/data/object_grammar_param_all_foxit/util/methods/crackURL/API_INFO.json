@@ -1,0 +1,8 @@
+{
+    "Object": "util",
+    "API_Name": "crackURL",
+    "API_Type": "method",
+    "Return_Type": "Map<String, Object>",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

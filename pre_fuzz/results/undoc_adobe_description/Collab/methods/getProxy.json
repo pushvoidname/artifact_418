@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "getProxy",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the proxy settings used for collaboration features.",
+    "API_Description_Reason": "The method name 'getProxy' suggests it is used to obtain proxy settings, which are often necessary for network-related collaboration functionalities.",
+    "Returns": "An object containing the proxy settings.",
+    "Returns_Reason": "Since the method is named 'getProxy', it is reasonable to assume it returns information about the proxy settings, likely in the form of an object.",
+    "Parameters": {}
+}

@@ -1,0 +1,19 @@
+{
+  "Object": "app",
+  "API_Name": "hideToolbarButton",
+  "API_Type": "Method",
+  "API_Description": "Removes the specified toolbar button from the \u201cAdd-on\u201d toolbar of Acrobat 9 or earlier. In Acrobat X, hides the specified button from the Plugin Addon Tools panel on the right side of the display area.",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the toolbar button to remove.  Toolbar item names can be discovered with listToolbarButtons."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "A file named, `myConfig.js` , containing the following script is placed in one of the folder-level JavaScript folders.\n\n```\napp.hideToolbarButton(\"Hand\");\n```\n\nWhen the viewer is started, the \u201cHand\u201d icon does not appear."
+  ]
+}

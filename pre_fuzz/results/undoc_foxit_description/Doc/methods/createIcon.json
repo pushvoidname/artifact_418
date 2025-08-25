@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "createIcon",
+    "API_Type": "Method",
+    "API_Description": "Creates a new icon for the PDF document and returns it as an Icon object.",
+    "API_Description_Reason": "The method name 'createIcon' suggests that it is responsible for creating an icon within the PDF document. This is inferred from the naming convention and the context of similar methods like 'addIcon'.",
+    "Returns": "The newly created Icon object.",
+    "Returns_Reason": "The method likely returns an Icon object, as it is common for creation methods to return the object they create, allowing further manipulation or use.",
+    "Parameters": {
+        "unknown": {
+            "description": "A parameter that likely specifies an attribute or property of the icon being created, such as its size or identifier.",
+            "description_reason": "The parameter is of type 'number', which suggests it could be an index, size, or identifier related to the icon. Without further documentation, the exact purpose is unclear.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated to be a number, which is typically used for indices, sizes, or identifiers in API methods."
+        }
+    }
+}

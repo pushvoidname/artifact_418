@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "goBack",
+  "API_Type": "Method",
+  "API_Description": "Goes to the previous view on the view stack, which is equivalent to clicking the Previous View button on the Acrobat toolbar.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Create a go-back button. This code could be part of a batch sequence, for example, to place navigation buttons on the selected PDF documents.\n\n```\nvar aRect = this.getPageBox();\nvar width = aRect[2] - aRect[0];\n// The rectangle is 12 points high and 18 points wide, centered at bottom\nrect = [width/2-8, 10, width/2+8, 22];\nf = this.addField(\"goBack\", \"button\", 0, rect);\nf.textFont=\"Wingdings\";\nf.textSize=0;\nf.buttonSetCaption(\"u00E7\");              // Left pointing arrow\nf.setAction(\"MouseUp\", \"app.goBack()\");    // Add an action\n```"
+  ]
+}

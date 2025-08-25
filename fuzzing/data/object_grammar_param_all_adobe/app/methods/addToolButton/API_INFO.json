@@ -1,0 +1,16 @@
+{
+    "Object": "app",
+    "API_Name": "addToolButton",
+    "API_Type": "method",
+    "Return_Type": "undefined",
+    "Scripts_Arg": [
+        "cExec",
+        "cEnable",
+        "cMarked"
+    ],
+    "Actions_Arg": [
+        "cExec",
+        "cEnable",
+        "cMarked"
+    ]
+}

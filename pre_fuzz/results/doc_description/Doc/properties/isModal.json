@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "isModal",
+  "API_Type": "Properties",
+  "API_Description": "A Boolean value indicating whether the document is currently in a modal state (for example, displaying a modal dialog box using `app.execDialog` ).",
+  "Version_Key": "7.05",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": []
+}

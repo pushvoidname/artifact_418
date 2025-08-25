@@ -1,0 +1,20 @@
+{
+  "Object": "app",
+  "API_Name": "removeToolButton",
+  "API_Type": "Method",
+  "API_Description": "Removes a previously added button from the toolbar.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The language-independent identifier provided when addToolButton was called."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "See the example following addToolButton .",
+    "This example shows the removal of a toolbutton with the same context as `addToolButton` . Initially, there is no document open in the Acrobat. Execute the following code from the console:\n\n```\napp.addToolButton({cName: \"button1\", cExec:\"app.alert('pressed');\",\n\n     cTooltext:\"Button1\"});\n```\n\nOpen a PDF document in Acrobat and execute the next line from the console:\n\n```\napp.removeToolButton({cName:\"button1\"});\n```\n\nAn exception is thrown and the removal of the button fails.\n\nIf you close the PDF document and execute the `removeToolButton` script again, the button is removed."
+  ]
+}

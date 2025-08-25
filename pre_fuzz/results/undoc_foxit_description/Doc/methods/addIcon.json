@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "addIcon",
+    "API_Type": "Method",
+    "API_Description": "Adds an icon to the PDF document, which can be used in annotations or form fields.",
+    "API_Description_Reason": "The method name 'addIcon' suggests that it is used to add an icon to the document. Icons are typically used in annotations or form fields, which aligns with the functionality of a PDF document interface.",
+    "Returns": "A reference to the newly added icon object.",
+    "Returns_Reason": "Since the method is adding an icon, it is reasonable to assume that it returns a reference to the icon object for further manipulation or use.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the icon to add. This name is used to reference the icon in the document.",
+            "description_reason": "Naming conventions in APIs often use 'cName' to denote a string identifier for an object, which in this case would be the icon.",
+            "type": "string",
+            "type_reason": "Names are typically represented as strings in programming, making 'string' the appropriate type for this parameter."
+        },
+        "oIcon": {
+            "description": "The icon data or object to be added to the document.",
+            "description_reason": "The parameter likely represents the actual icon data or object that needs to be added, which is common in methods that add resources to a document.",
+            "type": "object",
+            "type_reason": "Icons are complex data structures, often represented as objects to encapsulate their properties and data."
+        }
+    }
+}

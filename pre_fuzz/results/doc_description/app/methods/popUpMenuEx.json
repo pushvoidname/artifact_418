@@ -1,0 +1,17 @@
+{
+  "Object": "app",
+  "API_Name": "popUpMenuEx",
+  "API_Type": "Method",
+  "API_Description": "Creates a pop-up menu at the current mouse position. Each of the parameters is a `MenuItem` object that describes a menu item to be included in the pop-up menu.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "The `cReturn` value of the menu item that was selected, or its `cName` if `cReturn` was not specified for that item. The method returns `null` if no selection was made.",
+  "Examples": [
+    "Show all the features of the `popUpMenuEx` method.\n\n```\nvar cChoice = app.popUpMenuEx\n   (\n       {cName: \"Item 1\", bMarked:true, bEnabled:false},\n       {cName: \"-\"},\n       {cName: \"Item 2\", oSubMenu:\n           [ {cName: \"Item 2, Submenu 1\"},\n               {\n                   cName: \"Item 2, Submenu 2\",\n                   oSubMenu: {cName:\"Item 2, Submenu 2, Subsubmenu 1\", cReturn: \"0\"}\n               }\n           ]\n       },\n       {cName: \"Item 3\"},\n       {cName: \"Item 4\", bMarked:true, cReturn: \"1\"}\n   )\n   app.alert(\"You chose the \"\" + cChoice + \"\" menu item\");\n```",
+    "Because the `popupMenuEx` method takes a list of `MenuItem` objects, its parameters cannot be passed to it as a JavaScript variable. As a workaround, you can create an array of menu items and use the Function object method `apply` from core JavaScript. This method allows arguments to be passed as an array.\n\n```\n// Declare pop-up menu properties as an array.\nvar aParams = [\n    {cName: \"Example Web Page\", cReturn: \"www.example.com\"},\n    {cName: \"-\"},\n    {cName: \"The Example Product Line\",\n     cReturn: \"www.example.com/products/main.html\"},\n    {cName: \"Example Reader\",\n     cReturn: \"www.example.com/products/reader/main.html\"}\n];\n// Apply the function app.popUpMenuEx to the app object, with an array\n// of parameters aParams\nvar cChoice = app.popUpMenuEx.apply( app, aParams );\nif ( cChoice != null ) app.launchURL(cChoice);\n```"
+  ],
+  "MenuItem Object": "This generic JavaScript object represents a menu item. It has the following properties.\n\nProperty | Description\n----------------------\ncName | The menu item name, which is the string to appear on the menu item. The value of \u201c-\u201d is reserved to draw a separator line in the menu.\nbMarked | (optional) A Boolean value specifying whether the item is to be marked with a check. The default is false (not marked).\nbEnabled | (optional) A Boolean value specifying whether the item is to appear enabled or grayed out. The default is true (enabled).\ncReturn | (optional) A string to be returned when the menu item is selected. The default is the value of cName.\noSubMenu | (optional) A MenuItem object representing a submenu item or an array of submenu items, each represented by a MenuItem object."
+}

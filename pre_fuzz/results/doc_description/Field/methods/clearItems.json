@@ -1,0 +1,16 @@
+{
+  "Object": "Field",
+  "API_Name": "clearItems",
+  "API_Type": "Method",
+  "API_Description": "Clears all the values in a list box or combo box.",
+  "Version": "4.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Clear the field \u201cmyList\u201d of all items.\n\n```\nthis.getField(\"myList\").clearItems();\n```"
+  ],
+  "Related methods": "and properties include numItems , getItemAt , deleteItemAt , currentValueIndices , insertItemAt and setItems ."
+}

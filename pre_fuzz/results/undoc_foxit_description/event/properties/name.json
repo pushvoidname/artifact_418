@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "name",
+    "API_Type": "property",
+    "API_Description": "Represents the name of the event, which uniquely identifies it alongside the type.",
+    "API_Description_Reason": "The description indicates that each event has a 'type' and a 'name' property that uniquely identify the event. Therefore, 'name' is used to identify the specific event.",
+    "Returns": "The name of the event as a string.",
+    "Returns_Reason": "Since 'name' is a property that identifies the event, it is reasonable to assume it returns a string representing the event's name.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the 'name' property.",
+            "description_reason": "The 'name' property is used to identify events, which typically involves a string representation.",
+            "type": "string",
+            "type_reason": "Event names are usually represented as strings to allow easy identification and comparison."
+        }
+    }
+}

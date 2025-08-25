@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "filesize",
+    "API_Type": "property",
+    "API_Description": "Represents the size of the PDF document in bytes.",
+    "API_Description_Reason": "The term 'filesize' typically refers to the size of a file in bytes, which is a common property for document objects to provide information about the document's storage size.",
+    "Returns": "The size of the PDF document in bytes as a number.",
+    "Returns_Reason": "Since 'filesize' is a property, it is expected to return a value directly. Given the context, it is logical to assume that this value is a number representing the size of the document in bytes."
+}

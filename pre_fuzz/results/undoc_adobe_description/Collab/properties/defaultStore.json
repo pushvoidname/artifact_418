@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "defaultStore",
+    "API_Type": "property",
+    "API_Description": "Represents the default storage type used for collaboration data.",
+    "API_Description_Reason": "The name 'defaultStore' suggests it is related to the default storage mechanism or type for collaboration data within the Collab object.",
+    "Returns": "The type of the default storage as a string.",
+    "Returns_Reason": "The parameter 'type' is specified as a string, indicating that the property returns a string representing the storage type.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the default storage used for collaboration.",
+            "description_reason": "The parameter name 'type' implies it specifies the kind of storage being used, which aligns with the concept of a default storage type.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, indicating it represents a textual description of the storage type."
+        }
+    }
+}

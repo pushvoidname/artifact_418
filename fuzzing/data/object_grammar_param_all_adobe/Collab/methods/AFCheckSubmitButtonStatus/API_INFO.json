@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "AFCheckSubmitButtonStatus",
+    "API_Type": "method",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

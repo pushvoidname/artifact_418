@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsTimeDelay",
+    "API_Type": "property",
+    "API_Description": "Specifies the time delay in seconds for full-screen transitions in the Acrobat application.",
+    "API_Description_Reason": "The name 'fsTimeDelay' suggests it is related to timing, and given the context of other 'fs' properties, it likely pertains to full-screen settings, specifically the delay between transitions.",
+    "Returns": "The current time delay setting for full-screen transitions.",
+    "Returns_Reason": "As a property, it likely returns the current value set for the time delay, which is a common behavior for properties.",
+    "Parameters": {
+        "type": {
+            "description": "The time delay in seconds for full-screen transitions.",
+            "description_reason": "The parameter 'type' is likely the value assigned to the property, representing the delay duration in seconds.",
+            "type": "number",
+            "type_reason": "The parameter is described as a number, which is appropriate for representing time in seconds."
+        }
+    }
+}

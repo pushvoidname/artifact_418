@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "clickAdvances",
+    "API_Type": "property",
+    "API_Description": "Determines whether a click advances the presentation or not.",
+    "API_Description_Reason": "The name 'clickAdvances' suggests it controls whether clicking advances something, likely a presentation or slide, which is common in full-screen or presentation modes.",
+    "Returns": "A boolean value indicating if a click advances the presentation.",
+    "Returns_Reason": "Since the parameter type is boolean, it is logical that the property returns a boolean value indicating the current state of whether a click advances the presentation.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set whether a click advances the presentation.",
+            "description_reason": "The parameter 'type' being a boolean suggests it is used to enable or disable the click advance feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly stated to be of type boolean, indicating it is used to toggle a feature on or off."
+        }
+    }
+}

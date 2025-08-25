@@ -1,0 +1,8 @@
+{
+    "Object": "TTS",
+    "API_Name": "characterScale",
+    "API_Type": "property",
+    "Return_Type": "Number",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

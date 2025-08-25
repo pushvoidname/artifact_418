@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "loop",
+    "API_Type": "property",
+    "API_Description": "Determines whether the content should loop continuously.",
+    "API_Description_Reason": "The name 'loop' suggests a functionality related to repeating or cycling through content, which is common in media or presentation contexts.",
+    "Returns": "The current loop setting as a boolean value.",
+    "Returns_Reason": "Since the parameter type is boolean, it is logical that the property returns a boolean indicating whether looping is enabled or not.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value indicating whether looping is enabled (true) or disabled (false).",
+            "description_reason": "The parameter 'type' is specified as boolean, which typically represents a true/false setting.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, indicating it accepts true or false values."
+        }
+    }
+}

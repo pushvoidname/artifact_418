@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "intent",
+  "API_Type": "Properties",
+  "API_Description": "This property allows a markup annotation type to behave differently, depending on the intended use of the annotation. For example, the Callout Tool is a free text annotation with `intent` set to `FreeTextCallout` . Though this property is defined for all annotations, currently, only free text, polygon, and line annotations have non-empty values for `intent` . **Annotations** : All The table below lists the tools available through the UI for creating annotations with special appearances. UI | Annotation type | Intent ----------------------------- Callout Tool | FreeText | FreeTextCallout Cloud Tool | Polygon | PolygonCloud Arrow Tool | Line | LineArrow Dimensioning Tool | Line | LineDimension",
+  "Version_Key": "7.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

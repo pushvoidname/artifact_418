@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "view",
+    "API_Type": "Property",
+    "API_Description": "Represents the current view settings of the PDF document, such as zoom level and page layout.",
+    "API_Description_Reason": "The 'view' property typically refers to the current visual representation or settings of a document, which includes aspects like zoom and layout.",
+    "Returns": "An object containing the current view settings of the document.",
+    "Returns_Reason": "Properties named 'view' often return an object that encapsulates various settings related to the visual presentation of a document.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of view setting being accessed or modified.",
+            "description_reason": "The 'type' parameter likely specifies which aspect of the view is being interacted with, such as zoom or layout.",
+            "type": "string",
+            "type_reason": "Parameters that specify a category or type are typically strings, as they represent named options or settings."
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "TTS",
+  "API_Name": "pitch",
+  "API_Type": "Properties",
+  "API_Description": "Sets the baseline pitch for the voice of a speaker. The valid range for pitch is from 0 to 10, with 5 being the default for the mode. Type | Access ------------- Integer | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

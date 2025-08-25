@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "guid",
+    "API_Type": "Property",
+    "API_Description": "A unique identifier for the document, typically used to distinguish it from other documents.",
+    "API_Description_Reason": "The term 'guid' commonly refers to a globally unique identifier, which is often used to uniquely identify objects or documents.",
+    "Returns": "A string representing the unique identifier of the document.",
+    "Returns_Reason": "GUIDs are typically represented as strings, often in a specific format such as UUID.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the GUID property.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the GUID, which is typically a string.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but GUIDs are generally strings."
+        }
+    }
+}

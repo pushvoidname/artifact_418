@@ -1,0 +1,31 @@
+{
+  "Object": "app",
+  "API_Name": "response",
+  "API_Type": "Method",
+  "API_Description": "Displays a dialog box containing a question and an entry field for the user to reply to the question.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cQuestion": {
+      "description": "The question to be posed to the user."
+    },
+    "cTitle": {
+      "description": "(optional) The title of the dialog box."
+    },
+    "cDefault": {
+      "description": "(optional) A default value for the answer to the question. If not specified, no default value is presented."
+    },
+    "bPassword": {
+      "description": "(optional) If true, indicates that the user\u2019s response should show as asterisks (*) or bullets (\u2022) to mask the response, which might be sensitive information. The default is false."
+    },
+    "cLabel": {
+      "description": "(optional, Acrobat 6.0) A short string to appear in front of and on the same line as the edit text field."
+    }
+  },
+  "Returns": "A string containing the user\u2019s response. If the user clicks the Cancel button, the response is the `null` object.",
+  "Examples": [
+    "Asks for a response from the user and report back the response.\n\n```\nvar cResponse = app.response({\n    cQuestion: \"How are you today?\",\n        cTitle: \"Your Health Status\",\n        cDefault: \"Fine\",\n        cLabel: \"Response:\"\n});\nif (cResponse == null)\n    app.alert(\"Thanks for trying anyway.\");\nelse\n    app.alert(\"You responded, \"\"+cResponse+\"\", to the health \"\n        + \"question.\",3);\n```"
+  ]
+}

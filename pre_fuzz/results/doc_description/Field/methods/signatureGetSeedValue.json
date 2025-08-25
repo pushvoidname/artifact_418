@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "signatureGetSeedValue",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "A `SeedValue` object.",
+  "Examples": [
+    "Access the seed value for a signature field.\n\n```\nvar f = this.getField( \"sig0\" );\nvar seedValue = f.signatureGetSeedValue();\n// displays the seed value filter and flags\nconsole.println( \"Filter name:\" + seedValue.filter);\nconsole.println( \"Flags:\" + seedValue.flags);\n// displays the certificate seed value constraints\nvar certSpec = seedValue.certspec;\nconsole.println( \"Issuer:\" + certspec.issuer);\n```"
+  ]
+}

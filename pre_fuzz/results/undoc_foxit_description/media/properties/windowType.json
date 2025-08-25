@@ -1,0 +1,17 @@
+{
+    "Object": "media",
+    "API_Name": "windowType",
+    "API_Type": "Property",
+    "API_Description": "Represents the type of window associated with the media object.",
+    "API_Description_Reason": "The name 'windowType' suggests it indicates the type or category of window related to the media object.",
+    "Returns": "A value representing the type of window.",
+    "Returns_Reason": "As a property named 'windowType', it likely returns a value that specifies the type of window, which could be a string or an enumerated type.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type or category of the window.",
+            "description_reason": "The parameter 'type' is likely used to specify or filter the kind of window type being referred to.",
+            "type": "unknown",
+            "type_reason": "The type is marked as unknown, indicating that the specific data type or format is not documented."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_INVALID_VALUE",
+    "API_Type": "Property",
+    "API_Description": "Represents a constant value used to indicate an invalid or erroneous value within the context of the Doc object.",
+    "API_Description_Reason": "The name 'IDS_INVALID_VALUE' suggests it is a constant used to denote an invalid value, likely for error handling or validation purposes.",
+    "Returns": "A constant value indicating an invalid or erroneous state.",
+    "Returns_Reason": "The property name implies it returns a specific value used to signify an invalid state, which is common for constants used in error handling.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the constant value representing an invalid state.",
+            "description_reason": "The 'type' parameter is likely used to specify the data type of the constant, which is common for properties representing constant values.",
+            "type": "unknown",
+            "type_reason": "The exact data type is not specified in the provided information, hence it is marked as unknown."
+        }
+    }
+}

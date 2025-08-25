@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "alternatePresentations",
+  "API_Type": "Properties",
+  "API_Description": "References the document\u2019s `AlternatePresentation` object. If the functionality needed to display alternate presentations is not available, this property is `undefined` . The `AlternatePresentation` object provides access to the document\u2019s alternate presentations. The PDF language extension specifies that each document can potentially have many named alternate presentations. Each alternate presentation with a known `type` will have a corresponding `alternatePresentations` property in the document. This property should have the same name as its alternate presentation and should reference its alternate presentation\u2019s `AlternatePresentation` object. If there are no recognized alternate presentations in the document, this object is empty (does not have any properties). The PDF Reference provides details on alternate presentations. !! Note For compatibility with the current implementation, the alternate presentation name must be an ASCII string. The only alternate presentation type currently implemented is \u201cSlideShow\u201d. See the AlternatePresentation object for properties and methods that can be used to control an alternate presentation.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object  undefined",
+  "Access": "R",
+  "Examples": [
+    "Example 1: Test whether the `AlternatePresentation` object is present:\n\n```\nif( typeof this.alternatePresentations != \"undefined\" )\n{\n    // Assume AlternatePresentations are present\n    // List the names of all alternate presentations in the doc\n    for ( var ap in this.alternatePresentations ) console.println(ap);\n}\n```",
+    "Example 2: Get the slide show named `MySlideShow` and start the show.\n\n```\n// oMySlideShow is an AlternatePresentation object\noMySlideShow = this.alternatePresentations[\"MySlideShow\"];\noMySlideShow.start();\n```"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "setReviewFolderForMultipleReviews",
+    "API_Type": "Method",
+    "API_Description": "Sets the review folder for multiple document reviews based on the specified category and document IDs.",
+    "API_Description_Reason": "The method name suggests it is used to set a review folder for multiple reviews, and the parameters indicate it involves categories and document IDs.",
+    "Returns": "A boolean indicating success or failure of setting the review folder.",
+    "Returns_Reason": "Typically, methods that perform a set operation return a boolean to indicate whether the operation was successful.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category under which the reviews are organized.",
+            "description_reason": "The parameter name 'cCategory' implies it is used to specify a category for the reviews.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest it is a string representing a category name."
+        },
+        "oDocIDs": {
+            "description": "An array of document IDs for which the review folder is being set.",
+            "description_reason": "The parameter name 'oDocIDs' suggests it is a collection of document identifiers.",
+            "type": "array",
+            "type_reason": "The 'o' prefix and the context imply it is an array, likely containing document IDs."
+        },
+        "cFolder": {
+            "description": "The path or identifier of the folder to set for the reviews.",
+            "description_reason": "The parameter name 'cFolder' indicates it specifies the folder location or identifier.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest it is a string representing a folder path or identifier."
+        }
+    }
+}

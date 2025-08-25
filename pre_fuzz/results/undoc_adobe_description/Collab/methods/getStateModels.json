@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getStateModels",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the state models associated with the collaboration functionality, optionally including hidden models.",
+    "API_Description_Reason": "The method name 'getStateModels' suggests it retrieves state models related to collaboration. The parameter 'bHidden' implies an option to include hidden models in the retrieval.",
+    "Returns": "An array of state models.",
+    "Returns_Reason": "The method likely returns a collection of state models, as it is a 'get' method and the plural 'models' suggests multiple items.",
+    "Parameters": {
+        "bHidden": {
+            "description": "A boolean indicating whether to include hidden state models in the retrieval.",
+            "description_reason": "The parameter name 'bHidden' suggests it is a boolean flag to determine if hidden models should be included.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bHidden' is a common convention for boolean variables, indicating a true or false value."
+        }
+    }
+}

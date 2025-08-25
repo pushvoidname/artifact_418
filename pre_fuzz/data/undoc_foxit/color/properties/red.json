@@ -1,0 +1,8 @@
+{
+    "Object": "color",
+    "API_Name": "red",
+    "API_Type": "property",
+    "Parameters": {
+        "unknown": "number"
+    }
+}

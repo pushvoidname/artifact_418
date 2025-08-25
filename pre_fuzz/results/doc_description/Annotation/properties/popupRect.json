@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "popupRect",
+  "API_Type": "Properties",
+  "API_Description": "An array of four numbers [ , , ] specifying the lower-left , lower-left , upper-right , and upper-right coordinates\u2014in default user space\u2014of the rectangle of the pop-up annotation associated with a parent annotation. It defines the location of the pop-up annotation on the page. **Annotations** : All except FreeText, Sound, FileAttachment",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the print property."
+  ]
+}

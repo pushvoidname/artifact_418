@@ -1,0 +1,19 @@
+{
+  "Object": "util",
+  "API_Name": "spansToXML",
+  "API_Type": "Method",
+  "API_Description": "Converts an array of `Span` objects into an XML(XFA) String as described in the PDF Reference .",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "NoParameterName": {
+      "description": "An array of Span objects to be converted into an XML string."
+    }
+  },
+  "Returns": "String",
+  "Examples": [
+    "Get the value of a rich text field, turns all of the text blue, converts it to an XML string and then prints it to the console.\n\n```\nvar f = getField(\"Text1\");\nvar spans = f.richValue;\nfor(var index = 0; index < spans.length; index++)\n    spans[index].textColor = color.blue;\nconsole.println(util.spansToXML(spans));\n```"
+  ]
+}

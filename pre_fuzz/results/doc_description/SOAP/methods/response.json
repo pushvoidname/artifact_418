@@ -1,0 +1,47 @@
+{
+  "Object": "SOAP",
+  "API_Name": "response",
+  "API_Type": "Method",
+  "API_Description": "Initiates a remote procedure call (RPC) or sends an XML message to a SOAP HTTP endpoint without waiting for a reply.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "cURL": {
+      "description": "The URL for a SOAP HTTP endpoint. The URL method must be one of these:"
+    },
+    "oRequest": {
+      "description": "An object that specifies the remote procedure name and parameters or the XML message to send.  See the oRequest parameter of SOAP. request."
+    },
+    "cAction": {
+      "description": "(optional) The SOAP Action header for this request as specified by the SOAP Specification.  The default is for the SOAP Action to be empty.  See the cAction parameter of SOAP. request."
+    },
+    "bEncoded": {
+      "description": "(optional) A Boolean value specifying whether the request was encoded using the SOAP Encoding described in the SOAP Specification. The default is true."
+    },
+    "cNamespace": {
+      "description": "(optional) A namespace for the message schema when the request does not use the SOAP Encoding (the bEncoded flag is false).   The default is to have no namespace."
+    },
+    "oReqHeader": {
+      "description": "(optional, Acrobat 7.0) An object that specifies a SOAP header to be included with the request.  The default is to send a request with only a SOAP Body.  See the oReqHeader parameter of der SOAP. request."
+    },
+    "cVersion": {
+      "description": "(optional, Acrobat 7.0) The version of the SOAP protocol to use.  The default is to use \u201cSOAPVersion.version_1_1\u201d.  See the cVersion parameter of SOAP. request."
+    },
+    "oAuthenticate": {
+      "description": "(optional, Acrobat 7.0) An object that specifies the type of authentication scheme to use and to provide credentials.  The default is for an interactive UI to be displayed if HTTP authentication is encountered.  See the oAuthenticate parameter of SOAP. request."
+    },
+    "cRequestStyle": {
+      "description": "(optional, Acrobat 7.0.5) Same as cRequestStyle for SOAP. request, except that there is no response from the server."
+    },
+    "cContentType": {
+      "description": "(optional, Acrobat 7.0.5) Same as cContentType for SOAP. request, except that there is no response from the server."
+    }
+  },
+  "Returns": "Boolean",
+  "Examples": [
+    "See ."
+  ],
+  "Exceptions": "If there is a problem at the networking level, such as an unavailable endpoint, a `NetworkError` will be thrown."
+}

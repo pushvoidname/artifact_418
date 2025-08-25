@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "setReviewType",
+    "API_Type": "Method",
+    "API_Description": "Sets the review type for the PDF document, configuring it for a specific review workflow.",
+    "API_Description_Reason": "The method name 'setReviewType' suggests that it configures the document for a particular type of review process, which is common in document management systems.",
+    "Returns": "void",
+    "Returns_Reason": "The method does not take any parameters and is likely used to set a state or configuration, which typically does not return a value.",
+    "Parameters": {}
+}

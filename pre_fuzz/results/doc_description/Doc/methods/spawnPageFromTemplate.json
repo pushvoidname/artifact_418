@@ -1,0 +1,32 @@
+{
+  "Object": "Doc",
+  "API_Name": "spawnPageFromTemplate",
+  "API_Type": "Method",
+  "API_Description": "!! Note This method has been superseded by `templates` , `createTemplate` , and the `Template` object `spawn` method.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cTemplate": {
+      "description": "The template name."
+    },
+    "nPage": {
+      "description": "(optional) The 0-based page number before which or into which the template is spawned, depending on the value of bOverlay. If nPage is omitted, a new page is created at the end of the document."
+    },
+    "bRename": {
+      "description": "(optional) Specifies whether fields should be renamed. The default is true."
+    },
+    "bOverlay": {
+      "description": "(optional, Acrobat 4.0) If false, the template is inserted before the page specified by nPage. If true (the default) it is overlaid on top of that page."
+    },
+    "oXObject": {
+      "description": "(optional, Acrobat 6.0) The value of this parameter is the return value of an earlier call to spawnPageFromTemplate."
+    }
+  },
+  "Returns": "Prior to Acrobat 6.0, this method returned nothing. Now, this method returns an object representing the page contents of the page spawned. This return object can then be used as the value of the optional parameter `oXObject` for subsequent calls to `spawnPageFromTemplate` .\n\n!! Note Repeatedly spawning the same page can cause a large increase in file size. To avoid this problem, `spawnPageFromTemplate` now returns an object that represents the page contents of the spawned page. This return value can be used as the value of the `oXObject` parameter in subsequent calls to the `spawnPageFromTemplate` method to spawn the same page.",
+  "Examples": [
+    "Spawn each template page in the current document.\n\n```\nvar n = this.numTemplates;\nvar cTempl;\nfor (i = 0; i < n; i++) {\n    cTempl = this.getNthTemplate(i);\n    this.spawnPageFromTemplate(cTempl);\n}\n```\n\n**Example 2 (Acrobat 6.0)**\n\nThe following example spawns the same template 31 times using the `oXObject` parameter and return value. Using this technique avoids overly inflating the file size.\n\n```\nvar t = this.getNthTemplate(0)\nvar XO = this.spawnPageFromTemplate(t, this.numPages, false, false);\nfor (var i=0; i < 30; i++)\n    this.spawnPageFromTemplate(t,this.numPages, false, false, XO);\n```"
+  ],
+  "Example 2 (Acrobat 6.0)": "The following example spawns the same template 31 times using the `oXObject` parameter and return value. Using this technique avoids overly inflating the file size.\n\n```\nvar t = this.getNthTemplate(0)\nvar XO = this.spawnPageFromTemplate(t, this.numPages, false, false);\nfor (var i=0; i < 30; i++)\n    this.spawnPageFromTemplate(t,this.numPages, false, false, XO);\n```"
+}

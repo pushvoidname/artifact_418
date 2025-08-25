@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "getIcon",
+    "API_Type": "method",
+    "Parameters": {
+        "cIconName": "string"
+    }
+}

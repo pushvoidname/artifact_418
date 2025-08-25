@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_AM",
+    "API_Type": "property",
+    "API_Description": "Represents a specific identifier or message string used within the PDF document's JavaScript context.",
+    "API_Description_Reason": "The name 'IDS_AM' suggests it is an identifier or message string, commonly used in software for localization or internal messaging.",
+    "Returns": "A string value representing the identifier or message.",
+    "Returns_Reason": "Properties typically return a value associated with the object, and given the naming convention, it is likely a string identifier.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the IDS_AM property.",
+            "description_reason": "The parameter 'type' is often used to specify the data type of a property or variable.",
+            "type": "unknown",
+            "type_reason": "The exact data type is not specified in the provided information, but it is likely a string based on common usage of identifiers."
+        }
+    }
+}

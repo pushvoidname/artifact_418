@@ -1,0 +1,8 @@
+{
+    "Object": "methodProxy",
+    "API_Name": "unRegisterFunction",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "unknown"
+    }
+}

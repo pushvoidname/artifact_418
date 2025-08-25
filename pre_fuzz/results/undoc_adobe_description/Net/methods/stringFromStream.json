@@ -1,0 +1,17 @@
+{
+    "Object": "Net",
+    "API_Name": "stringFromStream",
+    "API_Type": "Method",
+    "API_Description": "Converts a stream object into a string representation.",
+    "API_Description_Reason": "The method name 'stringFromStream' suggests it transforms a stream into a string, which is a common operation in networking and data processing.",
+    "Returns": "A string representation of the data contained in the stream.",
+    "Returns_Reason": "The method's purpose is to convert a stream to a string, so it logically returns a string.",
+    "Parameters": {
+        "oStream": {
+            "description": "The stream object to be converted into a string.",
+            "description_reason": "The parameter name 'oStream' indicates it is an object representing a stream, which is to be converted.",
+            "type": "object",
+            "type_reason": "Streams are typically represented as objects in programming, allowing for operations like reading and writing."
+        }
+    }
+}

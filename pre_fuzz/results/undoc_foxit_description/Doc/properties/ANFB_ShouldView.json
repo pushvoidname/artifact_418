@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldView",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document should be viewed based on certain conditions or flags.",
+    "API_Description_Reason": "The name 'ANFB_ShouldView' suggests a boolean property that determines if the document should be displayed or viewed, likely based on specific criteria or flags.",
+    "Returns": "A boolean value indicating if the document should be viewed.",
+    "Returns_Reason": "The prefix 'Should' in the property name implies a boolean return type, which is common for properties that determine a condition or state.",
+    "Parameters": {
+        "type": {
+            "description": "The type of condition or flag that influences the viewing state of the document.",
+            "description_reason": "The parameter 'type' is likely used to specify the condition or flag that affects whether the document should be viewed.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or an enumeration representing different conditions or flags."
+        }
+    }
+}

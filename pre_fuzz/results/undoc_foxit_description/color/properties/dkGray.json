@@ -1,0 +1,17 @@
+{
+    "Object": "color",
+    "API_Name": "dkGray",
+    "API_Type": "property",
+    "API_Description": "Represents the dark gray color as an array of numbers, typically used in graphical contexts to set colors.",
+    "API_Description_Reason": "The `dkGray` property is part of the `color` object, which defines basic colors. It is likely used to provide a standard representation of dark gray in a format suitable for APIs that require color input.",
+    "Returns": "An array of numbers representing the dark gray color.",
+    "Returns_Reason": "Since the `color` object is used to define colors, the `dkGray` property likely returns a color array that can be used in methods or properties requiring color input.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number that might represent the intensity or opacity of the dark gray color.",
+            "description_reason": "The parameter is labeled as 'unknown', suggesting it might modify the color's properties, such as intensity or opacity.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated to be a number, which is common for color intensity or opacity values."
+        }
+    }
+}

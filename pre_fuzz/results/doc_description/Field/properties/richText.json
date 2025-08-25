@@ -1,0 +1,16 @@
+{
+  "Object": "Field",
+  "API_Name": "richText",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the field allows rich text formatting. The default is `false` . **Fields** `text` Related objects and properties are , defaultStyle , `event.` , `event.` richChange , `event.` richChangeEx , the `Annotation` object richContents property, and the Span object.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example 1: Get a Field object and set it for rich text formatting.\n\n```\nvar f = this.getField(\"Text1\");\nf.richText = true;\n```\n\nSee for a more complete example.",
+    "Example 2: Count the number of rich text fields in the document.\n\n```\nvar count = 0;\nfor ( var i = 0; i < this.numFields; i++)\n{\n    var fname = this.getNthFieldName(i);\n    var f = this.getField(fname);\n    if ( f.type == \"text\" && f.richText ) count++\n}\nconsole.println(\"There are a total of \"+ count + \" rich text fields.\");\n```"
+  ]
+}

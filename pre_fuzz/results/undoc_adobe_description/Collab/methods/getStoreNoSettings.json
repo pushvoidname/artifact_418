@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getStoreNoSettings",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the store settings for a given collaboration name without applying any specific settings.",
+    "API_Description_Reason": "The method name 'getStoreNoSettings' suggests it retrieves store-related information without applying additional settings. The context of collaboration functionality implies it is related to retrieving settings for a collaboration store.",
+    "Returns": "An object containing the store settings for the specified collaboration name.",
+    "Returns_Reason": "The method is likely to return some form of settings or configuration object related to the store, as it is a 'get' method and involves settings.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the collaboration for which to retrieve store settings.",
+            "description_reason": "The parameter 'cName' is likely a string representing the name of the collaboration, as it is common to use such identifiers to specify which settings to retrieve.",
+            "type": "string",
+            "type_reason": "The parameter is named 'cName', which typically indicates a string type used for naming or identifying purposes."
+        }
+    }
+}

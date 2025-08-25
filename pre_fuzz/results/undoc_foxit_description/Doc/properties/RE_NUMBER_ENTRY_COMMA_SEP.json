@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_NUMBER_ENTRY_COMMA_SEP",
+    "API_Type": "Property",
+    "API_Description": "A regular expression pattern used for validating number entries that are separated by commas.",
+    "API_Description_Reason": "The name 'RE_NUMBER_ENTRY_COMMA_SEP' suggests it is a regular expression (RE) for number entries with comma separation.",
+    "Returns": "A string representing the regular expression pattern.",
+    "Returns_Reason": "Regular expressions are typically represented as strings, so it is reasonable to assume this property returns a string pattern.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the regular expression pattern.",
+            "description_reason": "The parameter 'type' is likely used to specify the data type of the property, which is a common practice for properties.",
+            "type": "string",
+            "type_reason": "Since regular expressions are usually defined as strings, the type is assumed to be a string."
+        }
+    }
+}

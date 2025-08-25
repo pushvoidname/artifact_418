@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "extractPages",
+  "API_Type": "Method",
+  "API_Description": "Creates a new document consisting of pages extracted from the current document. If a page range is not specified, the method extracts all pages in the document.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of the range of pages to extract from the source document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of the range of pages to extract from the source document. If only nEnd is specified, the range of pages is 0 to nEnd."
+    },
+    "cPath": {
+      "description": "(optional) The device-independent path to save the new document. The path name may be relative to the location of the current document.  -  The parameter cPath must have a safe path (see Safe path) and have a .pdf extension. This method will throw a NotAllowedError (see Error object) exception if these security conditions are not met, and the method will fail."
+    }
+  },
+  "Returns": "If `cPath` is not specified, returns the Doc for the new document; otherwise, returns the `null` object.",
+  "Examples": [
+    "The following batch sequence takes each of the selected files, extracts each page, and saves the page in a folder with a unique name. It could be used, for example, when the client\u2019s one-page bills are produced by an application and placed in a single PDF file. The client wants to separate the pages for distribution or for separate printing jobs.\n\n```\n/* Extract pages to folder */\n// Regular expression used to acquire the base name of file\nvar re = /.pdf$/i;\n// filename is the base name of the file Acrobat is working on\nvar filename = this.documentFileName.replace(re,\"\");\ntry {for (var i = 0; i < this.numPages; i++)\n        this.extractPages({\n            nStart: i,\n            cPath: \"/F/temp/\"+filename+\"_\" + i +\".pdf\"\n        });\n} catch (e) { console.println(\"Aborted: \" + e) }\n```"
+  ]
+}

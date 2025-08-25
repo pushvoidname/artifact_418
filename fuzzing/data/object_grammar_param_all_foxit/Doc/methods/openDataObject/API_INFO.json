@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "openDataObject",
+    "API_Type": "method",
+    "Return_Type": "Doc",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

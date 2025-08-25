@@ -1,0 +1,23 @@
+{
+  "Object": "Field",
+  "API_Name": "signatureValidate",
+  "API_Type": "Method",
+  "API_Description": "Validates and returns the validity status of the signature in a signature field. This routine can be computationally expensive and take a significant amount of time depending on the signature handler used to sign the signature.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oSig": {
+      "description": "(optional) The security handler to be used to validate the signature. Its value is either a SecurityHandler object or a SignatureParameters object. If this handler is not specified, the method uses the security handler returned by the signature\u2019s handlerName property."
+    },
+    "bUI": {
+      "description": "(optional, Acrobat 6.0) If true, allows the UI to be shown when validating, if necessary. The UI may be used to select a validation handler if none is specified. The default is false."
+    }
+  },
+  "Returns": "The validity status of the signature. Validity values are:\n\n*  -1 : Not a signature field\n\n*  0 : Signature is blank\n\n*  1 : Unknown status\n\n*  2 : Signature is invalid\n\n*  3 : Signature of document is valid, identity of signer could not be verified\n\n*  4 : Signature of document is valid and identity of signer is valid.\n\nSee the `signVisible` and `statusText` properties of the object.",
+  "Examples": [
+    "Validate a signature, then report to the console.\n\n```\nvar f = this.getField(\"Signature1\") // Get signature field\nvar status = f.signatureValidate();\nvar sigInfo = f.signatureInfo();\nif ( status < 3 )\n     var msg = \"Signature not valid! \" + sigInfo.statusText;\nelse\n    var msg = \"Signature valid! \" + sigInfo.statusText;\napp.alert(msg);\n```"
+  ],
+  "SignatureParameters object": "A generic object with the following properties that specify which security handlers are to be used for validation by `signatureValidate` :\n\noSecHdlr | The security handler object to use to validate this signature.\n-------------------------------------------------------------------------\nbAltSecHdlr | If true, an alternate security handler, selected based on user preference settings, may be used to validate the signature. The default is false, which means that the security handler returned by the signature\u2019s handlerName property is used to validate the signature. This parameter is not used if oSecHdlr is provided."
+}

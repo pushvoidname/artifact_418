@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "addListener",
+    "API_Type": "Method",
+    "API_Description": "Registers an event listener for a specific event type on the Acrobat application.",
+    "API_Description_Reason": "The method name 'addListener' suggests it is used to add an event listener, which is a common pattern in JavaScript for handling events.",
+    "Returns": "Undefined.",
+    "Returns_Reason": "Typically, methods that register event listeners do not return a value, as their primary purpose is to set up a callback function for future events.",
+    "Parameters": {}
+}

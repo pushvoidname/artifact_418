@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFDate_KeystrokeEx",
+    "API_Type": "Method",
+    "API_Description": "Handles keystroke events for date fields, providing extended functionality for date input validation and formatting.",
+    "API_Description_Reason": "The method name 'AFDate_KeystrokeEx' suggests it is related to handling keystrokes for date fields, with 'Ex' indicating extended or additional functionality beyond a basic keystroke handler.",
+    "Returns": "A boolean indicating whether the keystroke is valid.",
+    "Returns_Reason": "Keystroke handling methods typically return a boolean to indicate whether the input is valid and should be accepted.",
+    "Parameters": {}
+}

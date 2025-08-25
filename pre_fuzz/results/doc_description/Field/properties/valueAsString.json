@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "valueAsString",
+  "API_Type": "Properties",
+  "API_Description": "**Returns** the value of a field as a JavaScript string. It differs from `value` , which attempts to convert the contents of a field contents to an accepted format. For example, for a field with a value of \u201c020\u201d, `value` returns the integer 20, while `valueAsString` returns the string \u201c020\u201d. **Fields** all except `button`",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": []
+}

@@ -1,0 +1,17 @@
+{
+  "Object": "SOAP",
+  "API_Name": "streamFromString",
+  "API_Type": "Method",
+  "API_Description": "This function converts a string to a `ReadStream` object. Typically, this is used to pass data as part of a SOAP method.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cString": {
+      "description": "The string to be converted."
+    }
+  },
+  "Returns": "`ReadStream` object",
+  "Examples": []
+}

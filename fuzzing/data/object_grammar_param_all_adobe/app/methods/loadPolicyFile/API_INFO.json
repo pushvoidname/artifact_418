@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "loadPolicyFile",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "url"
+    ],
+    "Actions_Arg": []
+}

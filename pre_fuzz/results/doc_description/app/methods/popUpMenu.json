@@ -1,0 +1,22 @@
+{
+  "Object": "app",
+  "API_Name": "popUpMenu",
+  "API_Type": "Method",
+  "API_Description": "!! Note `popUpMenuEx` is preferred over this method.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cItem": {
+      "description": "(optional) If the argument is a string, it is listed in the menu as a menu item. The menu item name \u201c-\u201d is reserved to draw a separator line in the menu."
+    },
+    "Array": {
+      "description": "(optional) If the argument is an array, it appears as a submenu where the first element in the array is the parent menu item. This array can contain further submenus."
+    }
+  },
+  "Returns": "The name of the menu item that was selected, or `null` if no item was selected.",
+  "Examples": [
+    "Create a pop-up menu consisting of chapter of a document.\n\n```\nvar cChoice = app.popUpMenu(\"Introduction\", \"-\", \"Chapter 1\",\n    [ \"Chapter 2\", \"Chapter 2 Start\", \"Chapter 2 Middle\",\n    [\"Chapter 2 End\", \"The End\"]]);\napp.alert(\"You chose the \"\" + cChoice + \"\" menu item\");\n```"
+  ]
+}

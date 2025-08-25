@@ -1,0 +1,14 @@
+[
+    [
+        "PROXIMITY",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

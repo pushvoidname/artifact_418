@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "addPageOpenJSMessage",
+    "API_Type": "Method",
+    "API_Description": "Adds a JavaScript message that executes when a page is opened in the PDF document.",
+    "API_Description_Reason": "The method name 'addPageOpenJSMessage' suggests that it is used to add a JavaScript message or script that triggers when a page is opened. This is a common feature in PDF documents to execute scripts on page load.",
+    "Returns": "void",
+    "Returns_Reason": "The method likely performs an action (adding a script) without returning a value, which is typical for methods that modify document state or behavior.",
+    "Parameters": {}
+}

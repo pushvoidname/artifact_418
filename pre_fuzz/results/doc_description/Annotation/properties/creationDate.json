@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "creationDate",
+  "API_Type": "Properties",
+  "API_Description": "The date and time when the annotation was created. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "C",
+  "Type": "date",
+  "Access": "R",
+  "Examples": []
+}

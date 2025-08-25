@@ -1,0 +1,17 @@
+{
+  "Object": "search",
+  "API_Name": "removeIndex",
+  "API_Type": "Method",
+  "API_Description": "Removes the specified `Index` object from the index list.",
+  "Version": "5.0",
+  "Save-Prefs": "P",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "index": {
+      "description": "The Index object to remove from the index list."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "createIcon",
+    "API_Type": "method",
+    "Parameters": {
+        "cStream": "string",
+        "nWidth": "number",
+        "nHeight": "number"
+    }
+}

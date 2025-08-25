@@ -1,0 +1,23 @@
+{
+    "Object": "Net",
+    "API_Name": "stringEncode",
+    "API_Type": "Method",
+    "API_Description": "Encodes a given string using the specified encoding method.",
+    "API_Description_Reason": "The method name 'stringEncode' suggests that it performs an encoding operation on a string, and the presence of a parameter named 'cEncoder' implies that it specifies the encoding method to be used.",
+    "Returns": "The encoded string.",
+    "Returns_Reason": "Since the method is named 'stringEncode', it is reasonable to assume that it returns the encoded version of the input string.",
+    "Parameters": {
+        "cString": {
+            "description": "The string to be encoded.",
+            "description_reason": "The parameter name 'cString' indicates that it is the input string that needs to be encoded.",
+            "type": "string",
+            "type_reason": "The parameter is named 'cString', which suggests it is a string type."
+        },
+        "cEncoder": {
+            "description": "The encoding method to be used for encoding the string.",
+            "description_reason": "The parameter name 'cEncoder' implies that it specifies the encoding method or format to be applied to the input string.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string type as it represents the name or type of encoding to be used."
+        }
+    }
+}

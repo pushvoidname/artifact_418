@@ -1,0 +1,17 @@
+{
+    "Object": "StreamDigest",
+    "API_Name": "SHA1",
+    "API_Type": "property",
+    "API_Description": "Represents the SHA1 hash value of the stream.",
+    "API_Description_Reason": "The name 'SHA1' suggests it is related to the SHA1 hashing algorithm, which is used to produce a hash value. As a property, it likely represents the hash value of the stream.",
+    "Returns": "The SHA1 hash value of the stream.",
+    "Returns_Reason": "Since it is a property named 'SHA1', it is reasonable to assume it returns the SHA1 hash value of the stream it is associated with.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the SHA1 property.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the data type of the SHA1 property.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not provided in the available information."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "removeDataObject",
+    "API_Type": "Method",
+    "API_Description": "Removes a data object from the PDF document.",
+    "API_Description_Reason": "The method name 'removeDataObject' suggests that it is used to remove a data object from the PDF document. This aligns with typical operations on data objects within a document context.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely designed to perform an action (removal of a data object) without returning any value, which is common for methods that modify the state of an object.",
+    "Parameters": {
+        "unknown": {
+            "description": "The name or identifier of the data object to be removed.",
+            "description_reason": "The parameter is likely used to specify which data object should be removed, as the method needs to know which object to target.",
+            "type": "string",
+            "type_reason": "The parameter is expected to be a string because identifiers or names are typically represented as strings in programming."
+        }
+    }
+}

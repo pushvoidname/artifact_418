@@ -1,0 +1,8 @@
+{
+    "Object": "app",
+    "API_Name": "activeDocs",
+    "API_Type": "property",
+    "Return_Type": "Array[Document]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

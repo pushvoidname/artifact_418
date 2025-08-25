@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSimple_Calculate",
+    "API_Type": "Method",
+    "API_Description": "Performs a simple calculation on form fields within the PDF document.",
+    "API_Description_Reason": "The name 'AFSimple_Calculate' suggests that it is used for performing simple calculations, likely involving form fields, as 'AF' often refers to Acrobat Form operations.",
+    "Returns": "The result of the calculation performed on the specified fields.",
+    "Returns_Reason": "Since the method is named 'Calculate', it is reasonable to assume that it returns the result of a calculation.",
+    "Parameters": {
+        "unknown": {
+            "description": "An unspecified parameter that is likely used to define the fields or expressions involved in the calculation.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating that its purpose is not documented, but it is likely related to specifying the fields or expressions for the calculation.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified due to lack of documentation, but it could be a string, array, or object depending on how fields or expressions are defined."
+        }
+    }
+}

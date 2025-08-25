@@ -1,0 +1,8 @@
+{
+    "Object": "StreamDigest",
+    "API_Name": "SHA1",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "unknown"
+    }
+}

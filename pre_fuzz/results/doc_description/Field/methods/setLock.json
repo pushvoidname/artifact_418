@@ -1,0 +1,18 @@
+{
+  "Object": "Field",
+  "API_Name": "setLock",
+  "API_Type": "Method",
+  "API_Description": "Controls which fields are to be locked when a signature is applied to this signature field. No modifications can be made to locked fields. If the signature is cleared, all fields that were locked become unlocked. The property settings can be obtained using `getLock` .",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "oLock": {
+      "description": "A Lock object containing the lock properties."
+    }
+  },
+  "Returns": "`true` if successful, otherwise `false` or throws an exception.",
+  "Examples": [],
+  "Lock Object": "A generic JavaScript object containing lock properties. This object is passed to `setLock` and returned by `getLock` for a signature field. It contains the following properties.\n\nProperty | Type | Access | Description\n--------------------------------------\naction | String | R/W | The language-independent name of the action. Values are:\n\nAll: All fields in the document are to be locked.\nInclude: Only the fields specified in fields are to be locked.\nExclude: All fields except those specified in fields are to be locked.\nfields | Array of Strings | R/W | An array of strings containing the field names. Required if the value of action is Include or Exclude."
+}

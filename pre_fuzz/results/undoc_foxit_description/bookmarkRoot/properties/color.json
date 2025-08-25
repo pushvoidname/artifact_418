@@ -1,0 +1,17 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "color",
+    "API_Type": "Property",
+    "API_Description": "Represents the color of the bookmark, typically used to visually distinguish it in a list or hierarchy.",
+    "API_Description_Reason": "The property name 'color' suggests it is used to define or retrieve the color associated with the bookmark, which is a common feature for visual elements.",
+    "Returns": "The color value associated with the bookmark, possibly in a format like RGB or a color name.",
+    "Returns_Reason": "Since the property is named 'color', it is logical to assume it returns a value representing a color, which could be in a standard color format.",
+    "Parameters": {
+        "type": {
+            "description": "The format or type of the color value, which could be a string representing a color name or a numeric array for RGB values.",
+            "description_reason": "The parameter 'type' is likely used to specify the format of the color value, as color can be represented in various formats.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it is likely related to color representation, such as a string or array."
+        }
+    }
+}

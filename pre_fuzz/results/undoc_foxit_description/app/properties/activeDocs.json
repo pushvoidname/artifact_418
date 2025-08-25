@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "activeDocs",
+    "API_Type": "Property",
+    "API_Description": "An array containing references to all currently open documents in the Acrobat application.",
+    "API_Description_Reason": "The name 'activeDocs' suggests it holds active document references, and as a property of the 'app' object, it likely provides access to documents currently open in the application.",
+    "Returns": "An array of Doc objects representing the open documents.",
+    "Returns_Reason": "Since 'activeDocs' is a property that likely lists open documents, it would return an array of Doc objects, each representing an open document.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the property, which is an array of Doc objects.",
+            "description_reason": "The property 'activeDocs' is expected to be a collection of document references, hence an array type is appropriate.",
+            "type": "array",
+            "type_reason": "An array is suitable for holding multiple document references, which aligns with the purpose of listing active documents."
+        }
+    }
+}

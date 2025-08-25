@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_MONTH_INFO",
+    "API_Type": "property",
+    "API_Description": "Provides information about the months, possibly for localization or formatting purposes.",
+    "API_Description_Reason": "The name 'IDS_MONTH_INFO' suggests it relates to information about months, which could be used for displaying month names or handling month-related data.",
+    "Returns": "An object or string containing month-related information.",
+    "Returns_Reason": "The property likely returns data that can be used to display or process month names or details, as inferred from its name.",
+    "Parameters": {
+        "type": {
+            "description": "The type of information or format required for the month data.",
+            "description_reason": "The parameter 'type' suggests it specifies the format or kind of month information needed.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified in the provided data, indicating it could be a string or another data type that defines the format or kind of month information."
+        }
+    }
+}

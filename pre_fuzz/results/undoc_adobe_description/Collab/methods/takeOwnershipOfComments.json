@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "takeOwnershipOfComments",
+    "API_Type": "Method",
+    "API_Description": "Transfers ownership of comments in a collaborative document review to the current user.",
+    "API_Description_Reason": "The method name 'takeOwnershipOfComments' suggests that it is used to change the ownership of comments, likely to the user invoking the method, which is a common requirement in collaborative environments.",
+    "Returns": "A boolean indicating whether the ownership transfer was successful.",
+    "Returns_Reason": "Methods that perform an action typically return a boolean to indicate success or failure, especially in collaborative systems where operations may fail due to permissions or other constraints.",
+    "Parameters": {}
+}

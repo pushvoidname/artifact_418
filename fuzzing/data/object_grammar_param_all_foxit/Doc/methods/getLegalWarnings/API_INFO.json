@@ -1,0 +1,12 @@
+{
+    "Object": "Doc",
+    "API_Name": "getLegalWarnings",
+    "API_Type": "method",
+    "Return_Type": "DocLegalWarning",
+    "Scripts_Arg": [
+        "bExecute"
+    ],
+    "Actions_Arg": [
+        "bExecute"
+    ]
+}

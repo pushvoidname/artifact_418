@@ -1,0 +1,35 @@
+{
+    "Object": "Doc",
+    "API_Name": "setPageBoxes",
+    "API_Type": "Method",
+    "API_Description": "Sets the page boundaries (media, crop, bleed, trim, and art boxes) for the specified pages in the document.",
+    "API_Description_Reason": "The method name 'setPageBoxes' suggests it is used to define or modify the page boundaries, which are commonly referred to as boxes in PDF terminology.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used to modify the document's state without returning a value, as it sets properties rather than retrieving or creating an object.",
+    "Parameters": {
+        "nStart": {
+            "description": "The 0-based index of the first page to set the boxes for.",
+            "description_reason": "Page operations typically require specifying a starting page index, and 'nStart' is a common parameter name for such purposes.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        },
+        "nEnd": {
+            "description": "The 0-based index of the last page to set the boxes for.",
+            "description_reason": "To define a range of pages, an ending index is needed, and 'nEnd' is a logical parameter name.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        },
+        "cBox": {
+            "description": "The type of box to set. Valid values are: 'Media', 'Crop', 'Bleed', 'Trim', 'Art'.",
+            "description_reason": "The method likely allows setting different types of page boxes, and specifying which box type is necessary.",
+            "type": "string",
+            "type_reason": "Box types are typically represented as strings."
+        },
+        "aRect": {
+            "description": "An array of four numbers specifying the coordinates of the box in the format [ulx, uly, lrx, lry].",
+            "description_reason": "Page boxes are defined by their bounding rectangle, which requires four coordinates.",
+            "type": "array",
+            "type_reason": "Coordinates are often represented as arrays of numbers."
+        }
+    }
+}

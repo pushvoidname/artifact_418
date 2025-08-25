@@ -1,0 +1,30 @@
+[
+    [
+        "ALIGNMENT",
+        "{ALIGNMENT_VALUE}"
+    ],
+    [
+        "ALIGNMENT_VALUE",
+        "{LEFT_ALIGNED}"
+    ],
+    [
+        "ALIGNMENT_VALUE",
+        "{CENTERED}"
+    ],
+    [
+        "ALIGNMENT_VALUE",
+        "{RIGHT_ALIGNED}"
+    ],
+    [
+        "LEFT_ALIGNED",
+        "0"
+    ],
+    [
+        "CENTERED",
+        "1"
+    ],
+    [
+        "RIGHT_ALIGNED",
+        "2"
+    ]
+]

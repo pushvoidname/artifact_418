@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "richDefaults",
+  "API_Type": "Properties",
+  "API_Description": "This property defines the default style attributes for a free text annotation. See the description of the Field object defaultStyle property for additional details. **Annotations** : FreeText",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "Span object",
+  "Access": "R/W",
+  "Examples": []
+}

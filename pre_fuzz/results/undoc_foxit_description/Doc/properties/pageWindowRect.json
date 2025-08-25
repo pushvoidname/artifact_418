@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "pageWindowRect",
+    "API_Type": "Property",
+    "API_Description": "Represents the rectangle, in screen coordinates, of the page window in the viewer. This property provides the dimensions and position of the page window, which can be used to determine how the page is displayed on the screen.",
+    "API_Description_Reason": "The name 'pageWindowRect' suggests it is related to the rectangle dimensions of the page window. In the context of a PDF viewer, this would likely refer to the screen coordinates of the page window.",
+    "Returns": "An array of four numbers representing the coordinates of the page window rectangle: [left, top, right, bottom].",
+    "Returns_Reason": "The term 'Rect' typically refers to a rectangle defined by four coordinates, which is a common way to describe a rectangular area in screen or document space.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the page window rectangle, which is unknown but likely refers to the coordinate system or measurement units used.",
+            "description_reason": "The parameter 'type' is listed as unknown, but it might refer to the coordinate system or units (e.g., pixels, points) used for the rectangle.",
+            "type": "unknown",
+            "type_reason": "The type is explicitly marked as unknown, indicating that the specific details of this parameter are not documented."
+        }
+    }
+}

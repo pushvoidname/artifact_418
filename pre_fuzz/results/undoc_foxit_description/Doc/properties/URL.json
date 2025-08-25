@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "URL",
+    "API_Type": "Property",
+    "API_Description": "Represents the URL associated with the PDF document, typically used to identify the source or location of the document.",
+    "API_Description_Reason": "The URL property is commonly used to store or retrieve the web address or file path from which the document was accessed or to which it is related.",
+    "Returns": "A string representing the URL of the PDF document.",
+    "Returns_Reason": "The URL is typically represented as a string, which is a standard format for web addresses or file paths.",
+    "Parameters": {
+        "type": {
+            "description": "The type of URL, which could specify the protocol or format of the URL.",
+            "description_reason": "The type parameter might be used to specify or query the format or protocol of the URL, such as HTTP, HTTPS, or file.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified in the provided information, indicating it might be a flexible or optional parameter."
+        }
+    }
+}

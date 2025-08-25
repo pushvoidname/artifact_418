@@ -1,0 +1,23 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "addUI",
+    "API_Type": "Method",
+    "API_Description": "Adds a user interface component to the subscription system using the specified cURL and driver settings.",
+    "API_Description_Reason": "The method name 'addUI' suggests it is responsible for adding a user interface component, and the parameters 'cURL' and 'oDriver' imply configuration settings for this component.",
+    "Returns": "A confirmation message or object indicating the success or failure of adding the UI component.",
+    "Returns_Reason": "Typically, methods that perform an action like adding a component return a status or confirmation of the action's success.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL or endpoint associated with the UI component to be added.",
+            "description_reason": "The parameter name 'cURL' suggests it is a URL or endpoint, which is common in web-based UI configurations.",
+            "type": "string",
+            "type_reason": "URLs are typically represented as strings in programming."
+        },
+        "oDriver": {
+            "description": "An object containing driver settings or configurations for the UI component.",
+            "description_reason": "The parameter name 'oDriver' implies it is an object related to driver or configuration settings, which are often used in UI setups.",
+            "type": "object",
+            "type_reason": "Driver settings are usually encapsulated in objects to allow for multiple configuration options."
+        }
+    }
+}

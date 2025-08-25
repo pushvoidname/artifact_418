@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "targetName",
+    "API_Type": "property",
+    "API_Description": "Represents the name of the target element associated with the event.",
+    "API_Description_Reason": "The property 'targetName' suggests it holds the name of the target element involved in the event, which is a common pattern in event handling to identify the element that triggered the event.",
+    "Returns": "The name of the target element as a string.",
+    "Returns_Reason": "Since 'targetName' is a property that likely holds the name of an element, it is reasonable to assume it returns a string representing that name.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the targetName property.",
+            "description_reason": "The 'type' parameter is included to specify the data type of the property, which is a common practice in API documentation to clarify what kind of value is expected.",
+            "type": "string",
+            "type_reason": "The 'targetName' is expected to be a string as it represents the name of an element, which is typically a string value."
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "getNumberOfFormWorkflowsOnServer",
+    "API_Type": "method",
+    "Parameters": {
+        "cServer": "string"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "repeat",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the text specified by overlayText should be repeated to fill the redacted region after the affected content has been removed. Default value: `false` . **Annotations** : Redact",
+  "Version_Key": "8.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,41 @@
+{
+    "Object": "Collab",
+    "API_Name": "addAnnotStore",
+    "API_Type": "Method",
+    "API_Description": "Adds a new annotation store to the collaboration environment with specified settings and visibility.",
+    "API_Description_Reason": "The method name 'addAnnotStore' suggests it is used to add an annotation store, and the parameters indicate it involves settings and visibility options.",
+    "Returns": "A boolean indicating success or failure of adding the annotation store.",
+    "Returns_Reason": "Typically, methods that perform an action like adding a store return a success status, often as a boolean.",
+    "Parameters": {
+        "cName": {
+            "description": "The internal name of the annotation store to be added.",
+            "description_reason": "The parameter 'cName' is likely used to uniquely identify the annotation store within the system.",
+            "type": "string",
+            "type_reason": "The prefix 'c' and the context suggest it is a string, commonly used for names."
+        },
+        "cUIName": {
+            "description": "The user-friendly name of the annotation store to be displayed in the UI.",
+            "description_reason": "The parameter 'cUIName' implies a name meant for display purposes, hence user-friendly.",
+            "type": "string",
+            "type_reason": "The prefix 'c' and the context suggest it is a string, commonly used for names."
+        },
+        "factory": {
+            "description": "The factory object or function responsible for creating instances of the annotation store.",
+            "description_reason": "The term 'factory' typically refers to a design pattern used to create objects, suggesting this parameter is related to object creation.",
+            "type": "unknown",
+            "type_reason": "Without further context, the exact type is unclear, but it is likely an object or function."
+        },
+        "cSettings": {
+            "description": "A string representing configuration settings for the annotation store.",
+            "description_reason": "The parameter 'cSettings' suggests it contains configuration data, likely in a serialized format like JSON.",
+            "type": "string",
+            "type_reason": "The prefix 'c' and the context suggest it is a string, often used for serialized data."
+        },
+        "bHidden": {
+            "description": "A boolean indicating whether the annotation store should be hidden from the user interface.",
+            "description_reason": "The parameter 'bHidden' suggests a visibility toggle, which is typically represented as a boolean.",
+            "type": "boolean",
+            "type_reason": "The prefix 'b' and the context suggest it is a boolean, commonly used for true/false values."
+        }
+    }
+}

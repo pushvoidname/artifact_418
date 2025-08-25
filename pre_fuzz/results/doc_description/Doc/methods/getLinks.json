@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "getLinks",
+  "API_Type": "Method",
+  "API_Description": "Gets an array of `Link` objects that are enclosed within specified coordinates on a page. See also addLink and removeLinks .",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "The page that contains the Link objects. The first page is 0."
+    },
+    "oCoords": {
+      "description": "An array of four numbers in rotated user space, the coordinates of a rectangle listed in the following order: upper-left x, upper-left y, lower-right x and lower-right y ."
+    }
+  },
+  "Returns": "An array of `Link` objects.",
+  "Examples": [
+    "Count the number of links in a document and report to the console.\n\n```\nvar numLinks=0;\nfor ( var p = 0; p < this.numPages; p++)\n{\n    var b = this.getPageBox(\"Crop\", p);\n    var l = this.getLinks(p, b);\n    console.println(\"Number of Links on page \" + p +\" is \" + l.length);\n    numLinks += l.length;\n}\nconsole.println(\"Number of Links in Document is \" + numLinks);\n```"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "font",
+    "API_Type": "Property",
+    "API_Description": "Represents the font settings used within the PDF document. This property allows access to the font details, such as font name, size, and style, used in the document.",
+    "API_Description_Reason": "The 'font' property likely pertains to the font settings or attributes used in the document, as it is a common property name associated with text styling in document-related APIs.",
+    "Returns": "An object or string representing the font details used in the document.",
+    "Returns_Reason": "The 'font' property typically returns information about the font, such as its name, size, and style, which can be represented as a string or an object containing these details.",
+    "Parameters": {
+        "type": {
+            "description": "The type of font information being accessed or modified, such as font name, size, or style.",
+            "description_reason": "The 'type' parameter likely specifies the aspect of the font being accessed or modified, as font properties often include multiple attributes like name, size, and style.",
+            "type": "unknown",
+            "type_reason": "The exact type is unspecified, but it could be a string or an object, depending on whether it represents a single attribute or multiple attributes of the font."
+        }
+    }
+}

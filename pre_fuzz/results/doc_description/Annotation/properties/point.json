@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "point",
+  "API_Type": "Properties",
+  "API_Description": "An array of two numbers, [ , ] that specifies the upper left-hand corner in default user space of the icon for a text, sound or file attachment annotation. **Annotations** : Text, Sound, FileAttachment",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Place a help note icon at specified coordinates. The icon is located at the upper right corner of the popup note.\n\n```\nvar annot = this.addAnnot({\n    page: 0,\n    type: \"Text\",\n    point: [400,500],\n    contents: \"Call Smith to get help on this paragraph.\",\n    popupRect: [400,400,550,500],\n    popupOpen: true,\n    noteIcon: \"Help\"\n});\n```\n\nSee also the noteIcon property and the Doc object addAnnot method."
+  ]
+}

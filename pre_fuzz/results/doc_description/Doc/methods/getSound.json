@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getSound",
+  "API_Type": "Method",
+  "API_Description": "Gets the `sound` object corresponding to the specified name. See also sounds , importSound , deleteSound , and the Sound object.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the object to obtain."
+    }
+  },
+  "Returns": "The `Sound` object corresponding to the specified name.",
+  "Examples": [
+    "Play a sound.\n\n```\nvar s = this.getSound(\"Moo\");\nconsole.println(\"Playing the \" + s.name + \" sound.\");\ns.play();\n```"
+  ]
+}

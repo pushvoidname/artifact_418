@@ -1,0 +1,17 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "update",
+    "API_Type": "Method",
+    "API_Description": "Updates the subscription details using the provided cURL command.",
+    "API_Description_Reason": "The method name 'update' suggests it modifies existing data, and the parameter 'cURL' implies it uses a cURL command to perform the update operation.",
+    "Returns": "A confirmation message or status indicating the success or failure of the update operation.",
+    "Returns_Reason": "Typically, update operations return a status or confirmation message to indicate whether the operation was successful.",
+    "Parameters": {
+        "cURL": {
+            "description": "A string representing the cURL command used to update the subscription details.",
+            "description_reason": "The parameter name 'cURL' directly suggests it is a string containing a cURL command.",
+            "type": "string",
+            "type_reason": "cURL commands are typically represented as strings, which include the command and its options."
+        }
+    }
+}

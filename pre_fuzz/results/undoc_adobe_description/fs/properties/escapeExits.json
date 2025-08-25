@@ -1,0 +1,17 @@
+{
+    "Object": "fs",
+    "API_Name": "escapeExits",
+    "API_Type": "property",
+    "API_Description": "Determines whether pressing the escape key will exit the current mode or operation.",
+    "API_Description_Reason": "The name 'escapeExits' suggests that it controls the behavior of the escape key, likely allowing or preventing it from exiting a mode or operation.",
+    "Returns": "The current setting of the escapeExits property, indicating if escape key exits are enabled or disabled.",
+    "Returns_Reason": "As a property, it likely returns a boolean value representing the current state of the escape key behavior.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value that sets whether the escape key will exit the current mode or operation.",
+            "description_reason": "The parameter 'type' is a boolean, which typically indicates a true/false setting, aligning with the expected behavior of enabling or disabling a feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, which is appropriate for a setting that toggles a feature on or off."
+        }
+    }
+}

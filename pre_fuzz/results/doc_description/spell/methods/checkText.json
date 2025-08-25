@@ -1,0 +1,22 @@
+{
+  "Object": "spell",
+  "API_Name": "checkText",
+  "API_Type": "Method",
+  "API_Description": "Presents the spelling dialog box to allow the user to correct misspelled words in the specified string.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cText": {
+      "description": "The string to check."
+    },
+    "aDictionary": {
+      "description": "(optional) The array of dictionary names or language codes that the spell checker should use. The order of the dictionaries in the array is the order the spell checker will use to check for misspelled words. An array of installed dictionaries can be obtained using spell.dictionaryNames or spell.languages. When this parameter is omitted, the spellDictionaryOrder list will be searched followed by the dictionaryOrder list."
+    }
+  },
+  "Returns": "The result from the spelling dialog box in a new string.",
+  "Examples": [
+    "Spell check a particular field, and update the spelling in the field.\n\n```\nvar f = this.getField(\"Text Box\")    // A form text box\nf.value = spell.checkText(f.value);  // Let the user pick the dictionary\n```"
+  ]
+}

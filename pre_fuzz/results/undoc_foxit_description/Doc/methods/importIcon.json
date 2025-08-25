@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "importIcon",
+    "API_Type": "Method",
+    "API_Description": "Imports an icon from a specified file path and assigns it a name within the document.",
+    "API_Description_Reason": "The method name 'importIcon' suggests it is used to import an icon into the document, and the parameters indicate specifying a name and a file path, which aligns with importing and naming an icon.",
+    "Returns": "A boolean indicating success or failure of the icon import operation.",
+    "Returns_Reason": "Typically, methods that perform an import operation return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "cName": {
+            "description": "The name to assign to the imported icon within the document.",
+            "description_reason": "The parameter 'cName' is likely used to specify the name under which the icon will be stored, as naming is a common practice when importing resources.",
+            "type": "string",
+            "type_reason": "The 'cName' parameter is a string because it represents a name, which is typically a text identifier."
+        },
+        "cDIPath": {
+            "description": "The file path from which to import the icon.",
+            "description_reason": "The parameter 'cDIPath' likely specifies the path to the icon file, as 'DIPath' suggests a directory or file path.",
+            "type": "string",
+            "type_reason": "The 'cDIPath' parameter is a string because file paths are generally represented as strings."
+        }
+    }
+}

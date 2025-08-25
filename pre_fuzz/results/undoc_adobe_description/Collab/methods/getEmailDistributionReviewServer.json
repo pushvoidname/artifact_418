@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getEmailDistributionReviewServer",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the server information for email distribution reviews based on the specified review type.",
+    "API_Description_Reason": "The method name suggests it is used to get server information related to email distribution for reviews. The parameter 'cReviewType' implies that the server information may vary based on the type of review.",
+    "Returns": "The server information for the specified email distribution review type.",
+    "Returns_Reason": "The method is expected to return server information, as indicated by its name, which includes 'get' and 'Server'.",
+    "Parameters": {
+        "cReviewType": {
+            "description": "The type of review for which to retrieve the email distribution server information.",
+            "description_reason": "The parameter name 'cReviewType' suggests it specifies the type of review, which is used to determine the appropriate server information.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string because it represents a type or category, which is typically expressed as a string."
+        }
+    }
+}

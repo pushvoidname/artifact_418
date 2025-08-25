@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "arrowEnd",
+  "API_Type": "Properties",
+  "API_Description": "Determines the line cap style that specifies the shape to be used at the end of a line annotation. The following list shows the allowed values: * None (default) * OpenArrow * ClosedArrow * ROpenArrow* // Acrobat 6.0 * RClosedArrow* // Acrobat 6.0 * Butt* // Acrobat 6.0 * Diamond * Circle * Square * Slash // Acrobat 7.0 **Annotations** : Line, PolyLine",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the setProps method."
+  ]
+}

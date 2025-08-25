@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "getPageNthWordQuads",
+    "API_Type": "method",
+    "Return_Type": "Array[Quad]",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

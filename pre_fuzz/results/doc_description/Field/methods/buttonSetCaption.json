@@ -1,0 +1,22 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonSetCaption",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cCaption": {
+      "description": "The caption associated with the button."
+    },
+    "nFace": {
+      "description": "(optional) If specified, sets a caption of the given type:"
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "```\nvar f = this.getField(\"myButton\");\nf.buttonSetCaption(\"Hello\");\n```"
+  ]
+}

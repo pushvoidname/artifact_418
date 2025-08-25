@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "updateMountInfo",
+    "API_Type": "Method",
+    "API_Description": "Updates the information related to the mounted collaboration resources.",
+    "API_Description_Reason": "The method name 'updateMountInfo' suggests that it is responsible for updating or refreshing the information about mounted resources or connections related to collaboration.",
+    "Returns": "A boolean indicating whether the update was successful.",
+    "Returns_Reason": "Typically, methods that perform update operations return a boolean to indicate success or failure of the operation.",
+    "Parameters": {}
+}

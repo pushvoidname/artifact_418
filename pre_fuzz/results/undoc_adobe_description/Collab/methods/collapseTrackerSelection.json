@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "collapseTrackerSelection",
+    "API_Type": "Method",
+    "API_Description": "Collapses the current selection in the collaboration tracker, potentially hiding details or sub-items.",
+    "API_Description_Reason": "The method name 'collapseTrackerSelection' suggests it is used to collapse or minimize a selection within a tracker, which is a common functionality in collaboration tools to manage visibility of items.",
+    "Returns": "A boolean indicating whether the collapse operation was successful.",
+    "Returns_Reason": "Methods that perform an action often return a boolean to indicate success or failure of the operation.",
+    "Parameters": {}
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSpecial_Format",
+    "API_Type": "Method",
+    "API_Description": "Formats a number according to a special format pattern.",
+    "API_Description_Reason": "The method name 'AFSpecial_Format' suggests it is used for formatting numbers in a special way, likely involving specific patterns or rules.",
+    "Returns": "A formatted string representation of the number.",
+    "Returns_Reason": "Since the method is likely used for formatting, it would return a string that represents the formatted version of the input number.",
+    "Parameters": {
+        "unknown": {
+            "description": "The number to be formatted according to the special format pattern.",
+            "description_reason": "The parameter is likely the number to be formatted, as the method name suggests it deals with formatting.",
+            "type": "number",
+            "type_reason": "The parameter is described as a 'number', which aligns with the method's purpose of formatting numbers."
+        }
+    }
+}

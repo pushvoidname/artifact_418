@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "isOnlineReview",
+    "API_Type": "Method",
+    "API_Description": "Determines if the document is part of an online review process.",
+    "API_Description_Reason": "The method name 'isOnlineReview' suggests it checks whether a document is involved in an online review, which is a common feature in collaboration tools.",
+    "Returns": "A boolean indicating whether the document is part of an online review.",
+    "Returns_Reason": "The method likely returns a boolean value because it is a check (indicated by 'is') to determine the status of the document in relation to online reviews.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to be checked for online review status.",
+            "description_reason": "The parameter 'doc' is likely the document being checked, as it is common to pass the document of interest to such methods.",
+            "type": "object",
+            "type_reason": "The 'doc' parameter is a built-in object, which suggests it is a document object that the method will evaluate."
+        },
+        "bLax": {
+            "description": "A boolean flag that may alter the strictness of the online review check.",
+            "description_reason": "The parameter 'bLax' is a boolean, often used as a flag to modify the behavior of a method, possibly to perform a less strict check.",
+            "type": "boolean",
+            "type_reason": "The 'bLax' parameter is explicitly stated as a boolean, indicating it is used as a true/false flag within the method."
+        }
+    }
+}

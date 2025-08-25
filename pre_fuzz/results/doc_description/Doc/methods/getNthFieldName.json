@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getNthFieldName",
+  "API_Type": "Method",
+  "API_Description": "Gets the name of the th field in the document. See also numFields .",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nIndex": {
+      "description": "The index of the field whose name should be obtained."
+    }
+  },
+  "Returns": "The name of the field in the document.",
+  "Examples": [
+    "Enumerate through all of the fields in the document.\n\n```\nfor (var i = 0; i < this.numFields; i++)\n    console.println(\"Field[\" + i + \"] = \" + this.getNthFieldName(i));\n```"
+  ]
+}

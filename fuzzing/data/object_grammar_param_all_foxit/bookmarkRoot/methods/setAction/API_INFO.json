@@ -1,0 +1,10 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "setAction",
+    "API_Type": "method",
+    "Return_Type": "void",
+    "Scripts_Arg": [
+        "action"
+    ],
+    "Actions_Arg": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "overlayText",
+  "API_Type": "Properties",
+  "API_Description": "A text string specifying the overlay text that should be drawn over the redacted region after the affected content has been removed. **Annotations** : Redact",
+  "Version_Key": "8.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Set the redaction properties of a particular redaction annotation.\n\n```\nvar a = this.getAnnots();                              // get all annotations in doc\nvar r = a[0]           ;                               // the first one is Redact type\nr.setProps({                                           // now set its properties\n   overlayText: \" A.C. Robat \",\n   alignment: 0,\n   repeat: true,\n   fillColor:color.blue,\n   textColor: color.green\n});\n```\n\nThere is a popup associated with a `Redact` annotation, now add content to this popup note.\n\n```\nr.setProps({ contents: \"Shall we redact this paragraph?\" });\n```\n\nSee also the applyRedactions method of the Doc object."
+  ]
+}

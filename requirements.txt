@@ -1,0 +1,24 @@
+# PDFuzzer - LLM-Driven PDF Reader Fuzzing Framework
+# Requirements file for Python dependencies
+
+# Core AI/LLM Libraries
+openai>=1.30.0              # OpenAI API client for GPT models
+anthropic>=0.25.0           # Anthropic API client for Claude models
+
+# Web Scraping and HTML Processing
+requests>=2.31.0            # HTTP library for API documentation fetching
+beautifulsoup4>=4.12.0      # HTML/XML parsing for documentation extraction
+lxml>=4.9.0                 # XML/HTML parser (faster than html.parser)
+
+# Windows System Automation (Required for PDF reader testing)
+psutil>=5.9.0               # Process and system monitoring
+pywinauto>=0.6.8            # Windows application automation
+pywin32>=306                # Windows API bindings (win32api, win32evtlog)
+
+# Constraint Solving and Symbolic Execution
+z3-solver>=4.12.0           # Z3 SMT solver for constraint satisfaction
+
+# Note: This framework is designed for Windows environments due to:
+# - PDF reader automation requirements (Windows-specific applications)
+# - Windows API dependencies (pywin32, pywinauto)
+# - Target applications: Adobe Acrobat Reader, Foxit PDF Reader, PDF-XChange Editor

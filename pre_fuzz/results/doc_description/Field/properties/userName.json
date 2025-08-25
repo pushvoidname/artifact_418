@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "userName",
+  "API_Type": "Properties",
+  "API_Description": "The user name (short description string) of the field. It is intended to be used as tooltip text whenever the cursor enters a field. It can also be used as a user-friendly name, instead of the field name, when generating error messages. **Fields** all",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Add a tooltip to a button field.\n\n```\nvar f = this.getField(\"mySubmit\");\nf.userName = \"Press this button to submit your data.\";\n```"
+  ]
+}

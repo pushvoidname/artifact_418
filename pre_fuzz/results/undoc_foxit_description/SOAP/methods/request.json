@@ -1,0 +1,10 @@
+{
+    "Object": "SOAP",
+    "API_Name": "request",
+    "API_Type": "Method",
+    "API_Description": "Sends a SOAP request to a remote server and processes the response.",
+    "API_Description_Reason": "The SOAP.request method is part of the SOAP object, which is used to make remote procedure calls or send XML messages to a remote server. The method likely handles sending a request and processing the response, as this is a common functionality for a 'request' method in a SOAP context.",
+    "Returns": "The response from the remote server, unmarshalled as a JavaScript object.",
+    "Returns_Reason": "Since the SOAP object is used to communicate with remote servers and unmarshall results as JavaScript objects, it is reasonable to assume that the request method returns the server's response in this format.",
+    "Parameters": {}
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "StreamDigest",
+    "API_Name": "MD5",
+    "API_Type": "property",
+    "API_Description": "Represents the MD5 hash value of the stream.",
+    "API_Description_Reason": "The MD5 property likely provides the MD5 hash of the stream, as MD5 is a common hashing algorithm used to verify data integrity.",
+    "Returns": "The MD5 hash value as a string.",
+    "Returns_Reason": "Hash values are typically represented as strings of hexadecimal digits.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the MD5 property.",
+            "description_reason": "The type parameter is likely used to specify or describe the data type of the MD5 hash.",
+            "type": "unknown",
+            "type_reason": "The type is unknown based on the provided information."
+        }
+    }
+}

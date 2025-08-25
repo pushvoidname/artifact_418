@@ -1,0 +1,13 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAsTextStr",
+    "API_Type": "method",
+    "Parameters": {
+        "bAllFields": "boolean",
+        "bNoPassword": "boolean",
+        "aFields": "unknown",
+        "bFlags": "boolean",
+        "cHRef": "string",
+        "bBase64": "boolean"
+    }
+}

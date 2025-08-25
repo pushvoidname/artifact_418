@@ -1,0 +1,15 @@
+{
+  "Object": "search",
+  "API_Name": "indexes",
+  "API_Type": "Properties",
+  "API_Description": "An array of all of the `Index` objects currently accessible by the search engine. !! Note (Acrobat 7.0) This property can only be accessed during a batch or console event. See Privileged context . The event object contains a discussion of JavaScript events.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: Enumerate all of the indexes and dump their names.\n\n```\nfor (var i = 0; i < search.indexes.length; i++) {\n    console.println(\"Index[\" + i + \"]=\", search.indexes[i].name);\n}\n```"
+  ]
+}

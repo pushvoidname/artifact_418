@@ -1,0 +1,19 @@
+{
+  "Object": "util",
+  "API_Name": "iconStreamFromIcon",
+  "API_Type": "Method",
+  "API_Description": "Converts an XObject-based `Icon` object into an `Icon Stream` object.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oIcon": {
+      "description": "An Icon object to be converted into an Icon Stream object."
+    }
+  },
+  "Returns": "`Icon Stream` object\n\nThis method allows an icon obtained from the Doc `importIcon` or `getIcon` methods to be used in a method such as `app.addToolButton` , which would otherwise accept only an `Icon Stream` object as an input parameter.",
+  "Examples": [
+    "Import an icon into the document-level named icons tree and add a toolbutton to the application.\n\n```\nthis.importIcon(\"myIcon\", \"/C/temp/myIcon.jpg\", 0);\nvar oIcon = util.iconStreamFromIcon(this.getIcon(\"myIcon\"));\napp.addToolButton({\n    cName: \"myButton\",\n    oIcon: oIcon,\n    cExec: \"console.println('My Button!');\",\n\n     cTooltext: \"My button!\",\n    nPos: 0\n});\n```"
+  ]
+}

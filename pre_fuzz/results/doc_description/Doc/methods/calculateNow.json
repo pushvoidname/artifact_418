@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "calculateNow",
+  "API_Type": "Method",
+  "API_Description": "Forces computation of all calculation fields in the current document.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Turn off calculations\n\n```\nthis.calculate = false;\n.....\n```\n\nTurn on calculations\n\n```\nthis.calculate = true;\n```\n\nUnless the user committed data after this.calculate is set to true, automatic calculation does not occur. Calculation can be forced to occur by using the following code.\n\n```\nthis.calculateNow();\n```"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+    [
+        "CWHERE",
+        "{LOCATION}"
+    ],
+    [
+        "LOCATION",
+        "ActiveDoc"
+    ],
+    [
+        "LOCATION",
+        "Folder"
+    ],
+    [
+        "LOCATION",
+        "Index"
+    ],
+    [
+        "LOCATION",
+        "ActiveIndexes"
+    ]
+]

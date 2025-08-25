@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFTime_Format",
+    "API_Type": "Method",
+    "API_Description": "Formats a time value according to a specified format.",
+    "API_Description_Reason": "The method name 'AFTime_Format' suggests that it is used to format time values. The prefix 'AF' is commonly used in Adobe's JavaScript API for Acrobat to denote formatting functions.",
+    "Returns": "A string representing the formatted time.",
+    "Returns_Reason": "Since the method is likely used to format a time value, it would return the formatted time as a string.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number representing the time value to be formatted.",
+            "description_reason": "The parameter is likely a time value that needs to be formatted, as suggested by the method name.",
+            "type": "number",
+            "type_reason": "The parameter is described as a number, which is consistent with representing time values in numerical form."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "Object": "spell",
+  "API_Name": "customDictionaryClose",
+  "API_Type": "Method",
+  "API_Description": "Closes a custom dictionary that was opened using `customDictionaryOpen` or `customDictionaryCreate` .",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cName": {
+      "description": "Dictionary name used when this dictionary was opened or created."
+    }
+  },
+  "Returns": "`true` if successful, `false` on failure.",
+  "Examples": []
+}

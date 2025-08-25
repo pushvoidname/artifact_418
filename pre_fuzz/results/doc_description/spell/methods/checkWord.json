@@ -1,0 +1,23 @@
+{
+  "Object": "spell",
+  "API_Name": "checkWord",
+  "API_Type": "Method",
+  "API_Description": "Checks the spelling of a specified word.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cWord": {
+      "description": "The word to check."
+    },
+    "aDictionary": {
+      "description": "(optional) The array of dictionary names or language codes that the spell checker should use, to check for misspelled words. The spell checker uses the dictionaries in the order they appear in the array. An array of installed dictionaries can be obtained using spell.dictionaryNames or spell.languages. If this parameter is omitted, the spellDictionaryOrder list is searched, followed by the dictionaryOrder list."
+    }
+  },
+  "Returns": "A `null` object if the word is correct, otherwise an array of alternative spellings for the unknown word.",
+  "Examples": [
+    "Insert the array of suggested alternative spellings into a list box.\n\n```\nvar word = \"subpinna\"; /* misspelling of \"subpoena\" */\nvar dictionaries = [\"English\"];\nvar f = this.getField(\"Alternatives\") // Alternative spellings list box\n\n f.clearItems();\nf.setItems(spell.checkWord(word, dictionaries));\n```",
+    "The following script marks misspelled words in the document with a squiggle annotation whose contents are the suggested alternative spellings. The script can be executed from the console, as a mouse-up action within the document, a menu, or as a batch sequence.\n\n```\nvar ckWord, numWords;\nfor (var i = 0; i < this.numPages; i++ )\n{\n    numWords = this.getPageNumWords(i);\n    for (var j = 0; j < numWords; j++)\n    {\n        ckWord = spell.checkWord(this.getPageNthWord(i, j))\n        if ( ckWord != null )\n        {\n            this.addAnnot({\n                page: i,\n                type: \"Squiggly\",\n                quads: this.getPageNthWordQuads(i, j),\n                author: \"A. C. Acrobat\",\n                contents: ckWord.toString()\n            });\n        }\n    }\n}\n```"
+  ]
+}

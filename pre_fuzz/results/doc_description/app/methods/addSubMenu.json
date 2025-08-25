@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "addSubMenu",
+  "API_Type": "Method",
+  "API_Description": "Adds a menu item with a submenu to the application.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "See the newDoc method."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "media",
+    "API_Name": "getPlayers",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "string"
+    }
+}

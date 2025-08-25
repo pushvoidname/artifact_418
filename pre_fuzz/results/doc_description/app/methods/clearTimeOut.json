@@ -1,0 +1,19 @@
+{
+  "Object": "app",
+  "API_Name": "clearTimeOut",
+  "API_Type": "Method",
+  "API_Description": "Cancels a previously registered time-out interval. Such an interval is initially set by `setTimeOut` .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oTime": {
+      "description": "The previously registered time-out interval to cancel."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "See setTimeOut ."
+  ]
+}

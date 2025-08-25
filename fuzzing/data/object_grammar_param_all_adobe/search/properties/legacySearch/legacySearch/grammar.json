@@ -1,0 +1,14 @@
+[
+    [
+        "LEGACY_SEARCH",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

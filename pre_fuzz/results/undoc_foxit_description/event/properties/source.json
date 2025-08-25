@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "source",
+    "API_Type": "Property",
+    "API_Description": "Represents the source object that triggered the event.",
+    "API_Description_Reason": "The 'source' property typically refers to the originator of the event, providing context about what initiated the event.",
+    "Returns": "The object that triggered the event.",
+    "Returns_Reason": "The 'source' property is expected to return the object responsible for the event, allowing event handlers to access and manipulate the source if needed.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the source object.",
+            "description_reason": "The 'type' parameter is likely used to specify or identify the kind of object that is the source of the event.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified in the provided information, indicating it could vary depending on the context or implementation."
+        }
+    }
+}

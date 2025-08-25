@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "documentFileName",
+  "API_Type": "Properties",
+  "API_Description": "The base file name, with extension, of the document referenced by the Doc. The device-independent path is not returned. See also the path and URL properties. The file size of the document can be obtained from the `filesize` property.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": [
+    "Example: Get the document file name.\n\n```\nconsole.println('\"The file name of this document is '\n    + this.documentFileName +'.\"');\n```\n\nExecuting the script on this document, the , yields the following statement:\n\n```\n\"The file name of this document is js_api_reference.pdf\"\n```"
+  ]
+}

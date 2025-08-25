@@ -1,0 +1,38 @@
+[
+    [
+        "DISCOVERY_OBJECT",
+        "{METHODS}"
+    ],
+    [
+        "METHODS",
+        "[ {METHOD}, {METHODS} ]"
+    ],
+    [
+        "METHODS",
+        "[ {METHOD} ]"
+    ],
+    [
+        "METHOD",
+        "{QUERY_SERVICES}"
+    ],
+    [
+        "METHOD",
+        "{RESOLVE_SERVICE}"
+    ],
+    [
+        "QUERY_SERVICES",
+        "{QUERY_NAME}"
+    ],
+    [
+        "RESOLVE_SERVICE",
+        "{RESOLVE_NAME}"
+    ],
+    [
+        "QUERY_NAME",
+        "queryServices"
+    ],
+    [
+        "RESOLVE_NAME",
+        "resolveService"
+    ]
+]

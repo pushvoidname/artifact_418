@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "expandTrackerSelection",
+    "API_Type": "Method",
+    "API_Description": "Expands the current selection in the tracker interface, allowing users to view more details or options related to the selected item.",
+    "API_Description_Reason": "The method name 'expandTrackerSelection' suggests functionality related to expanding or enlarging a selection within a tracker, which is likely part of a user interface for collaboration.",
+    "Returns": "A boolean indicating whether the operation to expand the tracker selection was successful.",
+    "Returns_Reason": "Methods that perform an action often return a boolean to indicate success or failure, especially when no parameters are involved.",
+    "Parameters": {}
+}

@@ -1,0 +1,12 @@
+{
+    "Object": "Doc",
+    "API_Name": "getOCGs",
+    "API_Type": "method",
+    "Return_Type": "Array[OCG]",
+    "Scripts_Arg": [
+        "nPage"
+    ],
+    "Actions_Arg": [
+        "nPage"
+    ]
+}

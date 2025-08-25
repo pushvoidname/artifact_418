@@ -1,0 +1,10 @@
+{
+    "Object": "ADBC",
+    "API_Name": "getDataSourceList",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a list of available data sources.",
+    "API_Description_Reason": "The method name 'getDataSourceList' suggests that it retrieves or returns a list of data sources, which is a common functionality in database-related APIs.",
+    "Returns": "An array of data source names.",
+    "Returns_Reason": "Since the method is named 'getDataSourceList', it is reasonable to assume that it returns a list, likely in the form of an array, containing the names of the available data sources.",
+    "Parameters": {}
+}

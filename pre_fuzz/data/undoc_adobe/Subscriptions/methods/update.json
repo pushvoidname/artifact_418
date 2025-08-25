@@ -1,0 +1,8 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "update",
+    "API_Type": "method",
+    "Parameters": {
+        "cURL": "string"
+    }
+}

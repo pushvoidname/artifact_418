@@ -1,0 +1,19 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "setAction",
+  "API_Type": "Method",
+  "API_Description": "Sets a JavaScript action for a bookmark.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cScript": {
+      "description": "Defines the JavaScript expression that is to be executed whenever the user clicks the bookmark."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Attach an action to the topmost bookmark.\n\n```\nvar bm = bookmarkRoot.children[0]\nbm.setAction(\"app.beep(0);\");\n```"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Object": "Field",
+  "API_Name": "highlight",
+  "API_Type": "Properties",
+  "API_Description": "Defines how a button reacts when a user clicks it. The four highlight modes supported are: * none : No visual indication that the button has been clicked. * invert : The region encompassing the button\u2019s rectangle inverts momentarily. * push : The down face for the button (if any) is displayed momentarily. * outline : The border of the rectangleinverts momentarily. * The convenience `highlight` object defines each state, as follows: Type | Keyword -------------- none | highlight.n invert | highlight.i push | highlight.p outline | highlight.o **Fields** `button`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Set the highlight property of a button to \u201cinvert\u201d.\n\n```\nvar f = this.getField(\"myButton\");\nf.highlight = highlight.i;\n```\n\nlineWidth\n\nVersion | Save-Prefs | Security | Product | Type | Access\n---------------------------------------------------------\n4.0 | D | No | F | Integer | R/W\n\nSpecifies the thickness of the border when stroking the perimeter of a field\u2019s rectangle. If the stroke color is transparent, this parameter has no effect except in the case of a beveled border. Values are:\n\n*  0 : none\n\n*  1 : thin\n\n*  2 : medium\n\n*  3 : thick\n\nIn older versions of this specification, this property was `borderWidth` . The use of `borderWidth` is now discouraged, although it is still valid for backward compatibility.\n\nThe default value for `lineWidth` is 1 (thin). Any integer value can be used; however, values beyond 5 may distort the field\u2019s appearance.\n\n**Fields**\n\nall",
+    "Example: Change the border width of the Text Box to medium thickness\n\n```\nf.lineWidth = 2\n```"
+  ]
+}

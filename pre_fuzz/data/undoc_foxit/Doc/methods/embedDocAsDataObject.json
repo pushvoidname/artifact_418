@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "embedDocAsDataObject",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "unknown"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "URL2PathFragment",
+    "API_Type": "Method",
+    "API_Description": "Converts a given URL into a path fragment suitable for use in file systems or other path-based contexts.",
+    "API_Description_Reason": "The method name 'URL2PathFragment' suggests that it transforms a URL into a path fragment, which is a common requirement when dealing with file systems or path-based operations.",
+    "Returns": "A string representing the path fragment derived from the input URL.",
+    "Returns_Reason": "The method likely returns a string because it is converting a URL (a string) into a path fragment (also a string).",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL to be converted into a path fragment.",
+            "description_reason": "The parameter name 'cURL' indicates that it is a URL, which is the input for the conversion process.",
+            "type": "string",
+            "type_reason": "URLs are typically represented as strings, and the parameter name 'cURL' suggests it is a string input."
+        }
+    }
+}

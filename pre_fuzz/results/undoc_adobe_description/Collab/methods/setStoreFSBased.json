@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "setStoreFSBased",
+    "API_Type": "Method",
+    "API_Description": "Sets the storage mode for a collaboration store, determining whether it is file system-based.",
+    "API_Description_Reason": "The method name 'setStoreFSBased' suggests it configures a store to be based on the file system, as 'FS' typically stands for 'File System'.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely a setter that configures a property and does not need to return a value.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the collaboration store to configure.",
+            "description_reason": "The parameter 'cName' is commonly used to denote a name, likely referring to the name of the store being configured.",
+            "type": "string",
+            "type_reason": "Names are typically represented as strings in programming."
+        },
+        "bFSBased": {
+            "description": "A boolean indicating whether the store should be file system-based.",
+            "description_reason": "The parameter 'bFSBased' suggests a boolean value that determines if the store is file system-based.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix and the context imply a true/false setting, which is represented by a boolean."
+        }
+    }
+}

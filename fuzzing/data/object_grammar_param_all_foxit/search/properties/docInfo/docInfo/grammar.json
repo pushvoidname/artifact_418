@@ -1,0 +1,14 @@
+[
+    [
+        "DOC_INFO",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

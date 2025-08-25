@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "GetActiveDocIW",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the currently active document in the collaboration session.",
+    "API_Description_Reason": "The method name 'GetActiveDocIW' suggests it is used to get the active document, and 'IW' might stand for 'In Work' or a similar concept indicating the document currently being worked on.",
+    "Returns": "The active document object.",
+    "Returns_Reason": "Since the method is named 'GetActiveDocIW', it is reasonable to assume it returns a document object that is currently active in the collaboration session.",
+    "Parameters": {}
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSpecial_Keystroke",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "number"
+    }
+}

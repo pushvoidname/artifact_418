@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "getAnnotsRichMedia",
+  "API_Type": "Method",
+  "API_Description": "This method returns an array of AnnotRichMedia objects for a given page.",
+  "Version": "9.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "The 0-based page number that contains the AnnotRichMedia object."
+    }
+  },
+  "Returns": "An array of AnnotRichMedia objects, or `undefined` if none is found.\n\nSee also getAnnotRichMedia .",
+  "Examples": []
+}

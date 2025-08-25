@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "change",
+    "API_Type": "property",
+    "API_Description": "Represents the new value of a form field after a change event has occurred.",
+    "API_Description_Reason": "The 'change' property is typically used to capture the new value of a form field when a change event is triggered, allowing scripts to access or manipulate this new value.",
+    "Returns": "The new value of the form field.",
+    "Returns_Reason": "The 'change' property is expected to hold the updated value of the field that triggered the change event, which is a common use case in event handling.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the event that triggered the change.",
+            "description_reason": "The 'type' parameter is used to specify the kind of event that has occurred, which is essential for event handling logic.",
+            "type": "string",
+            "type_reason": "Event types are typically represented as strings to allow for easy comparison and handling in scripts."
+        }
+    }
+}

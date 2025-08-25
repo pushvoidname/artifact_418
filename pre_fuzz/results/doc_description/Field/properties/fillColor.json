@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "fillColor",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the background color for a field. The background color is used to fill the rectangle of the field. Values are defined by using `transparent` , `gray` , `RGB` or `CMYK` color. See Color arrays for information on defining color arrays and how values are used with this property. In older versions of this specification, this property was named `bgColor` . The use of `bgColor` is now discouraged, although it is still valid for backward compatibility. **Fields** all",
+  "Version_Key": "4.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Change the background color of a text field. If the current color is red, it changes to blue, otherwise it changes to yellow.\n\n```\nvar f = this.getField(\"myField\");\nif (color.equal(f.fillColor, color.red))\n    f.fillColor = color.blue;\nelse\n    f.fillColor = color.yellow;\n```"
+  ]
+}

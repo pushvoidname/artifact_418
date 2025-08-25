@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "pageWindowRect",
+  "API_Type": "Properties",
+  "API_Description": "An array of screen coordinates (a rectangle) for the Acrobat page view window. The page view window is the area inside the inner document window in which the PDF content is displayed. See also innerAppWindowRect , outerDocWindowRect , outerAppWindowRect , and outerDocWindowRect .",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array of Numbers",
+  "Access": "R",
+  "Examples": []
+}

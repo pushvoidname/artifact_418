@@ -1,0 +1,28 @@
+{
+  "Object": "Doc",
+  "API_Name": "importXFAData",
+  "API_Type": "Method",
+  "API_Description": "Imports the specified XFA file. See also importAnXFDF and importTextData .",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "F",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page after which to insert the source document pages. Use -1 to insert pages before the first page of the document."
+    },
+    "cPath": {
+      "description": "The device-independent path to the PDF file that will provide the inserted pages. The path may be relative to the location of the current document."
+    },
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages in the source document to insert. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages in the source document to insert. If only nEnd is specified, the range of pages is 0 to nEnd."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Insert a cover page to the current document.\n\n```\nthis.insertPages ({\n    nPage: -1,\n    cPath: \"/c/temp/myCoverPage.pdf\",\n    nStart: 0\n});\n```"
+  ]
+}

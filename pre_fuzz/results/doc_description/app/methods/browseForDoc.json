@@ -1,0 +1,26 @@
+{
+  "Object": "app",
+  "API_Name": "browseForDoc",
+  "API_Type": "Method",
+  "API_Description": "Presents a file system browser and returns an object containing information concerning the user\u2019s response.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "bSave": {
+      "description": "(optional) A Boolean value that, if true, specifies that the file system browser should be presented as it would be for a save operation. The default is false."
+    },
+    "cFilenameInit": {
+      "description": "(optional) A string that specifies the default file name for the file system browser to be populated with."
+    },
+    "cFSInit": {
+      "description": "(optional) A string that specifies the file system that the file system browser operates on initially. Two values are supported: \u201c\u201d (the empty string) representing the default file system and \u201cCHTTP\u201d. The default is the default file system. This parameter is only relevant if the web server supports WebDAV."
+    }
+  },
+  "Returns": "On success, returns an object that has three properties.\n\nProperty | Description\n----------------------\ncFS | A string containing the resulting file system name for the chosen file.\ncPath | A string containing the resulting path for the chosen file.\ncURL | A string containing the resulting URL for the chosen file.\n\nIf the user cancels, the return value is `undefined` . On error, throws an exception.",
+  "Examples": [
+    "Browse for a document and report the results to the console.\n\n```\nvar oRetn = app.browseForDoc({\n    cFilenameInit: \"myComDoc.pdf\",\n    cFSInit: \"CHTTP\",\n});\nif ( typeof oRetn != \"undefined\" )\n    for ( var o in oRetn )\n        console.println( \"oRetn.\" + o + \"=\" + oRetn[o]);\nelse console.println(\"User cancelled!\");\n```\n\nIf the user selects a file on a WebDAV server, a possible output of this code is given below:\n\n```\noRetn.cFS=CHTTP\noRetn.cPath=http://www.example.com/WebDAV/myComDoc.pdf\noRetn.cURL=http://www.example.com/WebDAV/myComDoc.pdf\n```\n\nShould the user select a file in the default file system, a typical output of this code is given below:\n\n```\noRetn.cFS=DOS\noRetn.cPath=/C/temp/myComDoc.pdf\noRetn.cURL=file:///C|/temp/myComDoc.pdf\n```\n\nThe script can go on to open the selected file using `app.openDoc` .\n\n```\nvar myURL = (oRetn.cFS==\"CHTTP\") ? encodeURI(oRetn.cPath) : oRetn.cPath;\nvar oDoc = app.openDoc({cPath: myURL, cFS: oRetn.cFS});\n```\n\n!! Note `app.openDoc` requires `cPath` to be an escaped string when retrieving a file from a WebDAV server. See `app.`  openDoc for a brief description and example.",
+    "Browse and save a document.\n\n```\nvar oRetn = app.browseForDoc({\n    bSave: true,\n    cFilenameInit: \"myComDoc.pdf\",\n    cFSInit: \"CHTTP\",\n});\nif ( typeof oRetn != \"undefined\" ) this.saveAs({\n    cFS: oRetn.cFS, cPath: oRetn.cPath, bPromptToOverwrite: false});\n```"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "plugIns",
+  "API_Type": "Properties",
+  "API_Description": "An array of `PlugIn` objects representing the plug-ins that are currently installed in the viewer.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\n// Get array of PlugIn objects\nvar aPlugins = app.plugIns;\n// Get number of plug-ins\nvar nPlugins = aPlugins.length;\n// Enumerate names of all plug-ins\nfor ( var i = 0; i < nPlugins; i++)\n    console.println(\"Plugin #\"+i+\" is \" + aPlugins[i].name);\n```"
+  ]
+}

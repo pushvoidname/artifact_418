@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "importAnFDF",
+  "API_Type": "Method",
+  "API_Description": "Imports the specified FDF file. See also importAnXFDF and importTextData .",
+  "Version": "4.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "cPath": {
+      "description": "(optional) The device-independent path to the FDF file. It should look like the value of the F entry in an FDF file exported with the submitForm method or with the Forms > Manage Form Data > Export Data From Form menu item. The path may be relative to the location of the current document. If this parameter is omitted, a dialog box is shown to let the user select the file."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "The following code, which is an action of a Page Open event, checks whether a certain function, `ProcResponse` , is already defined, if not, it installs a document-level JavaScript, which resides in an FDF file.\n\n```\nif(typeof ProcResponse == \"undefined\") this.importAnFDF(\"myDLJS.fdf\");\n```\n\nHere, the path is a relative one. This technique may be useful for automatically installing document-level scripts for PDF files distilled from a PostScript file."
+  ]
+}

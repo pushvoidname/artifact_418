@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "openDataObject",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the data object."
+    }
+  },
+  "Returns": "Doc or an exception is thrown.\n\nRelated objects, properties, and methods are dataObjects , getDataObjectContents , setDataObjectContents , createDataObject , and importDataObject , and the data object.",
+  "Examples": [
+    "Open a PDF attachment and extract form data from it.\n\n```\nvar oDoc = this.openDataObject(\"myAttachment\");\ntry {\n    var myField = this.getField(\"myTextField\");\n    // Get the value of \"yourTextField\" in PDF attachment\n    var yourField = oDoc.getField(\"yourTextField\");\n    // View this value in \"myTextField\"\n    myField.value = yourField.value;\n    oDoc.closeDoc();\n} catch(e) { app.alert(\"Operation failed\");}\n```\n\nSee also Example 5 (Acrobat 7.0) following the `submitForm` method."
+  ]
+}

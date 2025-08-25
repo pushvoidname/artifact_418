@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "defaultStyle",
+  "API_Type": "Properties",
+  "API_Description": "This property defines the default style attributes for the form field. If the user clicks an empty field and begins entering text without changing properties using the property toolbar, these are the properties that will be used. This property is a single `Span` object without a `text` property. Some of the properties in the default style span mirror the properties of the Field object. Changing these properties also modifies the `defaultStyle` property for the field and vice versa. The following table details the properties of the Field object that are also in the default style and any differences between their values. Field properties | defaultStyle (Span properties) | Description ---------------------------------------------------------------- alignment | alignment | The alignment property has the same values for both the default style and the Field object. textFont | fontFamily fontStyle fontWeight | The value of this field property is a complete font name that represents the font family, weight, and style. In the default style property, each property is represented separately. If an exact match for the font properties specified in the default style cannot be found, a similar font will be used or synthesized. textColor | textColor | The textColor property has the same values for both the default style and the Field object. textSize | textSize | The textSize property has the same values for both the default style and the Field object. !! Note When a field is empty, `defaultStyle` is the style used for newly entered text. If a field already contains text when `defaultStyle` is changed, the text will not pick up any changes to `defaultStyle` . Newly entered text uses the attributes of the text it is inserted into (or specified with the toolbar). When pasting rich text into a field, unspecified attributes in the pasted rich text are filled with those from `defaultStyle` . Superscript and Subscript are ignored in `defaultStyle` . **Fields** `rich text`",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Span object",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Change the default style for a text field.\n\n```\nvar style = this.getField(\"Text1\").defaultStyle;\nstyle.textColor = color.red;\nstyle.textSize = 18;\n\n// if Courier Std is not found, use a monospace font\nstyle.fontFamily = [\"Courier Std\", \"monospace\" ];\n\nthis.getField(\"Text1\").defaultStyle = style;\n```"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "SOAP",
+  "API_Name": "streamDigest",
+  "API_Type": "Method",
+  "API_Description": "Allows the `oStream` object to be digested with the specified encoding type, `cEncoder` . It returns a `ReadStream` object containing the computed digest of the `oStream` . Typically, this is used to compute a digest to validate the integrity of the original data stream or as part of an authentication scheme for a web service.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oStream": {
+      "description": "A stream object to compute the digest of, using the specified message digest algorithm."
+    },
+    "cEncoder": {
+      "description": "The digest algorithm to use. The cEncoder parameter must be one of the following values:"
+    }
+  },
+  "Returns": "A `ReadStream` object with the binary digest of the stream. To be used as a string, the result must be converted to a text format such as Base64 or hex using `SOAP.streamEncode` .",
+  "Examples": [
+    "Digest a string by first converting it to a stream, then calling streamDigest.\n\n```\nvar srcStm = SOAP.streamFromString(\"This is a string I want to digest\");\nvar digest = SOAP.streamDigest(srcStm, StreamDigest.SHA1);\n```"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAnonymousAnnot",
+    "API_Type": "Method",
+    "API_Description": "Exports annotations from the PDF document that are marked as anonymous.",
+    "API_Description_Reason": "The method name 'exportAnonymousAnnot' suggests that it deals with exporting annotations, specifically those that are anonymous, from the document.",
+    "Returns": "A data structure containing the exported anonymous annotations.",
+    "Returns_Reason": "The method is likely to return the exported data, which could be in a structured format such as an array or object, containing the details of the anonymous annotations.",
+    "Parameters": {}
+}

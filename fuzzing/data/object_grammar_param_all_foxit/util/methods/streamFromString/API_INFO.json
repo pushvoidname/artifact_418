@@ -1,0 +1,8 @@
+{
+    "Object": "util",
+    "API_Name": "streamFromString",
+    "API_Type": "method",
+    "Return_Type": "ReadStream",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

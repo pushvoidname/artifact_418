@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "spellDictionaryOrder",
+  "API_Type": "Properties",
+  "API_Description": "An array specifying the dictionary search order for this document. For example, the form designer of a medical form may want to specify a medical dictionary to be searched first before searching the user\u2019s preferred order. The Spelling plug-in first searches for words in this array, then searches the dictionaries the user has selected on the Spelling Preference panel. The user\u2019s preferred order is available from `spell.dictionaryOrder` . An array of the currently installed dictionaries can be obtained using `spell.dictionaryNames` . !! Note When setting this property, an exception is thrown if any of the elements in the array is not a valid dictionary name.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "RSS",
+    "API_Name": "getContents",
+    "API_Type": "method",
+    "Parameters": {
+        "cURL": "string"
+    }
+}

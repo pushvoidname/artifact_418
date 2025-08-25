@@ -1,0 +1,14 @@
+[
+    [
+        "B_PERCENTAGE",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

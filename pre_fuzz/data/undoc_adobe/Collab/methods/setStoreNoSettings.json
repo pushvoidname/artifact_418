@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "setStoreNoSettings",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "bNoSettings": "boolean"
+    }
+}

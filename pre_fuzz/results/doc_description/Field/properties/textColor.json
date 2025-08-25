@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "textColor",
+  "API_Type": "Properties",
+  "API_Description": "The foreground color of a field. It represents the text color for text, button, or list box fields and the check color for check box or radio button fields. Values are defined the same as the `fillColor` . See Color arrays for information on defining color arrays and how values are set and used with this property. In older versions of this specification, this property was `fgColor` . The use of `fgColor` is now discouraged, although it is still valid for backward compatibility. !! Note An exception is thrown if a transparent color space is used to set `textColor` . **Fields** all",
+  "Version_Key": "4.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: This example sets the foreground color to red.\n\n```\nvar f = this.getField(\"myField\");\nf.textColor = color.red;\n```"
+  ]
+}

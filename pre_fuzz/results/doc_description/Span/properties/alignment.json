@@ -1,0 +1,15 @@
+{
+  "Object": "Span",
+  "API_Name": "alignment",
+  "API_Type": "Properties",
+  "API_Description": "The horizontal alignment of the text. Alignment for a line of text is determined by the first span on the line. The values of `alignment` are ``` left center right ``` The default value is `left` .",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: The example following superscript uses `alignment` ."
+  ]
+}

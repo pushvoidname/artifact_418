@@ -1,0 +1,12 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportDataObject",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "cDIPath"
+    ],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_LESS_THAN",
+    "API_Type": "Property",
+    "API_Description": "Represents a constant string used for comparison operations, typically to denote a 'less than' condition.",
+    "API_Description_Reason": "The name 'IDS_LESS_THAN' suggests it is a constant identifier for a 'less than' comparison, commonly used in programming for conditional checks.",
+    "Returns": "A string representing the 'less than' condition.",
+    "Returns_Reason": "Since it is a property with a name indicating a comparison operation, it likely returns a string used in such contexts.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the IDS_LESS_THAN property.",
+            "description_reason": "The parameter 'type' is unknown, but it is likely related to the data type of the property, which is assumed to be a string based on its usage context.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, but given the context, it is likely a string."
+        }
+    }
+}

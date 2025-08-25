@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "getStoreNoSettings",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string"
+    }
+}

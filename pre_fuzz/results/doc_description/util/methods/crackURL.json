@@ -1,0 +1,20 @@
+{
+  "Object": "util",
+  "API_Name": "crackURL",
+  "API_Type": "Method",
+  "API_Description": "Breaks a URL into its component parts.",
+  "Version": "7.05",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cURL": {
+      "description": "A string specifying the URL."
+    }
+  },
+  "Returns": "An object containing the following properties:\n\nProperty | Description\n----------------------\ncScheme | The scheme of the URL. It may be file, http or https.\ncUser | (Optional) The user name specified in the URL.\ncPassword | (Optional) The password specified in the URL.\ncHost | The hostname of the URL.\nnPort | The port number of the URL.\ncPath | (Optional) The path portion of the URL.\ncQuery | (Optional) The parameter string portion of the URL.\ncFragment | (Optional) The fragments of the URL.\nnURLType | (Version 9.0) An integer valued property that takes a value of 0 if cURL uses IPv4 and a value of 1 if cURL uses IPv6. (IPv4 and IPv6 refer to the Internet Protocol versions 4 and 6, respectively.)\n\nThis method throws a parameter error if the parameter is missing, the URL is not well-formed, or the URL scheme is not `file` , `http` , or `https` .",
+  "Examples": [
+    "The following code\n\n```\nutil.crackURL(\"http://example.org/myPath?name0=value0&name1=value1#frag\");\n```\n\nwould return\n\n```\n{\n       cScheme: \"http\",\n       cHost: \"example.org\",\n       nPort: 80,\n       cPath: \"/myPath\",\n       cQuery\n: \"name0=value0&name1=value1\",\n       cFragment: \"frag\"\n   }\n```\n\n**Example 2 (Version 9.0)**\n\nVersion 9.0 can break a URL into its components when the URL uses version 6 Internet Protocol.\n\n```\nvar a = util.crackURL(\"http://[2001:1890:110b:15ce:250:56ff:febb:6111]/Ex\");\nif ( a.nURLType == 1 )\n   console.println(\"host = [\" + a.cHost + \"]\");\nelse\n   console.println(\"host = \" + a.cHost);\n```"
+  ],
+  "Example 2 (Version 9.0)": "Version 9.0 can break a URL into its components when the URL uses version 6 Internet Protocol.\n\n```\nvar a = util.crackURL(\"http://[2001:1890:110b:15ce:250:56ff:febb:6111]/Ex\");\nif ( a.nURLType == 1 )\n   console.println(\"host = [\" + a.cHost + \"]\");\nelse\n   console.println(\"host = \" + a.cHost);\n```"
+}

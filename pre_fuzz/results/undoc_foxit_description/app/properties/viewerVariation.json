@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "viewerVariation",
+    "API_Type": "Property",
+    "API_Description": "Indicates the variation of the Acrobat viewer being used.",
+    "API_Description_Reason": "The name 'viewerVariation' suggests it provides information about the specific variation or edition of the Acrobat viewer, such as Standard, Pro, or Reader.",
+    "Returns": "A string representing the variation of the Acrobat viewer.",
+    "Returns_Reason": "Since the property is likely to describe the type or edition of the viewer, it would return a string indicating this variation.",
+    "Parameters": {
+        "type": {
+            "description": "The type of viewer variation being used.",
+            "description_reason": "The parameter 'type' is likely related to specifying or querying the type of viewer variation.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or enumeration representing different viewer variations."
+        }
+    }
+}

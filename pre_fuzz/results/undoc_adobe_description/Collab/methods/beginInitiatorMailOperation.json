@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "beginInitiatorMailOperation",
+    "API_Type": "Method",
+    "API_Description": "Initiates the mail operation for the initiator in a collaboration workflow.",
+    "API_Description_Reason": "The method name suggests it starts a mail operation related to the initiator, likely as part of a collaboration process.",
+    "Returns": "A boolean indicating whether the mail operation was successfully initiated.",
+    "Returns_Reason": "Methods that begin operations typically return a status indicating success or failure.",
+    "Parameters": {}
+}

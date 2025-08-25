@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "deleteListeners",
+    "API_Type": "Method",
+    "API_Description": "Removes event listeners that have been previously added to the application.",
+    "API_Description_Reason": "The method name 'deleteListeners' suggests that it is used to remove or delete event listeners from the application, which is a common functionality in event-driven programming.",
+    "Returns": "A boolean indicating whether the listeners were successfully deleted.",
+    "Returns_Reason": "Typically, methods that perform an action like deleting listeners return a boolean to indicate success or failure.",
+    "Parameters": {
+        "unknown": {
+            "description": "The specific listeners or criteria for which listeners to delete.",
+            "description_reason": "The parameter is labeled as 'unknown', but it likely specifies which listeners to delete, such as by event type or identifier.",
+            "type": "unknown",
+            "type_reason": "The parameter type is not specified, but it could be a string, object, or array depending on how listeners are identified in the application."
+        }
+    }
+}

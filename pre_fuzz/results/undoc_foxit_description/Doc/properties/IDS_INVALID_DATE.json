@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_INVALID_DATE",
+    "API_Type": "property",
+    "API_Description": "Represents an error message or identifier for an invalid date within the PDF document context.",
+    "API_Description_Reason": "The name 'IDS_INVALID_DATE' suggests it is related to handling or identifying invalid date entries or formats in the document.",
+    "Returns": "A string that likely contains the error message or identifier for an invalid date.",
+    "Returns_Reason": "Since it is a property, it is reasonable to assume it returns a string value representing an error message or identifier.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the IDS_INVALID_DATE property.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the data type of the property.",
+            "type": "unknown",
+            "type_reason": "The exact data type is not specified, but it is likely a string given the context of error messages."
+        }
+    }
+}

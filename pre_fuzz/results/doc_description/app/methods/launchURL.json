@@ -1,0 +1,24 @@
+{
+  "Object": "app",
+  "API_Name": "launchURL",
+  "API_Type": "Method",
+  "API_Description": "Launches a URL in a browser window.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cURL": {
+      "description": "A string that specifies the URL to launch."
+    },
+    "bNewFrame": {
+      "description": "(optional) If true, this method launches the URL in a new window of the browser application. The default is false."
+    }
+  },
+  "Returns": "The value `undefined` is returned on success. An exception is thrown on failure.",
+  "Examples": [
+    "```\napp.launchURL(\"http://www.example.com/\", true);\n```",
+    "Add an online help item to the menu system. This code should be placed in a folder-level JavaScript file, or executed from the JavaScript Debugger console.\n\n```\napp.addMenuItem({\n    cName: \"myHelp\", cUser: \"Online myHelp\",\n    cParent: \"Help\",\n    cExec: \"app.launchURL('www.example.com/myhelp.html');\",\n    nPos: 0\n});\n```\n\n**Related methods** are openDoc and the Doc object getURL method."
+  ],
+  "Related methods": "are openDoc and the Doc object getURL method."
+}

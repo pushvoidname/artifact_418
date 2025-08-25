@@ -1,0 +1,8 @@
+{
+    "Object": "Net",
+    "API_Name": "streamFromString",
+    "API_Type": "method",
+    "Parameters": {
+        "cString": "string"
+    }
+}

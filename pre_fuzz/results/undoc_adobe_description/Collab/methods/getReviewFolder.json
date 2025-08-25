@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "getReviewFolder",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the review folder associated with a specific document and category.",
+    "API_Description_Reason": "The method name 'getReviewFolder' suggests it is used to obtain a review folder, and the parameters 'cCategory' and 'oDoc' imply that it retrieves this information based on a category and a document.",
+    "Returns": "The path or identifier of the review folder.",
+    "Returns_Reason": "Since the method is named 'getReviewFolder', it is likely to return some form of identifier or path to the review folder associated with the given document and category.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category of the review folder to retrieve.",
+            "description_reason": "The parameter name 'cCategory' suggests it specifies a category, likely used to filter or identify the type of review folder to retrieve.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cCategory' typically denotes a string type in naming conventions, indicating that this parameter is a string representing a category."
+        },
+        "oDoc": {
+            "description": "The document identifier for which the review folder is being retrieved.",
+            "description_reason": "The parameter name 'oDoc' implies it is related to a document, likely serving as an identifier to specify which document's review folder is being accessed.",
+            "type": "string",
+            "type_reason": "The prefix 'o' in 'oDoc' suggests it is an object or identifier, and since document identifiers are often strings, it is reasonable to assume this parameter is a string."
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "stateModel",
+  "API_Type": "Properties",
+  "API_Description": "Beginning with Acrobat 6.0, annotations may have an author-specific state associated with them. The state is specified by a separate text annotation that refers to the original annotation by means of its IRT entry (see the inReplyTo property). There are two types of state models, \u201cMarked\u201d and \u201cReview\u201d. **Annotations** : Text See also the getStateInModel method.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

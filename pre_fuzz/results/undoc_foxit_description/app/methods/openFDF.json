@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "openFDF",
+    "API_Type": "Method",
+    "API_Description": "Opens an FDF (Forms Data Format) file in the Acrobat application.",
+    "API_Description_Reason": "The method name 'openFDF' suggests that it is used to open FDF files, which are typically used to store form data for PDF forms.",
+    "Returns": "A reference to the opened FDF document.",
+    "Returns_Reason": "Since the method is likely used to open an FDF file, it would return a reference to the document that was opened, allowing further manipulation or interaction.",
+    "Parameters": {}
+}

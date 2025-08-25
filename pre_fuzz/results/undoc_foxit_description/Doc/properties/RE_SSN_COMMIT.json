@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_SSN_COMMIT",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used for validating or processing Social Security Numbers (SSNs) upon form submission or data entry completion.",
+    "API_Description_Reason": "The name 'RE_SSN_COMMIT' suggests it is a regular expression (RE) related to the commitment or finalization (COMMIT) of Social Security Numbers (SSN) data, likely used for validation or formatting purposes.",
+    "Returns": "A string representing the regular expression pattern for SSN validation or processing.",
+    "Returns_Reason": "Since this is a property named with 'RE', it is likely to return a regular expression pattern as a string, which is commonly used for validation or formatting tasks.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the regular expression pattern.",
+            "description_reason": "The parameter 'type' is likely to describe the data type of the property, which is expected to be a string since it represents a regular expression pattern.",
+            "type": "string",
+            "type_reason": "Regular expressions are typically represented as strings, hence the type is assumed to be a string."
+        }
+    }
+}

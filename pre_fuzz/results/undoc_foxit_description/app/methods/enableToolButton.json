@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "enableToolButton",
+    "API_Type": "Method",
+    "API_Description": "Enables a tool button in the Acrobat application interface.",
+    "API_Description_Reason": "The method name 'enableToolButton' suggests that it is used to enable a tool button, which is a common functionality in application interfaces to allow user interaction.",
+    "Returns": "A boolean indicating whether the tool button was successfully enabled.",
+    "Returns_Reason": "Typically, methods that perform an action like enabling a button return a boolean to indicate success or failure.",
+    "Parameters": {
+        "unknown": {
+            "description": "An unknown parameter required to enable the tool button.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating that its purpose or type is not documented.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified due to lack of documentation, hence it is marked as 'unknown'."
+        }
+    }
+}

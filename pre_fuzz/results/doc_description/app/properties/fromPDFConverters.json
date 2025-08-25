@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "fromPDFConverters",
+  "API_Type": "Properties",
+  "API_Description": "An array of file type conversion ID strings. A conversion ID string can be passed to the Doc object `saveAs` method.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: List all currently supported conversion ID strings.\n\n```\nfor ( var i = 0; i < app.fromPDFConverters.length; i++)\n    console.println(app.fromPDFConverters[i]);\n```"
+  ]
+}

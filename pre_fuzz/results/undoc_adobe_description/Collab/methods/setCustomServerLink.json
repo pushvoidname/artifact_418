@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "setCustomServerLink",
+    "API_Type": "Method",
+    "API_Description": "Sets a custom server link for a specified server type.",
+    "API_Description_Reason": "The method name 'setCustomServerLink' suggests that it is used to configure or set a custom link for a server, and the parameters indicate that it involves specifying a server type and its corresponding link.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used for configuration purposes, and such methods typically do not return a value.",
+    "Parameters": {
+        "cServerType": {
+            "description": "The type of server for which the custom link is being set.",
+            "description_reason": "The parameter name 'cServerType' implies that it specifies the category or type of server.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest that this parameter is a string representing the server type."
+        },
+        "cServerLink": {
+            "description": "The custom link to be associated with the specified server type.",
+            "description_reason": "The parameter name 'cServerLink' indicates that it is a URL or link related to the server type.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest that this parameter is a string representing a URL or link."
+        }
+    }
+}

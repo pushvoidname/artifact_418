@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "isFoxit",
+    "API_Type": "Property",
+    "API_Description": "Indicates whether the current application is Foxit Reader.",
+    "API_Description_Reason": "The property name 'isFoxit' suggests it is a boolean indicator to check if the application in use is Foxit Reader.",
+    "Returns": "A boolean value indicating if the application is Foxit Reader.",
+    "Returns_Reason": "The prefix 'is' in 'isFoxit' implies a boolean return type, which is common for properties that check a condition or state.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the property, which is a boolean.",
+            "description_reason": "The property is expected to return a boolean value indicating a true or false state.",
+            "type": "boolean",
+            "type_reason": "The 'is' prefix in the property name typically denotes a boolean type, used to confirm or deny a condition."
+        }
+    }
+}

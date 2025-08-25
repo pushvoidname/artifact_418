@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "fontStretch",
+    "API_Type": "property",
+    "API_Description": "Specifies the font stretch value for the text within the span, allowing for the adjustment of the width of characters in the text.",
+    "API_Description_Reason": "The fontStretch property is typically used to control the width of characters in a font, which aligns with the purpose of adjusting text appearance in a rich text format.",
+    "Returns": "The current font stretch value of the text within the span.",
+    "Returns_Reason": "As a property, fontStretch would return the current setting or value that defines how the font is stretched.",
+    "Parameters": {
+        "type": {
+            "description": "The type of font stretch to apply, such as 'normal', 'condensed', or 'expanded'.",
+            "description_reason": "Font stretch values are usually specified as strings that describe the type of stretch, which is consistent with typical font property specifications.",
+            "type": "string",
+            "type_reason": "Font stretch values are generally represented as strings to denote different styles or types of stretching."
+        }
+    }
+}

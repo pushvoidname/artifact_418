@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "bookmarkRoot",
+  "API_Type": "Properties",
+  "API_Description": "The root bookmark for the bookmark tree. This bookmark is not displayed to the user but is a programmatic construct used to access the tree and the child bookmarks.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": [
+    "Example: See the Bookmark object for an example."
+  ]
+}

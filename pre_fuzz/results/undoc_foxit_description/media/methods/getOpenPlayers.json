@@ -1,0 +1,10 @@
+{
+    "Object": "media",
+    "API_Name": "getOpenPlayers",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a list of currently open media players.",
+    "API_Description_Reason": "The method name 'getOpenPlayers' suggests it returns a collection of media players that are currently active or open.",
+    "Returns": "An array of media player objects that are currently open.",
+    "Returns_Reason": "The method likely returns a list or array of objects representing the media players, as it is common for 'get' methods to return collections of items.",
+    "Parameters": {}
+}

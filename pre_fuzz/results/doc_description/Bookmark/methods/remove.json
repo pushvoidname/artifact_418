@@ -1,0 +1,15 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "remove",
+  "API_Type": "Method",
+  "API_Description": "Removes the bookmark and all its children from the bookmark tree. See also the children property and the createChild and insertChild methods.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Remove all bookmarks from the document.\n\n```\nbookmarkRoot.remove();\n```"
+  ]
+}

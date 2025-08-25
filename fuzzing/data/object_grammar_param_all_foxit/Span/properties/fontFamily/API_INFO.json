@@ -1,0 +1,8 @@
+{
+    "Object": "Span",
+    "API_Name": "fontFamily",
+    "API_Type": "properties",
+    "Return_Type": "Array[String]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

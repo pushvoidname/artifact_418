@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "addThumbnails",
+  "API_Type": "Method",
+  "API_Description": "Creates thumbnails for the specified pages in the document. See also the removeThumbnails method.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages. If nStart and nEnd are not specified, the range of pages is for all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart. If only nEnd is specified, the range of a pages is 0 to nEnd."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages. See nStart for details."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

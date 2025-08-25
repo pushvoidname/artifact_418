@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "streamToDocument",
+    "API_Type": "Method",
+    "API_Description": "Converts a stream object into a document object for collaboration purposes.",
+    "API_Description_Reason": "The method name 'streamToDocument' suggests a conversion process from a stream to a document, which is likely used in the context of collaboration given the object name 'Collab'.",
+    "Returns": "A document object created from the provided stream.",
+    "Returns_Reason": "The method name implies that it transforms a stream into a document, so it is reasonable to assume it returns a document object.",
+    "Parameters": {
+        "stream": {
+            "description": "The stream object to be converted into a document.",
+            "description_reason": "The parameter name 'stream' and the method name 'streamToDocument' suggest that this parameter is the input stream to be converted.",
+            "type": "object",
+            "type_reason": "The parameter is described as a 'built-in object', which typically refers to a generic object type in programming."
+        }
+    }
+}

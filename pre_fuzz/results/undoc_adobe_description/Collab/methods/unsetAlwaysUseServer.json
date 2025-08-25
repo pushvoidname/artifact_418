@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "unsetAlwaysUseServer",
+    "API_Type": "Method",
+    "API_Description": "Disables the setting that forces the collaboration functionality to always use a server for the specified review type.",
+    "API_Description_Reason": "The method name 'unsetAlwaysUseServer' suggests it is used to disable or unset a configuration related to always using a server. The parameter 'cReviewType' indicates that this setting is specific to a certain type of review.",
+    "Returns": "None",
+    "Returns_Reason": "The method name 'unsetAlwaysUseServer' implies it performs an action to change a setting rather than returning a value. Typically, such methods do not return any value.",
+    "Parameters": {
+        "cReviewType": {
+            "description": "The type of review for which the 'always use server' setting should be disabled.",
+            "description_reason": "The parameter name 'cReviewType' indicates it specifies the type of review affected by this method.",
+            "type": "string",
+            "type_reason": "The parameter 'cReviewType' is likely a string because it represents a category or type, which is commonly expressed as a string."
+        }
+    }
+}

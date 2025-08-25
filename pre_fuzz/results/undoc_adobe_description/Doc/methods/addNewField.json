@@ -1,0 +1,35 @@
+{
+    "Object": "Doc",
+    "API_Name": "addNewField",
+    "API_Type": "Method",
+    "API_Description": "Creates a new form field and returns it as a Field object.",
+    "API_Description_Reason": "The method name 'addNewField' suggests that it is used to add a new field to the document, similar to the documented 'addField' method.",
+    "Returns": "The newly created Field object.",
+    "Returns_Reason": "The method is likely to return the created field object to allow further manipulation or reference, which is a common practice for methods that create new objects.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the new field to create. This name can use the dot separator syntax to denote a hierarchy (for example, name.last creates a parent node, name, and a child node, last).",
+            "description_reason": "Naming conventions for fields often allow hierarchical naming to organize fields logically.",
+            "type": "string",
+            "type_reason": "Field names are typically strings to allow for descriptive and hierarchical naming."
+        },
+        "cFieldType": {
+            "description": "The type of form field to create. Valid types are: text, button, combobox, listbox, checkbox, radiobutton, signature.",
+            "description_reason": "Field types are usually specified as strings to denote the kind of input or interaction expected.",
+            "type": "string",
+            "type_reason": "Field types are represented as strings to allow easy specification and validation of the type."
+        },
+        "nPageNum": {
+            "description": "The 0-based index of the page to which to add the field.",
+            "description_reason": "Page numbers are typically indexed from 0 in programming to align with array indexing conventions.",
+            "type": "number",
+            "type_reason": "Page numbers are numeric to allow for easy iteration and indexing."
+        },
+        "oCoords": {
+            "description": "An array of four numbers in rotated user space that specifies the size and placement of the form field. These four numbers are the coordinates of the bounding rectangle, in the following order: upper-left x, upper-left y, lower-right x, and lower-right y.",
+            "description_reason": "Coordinates are often specified as arrays to define a rectangular area in a 2D space.",
+            "type": "array",
+            "type_reason": "An array is suitable for holding multiple related numeric values, such as coordinates."
+        }
+    }
+}

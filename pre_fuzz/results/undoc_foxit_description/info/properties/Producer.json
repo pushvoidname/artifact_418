@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Producer",
+    "API_Type": "property",
+    "API_Description": "Represents the name of the application that produced the document.",
+    "API_Description_Reason": "The 'Producer' property typically refers to the software or application that generated or created the document, which is a common attribute in document metadata.",
+    "Returns": "The name of the application that produced the document.",
+    "Returns_Reason": "Since 'Producer' is a property, it likely returns a string indicating the software used to create the document, which is standard for document metadata.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the Producer property, which is expected to be a string.",
+            "description_reason": "The 'Producer' property is expected to be a string because it represents the name of an application, which is typically a textual value.",
+            "type": "string",
+            "type_reason": "The type is specified as 'string' because application names are generally represented as text."
+        }
+    }
+}

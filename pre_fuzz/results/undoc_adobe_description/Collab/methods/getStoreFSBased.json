@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getStoreFSBased",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the file system-based store associated with the given collaboration name.",
+    "API_Description_Reason": "The method name 'getStoreFSBased' suggests it retrieves a store that is based on the file system, and the parameter 'cName' implies it is related to a specific collaboration context.",
+    "Returns": "An object representing the file system-based store for the specified collaboration.",
+    "Returns_Reason": "The method is likely to return an object that provides access to or information about the file system-based store, as it is a 'get' method.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the collaboration for which to retrieve the file system-based store.",
+            "description_reason": "The parameter 'cName' is typically used to specify a name or identifier, in this case, likely referring to a specific collaboration context.",
+            "type": "string",
+            "type_reason": "The parameter 'cName' is a string because it represents a name, which is conventionally a string data type."
+        }
+    }
+}

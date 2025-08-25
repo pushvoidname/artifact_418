@@ -1,0 +1,14 @@
+{
+    "Object": "Doc",
+    "API_Name": "mailForm",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "cTo",
+        "cCc",
+        "cBcc",
+        "cSubject",
+        "cMsg"
+    ],
+    "Actions_Arg": []
+}

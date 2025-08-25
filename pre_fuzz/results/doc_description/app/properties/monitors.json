@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "monitors",
+  "API_Type": "Properties",
+  "API_Description": "A `Monitors` object, which is an array containing one or more `Monitor` objects representing each of the display monitors connected to the user\u2019s system. Each access to `app.monitors` returns a new, up-to-date copy of this array. A `Monitors` object also has several methods that can be used to select a display monitor. Alternatively, JavaScript code can look through the array explicitly.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Monitors object",
+  "Access": "R",
+  "Examples": [
+    "Example: Count the number of display monitors connected to the user\u2019s system.\n\n```\nvar monitors = app.monitors;\nconsole.println(\"There are \" + monitors.length\n    + \" monitor(s) connected to this system.\");\n```"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "StreamDigest",
+    "API_Name": "MD5",
+    "API_Type": "property",
+    "Return_Type": "String",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

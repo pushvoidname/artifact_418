@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "takeOwnershipAndPublishComments",
+    "API_Type": "Method",
+    "API_Description": "Takes ownership of comments in a review and publishes them, making them visible to other collaborators.",
+    "API_Description_Reason": "The method name suggests it involves taking ownership of comments and publishing them, which implies making them available to others in a collaborative environment.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action return a boolean to indicate whether the action was successful.",
+    "Parameters": {
+        "cReviewID": {
+            "description": "The unique identifier of the review for which comments are to be taken ownership of and published.",
+            "description_reason": "The parameter name 'cReviewID' suggests it is an identifier for a review, which is necessary to specify the target review for the operation.",
+            "type": "string",
+            "type_reason": "Review identifiers are usually strings as they often consist of alphanumeric characters."
+        }
+    }
+}

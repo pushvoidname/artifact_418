@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "setProfile",
+    "API_Type": "Method",
+    "API_Description": "Sets the user profile for the Acrobat application.",
+    "API_Description_Reason": "The method name 'setProfile' suggests that it is used to configure or set a user profile or settings within the Acrobat application.",
+    "Returns": "A boolean indicating success or failure of setting the profile.",
+    "Returns_Reason": "Typically, methods that perform a setting operation return a boolean to indicate whether the operation was successful.",
+    "Parameters": {}
+}

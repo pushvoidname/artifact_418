@@ -1,0 +1,20 @@
+{
+  "Object": "SOAP",
+  "API_Name": "connect",
+  "API_Type": "Method",
+  "API_Description": "Converts the URL of a WSDL document (cURL) to a JavaScript object with callable methods corresponding to the web service.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "cURL": {
+      "description": "The URL of a WSDL document. It must be an HTTP or HTTPS URL."
+    }
+  },
+  "Returns": "A WSDL Service Proxy object with a JavaScript method corresponding to each operation in the WSDL document provided at the URL.\n\nThe parameters required for the method depend on the WSDL operation you are calling and how the operation encodes its parameters:\n\n*  If the WSDL operation is using the SOAP RPC encoding (as described in Section 7 of the SOAP 1.1 Specification), the arguments to the service method are the same as the parameter order in the WSDL document.\n\n*  If the WSDL service is using the SOAP document/literal encoding, the function will have a single argument indicating the request message. The argument may be a JavaScript object literal describing the message or it may be either a string or a `ReadStream` object with an XML fragment describing the message. The return value of the service method will correspond to the return value of the WSDL operation.\n\nThe JavaScript function objects corresponding to each web service method use the following properties if they are set. The default is for none of the properties to be set.\n\nProperty | Description\n----------------------\nasyncHandler | Indicates that the web service method should be performed asynchronously. The property corresponds to the oAsync parameter of SOAP.request.\nrequestHeader | Indicates that the web service method should include a SOAP Header in the request. The property corresponds to the oReqHeader parameter of SOAP.request.\nresponseHeader | Indicates that the web service method should return a SOAP Header from the response. The property corresponds to the oRespHeader parameter of SOAP.request.\nauthenticator | Indicates how authentication should be handled for the web service method. The property corresponds to the oAuthenticate parameter of SOAP.request.",
+  "Examples": [
+    "Echo a string and an integer using an echo service WSDL document.\n\nA service WSDL Document URL is needed. These can be obtained from the \u201cRound 2 Interop Services - using SOAP 1.2\u201d section at the following URL: http://www.whitemesa.com/interop.htm .\n\n```\nvar cURL =\n<get a URL for this service from\n            http://www.whitemesa.com/interop.htm>;\n\n   // Connect to the test service\n   var service = SOAP.connect(cURL);\n\n   // Print out the methods this service supports to the console\n   for(var i in service) console.println(i);\n\n   var cTestString = \"This is my test string\";\n\n   // Call the echoString service -- it is an RPC Encoded method\n   var result = service.echoString(cTestString);\n\n   // This should be the same as cTestString\n   console.println(result + \" == \" + cTestString);\n\n   // Call the echoInteger service -- JavaScript doesn't support integers\n   // so we make our own integer object.\n   var oTestInt =\n   {\n       soapType: \"xsd:int\",\n       soapValue: \"10\"\n   };\n   var result = service.echoInteger(oTestInt);\n\n   // This should be the same as oTestInt.soapValue\n   console.println(result + \" == \" + oTestInt.soapValue);\n```\n\nThis produces the following output:\n\n```\nechoBase64\nechoBoolean\nechoDate\nechoDecimal\nechoFloat\nechoFloatArray\nechoHexBinary\nechoInteger\nechoIntegerArray\nechoPolyMorph\nechoPolyMorphArray\nechoPolyMorphStruct\nechoString\nechoStringArray\nechoStruct\nechoStructArray\nechoVoid\nThis is my test string == This is my test string\n10 == 10\n```"
+  ],
+  "Exceptions": "SOAP Faults cause a `SOAPError` exception to be thrown. If there is a problem at the networking level, such as an unavailable endpoint, a `NetworkError` is thrown. See the method for more information."
+}

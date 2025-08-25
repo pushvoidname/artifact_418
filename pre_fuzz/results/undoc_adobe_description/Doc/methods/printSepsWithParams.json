@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "printSepsWithParams",
+    "API_Type": "Method",
+    "API_Description": "Prints the document with specific separation parameters.",
+    "API_Description_Reason": "The method name 'printSepsWithParams' suggests that it is related to printing the document with specific parameters related to separations, which are often used in printing processes to separate different color components.",
+    "Returns": "A boolean indicating the success of the print operation.",
+    "Returns_Reason": "Printing methods typically return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {}
+}

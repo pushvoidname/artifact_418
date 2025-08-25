@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "numPages",
+  "API_Type": "Properties",
+  "API_Description": "The number of pages in the document.",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R",
+  "Examples": [
+    "Example 1:\n\n```\nconsole.println(\"There are \" + this.numPages + \" in this document\");\n```",
+    "Example 2: Delete the last page from the document. The (0-based) page number of the last page in the document is `this.numPages - 1` .\n\n```\nthis.deletePages({ nStart: this.numPages - 1 });\n```"
+  ]
+}

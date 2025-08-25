@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "showBalloon",
+    "API_Type": "Method",
+    "API_Description": "Displays a balloon notification or tooltip within the PDF viewer.",
+    "API_Description_Reason": "The method name 'showBalloon' suggests functionality related to displaying a balloon-like notification or tooltip, which is common in user interfaces for providing additional information or alerts.",
+    "Returns": "void",
+    "Returns_Reason": "The method does not take any parameters and is likely used for displaying a UI element, which typically does not return a value.",
+    "Parameters": {}
+}

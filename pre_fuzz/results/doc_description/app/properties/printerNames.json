@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "printerNames",
+  "API_Type": "Properties",
+  "API_Description": "A list of available printers. Each of these values is suitable to use in the `printerName` property of the `PrintParams` object. If no printers are installed on the system, an empty array is returned.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array of Strings",
+  "Access": "R",
+  "Examples": [
+    "Example: Print out a listing of available printers:\n\n```\nvar l = app.printerNames.length\nfor ( var i = 0; i < l; i++)\n    console.println(\"(\" + (i+1) + \") \" + app.printerNames[i]);\n```"
+  ]
+}

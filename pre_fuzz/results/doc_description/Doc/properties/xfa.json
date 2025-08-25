@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "xfa",
+  "API_Type": "Properties",
+  "API_Description": "The property is defined only if the document is an XML form, that is, if the document was created in LiveCycle Designer. When defined, `xfa` is a static XFAObject, which is the root node of the underlying xfa model, and gives access to the xfa scripting object model (SOM). Refer to the document for details on the xfa SOM. The document has a comparison between the Acrobat and LiveCycle Designer scripting object models. !! Note When executing this property from a folder level script, pass the Doc object from the document so that `xfa` will be executed in the proper context. See Example 2.",
+  "Version_Key": "6.02",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "XFAObject",
+  "Access": "R",
+  "Examples": [
+    "Example 1: Suppose this document is an XML form, and that there is a text field named `EmployeeName` . This example uses the `xfa` object to access and change the value of this field.\n\n```\nvar eN = this.xfa.form.form1.EmployeeName;\nconsole.println(\"nEmployeeName: \" + eN.rawValue);\n```\n\nThe output to the console is\n\n```\nEmployeeName: A. C. Robat\n```\n\nNow change the value of the EmployeeName.\n\n```\neN.rawValue = \"Robat, A. C.\"\nconsole.println(\"nEmployeeName: \" + eN.rawValue);\n```\n\nThe output to the console is\n\n```\nEmployeeName: Robat, A. C.\n```\n\nThe value of the field is changed.",
+    "Example 2: Call a function, defined in a folder level script file, that uses the xfa property, by passing the Doc object.\n\n```\nfunction isXFA(doc) {\n    var wasWasNot = (typeof doc.xfa == \"undefined\") ? \"not\" : \"\";\n    console.println(\"This document was \"+wasWasNot+\"created by Designer.\");\n}\n```\n\nFrom within the document, or from the console, the function is called is by `isXFA(this)` ."
+  ]
+}

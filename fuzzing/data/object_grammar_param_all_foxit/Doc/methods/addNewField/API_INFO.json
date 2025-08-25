@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "addNewField",
+    "API_Type": "method",
+    "Return_Type": "Field",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "TTS",
+  "API_Name": "speaker",
+  "API_Type": "Properties",
+  "API_Description": "Allows users to specify different speakers with different tone qualities when performing text-to-speech. See also the numSpeakers property and the getNthSpeakerName method. Type | Access ------------- String | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

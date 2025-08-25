@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "layout",
+  "API_Type": "Properties",
+  "API_Description": "Changes the page layout of the current document. Valid values are: ``` SinglePage OneColumn TwoColumnLeft TwoColumnRight ``` In Acrobat 6.0 and later, there are two additional properties: ``` TwoPageLeft TwoPageRight ```",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Put the document into a continuous facing layout where the first page of the document appears in the left column:\n\n```\nthis.layout = \"TwoColumnLeft\";\n```"
+  ]
+}

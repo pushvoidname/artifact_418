@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "ignoreAsianCharacterWidth",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether the Kana characters in the document exactly match the search query. The default is `false` .",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

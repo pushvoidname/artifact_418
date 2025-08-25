@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Creator",
+    "API_Type": "property",
+    "API_Description": "Represents the name of the application that created the document.",
+    "API_Description_Reason": "The 'Creator' property typically refers to the software or application that was used to create a document, which is a common attribute in document metadata.",
+    "Returns": "A string representing the name of the application that created the document.",
+    "Returns_Reason": "Since 'Creator' is a property, it is expected to return a value, which in this context is likely a string indicating the application name.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the 'Creator' property value.",
+            "description_reason": "The 'type' parameter is used to specify the data type of the property, which is necessary for understanding how to handle the property value.",
+            "type": "string",
+            "type_reason": "The 'Creator' property is expected to be a string, as it represents the name of an application."
+        }
+    }
+}

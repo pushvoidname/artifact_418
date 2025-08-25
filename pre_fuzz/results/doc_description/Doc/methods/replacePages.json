@@ -1,0 +1,26 @@
+{
+  "Object": "Doc",
+  "API_Name": "replacePages",
+  "API_Type": "Method",
+  "API_Description": "Replaces pages in the current document with pages from the source document.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page at which to start replacement. The default is 0."
+    },
+    "cPath": {
+      "description": "The device-independent path to the PDF file that will provide the replacement pages. The path may be relative to the location of the current document."
+    },
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages in the source document to be used for replacement.  If nStart and nEnd are not specified, gets all pages in the source document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages in the source document to be used for replacement.  If nStart and nEnd are not specified, gets all pages in the source document. If only nEnd is specified, the range of pages is 0 to nEnd."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

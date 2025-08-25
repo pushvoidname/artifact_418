@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_STARTUP_CONSOLE_MSG",
+    "API_Type": "property",
+    "Return_Type": "String",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

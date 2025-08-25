@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "seqNum",
+  "API_Type": "Properties",
+  "API_Description": "A read-only sequence number for the annotation on the page. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "C",
+  "Type": "integer",
+  "Access": "R",
+  "Examples": []
+}

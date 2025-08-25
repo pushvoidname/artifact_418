@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "templates",
+  "API_Type": "Properties",
+  "API_Description": "An array of all of the `Template` objects in the document. See also createTemplate , getTemplate , and .",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: List all templates in the document.\n\n```\nvar t = this.templates\nfor ( var i=0; i < t.length; i++)\n{\n    var state = (t[i].hidden) ? \"visible\" : \"hidden\"\n    console.println(\"Template: \"\" + t[i].name\n        + \"\", current state: \" + state);\n}\n```"
+  ]
+}

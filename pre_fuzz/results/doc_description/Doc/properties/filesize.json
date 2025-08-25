@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "filesize",
+  "API_Type": "Properties",
+  "API_Description": "The file size of the document in bytes. **Example (Acrobat 5.0)** Get a readout of the difference in file sizes before and after saving a document: ``` // Add the following code to the \"Document Will Save\" section var filesizeBeforeSave = this.filesize console.println(\"File size before saving is \" + filesizeBeforeSave); // Add the following code to the \"Document Did Save\" section var filesizeAfterSave = this.filesize console.println(\"File size after saving is \" + filesizeAfterSave); var difference = filesizeAfterSave - filesizeBeforeSave; console.println(\"The difference is \" + difference ); if ( difference < 0 ) console.println(\"Reduced filesize!\"); else console.println(\"Increased filesize!\"); ```",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R",
+  "Examples": []
+}

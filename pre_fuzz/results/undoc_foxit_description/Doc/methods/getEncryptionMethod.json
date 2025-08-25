@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getEncryptionMethod",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the encryption method used for securing the PDF document.",
+    "API_Description_Reason": "The method name 'getEncryptionMethod' suggests that it returns information about the encryption method applied to the document.",
+    "Returns": "A string representing the encryption method used for the document.",
+    "Returns_Reason": "Since the method is likely to return a description or identifier of the encryption method, a string is the most appropriate return type.",
+    "Parameters": {}
+}

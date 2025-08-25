@@ -1,0 +1,233 @@
+{
+    "Object": "Doc",
+    "API_Name": "printWithParams",
+    "API_Type": "Method",
+    "API_Description": "Prints the document with specified parameters, allowing for detailed control over the print job settings.",
+    "API_Description_Reason": "The method name 'printWithParams' suggests that it is used to print a document with a variety of parameters that customize the print job. The presence of numerous parameters related to printing supports this assumption.",
+    "Returns": "A boolean indicating the success or failure of the print operation.",
+    "Returns_Reason": "Typically, methods that perform an action such as printing return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "printParams": {
+            "description": "An object containing various print parameters and settings.",
+            "description_reason": "The parameter name 'printParams' implies it is an object that holds multiple settings related to printing.",
+            "type": "object",
+            "type_reason": "The use of 'Params' in the name suggests a structured object containing multiple properties."
+        },
+        "interactive": {
+            "description": "Specifies the level of user interaction during the print process.",
+            "description_reason": "The term 'interactive' implies control over how much the user is involved in the print process.",
+            "type": "number",
+            "type_reason": "The use of a number suggests predefined levels of interaction, such as 0 for no interaction, 1 for minimal interaction, etc."
+        },
+        "psLevel": {
+            "description": "Defines the PostScript level to use for printing.",
+            "description_reason": "The parameter name 'psLevel' indicates it is related to the PostScript level, which is a common setting in print jobs.",
+            "type": "number",
+            "type_reason": "PostScript levels are typically represented as numbers (e.g., 1, 2, 3)."
+        },
+        "flags": {
+            "description": "A bitmask of flags that modify the print behavior.",
+            "description_reason": "The term 'flags' often refers to a set of binary options that can be combined using a bitmask.",
+            "type": "number",
+            "type_reason": "Flags are usually represented as numbers to allow bitwise operations."
+        },
+        "printContent": {
+            "description": "Specifies the content to be printed, such as document, comments, or both.",
+            "description_reason": "The name 'printContent' suggests it controls what parts of the document are included in the printout.",
+            "type": "number",
+            "type_reason": "A number is likely used to represent different content options, such as 0 for document only, 1 for comments, etc."
+        },
+        "fontPolicy": {
+            "description": "Determines the font handling policy during printing.",
+            "description_reason": "The term 'fontPolicy' implies a setting that controls how fonts are managed in the print job.",
+            "type": "number",
+            "type_reason": "Policies are often represented as numbers to select between different predefined options."
+        },
+        "outputType": {
+            "description": "Specifies the type of output, such as grayscale or color.",
+            "description_reason": "The parameter name 'outputType' suggests it controls the color mode of the print output.",
+            "type": "number",
+            "type_reason": "Different output types are typically represented as numbers for easy selection."
+        },
+        "printAsImage": {
+            "description": "Indicates whether to print the document as an image.",
+            "description_reason": "The name 'printAsImage' suggests a boolean option to print the document as a rasterized image.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "downloadFarEastFonts": {
+            "description": "Specifies whether to download Far East fonts for printing.",
+            "description_reason": "The parameter name indicates a setting related to font handling for specific language support.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "saveToner": {
+            "description": "Indicates whether to enable toner-saving mode.",
+            "description_reason": "The term 'saveToner' suggests a setting to reduce toner usage during printing.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "firstPage": {
+            "description": "An object specifying the first page to print.",
+            "description_reason": "The name 'firstPage' implies it is an object that defines the starting page for the print job.",
+            "type": "object",
+            "type_reason": "The use of 'firstPage' suggests a structured object with properties related to page settings."
+        },
+        "reversePages": {
+            "description": "Indicates whether to print pages in reverse order.",
+            "description_reason": "The term 'reversePages' suggests a setting to control the order of page printing.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "printRange": {
+            "description": "Specifies the range of pages to print.",
+            "description_reason": "The parameter name 'printRange' implies it defines which pages are included in the print job.",
+            "type": "array",
+            "type_reason": "A range is typically represented as an array of page numbers or page ranges."
+        },
+        "pageSubset": {
+            "description": "Defines the subset of pages to print, such as odd or even.",
+            "description_reason": "The term 'pageSubset' suggests a setting to select specific pages based on criteria like odd/even.",
+            "type": "number",
+            "type_reason": "Different subsets are often represented as numbers for easy selection."
+        },
+        "colorProfile": {
+            "description": "Specifies the color profile to use for printing.",
+            "description_reason": "The parameter name 'colorProfile' indicates it controls the color management settings for the print job.",
+            "type": "string",
+            "type_reason": "Color profiles are typically identified by name, hence a string type."
+        },
+        "pageHandling": {
+            "description": "Determines how pages are handled during printing, such as scaling or rotation.",
+            "description_reason": "The term 'pageHandling' suggests it controls various page-related settings in the print job.",
+            "type": "number",
+            "type_reason": "Different handling options are often represented as numbers for easy selection."
+        },
+        "selectedArea": {
+            "description": "An array specifying the coordinates of the selected area to print.",
+            "description_reason": "The name 'selectedArea' implies it defines a specific region of the page to print.",
+            "type": "array",
+            "type_reason": "Coordinates are typically represented as an array of numbers."
+        },
+        "tileOverlap": {
+            "description": "Specifies the overlap between tiles when printing large pages.",
+            "description_reason": "The term 'tileOverlap' suggests a setting to control how much tiles overlap when printing.",
+            "type": "number",
+            "type_reason": "Overlap is usually measured in units, hence a number type."
+        },
+        "tileScale": {
+            "description": "Defines the scale of tiles when printing large pages.",
+            "description_reason": "The parameter name 'tileScale' indicates it controls the scaling factor for tiled printing.",
+            "type": "number",
+            "type_reason": "Scale is typically represented as a numerical factor."
+        },
+        "tileLabel": {
+            "description": "Indicates whether to include labels on tiles.",
+            "description_reason": "The term 'tileLabel' suggests a setting to control the inclusion of labels on printed tiles.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "tileMark": {
+            "description": "Specifies whether to include marks on tiles.",
+            "description_reason": "The parameter name 'tileMark' implies a setting to control the inclusion of marks on printed tiles.",
+            "type": "number",
+            "type_reason": "Marks might be represented as different types or styles, hence a number type."
+        },
+        "nUpNumPagesH": {
+            "description": "Specifies the number of pages to print horizontally on a single sheet.",
+            "description_reason": "The term 'nUpNumPagesH' suggests a setting for n-up printing, controlling horizontal page count.",
+            "type": "number",
+            "type_reason": "The number of pages is naturally represented as a number."
+        },
+        "nUpNumPagesV": {
+            "description": "Specifies the number of pages to print vertically on a single sheet.",
+            "description_reason": "The term 'nUpNumPagesV' suggests a setting for n-up printing, controlling vertical page count.",
+            "type": "number",
+            "type_reason": "The number of pages is naturally represented as a number."
+        },
+        "nUpPageOrder": {
+            "description": "Defines the order of pages in n-up printing.",
+            "description_reason": "The parameter name 'nUpPageOrder' indicates it controls the sequence of pages in n-up printing.",
+            "type": "number",
+            "type_reason": "Page order options are typically represented as numbers for easy selection."
+        },
+        "nUpPageBorder": {
+            "description": "Indicates whether to include borders around pages in n-up printing.",
+            "description_reason": "The term 'nUpPageBorder' suggests a setting to control the inclusion of borders in n-up printing.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "nUpAutoRotate": {
+            "description": "Specifies whether to automatically rotate pages in n-up printing.",
+            "description_reason": "The parameter name 'nUpAutoRotate' implies a setting to control automatic rotation in n-up printing.",
+            "type": "boolean",
+            "type_reason": "This is likely a true/false setting, hence a boolean type."
+        },
+        "rasterFlags": {
+            "description": "A bitmask of flags that modify rasterization behavior.",
+            "description_reason": "The term 'rasterFlags' suggests a set of binary options related to rasterization.",
+            "type": "number",
+            "type_reason": "Flags are usually represented as numbers to allow bitwise operations."
+        },
+        "transparencyLevel": {
+            "description": "Specifies the level of transparency handling during printing.",
+            "description_reason": "The parameter name 'transparencyLevel' indicates it controls how transparency is managed in the print job.",
+            "type": "number",
+            "type_reason": "Levels are typically represented as numbers to indicate different degrees or settings."
+        },
+        "bitmapDPI": {
+            "description": "Defines the DPI for bitmap images in the print job.",
+            "description_reason": "The term 'bitmapDPI' suggests a setting to control the resolution of bitmap images.",
+            "type": "number",
+            "type_reason": "DPI (dots per inch) is naturally represented as a number."
+        },
+        "gradientDPI": {
+            "description": "Specifies the DPI for gradients in the print job.",
+            "description_reason": "The parameter name 'gradientDPI' indicates it controls the resolution of gradients.",
+            "type": "number",
+            "type_reason": "DPI (dots per inch) is naturally represented as a number."
+        },
+        "colorOverride": {
+            "description": "Determines whether to override color settings in the print job.",
+            "description_reason": "The term 'colorOverride' suggests a setting to control color management overrides.",
+            "type": "number",
+            "type_reason": "Overrides might be represented as different options, hence a number type."
+        },
+        "usePrinterCRD": {
+            "description": "Indicates whether to use the printer's color rendering dictionary.",
+            "description_reason": "The parameter name 'usePrinterCRD' implies a setting to control color rendering using the printer's dictionary.",
+            "type": "number",
+            "type_reason": "This might be a setting with multiple options, hence a number type."
+        },
+        "useT1Conversion": {
+            "description": "Specifies whether to convert Type 1 fonts during printing.",
+            "description_reason": "The term 'useT1Conversion' suggests a setting to control font conversion.",
+            "type": "number",
+            "type_reason": "This might be a setting with multiple options, hence a number type."
+        },
+        "printerName": {
+            "description": "The name of the printer to use for the print job.",
+            "description_reason": "The parameter name 'printerName' clearly indicates it specifies the printer.",
+            "type": "string",
+            "type_reason": "Printer names are typically represented as strings."
+        },
+        "NumCopies": {
+            "description": "Specifies the number of copies to print.",
+            "description_reason": "The term 'NumCopies' suggests it controls the quantity of printed copies.",
+            "type": "number",
+            "type_reason": "The number of copies is naturally represented as a number."
+        },
+        "DuplexType": {
+            "description": "Defines the duplex printing mode, such as single-sided or double-sided.",
+            "description_reason": "The parameter name 'DuplexType' indicates it controls duplex printing settings.",
+            "type": "number",
+            "type_reason": "Duplex modes are typically represented as numbers for easy selection."
+        },
+        "booklet": {
+            "description": "An object specifying booklet printing settings, including binding and duplex mode.",
+            "description_reason": "The term 'booklet' suggests a structured object with properties related to booklet printing.",
+            "type": "object",
+            "type_reason": "Booklet settings are likely complex and require a structured object."
+        }
+    }
+}

@@ -1,0 +1,26 @@
+[
+    [
+        "BORDER_EFFECT_STYLE",
+        "{STRING}"
+    ],
+    [
+        "STRING",
+        "{EMPTY}"
+    ],
+    [
+        "STRING",
+        "{CLOUDY}"
+    ],
+    [
+        "EMPTY",
+        ""
+    ],
+    [
+        "CLOUDY",
+        "{C}"
+    ],
+    [
+        "C",
+        "C"
+    ]
+]

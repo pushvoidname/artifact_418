@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "setReviewRespondedDate",
+    "API_Type": "Method",
+    "API_Description": "Sets the date when a review was responded to.",
+    "API_Description_Reason": "The method name 'setReviewRespondedDate' suggests that it is used to set a date related to a review response. This is a common functionality in collaboration tools to track when actions are taken.",
+    "Returns": "void",
+    "Returns_Reason": "The method name 'setReviewRespondedDate' implies that it performs an action (setting a date) without returning a value, which is typical for setter methods.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object for which the review responded date is being set.",
+            "description_reason": "The parameter name 'doc' suggests it is related to a document, which is likely the subject of the review.",
+            "type": "object",
+            "type_reason": "The parameter is likely an object because it represents a document, which typically has multiple properties and methods associated with it."
+        }
+    }
+}

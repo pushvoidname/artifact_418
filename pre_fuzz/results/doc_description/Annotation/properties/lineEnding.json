@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "lineEnding",
+  "API_Type": "Properties",
+  "API_Description": "This property determines how the end of a callout line is stroked. It is relevant only for a free text annotation when the value of `intent` is `FreeTextCallout` . Possible values include: * None (default) * OpenArrow * ClosedArrow * ROpenArrow: Acrobat 6.0 * RClosedArrow: Acrobat 6.0 * Butt: Acrobat 6.0 * Diamond * Circle * Square * Slash: Acrobat 7.0 **Annotations** : FreeText",
+  "Version_Key": "7.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

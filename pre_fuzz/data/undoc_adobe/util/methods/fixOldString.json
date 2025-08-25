@@ -1,0 +1,8 @@
+{
+    "Object": "util",
+    "API_Name": "fixOldString",
+    "API_Type": "method",
+    "Parameters": {
+        "cText": "string"
+    }
+}

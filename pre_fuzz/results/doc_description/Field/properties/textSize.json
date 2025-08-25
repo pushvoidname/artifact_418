@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "textSize",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the text size (in points) to be used in all controls. In check box and radio button fields, the text size determines the size of the check. Valid text sizes range from 0 to 32767, inclusive. A value of zero means the largest point size that allows all text data to fit in the field\u2019s rectangle. **Fields** all",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Number",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Set the text size of \u201cmyField\u201d to 28 points.\n\n```\nthis.getField(\"myField\").textSize = 28;\n```"
+  ]
+}

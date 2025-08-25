@@ -1,0 +1,17 @@
+{
+    "Object": "security",
+    "API_Name": "StandardHandler",
+    "API_Type": "property",
+    "API_Description": "Represents the standard security handler used for managing encryption and access permissions in PDF documents.",
+    "API_Description_Reason": "The name 'StandardHandler' suggests it is a default or standard handler for security operations, likely related to encryption and permissions, which are common tasks for a security object.",
+    "Returns": "An object representing the standard security handler.",
+    "Returns_Reason": "Since it is a property, it likely returns an object that provides methods or properties related to standard security handling.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the security handler, which determines the encryption and permission settings applied.",
+            "description_reason": "The parameter 'type' is likely related to specifying the kind of security handler or the encryption method used.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type or expected values are not documented."
+        }
+    }
+}

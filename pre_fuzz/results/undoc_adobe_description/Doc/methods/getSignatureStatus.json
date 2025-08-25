@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getSignatureStatus",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the status of digital signatures within the PDF document.",
+    "API_Description_Reason": "The method name 'getSignatureStatus' suggests it is used to obtain information about the status of digital signatures in the document.",
+    "Returns": "An object or array containing the status information of the digital signatures.",
+    "Returns_Reason": "The method likely returns structured data about the signatures, such as their validity, signer information, or any errors, which is common for methods that check the status of digital signatures.",
+    "Parameters": {}
+}

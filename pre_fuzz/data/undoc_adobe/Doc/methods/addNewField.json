@@ -1,0 +1,16 @@
+{
+    "Object": "Doc",
+    "API_Name": "addNewField",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "cFieldType": "string",
+        "nPageNum": "number",
+        "oCoords": [
+            "number",
+            "number",
+            "number",
+            "number"
+        ]
+    }
+}

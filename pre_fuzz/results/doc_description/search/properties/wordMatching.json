@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "wordMatching",
+  "API_Type": "Properties",
+  "API_Description": "How individual words in the query will be matched to words in the document. Values are: ``` MatchPhrase MatchAllWords MatchAnyWord BooleanQuery (default) ``` This property is relevant only when a query has more than one word. The `BooleanQuery` option is ignored when searching the active document.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": []
+}

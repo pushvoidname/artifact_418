@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "richValue",
+    "API_Type": "property",
+    "API_Description": "Represents the rich text value of the event target, allowing for styled text content.",
+    "API_Description_Reason": "The name 'richValue' suggests it deals with rich text, which typically includes styled or formatted text content. This is often used in contexts where text formatting is necessary, such as in form fields that support rich text.",
+    "Returns": "The rich text content of the event target.",
+    "Returns_Reason": "Since 'richValue' is a property, it likely returns the current rich text content associated with the event's target, allowing access to or manipulation of styled text.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the rich text content, which could specify the format or structure of the rich text.",
+            "description_reason": "The parameter 'type' is often used to specify the format or category of data, which in the context of 'richValue', could refer to the format of the rich text.",
+            "type": "unknown",
+            "type_reason": "The type is listed as unknown, indicating that the specific data type or expected values for this parameter are not documented."
+        }
+    }
+}

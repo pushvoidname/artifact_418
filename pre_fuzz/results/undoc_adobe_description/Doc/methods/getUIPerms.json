@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getUIPerms",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the user interface permissions for the current document.",
+    "API_Description_Reason": "The method name 'getUIPerms' suggests it is used to obtain the UI permissions associated with the document, which typically involve what actions a user can perform within the document's interface.",
+    "Returns": "An object or value representing the UI permissions of the document.",
+    "Returns_Reason": "Since the method is named 'getUIPerms', it is logical to assume it returns some form of data structure that details the permissions related to the user interface.",
+    "Parameters": {}
+}

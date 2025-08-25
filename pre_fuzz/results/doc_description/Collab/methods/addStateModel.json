@@ -1,0 +1,35 @@
+{
+  "Object": "Collab",
+  "API_Name": "addStateModel",
+  "API_Type": "Method",
+  "API_Description": "Adds a new state model to Acrobat. A state model describes the valid states that an annotation using the model can have (see the Annotation object for details about getting and setting the state of an annotation). State models can be used to describe the workflow that a document review goes through and can be used for review management.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "A unique, language-independent identifier for the State Model."
+    },
+    "cUIName": {
+      "description": "The display name of the state model used in the user interface. The value should be a localized string."
+    },
+    "oStates": {
+      "description": "The states in the state model, described by a States object."
+    },
+    "cDefault": {
+      "description": "(optional) One of the states in the model to be used as a default state if no other state is set. The default is for there to be no default state."
+    },
+    "bHidden": {
+      "description": "(optional) Specifies whether the state model should be hidden in the state model user interface. The default is false (the State Model is shown)."
+    },
+    "bHistory": {
+      "description": "(optional) Specifies whether an audit history is maintained for the state model. Keeping an audit history requires more space in the file. The default is true."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Add a new state model with a unique name of \u201cReviewStates\u201d:\n\n```\nCollab.addStateModel({\n    cName: \"ReviewStates\",\n    cUIName: \"My Review\",\n\n     oStates:\n    {\n        \"initial\": {cUIName: \"Haven't reviewed it\"},\n        \"approved\": {cUIName: \"I approve\"},\n        \"rejected\": {cUIName: \"Forget it\"},\n        \"resubmit\": {cUIName: \"Make some changes\"}\n    },\n    cDefault: \"initial\"\n});\n```\n\nA state model can be removed with `Collab.removeStateModel` ."
+  ],
+  "States object": "This generic object represents a set of states in a state model and is passed as the `oStates` parameter. The elements in the object literal are the unique state identifiers and the values are objects having the following properties:\n\nProperty | Description\n----------------------\ncUIName | The UI (display name) for the state.\noIcon | (optional) An Icon Stream object that is displayed in the UI for the state."
+}

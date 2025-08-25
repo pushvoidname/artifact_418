@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "exportValues",
+  "API_Type": "Properties",
+  "API_Description": "An array of strings representing the export values for the field. The array has as many elements as there are annotations in the field. The elements are mapped to the annotations in the order of creation (unaffected by tab-order). For radio button fields, this property is required to make the field work properly as a group. The button that is checked at any time gives its value to the field as a whole. For check box fields, unless an export value is specified, \u201cYes\u201d (or the corresponding localized string) is the default when the field is checked. \u201cOff\u201d is the default when the field is unchecked (the same as for a radio button field when none of its buttons are checked). **Fields** `checkbox` , `radiobutton`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "",
+  "Product": "F",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a radio button field and sets its export values.\n\n```\nvar d = 40;\nvar f = this.addField(\"myRadio\",\"radiobutton\",0,  [200, 510, 210, 500]);\nthis.addField(\"myRadio\",\"radiobutton\",0,  [200+d, 510-d, 210+d, 500-d]);\nthis.addField(\"myRadio\",\"radiobutton\",0,  [200, 510-2*d, 210, 500-2*d]);\nthis.addField(\"myRadio\",\"radiobutton\",0,  [200-d, 510-d, 210-d, 500-d]);\nf.strokeColor = color.black;\n// Now give each radio field an export value\nf.exportValues = [\"North\", \"East\", \"South\", \"West\"];\n```"
+  ]
+}

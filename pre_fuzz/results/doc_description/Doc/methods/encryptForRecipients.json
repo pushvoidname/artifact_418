@@ -1,0 +1,27 @@
+{
+  "Object": "Doc",
+  "API_Name": "encryptForRecipients",
+  "API_Type": "Method",
+  "API_Description": "Encrypts the document for the specified lists of recipients, using the public-key certificates of each recipient. Encryption does not take place until the document is saved. Recipients can be placed into groups and each group can have its own unique permission settings. This method throws an exception if it is unsuccessful.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "oGroups": {
+      "description": "An array of generic Group objects that list the recipients for which the document is to be encrypted."
+    },
+    "bMetaData": {
+      "description": "(optional) If true (the default), document metadata should be encrypted. Setting this value to false will produce a document that can only be viewed in Acrobat 6.0 or later."
+    },
+    "bUI": {
+      "description": "(optional) If true, the handler displays the user interface, in which the user can select the recipients for whom to encrypt the document. The default value is false."
+    }
+  },
+  "Returns": "`true` , if successful, otherwise an exception is thrown.",
+  "Examples": [
+    "Encrypt all strings and streams in the document. This will produce a file that can be opened with Acrobat 5.0 and later:\n\n```\nvar sh = security.getHandler( \"Adobe.PPKMS\" );\nvar dir = sh.directories[0];\nvar dc = dir.connect();\n\ndc.setOutputFields({oFields:[\"certificates\"]});\nvar importantUsers = dc.search({oParams:{lastName:\"Smith\"}});\nvar otherUsers = dc.search({oParams: {lastName:\"Jones\" }});\n\nthis.encryptForRecipients({\n    oGroups :\n    [\n        {userEntities:importantUsers,permissions:{allowAll:true }},\n        {userEntities: otherUsers, permissions:{allowPrinting:\"highQuality\"}}\n    ],\n    bMetaData : true\n});\n```"
+  ],
+  "Group object": "A generic JavaScript object that allows a set of permissions to be attached to a list of recipients for which a document or data is to be encrypted. This object is passed to `encryptForRecipients` and returned by `security.chooseRecipientsDialog` . It contains the following properties.\n\nProperty | Description\n----------------------\npermissions | A Permissions object with the permissions for the group.\nuserEntities | An array of UserEntity objects, the users to whom the permissions apply.",
+  "Permissions object": "A generic JavaScript object that contains a set of permissions, used in a `Group` object. It contains the following properties. The default value for all Boolean properties is `false` .\n\nProperty | Type | Access | Description\n--------------------------------------\nallowAll | Boolean | R/W | Specifies whether full, unrestricted access is permitted. If true, overrides all other properties.\nallowAccessibility | Boolean | R/W | Specifies whether content access for the visually impaired is permitted. If true, allows content to be extracted for use by applications that, for example, read text aloud.\nallowContentExtraction | Boolean | R/W | Specifies whether content copying and extraction is permitted.\nallowChanges | String | R/W | What changes are allowed to be made to the document. Values are:\nnone\ndocumentAssembly\nfillAndSign\neditNotesFillAndSign\nall\nallowPrinting | String | R/W | What the allowed printing security level is for the document. Values are:\nnone\nlowQuality\nhighQuality"
+}

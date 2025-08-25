@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "textFont",
+  "API_Type": "Properties",
+  "API_Description": "The font that is used when laying out text in a text field, combo box, list box or button. Valid fonts are defined as properties of the `font` object. Beginning with Acrobat 5.0, arbitrary fonts can also be used. See . **Fields** `button` , `combobox` , `listbox` , `text` **font Object** Text font | Keyword ------------------- Times-Roman | font.Times Times-Bold | font.TimesB Times-Italic | font.TimesI Times-BoldItalic | font.TimesBI Helvetica | font.Helv Helvetica-Bold | font.HelvB Helvetica-Oblique | font.HelvI Helvetica-BoldOblique | font.HelvBI Courier | font.Cour Courier-Bold | font.CourB Courier-Oblique | font.CourI Courier-BoldOblique | font.CourBI Symbol | font.Symbol ZapfDingbats | font.ZapfD Use of arbitrary fonts Beginning with Acrobat 5.0, an arbitrary font can be used when laying out a text field, combo box, list box or button by setting the value of `textFont` to the PDSysFont font name, as returned by PDSysFontGetName. (See the Acrobat and PDF Library API Reference .) ``` this.getField(\"Text1\").textFont ``` The above code assumes the name of the field is `Text1` .",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Set the font to Helvetica.\n\n```\nvar f = this.getField(\"myField\");\nf.textFont = font.Helv;\n```\n\n**Example (Acrobat 5.0)**\n\nSet the font of myField to Viva-Regular.\n\n```\nvar f = this.getField(\"myField\");\nf.textFont = \"Viva-Regular\";\n```"
+  ]
+}

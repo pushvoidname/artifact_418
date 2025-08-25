@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "onInitView",
+    "API_Type": "Method",
+    "API_Description": "Triggers when the view is initialized in the Acrobat application.",
+    "API_Description_Reason": "The method name 'onInitView' suggests it is an event handler that is called when the view is initialized, which is a common pattern in application lifecycle events.",
+    "Returns": "void",
+    "Returns_Reason": "Event handler methods typically do not return a value as they are meant to perform actions in response to an event.",
+    "Parameters": {}
+}

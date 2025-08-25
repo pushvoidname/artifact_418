@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "radiosInUnison",
+  "API_Type": "Properties",
+  "API_Description": "If `false` , even if a group of radio buttons have the same name and export value, they behave in a mutually exclusive fashion, like HTML radio buttons. The default for new radio buttons is `false` . If `true` , if a group of radio buttons have the same name and export value, they turn on and off in unison, as in Acrobat 4.0. **Fields** `radiobutton`",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

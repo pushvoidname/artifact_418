@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "vertices",
+  "API_Type": "Properties",
+  "API_Description": "An array of coordinate arrays representing the alternating horizontal and vertical coordinates, respectively, of each vertex, in default user space of a polygon or polyline annotation. See the PDF Reference for details. **Annotations** : Polygon, PolyLine",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "Array of arrays",
+  "Access": "R/W",
+  "Examples": []
+}

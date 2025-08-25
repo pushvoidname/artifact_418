@@ -1,0 +1,17 @@
+{
+  "Object": "SOAP",
+  "API_Name": "stringFromStream",
+  "API_Type": "Method",
+  "API_Description": "This function converts a `ReadStream` object to a string. Typically, this is used to examine the contents of a stream object returned as part of a response to a SOAP method.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oStream": {
+      "description": "The ReadStream object to be converted."
+    }
+  },
+  "Returns": "String",
+  "Examples": []
+}

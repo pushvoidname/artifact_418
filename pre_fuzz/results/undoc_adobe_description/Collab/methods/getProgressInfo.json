@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "getProgressInfo",
+    "API_Type": "Method",
+    "API_Description": "Retrieves information about the current progress of a collaboration process.",
+    "API_Description_Reason": "The method name 'getProgressInfo' suggests that it provides details or status updates related to the progress of a collaboration task or process.",
+    "Returns": "An object containing details about the current progress status.",
+    "Returns_Reason": "The method is likely designed to return structured information about the progress, which would be encapsulated in an object for easy access and manipulation.",
+    "Parameters": {}
+}

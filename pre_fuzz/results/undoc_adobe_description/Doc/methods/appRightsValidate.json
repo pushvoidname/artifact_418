@@ -1,0 +1,29 @@
+{
+    "Object": "Doc",
+    "API_Name": "appRightsValidate",
+    "API_Type": "Method",
+    "API_Description": "Validates the application rights for a PDF document using a security handler and specified options.",
+    "API_Description_Reason": "The method name 'appRightsValidate' suggests it is used to validate application rights, likely involving security checks or permissions. The parameters include a security handler and validation options, which align with the concept of rights validation.",
+    "Returns": "A boolean indicating whether the application rights validation was successful.",
+    "Returns_Reason": "The method likely returns a boolean to indicate the success or failure of the rights validation process, as this is a common pattern for validation methods.",
+    "Parameters": {
+        "oSecHdlr": {
+            "description": "The security handler object used to perform the validation.",
+            "description_reason": "The parameter name 'oSecHdlr' implies it is an object related to security handling, which is typically used in validation processes.",
+            "type": "object",
+            "type_reason": "The prefix 'o' in 'oSecHdlr' suggests it is an object, and security handlers are usually complex objects."
+        },
+        "nValidateOption": {
+            "description": "A numeric option specifying the type or level of validation to perform.",
+            "description_reason": "The parameter name 'nValidateOption' indicates it is a numeric value used to specify different validation options or levels.",
+            "type": "number",
+            "type_reason": "The prefix 'n' in 'nValidateOption' suggests it is a number, which is commonly used for option flags or levels."
+        },
+        "bUI": {
+            "description": "A boolean indicating whether to display a user interface during the validation process.",
+            "description_reason": "The parameter name 'bUI' suggests it is a boolean flag to control the display of a user interface, which is a common use for boolean parameters.",
+            "type": "boolean",
+            "type_reason": "The prefix 'b' in 'bUI' indicates it is a boolean, typically used for true/false flags."
+        }
+    }
+}

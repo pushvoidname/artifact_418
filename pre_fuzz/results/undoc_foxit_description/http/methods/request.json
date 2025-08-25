@@ -1,0 +1,10 @@
+{
+    "Object": "http",
+    "API_Name": "request",
+    "API_Type": "Method",
+    "API_Description": "Sends an HTTP request and returns a response object.",
+    "API_Description_Reason": "The method name 'request' suggests it is used to make HTTP requests, which typically involve sending a request and receiving a response.",
+    "Returns": "A response object containing the status and data from the HTTP request.",
+    "Returns_Reason": "HTTP request methods generally return a response object that includes the status code, headers, and body of the response.",
+    "Parameters": {}
+}

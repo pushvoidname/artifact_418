@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "popupOpen",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the pop-up text note appears open when the page is displayed. **Annotations** : All except FreeText, Sound, FileAttachment",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the print property."
+  ]
+}

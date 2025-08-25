@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "requestPermission",
+    "API_Type": "method",
+    "Parameters": {
+        "cType": "string",
+        "cOperation": "string",
+        "cExcludePermHandler": "string"
+    }
+}

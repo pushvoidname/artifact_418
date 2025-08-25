@@ -1,0 +1,10 @@
+{
+  "object": "Span",
+  "apiName": "Span",
+  "apiType": "Object",
+  "apiDescription": "A generic object that represents a length of text and its associated properties in a rich text form field or annotation. A rich text value consists of an array of span objects representing the text and formatting. !! Note Span objects are a copy of the rich text value of the field or annotation. To modify and reset the rich text value to update the field, use the Field object `richValue` property, or the `Annotation` object property `richContents` , and the `event` object properties `richValue` , `richChange` , and `richChangeEx` .",
+  "version": "6.0",
+  "savePrefs": "No",
+  "security": "No",
+  "product": "All"
+}

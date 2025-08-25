@@ -1,0 +1,15 @@
+{
+    "Object": "app",
+    "API_Name": "mailMsgWithAttachment",
+    "API_Type": "method",
+    "Parameters": {
+        "bUI": "boolean",
+        "cTo": "string",
+        "cCc": "string",
+        "cBcc": "string",
+        "cSubject": "string",
+        "cMsg": "string",
+        "cAttachment": "string",
+        "cFS": "string"
+    }
+}

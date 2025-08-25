@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "multiline",
+  "API_Type": "Properties",
+  "API_Description": "Controls how text is wrapped within the field. If `false` (the default), the text field can be a single line only. If `true` , multiple lines are allowed and they wrap to field boundaries. **Fields** `text`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the Doc getField method."
+  ]
+}

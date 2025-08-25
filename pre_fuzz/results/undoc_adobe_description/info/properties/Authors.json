@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Authors",
+    "API_Type": "property",
+    "API_Description": "Represents the authors associated with the object.",
+    "API_Description_Reason": "The name 'Authors' suggests it holds information about the authors related to the object.",
+    "Returns": "A list of authors.",
+    "Returns_Reason": "Since the property is named 'Authors', it is reasonable to assume it returns a list or collection of author names or objects.",
+    "Parameters": {
+        "type": {
+            "description": "The format or structure of the authors' information.",
+            "description_reason": "The parameter 'type' likely specifies the format or structure in which the authors' information is returned or expected.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type or format is not provided."
+        }
+    }
+}

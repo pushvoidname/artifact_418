@@ -1,0 +1,17 @@
+{
+  "Object": "app",
+  "API_Name": "hideMenuItem",
+  "API_Type": "Method",
+  "API_Description": "Removes a specified menu item.",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The menu item name to remove.  Menu item names can be discovered with listMenuItems."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

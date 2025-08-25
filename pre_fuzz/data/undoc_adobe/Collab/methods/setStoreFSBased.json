@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "setStoreFSBased",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "bFSBased": "boolean"
+    }
+}

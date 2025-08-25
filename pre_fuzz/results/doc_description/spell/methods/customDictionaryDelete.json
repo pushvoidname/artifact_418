@@ -1,0 +1,19 @@
+{
+  "Object": "spell",
+  "API_Name": "customDictionaryDelete",
+  "API_Type": "Method",
+  "API_Description": "Use this method to close and delete a custom dictionary file that was opened by `customDictionaryOpen` or `customDictionaryCreate` .",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the dictionary to be deleted. This is the name used when this dictionary was opened or created."
+    }
+  },
+  "Returns": "`true` if successful, `false` on failure. This method will fail if the user does not have sufficient file system permission.",
+  "Examples": [
+    "Delete a custom dictionary.\n\n```\nspell.customDictionaryDelete(\"JavaScript\");\n```"
+  ]
+}

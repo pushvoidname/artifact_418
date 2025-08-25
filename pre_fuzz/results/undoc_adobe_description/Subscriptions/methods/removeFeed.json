@@ -1,0 +1,17 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "removeFeed",
+    "API_Type": "Method",
+    "API_Description": "Removes a feed from the subscription list using the provided cURL.",
+    "API_Description_Reason": "The method name 'removeFeed' suggests that it is used to remove a feed, and the parameter 'cURL' likely identifies which feed to remove.",
+    "Returns": "A boolean indicating whether the feed was successfully removed.",
+    "Returns_Reason": "Typically, a method that performs a removal operation returns a boolean to indicate success or failure.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL of the feed to be removed from the subscription list.",
+            "description_reason": "The parameter name 'cURL' implies it is a URL, and since the method is 'removeFeed', it likely specifies which feed to remove.",
+            "type": "string",
+            "type_reason": "URLs are generally represented as strings in programming."
+        }
+    }
+}

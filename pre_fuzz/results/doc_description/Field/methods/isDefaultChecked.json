@@ -1,0 +1,19 @@
+{
+  "Object": "Field",
+  "API_Name": "isDefaultChecked",
+  "API_Type": "Method",
+  "API_Description": "Determines whether the specified widget is checked by default (for example, when the field gets reset).",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nWidget": {
+      "description": "The 0-based index of an individual radio button or check box widget for this field. The index is determined by the order in which the individual widgets of this field were created (and is unaffected by tab-order).  Every entry in the Fields panel has a suffix giving this index, for example, MyField #0."
+    }
+  },
+  "Returns": "`true` if the specified widget is checked by default, `false` otherwise.",
+  "Examples": [
+    "Determine if the specified check box is checked by default.\n\n```\nvar f = this.getField(\"ChkBox\");\nvar cbStatus = (f.isDefaultChecked(0)) ? \"Checked\" : \"Unchecked\";\napp.alert(\"The Default: \" + cbStatus);\n```"
+  ]
+}

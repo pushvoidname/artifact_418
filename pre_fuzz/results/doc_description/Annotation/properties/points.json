@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "points",
+  "API_Type": "Properties",
+  "API_Description": "An array of two points, [[ ], [ ]], specifying the starting and ending coordinates of the line in default user space. **Annotations** : Line",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Draw a line between two specified points.\n\n```\nvar annot = this.addAnnot({\n    type: \"Line\",\n    page: 0,\n    author: \"A. C. Robat\",\n    doCaption: true,\n    contents: \"Look at this again!\",\n    points: [[10,40],[200,200]],\n});\n```\n\nSee the arrowBegin and arrowEnd properties, the setProps method, and the Doc object addAnnot method."
+  ]
+}

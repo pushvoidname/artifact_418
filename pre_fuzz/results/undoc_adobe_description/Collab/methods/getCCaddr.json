@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getCCaddr",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the CC (carbon copy) email address associated with a document in a collaborative review process.",
+    "API_Description_Reason": "The method name 'getCCaddr' suggests it is used to obtain a CC email address, which is typically used in email communications, especially in collaborative environments.",
+    "Returns": "A string representing the CC email address.",
+    "Returns_Reason": "Since the method is likely retrieving an email address, it would return a string, as email addresses are typically represented as strings.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object for which the CC email address is being retrieved.",
+            "description_reason": "The parameter 'doc' implies that the method requires a document context to retrieve the associated CC email address.",
+            "type": "object",
+            "type_reason": "The 'doc' parameter is described as a built-in object, indicating it is likely a document object used within the collaboration functionality."
+        }
+    }
+}

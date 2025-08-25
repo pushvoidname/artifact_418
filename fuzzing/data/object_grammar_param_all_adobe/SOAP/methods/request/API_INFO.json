@@ -1,0 +1,16 @@
+{
+    "Object": "SOAP",
+    "API_Name": "request",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "oRequest",
+        "oAsync",
+        "oReqHeader",
+        "oRespHeader",
+        "oAuthenticate"
+    ],
+    "Actions_Arg": [
+        "cAction"
+    ]
+}

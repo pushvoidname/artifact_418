@@ -1,0 +1,13 @@
+{
+  "Object": "app",
+  "API_Name": "fullscreen",
+  "API_Type": "Properties",
+  "API_Description": "The use of this property is discouraged; it has been superseded by the `FullScreen` object property `isFullScreen` . The `fs` method returns a `FullScreen` object that can be used to access the fullscreen properties. Controls whether the viewer is in full screen mode or regular viewing mode. !! Note A PDF document being viewed from within a web browser cannot be put into full screen mode. Full screen mode can be initiated from within the browser, but applies only to a document open in the Acrobat viewer application, if any, not to the browser itself.",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

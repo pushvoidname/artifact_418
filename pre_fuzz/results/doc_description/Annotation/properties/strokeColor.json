@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "strokeColor",
+  "API_Type": "Properties",
+  "API_Description": "Sets the appearance color of the annotation. Values are defined by using `transparent` , `gray` , `RGB` or `CMYK` color. In the case of a free text annotation, `strokeColor` sets the border and text colors. See Color arrays for information on defining color arrays and how values are used with this property. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "color",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Make a text note red.\n\n```\nvar annot = this.addAnnot({type: \"Text\"});\nannot.strokeColor = color.red;\n```"
+  ]
+}

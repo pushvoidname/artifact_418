@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriConvertReviewSource",
+    "API_Type": "Method",
+    "API_Description": "Converts a given cURL string to a review source URI.",
+    "API_Description_Reason": "The method name 'uriConvertReviewSource' suggests that it is responsible for converting a URI related to a review source. The parameter 'cURL' indicates that the input is a URL string, which is likely converted to a specific format or type of URI used in the review process.",
+    "Returns": "A string representing the converted review source URI.",
+    "Returns_Reason": "The method is likely to return a string because it is converting a URL to another URI format, which is typically represented as a string.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL string to be converted into a review source URI.",
+            "description_reason": "The parameter name 'cURL' implies that it is a URL string that needs to be converted. The context of the method suggests that this URL is related to a review source.",
+            "type": "string",
+            "type_reason": "The parameter is a URL, which is typically represented as a string in programming contexts."
+        }
+    }
+}

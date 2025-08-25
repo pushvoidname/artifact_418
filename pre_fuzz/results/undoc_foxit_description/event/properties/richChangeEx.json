@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "richChangeEx",
+    "API_Type": "property",
+    "API_Description": "The richChangeEx property provides extended information about changes in rich text fields during an event.",
+    "API_Description_Reason": "The name 'richChangeEx' suggests it is related to changes in rich text fields, and the 'Ex' suffix implies it offers extended or additional information compared to 'richChange'.",
+    "Returns": "An object containing detailed information about the changes in the rich text field.",
+    "Returns_Reason": "Since it is a property related to changes, it likely returns an object with details about those changes.",
+    "Parameters": {
+        "type": {
+            "description": "The type of change that occurred in the rich text field.",
+            "description_reason": "The parameter 'type' is commonly used to specify the kind of event or change, which aligns with the context of an event object.",
+            "type": "string",
+            "type_reason": "Event types are typically represented as strings to allow for easy comparison and handling in code."
+        }
+    }
+}

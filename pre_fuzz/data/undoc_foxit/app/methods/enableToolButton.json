@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "enableToolButton",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": [
+            "unknown"
+        ]
+    }
+}

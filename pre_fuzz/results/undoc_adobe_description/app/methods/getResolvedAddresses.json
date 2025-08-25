@@ -1,0 +1,53 @@
+{
+    "Object": "app",
+    "API_Name": "getResolvedAddresses",
+    "API_Type": "Method",
+    "API_Description": "Resolves and returns email addresses from the specified To, Cc, and Bcc fields.",
+    "API_Description_Reason": "The method name 'getResolvedAddresses' suggests it processes and returns resolved email addresses from the provided input fields.",
+    "Returns": "An object containing resolved email addresses for To, Cc, and Bcc fields.",
+    "Returns_Reason": "The method likely returns an object with the resolved addresses based on the input parameters, as it is common for such methods to return structured data.",
+    "Parameters": {
+        "bUI": {
+            "description": "Indicates whether to display a user interface for resolving addresses.",
+            "description_reason": "The 'bUI' parameter is typically a boolean flag to control the display of a user interface.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bUI' suggests a boolean type, which is a common convention."
+        },
+        "cTo": {
+            "description": "A string containing the email addresses for the 'To' field.",
+            "description_reason": "The 'cTo' parameter likely represents the 'To' email addresses, as 'c' often denotes a string in naming conventions.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cTo' suggests a string type, which is a common convention."
+        },
+        "cCc": {
+            "description": "A string containing the email addresses for the 'Cc' field.",
+            "description_reason": "The 'cCc' parameter likely represents the 'Cc' email addresses, as 'c' often denotes a string in naming conventions.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cCc' suggests a string type, which is a common convention."
+        },
+        "cBcc": {
+            "description": "A string containing the email addresses for the 'Bcc' field.",
+            "description_reason": "The 'cBcc' parameter likely represents the 'Bcc' email addresses, as 'c' often denotes a string in naming conventions.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cBcc' suggests a string type, which is a common convention."
+        },
+        "bShowProgress": {
+            "description": "Indicates whether to show a progress indicator during the resolution process.",
+            "description_reason": "The 'bShowProgress' parameter likely controls the display of a progress indicator, as suggested by its name.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bShowProgress' suggests a boolean type, which is a common convention."
+        },
+        "cProgressMessage": {
+            "description": "A message to display in the progress indicator, if shown.",
+            "description_reason": "The 'cProgressMessage' parameter likely specifies a message for the progress indicator, as suggested by its name.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cProgressMessage' suggests a string type, which is a common convention."
+        },
+        "bNoError": {
+            "description": "Indicates whether to suppress error messages during the resolution process.",
+            "description_reason": "The 'bNoError' parameter likely controls the suppression of error messages, as suggested by its name.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bNoError' suggests a boolean type, which is a common convention."
+        }
+    }
+}

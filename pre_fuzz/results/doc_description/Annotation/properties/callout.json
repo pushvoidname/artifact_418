@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "callout",
+  "API_Type": "Properties",
+  "API_Description": "**Annotations** : FreeText",
+  "Version_Key": "7.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "array",
+  "Access": "R/W",
+  "Examples": []
+}

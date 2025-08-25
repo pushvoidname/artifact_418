@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "importIcon",
+    "API_Type": "method",
+    "Parameters": {
+        "cName": "string",
+        "cDIPath": "string"
+    }
+}

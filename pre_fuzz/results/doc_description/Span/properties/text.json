@@ -1,0 +1,15 @@
+{
+  "Object": "Span",
+  "API_Name": "text",
+  "API_Type": "Properties",
+  "API_Description": "The text within the span. Type | Access ------------- String | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": [
+    "Example: The example following superscript uses `text` ."
+  ]
+}

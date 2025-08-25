@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "createPin",
+    "API_Type": "Method",
+    "API_Description": "Creates a new pin annotation in the PDF document.",
+    "API_Description_Reason": "The method name 'createPin' suggests that it is used to create a pin, likely a type of annotation or marker within the PDF document.",
+    "Returns": "An object representing the newly created pin annotation.",
+    "Returns_Reason": "Since the method is named 'createPin', it is reasonable to assume that it returns an object representing the pin that was created.",
+    "Parameters": {}
+}

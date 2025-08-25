@@ -1,0 +1,29 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "createChild",
+    "API_Type": "Method",
+    "API_Description": "Creates a new child bookmark under the current bookmark root.",
+    "API_Description_Reason": "The method name 'createChild' suggests that it is used to create a new child element, and since it is part of the 'bookmarkRoot' object, it likely pertains to creating a child bookmark.",
+    "Returns": "The newly created bookmark object.",
+    "Returns_Reason": "Since the method is creating a new child, it is reasonable to assume it returns the newly created bookmark object for further manipulation or reference.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the new child bookmark to create.",
+            "description_reason": "The parameter 'cName' is typically used to specify the name of an object being created, in this case, the name of the bookmark.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cName' suggests it is a string, as is common in naming conventions where 'c' stands for 'character' or 'string'."
+        },
+        "cExpr": {
+            "description": "The expression or action associated with the new child bookmark.",
+            "description_reason": "The parameter 'cExpr' likely refers to an expression or action that the bookmark will execute or represent, such as a script or a destination.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cExpr' suggests it is a string, which is typical for expressions or script content."
+        },
+        "nIndex": {
+            "description": "The position at which to insert the new child bookmark within the current bookmark root.",
+            "description_reason": "The parameter 'nIndex' is likely used to specify the order or position of the new bookmark among existing children, which is common in methods that insert elements.",
+            "type": "number",
+            "type_reason": "The 'n' prefix in 'nIndex' suggests it is a number, which is appropriate for specifying an index or position."
+        }
+    }
+}

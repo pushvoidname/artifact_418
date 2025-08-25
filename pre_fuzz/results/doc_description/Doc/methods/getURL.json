@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "getURL",
+  "API_Type": "Method",
+  "API_Description": "Gets the specified URL over the Internet using a GET. If the current document is being viewed inside the browser or Acrobat Web Capture is not available, the method uses the Acrobat Weblink plug-in to retrieve the requested URL. If running inside Acrobat, the method gets the URL of the current document either from the baseURL , from the URL of the first page (page 0) if the document was obtained by Web Capture, or from the file system.",
+  "Version": "4.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cURL": {
+      "description": "A fully qualified URL or a relative URL. There can be a query string at the end of the URL."
+    },
+    "bAppend": {
+      "description": "(optional) If true (the default), the resulting page or pages should be appended to the current document. This flag is considered to be false if the document is running inside the web browser, the Acrobat Web Capture plug-in is not available, or if the URL is of type \"file:///\".   -  Beginning with Acrobat 6.0, if bAppend is true, the getURL method can only be executed during a console or batch event. See Privileged context."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "```\nthis.getURL(\"http://www.example.com/\", false);\n```"
+  ]
+}

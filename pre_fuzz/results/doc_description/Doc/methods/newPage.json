@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "newPage",
+  "API_Type": "Method",
+  "API_Description": "Adds a new page to the active document.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The page after which to add the new page in a 1-based page numbering system. The default is the last page of the document. Use 0 to add a page before the first page. An invalid page range is truncated to the valid range of pages."
+    },
+    "nWidth": {
+      "description": "(optional) The width of the page in points. The default value is 612."
+    },
+    "nHeight": {
+      "description": "(optional) The height of the page in points. The default value is 792."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Add a new page to match the page size of the doc.\n\n```\nvar Rect = this.getPageBox(\"Crop\");\nthis.newPage(0, Rect[2], Rect[1]);\n```"
+  ]
+}

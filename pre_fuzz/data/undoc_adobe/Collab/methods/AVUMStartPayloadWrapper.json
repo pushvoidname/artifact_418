@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "AVUMStartPayloadWrapper",
+    "API_Type": "method",
+    "Parameters": {
+        "cat": "string",
+        "subcat": "string",
+        "evnt": "string"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "maxPDFCommentsSize",
+    "API_Type": "property",
+    "API_Description": "Specifies the maximum size allowed for PDF comments in a collaborative review.",
+    "API_Description_Reason": "The name 'maxPDFCommentsSize' suggests it is related to setting a limit on the size of PDF comments, which is relevant in a collaborative context where multiple users may add comments.",
+    "Returns": "The maximum size allowed for PDF comments, in bytes.",
+    "Returns_Reason": "Since the parameter type is 'number', it is logical to assume that the property returns a numeric value representing the size limit in bytes.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the maxPDFCommentsSize property, which is a number.",
+            "description_reason": "The parameter 'type' indicates the data type of the property, which is necessary for understanding how to use or set the property.",
+            "type": "number",
+            "type_reason": "The 'type' parameter is explicitly stated as 'number', indicating that the property value is numeric."
+        }
+    }
+}

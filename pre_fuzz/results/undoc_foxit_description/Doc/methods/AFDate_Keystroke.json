@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFDate_Keystroke",
+    "API_Type": "Method",
+    "API_Description": "Handles keystroke events for date fields, ensuring that input conforms to expected date formats.",
+    "API_Description_Reason": "The method name 'AFDate_Keystroke' suggests it is related to handling keystrokes for date inputs, likely to validate or format date entries as they are typed.",
+    "Returns": "A boolean indicating whether the keystroke is valid for the date field.",
+    "Returns_Reason": "Keystroke handling methods typically return a boolean to indicate whether the input is valid and should be accepted.",
+    "Parameters": {
+        "unknown": {
+            "description": "A numeric parameter whose purpose is not documented, possibly representing a key code or a flag for the keystroke event.",
+            "description_reason": "The parameter is labeled as 'unknown', but given the context of keystroke handling, it might relate to the key being pressed or a modifier for the event.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly described as a number, which is common for key codes or event flags in keystroke handling."
+        }
+    }
+}

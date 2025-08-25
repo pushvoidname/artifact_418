@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "innerDocWindowRect",
+  "API_Type": "Properties",
+  "API_Description": "This property returns an array of screen coordinates (a rectangle) for the Acrobat inner document window. This rectangle does not include items such as the title bar and resizing border, which are part of the outer rectangle of the document window. The document and application rectangles may differ on different platforms. For example, on Windows, the document window is always inside the application window; on Mac OS, they are the same. See also innerAppWindowRect , outerAppWindowRect , outerDocWindowRect , and pageWindowRect .",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array of Numbers",
+  "Access": "R",
+  "Examples": []
+}

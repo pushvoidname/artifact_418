@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "initPlugin",
+    "API_Type": "Method",
+    "API_Description": "Initializes a plugin within the Acrobat application.",
+    "API_Description_Reason": "The method name 'initPlugin' suggests it is responsible for initializing or setting up a plugin, which is a common operation in applications that support extensibility through plugins.",
+    "Returns": "A boolean indicating whether the plugin was successfully initialized.",
+    "Returns_Reason": "Initialization methods typically return a status indicating success or failure. A boolean is a common return type for such status checks.",
+    "Parameters": {}
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "fs",
+    "API_Name": "cursor",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "number"
+    }
+}

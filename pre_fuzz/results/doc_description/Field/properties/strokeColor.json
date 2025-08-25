@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "strokeColor",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the stroke color for a field that is used to stroke the rectangle of the field with a line as large as the line width. Values are defined by using `transparent` , `gray` , `RGB` or `CMYK` color. See Color arrays for information on defining color arrays and how values are used with this property. In older versions of this specification, this property was `borderColor` . The use of `borderColor` is now discouraged, although it is still valid for backward compatibility. **Fields** all",
+  "Version_Key": "4.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Array",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Change the stroke color of each text field in the document to red.\n\n```\nfor ( var i=0; i < this.numFields; i++) {\n       var fname = this.getNthFieldName(i);\n       var f = this.getField(fname);\n       if ( f.type == \"text\" ) f.strokeColor = color.red;\n}\n```"
+  ]
+}

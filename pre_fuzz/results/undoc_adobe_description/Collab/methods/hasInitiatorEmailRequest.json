@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "hasInitiatorEmailRequest",
+    "API_Type": "Method",
+    "API_Description": "Checks if there is a pending email request from the initiator for the given document.",
+    "API_Description_Reason": "The method name 'hasInitiatorEmailRequest' suggests it checks for the presence of an email request initiated by the document's initiator. This is inferred from the common use of 'has' in method names to indicate a check for existence or presence.",
+    "Returns": "A boolean indicating whether there is a pending initiator email request.",
+    "Returns_Reason": "The method likely returns a boolean value because it is checking for the presence of an email request, which is a binary condition (either it exists or it does not).",
+    "Parameters": {
+        "doc": {
+            "description": "The document object for which the email request status is being checked.",
+            "description_reason": "The parameter 'doc' is likely the document in question, as the method is part of a collaboration functionality and would need to know which document's email request status to check.",
+            "type": "object",
+            "type_reason": "The parameter is described as a 'built-in object', which suggests it is an object type, likely representing a document."
+        }
+    }
+}

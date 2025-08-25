@@ -1,0 +1,13 @@
+{
+  "Object": "spell",
+  "API_Name": "dictionaryOrder",
+  "API_Type": "Properties",
+  "API_Description": "The dictionary array search order specified by the user on the Spelling Preferences panel. The Spelling plug-in will search for words first in the Doc `spellDictionaryOrder` array if it has been set for the document, followed by this array of dictionaries.",
+  "Version_Key": "5.0. For Adobe Reader, 7.0 or later.",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": []
+}

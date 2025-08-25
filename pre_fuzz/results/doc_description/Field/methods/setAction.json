@@ -1,0 +1,23 @@
+{
+  "Object": "Field",
+  "API_Name": "setAction",
+  "API_Type": "Method",
+  "API_Description": "Sets the JavaScript action of the field for a given trigger.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cTrigger": {
+      "description": "A string that sets the trigger for the action. Values are:  MouseUp MouseDown MouseEnter MouseExit OnFocus OnBlur Keystroke Validate Calculate Format  For a list box, use the Keystroke trigger for the Selection Change event."
+    },
+    "cScript": {
+      "description": "The JavaScript code to be executed when the trigger is activated."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Set up a button field with `addField` , add some properties, and a mouse-up action using `setAction` .\n\n```\nvar f = this.addField(\"actionField\", \"button\", 0, [20, 100, 100, 20]);\nf.setAction(\"MouseUp\", \"app.beep(0);\");\nf.delay = true;\n    f.fillColor = color.ltGray;\n    f.buttonSetCaption(\"Beep\");\n    f.borderStyle = border.b;\n    f.lineWidth = 3;\n    f.strokeColor = color.red;\n    f.highlight = highlight.p;\nf.delay = false;\n```"
+  ],
+  "Related methods": "are the `Bookmark` object setAction method and the Doc methods setAction , addScript , and setPageAction .\n\n!! Note This method will overwrite any action already defined for the chosen trigger."
+}

@@ -1,0 +1,23 @@
+{
+  "Object": "spell",
+  "API_Name": "addDictionary",
+  "API_Type": "Method",
+  "API_Description": "!! Note Beginning with Acrobat 6.0, this method is no longer supported and always returns `false` . Use the customDictionaryOpen method instead.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cFile": {
+      "description": "The device-independent path to the dictionary files."
+    },
+    "cName": {
+      "description": "The dictionary name used in the spelling dialog box. It can be used as the input parameter to the check, checkText, and checkWord methods."
+    },
+    "bShow": {
+      "description": "(optional) If true (the default), then the cName value is combined with \u201cUser\u201d. That name is shown in all lists and menus. For example, if cName is \u201cTest\u201d, \u201cUser: Test\u201d is added to all lists and menus.  If false, this custom dictionary is not shown in any lists or menus."
+    }
+  },
+  "Returns": "`false`",
+  "Examples": []
+}

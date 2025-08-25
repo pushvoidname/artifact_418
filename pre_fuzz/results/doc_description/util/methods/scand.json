@@ -1,0 +1,23 @@
+{
+  "Object": "util",
+  "API_Name": "scand",
+  "API_Type": "Method",
+  "API_Description": "Converts a date into a JavaScript Date object according to the rules of a format string. This routine is much more flexible than using the date constructor directly.",
+  "Version": "4.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cFormat": {
+      "description": "The rules to use for formatting the date. cFormat uses the same syntax as found in printd."
+    },
+    "cDate": {
+      "description": "The date to convert."
+    }
+  },
+  "Returns": "The converted Date object, or `null` if the conversion fails.",
+  "Examples": [
+    "```\n/* Turn the current date into a string. */\nvar cDate = util.printd(\"mm/dd/yyyy\", new Date());\nconsole.println(\"Today's date: \" + cDate);\n/* Parse it back into a date. */\nvar d = util.scand(\"mm/dd/yyyy\", cDate);\n/* Output it in reverse order. */\nconsole.println(\"Yet again: \" + util.printd(\"yyyy mmm dd\", d));\n```",
+    "Retrieve a text field value, see if it is a date of the acceptable format, then report results in an alert box or the console window.\n\nThe method returns `null` if the conversions fails, which can occur if the user inputs a data different than what is expected. In this case, test the return value for `null` .\n\n```\nvar d= util.scand(\"mm/dd/yyyy\", this.getField(\"myDate\").value);\n    if ( d== null )\n        app.alert(\"Please enter a valid date of the form\" +\n\n             \" \"mm/dd/yyyy\".\")\n    else {\n        console.println(\"You entered the date: \"\n            + util.printd(\"mmmm dd, yyyy\",d));\n}\n```"
+  ]
+}

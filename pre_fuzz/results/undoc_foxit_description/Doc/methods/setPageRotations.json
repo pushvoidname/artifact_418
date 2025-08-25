@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "setPageRotations",
+    "API_Type": "Method",
+    "API_Description": "Sets the rotation for all pages in the document.",
+    "API_Description_Reason": "The method name 'setPageRotations' suggests that it is used to set or modify the rotation of pages within the document. Since it takes no parameters, it likely applies a default or uniform rotation to all pages.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action without returning a specific object or value return a boolean to indicate whether the operation was successful.",
+    "Parameters": {}
+}

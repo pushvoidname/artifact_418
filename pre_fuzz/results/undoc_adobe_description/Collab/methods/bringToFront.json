@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "bringToFront",
+    "API_Type": "Method",
+    "API_Description": "Brings the collaboration interface or related UI elements to the front, making them the active focus.",
+    "API_Description_Reason": "The method name 'bringToFront' suggests functionality related to changing the z-order of UI elements, typically to make a specific window or interface element the active focus.",
+    "Returns": "None",
+    "Returns_Reason": "The method is likely intended to perform an action (bringing an interface to the front) rather than returning a value or object.",
+    "Parameters": {}
+}

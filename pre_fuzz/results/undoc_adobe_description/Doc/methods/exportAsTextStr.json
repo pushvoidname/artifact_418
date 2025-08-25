@@ -1,0 +1,47 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAsTextStr",
+    "API_Type": "Method",
+    "API_Description": "Exports the text content of the PDF document as a string, with options to include all fields, exclude password-protected content, specify fields, and more.",
+    "API_Description_Reason": "The method name 'exportAsTextStr' suggests it exports text content as a string. The parameters indicate options for including fields, handling passwords, and specifying output format, which aligns with exporting text data.",
+    "Returns": "A string containing the exported text content of the PDF document.",
+    "Returns_Reason": "The method name includes 'Str', which typically indicates a string return type, and the context of exporting text suggests the return value is the text content as a string.",
+    "Parameters": {
+        "bAllFields": {
+            "description": "Indicates whether to include all fields in the export.",
+            "description_reason": "The parameter name 'bAllFields' suggests a boolean flag to include all fields in the export process.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bAllFields' is a common convention for boolean types."
+        },
+        "bNoPassword": {
+            "description": "Specifies whether to exclude password-protected content from the export.",
+            "description_reason": "The parameter name 'bNoPassword' implies a boolean option to handle password-protected content during export.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bNoPassword' is a common convention for boolean types."
+        },
+        "aFields": {
+            "description": "An array specifying which fields to include in the export.",
+            "description_reason": "The parameter name 'aFields' suggests a collection of fields, likely an array, to specify which fields to include.",
+            "type": "array",
+            "type_reason": "The 'a' prefix in 'aFields' is a common convention for array types."
+        },
+        "bFlags": {
+            "description": "Additional flags to modify the export behavior.",
+            "description_reason": "The parameter name 'bFlags' suggests it is used to pass boolean flags that alter the export process.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bFlags' is a common convention for boolean types."
+        },
+        "cHRef": {
+            "description": "A string representing a hyperlink reference to include in the export.",
+            "description_reason": "The parameter name 'cHRef' suggests it is a string representing a hyperlink reference, commonly used in export functions.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cHRef' is a common convention for string types."
+        },
+        "bBase64": {
+            "description": "Indicates whether to encode the exported text as a Base64 string.",
+            "description_reason": "The parameter name 'bBase64' suggests a boolean option to encode the output as Base64, a common encoding format.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix in 'bBase64' is a common convention for boolean types."
+        }
+    }
+}

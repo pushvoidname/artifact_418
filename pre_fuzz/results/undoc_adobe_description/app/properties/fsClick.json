@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsClick",
+    "API_Type": "Property",
+    "API_Description": "A boolean property that determines whether a click is required to advance in full-screen mode.",
+    "API_Description_Reason": "The name 'fsClick' suggests it relates to a click action in full-screen mode, and the type being boolean implies it is a toggle or switch, likely controlling whether a click is needed to proceed.",
+    "Returns": "A boolean value indicating the current setting for click advancement in full-screen mode.",
+    "Returns_Reason": "Since the property type is boolean, it returns true or false, indicating the state of the click requirement.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set whether a click is required to advance in full-screen mode.",
+            "description_reason": "The parameter 'type' being boolean suggests it is used to enable or disable the click requirement.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, indicating it accepts true or false values."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "beginPriv",
+  "API_Type": "Method",
+  "API_Description": "Raises the execution privilege of the current stack frame such that methods marked secure can execute without security exceptions. For the method to succeed, there must be a frame on the stack representing the execution of a trusted function, and all frames (including the frame making the call) between the currently executing frame and that frame must represent the execution of trust propagator functions.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "`undefined` on success, exception on failure",
+  "Examples": [
+    "For examples of usage, see trustedFunction and trustPropagatorFunction ."
+  ]
+}

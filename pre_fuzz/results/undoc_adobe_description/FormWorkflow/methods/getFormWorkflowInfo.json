@@ -1,0 +1,17 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "getFormWorkflowInfo",
+    "API_Type": "Method",
+    "API_Description": "Retrieves detailed information about a specific form workflow identified by its ID.",
+    "API_Description_Reason": "The method name 'getFormWorkflowInfo' suggests that it is used to obtain information about a form workflow. The presence of a parameter 'cFormWorkflowID' indicates that the method retrieves information specific to a particular workflow.",
+    "Returns": "An object containing detailed information about the specified form workflow.",
+    "Returns_Reason": "The method is expected to return information about a form workflow, which is likely structured as an object containing various details about the workflow.",
+    "Parameters": {
+        "cFormWorkflowID": {
+            "description": "The unique identifier of the form workflow for which information is being requested.",
+            "description_reason": "The parameter name 'cFormWorkflowID' implies that it is an identifier for a form workflow, used to specify which workflow's information should be retrieved.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest that this parameter is a string, likely representing an ID or code."
+        }
+    }
+}

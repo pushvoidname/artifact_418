@@ -1,0 +1,19 @@
+{
+  "Object": "Field",
+  "API_Name": "signatureInfo",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oSig": {
+      "description": "(optional) The SecurityHandler object to use to retrieve the signature properties. If not specified, the security handler is determined by the user preferences. (It is usually the handler that was used to create the signature.)"
+    }
+  },
+  "Returns": "A `SignatureInfo` object that contains the properties of the signature. This type of object is also used when signing signature fields, signing FDF objects, or with the `FDF` object `signatureValidate` method.",
+  "Examples": [
+    "Access SignatureInfo object properties.\n\n```\n// Get all info\nvar f = getField( \"Signature1\" );\nf.signatureValidate();\nvar s = f.signatureInfo();\nconsole.println( \"Signature Attributes:\" );\nfor(i in s) console.println( i + \" = \" + s[i] );\n\n// Get particular info\nvar f = this.getField(\"Signature1\"); // uses the ppklite sig handler\nvar Info = f.signatureInfo();\n// Some standard signatureInfo properties\nconsole.println(\"name = \" + Info.name);\nconsole.println(\"reason = \" + Info.reason);\nconsole.println(\"date = \" + Info.date);\n\n// Additional signatureInfo properties from PPKLite\nconsole.println(\"contact info = \" + Info.contactInfo);\n\n// Get the certificate; first (and only) one\nvar certificate = Info.certificates[0];\n\n// Common name of the signer\nconsole.println(\"subjectCN = \" +  certificate.subjectCN);\nconsole.println(\"serialNumber = \" +  certificate.serialNumber);\n\n// Display some information about the distinguished name of signer\nconsole.println(\"subjectDN.cn = \" + certificate.subjectDN.cn);\nconsole.println(\"subjectDN.o = \" +  certificate.subjectDN.o);\n```"
+  ]
+}

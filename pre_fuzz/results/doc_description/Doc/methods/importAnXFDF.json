@@ -1,0 +1,17 @@
+{
+  "Object": "Doc",
+  "API_Name": "importAnXFDF",
+  "API_Type": "Method",
+  "API_Description": "Imports the specified XFDF file containing XML form data.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "cPath": {
+      "description": "(optional) The device-independent path to the XFDF file. The path may be relative to the location of the current document. If the parameter is omitted, a dialog box is shown to let the user select the file."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

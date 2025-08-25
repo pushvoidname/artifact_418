@@ -1,0 +1,13 @@
+{
+  "Object": "spell",
+  "API_Name": "dictionaryNames",
+  "API_Type": "Properties",
+  "API_Description": "An array of available dictionary names. A subset of this array can be passed to `check` , `checkText` , and `checkWord` , and to `spellDictionaryOrder` to force the use of a specific dictionary or dictionaries and the order they should be searched. A listing of valid dictionary names for the user\u2019s installation can be obtained by executing `spell.dictionaryNames` from the console.",
+  "Version_Key": "5.0. For Adobe Reader, 7.0 or later.",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": []
+}

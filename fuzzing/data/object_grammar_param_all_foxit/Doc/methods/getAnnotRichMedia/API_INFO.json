@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getAnnotRichMedia",
+    "API_Type": "method",
+    "Return_Type": "AnnotRichMedia",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "TTS",
+    "API_Name": "punctuations",
+    "API_Type": "property",
+    "Return_Type": "String",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

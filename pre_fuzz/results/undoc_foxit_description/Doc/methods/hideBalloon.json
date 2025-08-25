@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "hideBalloon",
+    "API_Type": "Method",
+    "API_Description": "Hides the currently displayed balloon notification in the PDF viewer.",
+    "API_Description_Reason": "The method name 'hideBalloon' suggests that it is used to hide or dismiss a balloon notification or tooltip that is currently visible in the PDF viewer.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used for UI interaction to hide a balloon, and such methods typically do not return a value.",
+    "Parameters": {}
+}

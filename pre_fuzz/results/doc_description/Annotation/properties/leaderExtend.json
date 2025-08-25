@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "leaderExtend",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the length of that extend from both endpoints of the line, perpendicular to the line. These lines extend from the line proper 180 degrees from the leader lines. The value should always be greater than or equal to zero. The default is zero (no leader line extension). **Annotations** : Line",
+  "Version_Key": "7.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "number",
+  "Access": "R/W",
+  "Examples": []
+}

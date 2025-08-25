@@ -1,0 +1,12 @@
+{
+    "Object": "Doc",
+    "API_Name": "setAction",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "cScript"
+    ],
+    "Actions_Arg": [
+        "cTrigger"
+    ]
+}

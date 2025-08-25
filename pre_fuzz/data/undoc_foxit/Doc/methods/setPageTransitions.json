@@ -1,0 +1,12 @@
+{
+    "Object": "Doc",
+    "API_Name": "setPageTransitions",
+    "API_Type": "method",
+    "Parameters": {
+        "nStart": "number",
+        "nEnd": "number",
+        "aTrans": [
+            "unknown"
+        ]
+    }
+}

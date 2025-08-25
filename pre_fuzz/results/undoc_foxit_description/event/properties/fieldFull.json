@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "fieldFull",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the field associated with the event is full, typically used in the context of input fields to determine if the maximum input capacity has been reached.",
+    "API_Description_Reason": "The name 'fieldFull' suggests it is a boolean property that checks if a field has reached its capacity, which is common in form handling.",
+    "Returns": "A boolean value indicating if the field is full.",
+    "Returns_Reason": "The property likely returns a boolean because it is checking a condition (whether the field is full or not), which is typically represented as true or false.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the event that triggered the check for the field being full.",
+            "description_reason": "The 'type' parameter is common in event objects to specify the kind of event that is occurring.",
+            "type": "string",
+            "type_reason": "Event types are usually represented as strings to describe the nature of the event (e.g., 'click', 'input')."
+        }
+    }
+}

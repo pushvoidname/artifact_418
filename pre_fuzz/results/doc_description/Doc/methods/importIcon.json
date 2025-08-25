@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "importIcon",
+  "API_Type": "Method",
+  "API_Description": "Imports an icon into the document and associates it with the specified name.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name to associate with the icon."
+    },
+    "cDIPath": {
+      "description": "(optional) A device-independent path to a PDF file on the user\u2019s hard drive. This path may be absolute or relative to the current document. cDIPath may only be specified in a batch environment or from the console. If not specified, the nPage parameter is ignored and the user is prompted to locate a PDF file and browse to a particular page."
+    },
+    "nPage": {
+      "description": "(optional) The 0-based index of the page in the PDF file to import as an icon. The default is 0."
+    }
+  },
+  "Returns": "An integer code indicating whether it was successful or not:\n\n*  0 : No error\n\n*  1 : The user cancelled the dialog box\n\n*  -1 : The selected file could not be opened\n\n*  -2 : The selected page was invalid",
+  "Examples": [
+    "This function is useful to populate a document with a series of named icons for later retrieval. For example, an author may want a picture of a list box state to appear next to the list box when the user selects the state in a list box. Without this function, it could be done by using a number of fields that could be hidden and shown. However, this is difficult to author. Instead, the appropriate script might be something like this:\n\n```\nvar f = this.getField(\"StateListBox\");\nvar b = this.getField(\"StateButton\");\nb.buttonSetIcon(this.getIcon(f.value));\n```\n\nThis uses a single field to perform the same effect.\n\nA simple user interface can be constructed to add named icons to a document. Assume the existence of two fields: a field called `IconName` that will contain the icon name and a field called `IconAdd` that will add the icon to the document. The mouse-up script for `IconAdd` would be:\n\n```\nvar t = this.getField(\"IconName\");\nthis.importIcon(t.value);\n```\n\nThe same kind of script can be applied in a batch setting to populate a document with every selected icon file in a folder."
+  ]
+}

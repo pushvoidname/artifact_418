@@ -1,0 +1,10 @@
+{
+    "Object": "thermometer",
+    "API_Name": "toString",
+    "API_Type": "Method",
+    "API_Description": "Returns a string representation of the thermometer object.",
+    "API_Description_Reason": "The toString method typically provides a string representation of an object, which is a common pattern in many programming languages.",
+    "Returns": "A string that represents the current state or value of the thermometer.",
+    "Returns_Reason": "The toString method usually returns a string that describes the object, often including its current state or value.",
+    "Parameters": {}
+}

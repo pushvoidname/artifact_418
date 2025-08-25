@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "goForward",
+  "API_Type": "Method",
+  "API_Description": "Goes to the next view on the view stack, which is equivalent to clicking the go Next View button on the Acrobat toolbar.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "See the example following `app.` goBack ."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Object": "Doc",
+  "API_Name": "addWatermarkFromFile",
+  "API_Type": "Method",
+  "API_Description": "Adds a page as a watermark to the specified pages in the document and places the watermark in an optional content group (OCG). See also the OCG object.",
+  "Version": "7.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cDIPath": {
+      "description": "The device-independent path of the source file to use for the watermark. If the file at this location is not a PDF file, Acrobat attempts to convert the file to a PDF file."
+    },
+    "nSourcePage": {
+      "description": "(optional) The 0-based index of the page in the source file to be used as the watermark. The default is 0."
+    },
+    "nStart": {
+      "description": "(optional) The 0-based index of the first page in the range of pages to which the watermark should be added. If nStart and nEnd are not specified, the range of pages is for all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart. If only nEnd is specified, the range of pages is 0 to nEnd."
+    },
+    "nEnd": {
+      "description": "(optional) The last page in the range of pages to which the watermark should be added. See nStart for details."
+    },
+    "bOnTop": {
+      "description": "(optional) A Boolean value specifying the z-ordering of the watermark. If true (the default), the watermark is added above all other page content. If false, the watermark is added below all other page content. This parameter is ignored if bFixedPrint is true."
+    },
+    "bOnScreen": {
+      "description": "(optional) A Boolean value to indicate whether the watermark should be displayed when viewing the document on screen. The default is true."
+    },
+    "bOnPrint": {
+      "description": "(optional) A Boolean value to indicate whether the watermark should be displayed when printing the document. The default is true."
+    },
+    "nHorizAlign": {
+      "description": "(optional) A number indicating how the watermark should be aligned horizontally. See app. constants .align for possible values. The default is app.constants.align.center."
+    },
+    "nVertAlign": {
+      "description": "(optional) A number indicating how the watermark should be aligned vertically. See app. constants .align for possible values. The default is app.constants.align.center."
+    },
+    "nHorizValue": {
+      "description": "(optional) A number used to shift the horizontal position of the watermark on the page. If bPercentage is true, this number represents a percentage of the horizontal page size. If bPercentage is false, this number represents the number of points to be offset. The default is 0."
+    },
+    "nVertValue": {
+      "description": "(optional) A number used to shift the vertical position of the watermark on the page. If bPercentage is true, this number represents a percentage of the vertical page size. If bPercentage is false, this number represents the number of points to be offset. The default is 0."
+    },
+    "bPercentage": {
+      "description": "(optional) A Boolean value that indicates whether nHorizValue and nVertValue represent a percentage of the page size or an explicit number of points. The default is false."
+    },
+    "nScale": {
+      "description": "(optional) The scale to be used for the watermark, where 1.0 is 100%. A value of -1 specifies that the watermark should fit to the page while maintaining its proportions. The default is 1.0."
+    },
+    "bFixedPrint": {
+      "description": "(optional) A Boolean value that indicates that this watermark should be added as a FixedPrint Watermark annotation. This allows watermarks to be printed at a fixed size/position regardless of the size of the page being printed to. If true, bOnTop is ignored. The default is false."
+    },
+    "nRotation": {
+      "description": "(optional) The number of degrees to rotate the watermark counterclockwise. The default is 0."
+    },
+    "nOpacity": {
+      "description": "(optional) The opacity to be used for the watermark, where 0 is transparent and 1.0 is opaque. The default is 1.0."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Adds the first page of `watermark.pdf` as a watermark to the center of all pages of the current document.\n\n```\nthis.addWatermarkFromFile(\"/C/temp/watermark.pdf\");\n```",
+    "Adds the second page of `watermark.pdf` as a watermark to the first 10 pages of the current document. The watermark is rotated counterclockwise 45 degrees and positioned 1 inch down and 2 inches over from the upper-left corner of the page.\n\n```\nthis.addWatermarkFromFile({\n    cDIPath: \"/C/temp/watermark.pdf\",\n    nSourcePage: 4, nEnd: 9,\n    nHorizAlign: app.constants.align.left,\n    nVertAlign: app.constants.align.top,\n    nHorizValue: 144, nVertValue: -72,\n    nRotation: 45\n});\n```"
+  ]
+}

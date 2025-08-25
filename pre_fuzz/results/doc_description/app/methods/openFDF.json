@@ -1,0 +1,19 @@
+{
+  "Object": "app",
+  "API_Name": "openFDF",
+  "API_Type": "Method",
+  "API_Description": "Creates a new `FDF` object by opening the specified file. The `FDF` object has methods and properties that can be used on the data that this file contains.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cDIPath": {
+      "description": "The device-independent path to the file to be opened."
+    }
+  },
+  "Returns": "The `FDF` object for the FDF file that is opened.",
+  "Examples": [
+    "Create an FDF file with an embedded PDF file.\n\n```\nvar fdf = app.newFDF();\nfdf.addEmbeddedFile( \"/c/myPDFs/myFile.pdf\", 1);\nfdf.save( \"/c/myFDFs/myFile.fdf\" ); // save and close this FDF\n\n// Now open the FDF file and embed another PDF doc.\nvar fdf = app.openFDF( \"/c/myFDFs/myFile.fdf\" );\nfdf.addEmbeddedFile( \"/c/myPDFs/myOtherFile.pdf\", 1);\nfdf.save( \"/c/myFDFs/myFile.fdf\" ); // save and close this FDF\n```\n\nSee the `FDF` object method for another example of usage."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "securityHandler",
+  "API_Type": "Properties",
+  "API_Description": "The name of the security handler used to encrypt the document. Returns `null` if there is no security handler (for example, the document is not encrypted).",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\nconsole.println(this.securityHandler != null ?\n    \"This document is encrypted with \" + this.securityHandler\n    + \" security.\" :   \"This document is unencrypted.\");\n```\n\nThis script could print the following if the document was encrypted with the standard security handler.\n\n```\nThis document is encrypted with Standard security.\n```"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "isSharedReview",
+    "API_Type": "Method",
+    "API_Description": "Determines if the given document is part of a shared review.",
+    "API_Description_Reason": "The method name 'isSharedReview' suggests it checks whether a document is involved in a shared review process.",
+    "Returns": "A boolean indicating whether the document is part of a shared review.",
+    "Returns_Reason": "The method likely returns a boolean value based on the 'is' prefix, which typically denotes a check resulting in true or false.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to check for shared review status.",
+            "description_reason": "The parameter 'doc' is likely the document being checked, as it is common to pass the object of interest to such methods.",
+            "type": "object",
+            "type_reason": "The 'doc' parameter is described as a built-in object, indicating it is an object type, likely representing a document."
+        },
+        "bLax": {
+            "description": "A boolean flag that may alter the strictness of the shared review check.",
+            "description_reason": "The parameter 'bLax' is a boolean, and its name suggests it might control the strictness or leniency of the check.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly described as a boolean, indicating it is a true/false flag."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "thermometer",
+    "API_Name": "text",
+    "API_Type": "property",
+    "API_Description": "Represents the textual label or description associated with the thermometer object.",
+    "API_Description_Reason": "The 'text' property typically refers to a string that provides a label or description, which is common for UI elements or objects that need to display information.",
+    "Returns": "A string representing the text associated with the thermometer.",
+    "Returns_Reason": "Since the parameter type is specified as 'string', it is logical to assume that the property returns a string value.",
+    "Parameters": {
+        "type": {
+            "description": "Specifies the type of text associated with the thermometer, such as a label or description.",
+            "description_reason": "The parameter 'type' suggests a categorization or specification of the text, which is common in APIs that handle different types of textual content.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a 'string', indicating it accepts string values to specify the type of text."
+        }
+    }
+}

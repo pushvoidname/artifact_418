@@ -1,0 +1,8 @@
+{
+    "Object": "spell",
+    "API_Name": "checkWord",
+    "API_Type": "method",
+    "Return_Type": null,
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

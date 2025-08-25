@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsEscape",
+    "API_Type": "Property",
+    "API_Description": "A property that determines whether the Escape key can be used to exit full-screen mode.",
+    "API_Description_Reason": "The name 'fsEscape' suggests it relates to the Escape key functionality in full-screen mode, which is a common feature in applications to allow users to exit full-screen mode.",
+    "Returns": "A boolean value indicating if the Escape key can be used to exit full-screen mode.",
+    "Returns_Reason": "The parameter type is boolean, which implies the property returns a boolean value that likely enables or disables the Escape key functionality.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set whether the Escape key can be used to exit full-screen mode.",
+            "description_reason": "The parameter is of type boolean, suggesting it is used to enable or disable a feature, in this case, the use of the Escape key in full-screen mode.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, indicating it is used to toggle a feature on or off."
+        }
+    }
+}

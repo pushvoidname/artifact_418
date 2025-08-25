@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "attachment",
+  "API_Type": "Properties",
+  "API_Description": "Represents the `annotAttachment` object for a `FileAttachment` type annotation. Beginning with version 11.0, when the annotation is of type `FileAttachment` , this property determines the object to be attached. For annotation types other than `FileAttachment` , an undefined value is returned. The `ESErrorGenral` exception occurs if the attachment is invalid. **Annotations** : FileAttachment",
+  "Version_Key": "11.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "object",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\nvar annot = this.addAnnot({\n       page: 0,\n       type: \"FileAttachment\",\n       point: [400,500],\n       author: \"A. C. Robat\",\n       contents: \"Call Smith to get help on this paragraph.\",\n       cAttachmentPath: \"/d/a.pdf\"\n   });\n   var attachmentObj = annot.attachment;\n```"
+  ]
+}

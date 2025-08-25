@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "AVUMEndPayloadWrapper",
+    "API_Type": "Method",
+    "API_Description": "Finalizes the payload wrapper for a collaboration session.",
+    "API_Description_Reason": "The method name suggests it is related to ending or finalizing a payload, likely in the context of a collaboration session.",
+    "Returns": "A boolean indicating the success of the operation.",
+    "Returns_Reason": "Methods that finalize or end processes often return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

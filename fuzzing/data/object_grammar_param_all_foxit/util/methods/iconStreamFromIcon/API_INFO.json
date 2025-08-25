@@ -1,0 +1,8 @@
+{
+    "Object": "util",
+    "API_Name": "iconStreamFromIcon",
+    "API_Type": "method",
+    "Return_Type": "Icon Stream",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

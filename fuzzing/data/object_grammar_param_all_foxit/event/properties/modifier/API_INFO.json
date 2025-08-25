@@ -1,0 +1,8 @@
+{
+    "Object": "event",
+    "API_Name": "modifier",
+    "API_Type": "property",
+    "Return_Type": "Map<String, Boolean>",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

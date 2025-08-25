@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "setPageTransitions",
+  "API_Type": "Method",
+  "API_Description": "Sets the page transition for a specific range of pages.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages in the document to be operated on. If nStart and nEnd are not specified, operates on all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages in the document to be operated on. If nStart and nEnd are not specified, operates on all pages in the document. If only nEnd is specified, the range of pages is 0 to nEnd."
+    },
+    "aTrans": {
+      "description": "(optional) The page transition array consists of three values:  [nDuration, cTransition, nTransDuration].   -  nDuration is the maximum amount of time the page is displayed before the viewer automatically turns to the next page. Set to -1 to turn off automatic page turning. -  cTransition is the name of the transition to apply to the page. See fullScreen. transitions for a list of valid transitions. -  nTransDuration is the duration (in seconds) of the transition effect.  If aTrans is not present, any page transitions for the pages are removed."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Put the document into full screen mode and apply some transitions:\n\n```\nthis.setPageTransitions({ aTrans: [-1, \"Random\", 1] } );\napp.fs.isFullScreen=true;\n```"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "addAnnot",
+    "API_Type": "method",
+    "Return_Type": "Annotation",
+    "Scripts_Arg": [
+        "NoParameterName"
+    ],
+    "Actions_Arg": []
+}

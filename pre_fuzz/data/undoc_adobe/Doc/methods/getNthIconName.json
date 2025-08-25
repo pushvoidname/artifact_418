@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "getNthIconName",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "number"
+    }
+}

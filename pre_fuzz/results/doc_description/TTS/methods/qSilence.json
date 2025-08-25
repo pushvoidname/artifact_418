@@ -1,0 +1,17 @@
+{
+  "Object": "TTS",
+  "API_Name": "qSilence",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "nDuration": {
+      "description": "The amount of silence in milliseconds."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

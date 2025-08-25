@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "attachments",
+  "API_Type": "Properties",
+  "API_Description": "Determines whether any PDF file attachments should be searched along with the base document. The default is `false` . This property is ignored on the Mac OS platform when searching a document from within the Safari web browser. As a result, attachments are not searched inside Safari.",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

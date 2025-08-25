@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "position",
+    "API_Type": "Property",
+    "API_Description": "Represents the current position within the document, typically used to track or set the viewing position or cursor location.",
+    "API_Description_Reason": "The term 'position' generally refers to a location or point within a document, which can be related to the viewing or editing context.",
+    "Returns": "The current position within the document, possibly as a coordinate or page number.",
+    "Returns_Reason": "Properties named 'position' often return a value indicating a specific location or point, such as a page number or coordinate, within a document or viewer.",
+    "Parameters": {
+        "type": {
+            "description": "The type of position being represented, such as a page number or coordinate.",
+            "description_reason": "The 'type' parameter is likely used to specify the kind of position being referred to, which is common in APIs dealing with document navigation or editing.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or number depending on whether it refers to a page, coordinate, or other positional data."
+        }
+    }
+}

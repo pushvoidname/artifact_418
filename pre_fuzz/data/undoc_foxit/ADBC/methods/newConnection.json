@@ -1,0 +1,8 @@
+{
+    "Object": "ADBC",
+    "API_Name": "newConnection",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "string"
+    }
+}

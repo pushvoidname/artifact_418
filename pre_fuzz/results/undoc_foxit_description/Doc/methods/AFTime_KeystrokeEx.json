@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFTime_KeystrokeEx",
+    "API_Type": "Method",
+    "API_Description": "Handles keystroke events for time input fields, providing extended functionality for time validation and formatting.",
+    "API_Description_Reason": "The method name 'AFTime_KeystrokeEx' suggests it is related to handling keystrokes for time input fields, with 'Ex' indicating extended or additional functionality beyond basic keystroke handling.",
+    "Returns": "A boolean indicating whether the keystroke is valid for the time input field.",
+    "Returns_Reason": "Keystroke handling methods typically return a boolean to indicate whether the input is valid, allowing the system to accept or reject the keystroke.",
+    "Parameters": {}
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "removeIcon",
+    "API_Type": "Method",
+    "API_Description": "Removes an icon from the PDF document.",
+    "API_Description_Reason": "The method name 'removeIcon' suggests that it is used to remove an icon from the document, similar to how 'addIcon' would add an icon.",
+    "Returns": "A boolean indicating whether the icon was successfully removed.",
+    "Returns_Reason": "Typically, methods that perform a removal operation return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

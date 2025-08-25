@@ -1,0 +1,11 @@
+{
+    "Object": "Discovery",
+    "API_Name": "resolveService",
+    "API_Type": "method",
+    "Parameters": {
+        "cType": "string",
+        "cService": "string",
+        "cDomain": "string",
+        "oResult": "built-in object"
+    }
+}

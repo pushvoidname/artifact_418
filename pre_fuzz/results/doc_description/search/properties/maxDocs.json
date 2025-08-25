@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "maxDocs",
+  "API_Type": "Properties",
+  "API_Description": "The maximum number of documents that will be returned as part of the search query. The default is 100 documents.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

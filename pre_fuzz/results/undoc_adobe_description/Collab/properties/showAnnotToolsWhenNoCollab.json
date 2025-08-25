@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "showAnnotToolsWhenNoCollab",
+    "API_Type": "property",
+    "API_Description": "Determines whether annotation tools are visible when there is no active collaboration session.",
+    "API_Description_Reason": "The property name 'showAnnotToolsWhenNoCollab' suggests it controls the visibility of annotation tools in the absence of collaboration. This is a common feature in collaborative environments where tools may be hidden or shown based on the context.",
+    "Returns": "A boolean value indicating the visibility state of annotation tools when no collaboration is active.",
+    "Returns_Reason": "The parameter type is boolean, which typically represents a true or false state. In this context, it likely indicates whether the annotation tools should be shown (true) or hidden (false) when there is no collaboration.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value that sets the visibility of annotation tools when no collaboration is active.",
+            "description_reason": "The parameter 'type' is a boolean, which is used to toggle states such as visibility. The description aligns with the property's purpose of controlling tool visibility.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, which is suitable for toggling visibility states."
+        }
+    }
+}

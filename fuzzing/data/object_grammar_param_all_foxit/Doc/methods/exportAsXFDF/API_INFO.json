@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "exportAsXFDF",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "cPath"
+    ],
+    "Actions_Arg": []
+}

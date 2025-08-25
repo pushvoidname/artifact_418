@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getReviewFolders",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a list of review folders based on the specified category.",
+    "API_Description_Reason": "The method name 'getReviewFolders' suggests that it retrieves or returns a collection of review folders. The parameter 'cCategory' implies that the retrieval is filtered or categorized based on a specific category.",
+    "Returns": "An array of review folder objects.",
+    "Returns_Reason": "Since the method is named 'getReviewFolders', it is reasonable to assume that it returns a collection of review folders, likely in the form of an array or list.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category of review folders to retrieve.",
+            "description_reason": "The parameter name 'cCategory' suggests that it specifies a category or type for filtering the review folders.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cCategory' typically denotes a string type in many coding conventions, indicating that this parameter is expected to be a string."
+        }
+    }
+}

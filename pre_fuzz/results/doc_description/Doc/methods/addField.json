@@ -1,0 +1,28 @@
+{
+  "Object": "Doc",
+  "API_Name": "addField",
+  "API_Type": "Method",
+  "API_Description": "Creates a new form field and returns it as a Field object.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the new field to create. This name can use the dot separator syntax to denote a hierarchy (for example, name.last creates a parent node, name, and a child node, last)."
+    },
+    "cFieldType": {
+      "description": "The type of form field to create. Valid types are:  text button combobox listbox checkbox radiobutton signature"
+    },
+    "nPageNum": {
+      "description": "The 0-based index of the page to which to add the field."
+    },
+    "oCoords": {
+      "description": "An array of four numbers in rotated user space that specifies the size and placement of the form field. These four numbers are the coordinates of the bounding rectangle, in the following order: upper-left x, upper-left y, lower-right x and lower-right y . See also the Field object rect property.  -  If you use the Info panel to obtain the coordinates of the bounding rectangle, you must transform them from info space to rotated user space. To do this, subtract the info space y coordinate from the on-screen page height."
+    }
+  },
+  "Returns": "The newly created Field object.",
+  "Examples": [
+    "The following code might be used in a batch sequence to create a navigational icon on every page of a document, for each document in a selected set of documents.\n\n```\nvar inch = 72;\nfor (var p = 0; p < this.numPages; p++) {\n    // Position a rectangle (.5 inch, .5 inch)\n    var aRect = this.getPageBox( {nPage: p} );\n    aRect[0] += .5*inch;            // from upper left hand corner of page.\n    aRect[2] = aRect[0]+.5*inch;    // Make it .5 inch wide\n    aRect[1] -= .5*inch;\n    aRect[3] = aRect[1] - 24;       // and 24 points high\n\n    // Now construct a button field with a right arrow from ZapfDingbats\n    var f = this.addField(\"NextPage\", \"button\", p, aRect )\n    f.setAction(\"MouseUp\", \"this.pageNum++\");\n    f.delay = true;\n    f.borderStyle = border.s;\n    f.highlight = \"push\";\n    f.textSize = 0;                 // Auto-sized\n    f.textColor = color.blue;\n    f.fillColor = color.ltGray;\n    f.textFont = font.ZapfD\n    f.buttonSetCaption(\"341\")      // A right arrow\n    f.delay = false;\n}\n```\n\nSee the Field object setAction method for another example."
+  ]
+}

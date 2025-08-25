@@ -1,0 +1,13 @@
+{
+  "Object": "app",
+  "API_Name": "calculate",
+  "API_Type": "Properties",
+  "API_Description": "If `true` (the default value), calculations can be performed. If `false` , calculations are not permitted. The use of this property is discouraged; the Doc object property `calculate` is preferred.",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": []
+}

@@ -1,0 +1,28 @@
+{
+  "Object": "Doc",
+  "API_Name": "embedDocAsDataObject",
+  "API_Type": "Method",
+  "API_Description": "Embeds the specified document as a Data Object in the document.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "cName": {
+      "description": "The name to associate with the data object."
+    },
+    "oDoc": {
+      "description": "The document to embed as a data object."
+    },
+    "cCryptFilter": {
+      "description": "(optional) The language-independent name of a crypt filter to use when encrypting this data object. This crypt filter must have previously been added to the document\u2019s list of crypt filters, using the addRecipientListCryptFilter method, otherwise an exception will be thrown. The predefined Identity crypt filter can be used so that this data object is not encrypted in a file that is otherwise encrypted by the encryptForRecipients method."
+    },
+    "bUI": {
+      "description": "(optional) If true, an alert may be shown if oDoc requires saving and the permissions do not allow it to be saved. Default value is false."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "An envelope file that includes a \u201cmyFilter\u201d crypt filter has been previously authored and has been included in the current document.\n\n```\nvar authorEmail = \"johndoe@example.com\";\nvar envelopeDoc = this.openDataObject( \"envelope\" );\nenvelopeDoc.embedDocAsDataObject( \"attachment\", this, \"myFilter\" );\nenvelopeDoc.title.Author = authorEmail;\nenvelopeDoc.mailDoc({\n    cTo: \"support@example.com\",\n    cSubject: \"Application from \" + authorEmail\n});\n```"
+  ]
+}

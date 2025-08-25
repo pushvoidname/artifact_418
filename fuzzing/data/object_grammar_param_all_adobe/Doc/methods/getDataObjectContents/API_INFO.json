@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getDataObjectContents",
+    "API_Type": "method",
+    "Return_Type": "ReadStream",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

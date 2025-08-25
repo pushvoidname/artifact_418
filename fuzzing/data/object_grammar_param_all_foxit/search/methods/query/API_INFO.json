@@ -1,0 +1,12 @@
+{
+    "Object": "search",
+    "API_Name": "query",
+    "API_Type": "method",
+    "Return_Type": "Array[Annotation]",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cQuery",
+        "cWhere",
+        "cDIPath"
+    ]
+}

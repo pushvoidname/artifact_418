@@ -1,0 +1,15 @@
+{
+  "Object": "Thermometer",
+  "API_Name": "begin",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Count the words on each page of the current document, report the running total, and use the thermometer to track progress.\n\n```\nvar t = app.thermometer; // acquire a thermometer object\nt.duration = this.numPages;\nt.begin();\nvar cnt=0;\nfor ( var i = 0; i < this.numPages; i++)\n{\n    t.value = i;\n    t.text = \"Processing page \" + (i + 1);\n    cnt += getPageNumWords(i);\n    console.println(\"There are \" + cnt + \"words in this doc.\");\n    if (t.cancelled) break;\n}\nt.end();\n```"
+  ]
+}

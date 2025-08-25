@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "dataObjects",
+    "API_Type": "property",
+    "API_Description": "An array of data objects embedded within the PDF document.",
+    "API_Description_Reason": "The name 'dataObjects' suggests it holds multiple data objects, likely embedded files or attachments within the PDF.",
+    "Returns": "An array of data objects present in the PDF document.",
+    "Returns_Reason": "The plural form 'dataObjects' implies it returns a collection, likely an array, of data objects.",
+    "Parameters": {
+        "type": {
+            "description": "The type of data objects contained within the array.",
+            "description_reason": "The parameter 'type' is likely used to specify or filter the kind of data objects, though its exact usage is unclear.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified in the provided information, indicating it might be a placeholder or a flexible type."
+        }
+    }
+}

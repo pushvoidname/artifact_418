@@ -1,0 +1,17 @@
+{
+    "Object": "security",
+    "API_Name": "handlers",
+    "API_Type": "property",
+    "API_Description": "An array of available security handlers that can be used for encryption and digital signatures.",
+    "API_Description_Reason": "The 'handlers' property is likely to list the available security handlers, as it is common for such properties to provide access to a collection of related objects or functionalities.",
+    "Returns": "An array of SecurityHandler objects.",
+    "Returns_Reason": "Since 'handlers' is a property, it is expected to return a collection of objects, specifically SecurityHandler objects, which are used for managing security operations.",
+    "Parameters": {
+        "type": {
+            "description": "The type of security handler to retrieve from the handlers array.",
+            "description_reason": "The 'type' parameter is likely used to specify which type of security handler is being referenced or filtered.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified in the provided information, but it is likely a string or identifier that matches a handler type."
+        }
+    }
+}

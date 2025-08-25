@@ -1,0 +1,13 @@
+{
+  "Object": "app",
+  "API_Name": "media",
+  "API_Type": "Properties",
+  "API_Description": "Defines an extensive number of properties and methods useful for setting up and controlling a multimedia player. See the app.media object for a listing of the properties and methods of this object, as well as numerous examples of use.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": []
+}

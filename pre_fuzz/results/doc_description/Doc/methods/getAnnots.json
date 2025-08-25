@@ -1,0 +1,28 @@
+{
+  "Object": "Doc",
+  "API_Name": "getAnnots",
+  "API_Type": "Method",
+  "API_Description": "Gets an array of `Annotation` objects satisfying specified criteria. See also and syncAnnotScan .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) A 0-based page number. If specified, gets only annotations on the given page. If not specified, gets annotations that meet the search criteria from all pages."
+    },
+    "nSortBy": {
+      "description": "(optional) A sort method applied to the array. Values are:"
+    },
+    "bReverse": {
+      "description": "(optional) If true, causes the array to be reverse sorted with respect to nSortBy."
+    },
+    "nFilterBy": {
+      "description": "(optional) Gets only annotations satisfying certain criteria. Values are:"
+    }
+  },
+  "Returns": "An array of Annotation objects, or `null` if none are found.",
+  "Examples": [
+    "Acquire all annotations on the first page, and write information to the console.\n\n```\nthis.syncAnnotScan();\nvar annots = this.getAnnots({\n    nPage:0,\n    nSortBy: ANSB_Author,\n    bReverse: true\n});\nconsole.show();\nconsole.println(\"Number of Annotations: \" + annots.length);\nvar msg = \"%s in a %s annot said: \"%s\"\";\nfor (var i = 0; i < annots.length; i++)\n    console.println(util.printf(msg, annots[i].author, annots[i].type,\n        annots[i].contents));\n```"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "localFileStorage",
+    "API_Name": "read",
+    "API_Type": "Method",
+    "API_Description": "Reads data from the local file storage and returns the content.",
+    "API_Description_Reason": "The method name 'read' typically implies retrieving or accessing data from a storage medium.",
+    "Returns": "The content of the file as a string or binary data.",
+    "Returns_Reason": "Read operations usually return the data contained within the file, which can be in string or binary format depending on the file type.",
+    "Parameters": {}
+}

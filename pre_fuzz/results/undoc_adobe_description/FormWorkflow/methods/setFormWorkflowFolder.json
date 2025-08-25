@@ -1,0 +1,29 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "setFormWorkflowFolder",
+    "API_Type": "Method",
+    "API_Description": "Sets the folder for a specific form workflow identified by its category and document ID.",
+    "API_Description_Reason": "The method name 'setFormWorkflowFolder' suggests it is used to assign or change the folder associated with a form workflow. The parameters 'cCategory' and 'cDocID' imply that the method targets a specific form workflow, and 'cFolder' indicates the folder to be set.",
+    "Returns": "void",
+    "Returns_Reason": "The method name 'setFormWorkflowFolder' implies an action of setting or updating a property without returning a value, which is typical for setter methods.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category of the form workflow to be updated.",
+            "description_reason": "The parameter 'cCategory' likely specifies the category or type of the form workflow, which is necessary to identify the correct workflow to update.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cCategory' suggests it is a string, commonly used to denote a category name."
+        },
+        "cDocID": {
+            "description": "The document ID of the form workflow to be updated.",
+            "description_reason": "The parameter 'cDocID' is likely used to uniquely identify the specific form workflow document that needs its folder set.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cDocID' suggests it is a string, which is typical for identifiers like document IDs."
+        },
+        "cFolder": {
+            "description": "The folder to set for the specified form workflow.",
+            "description_reason": "The parameter 'cFolder' indicates the target folder where the form workflow should be placed or categorized.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cFolder' suggests it is a string, which is typical for folder names or paths."
+        }
+    }
+}

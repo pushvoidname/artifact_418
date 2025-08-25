@@ -1,0 +1,26 @@
+[
+    [
+        "CBOX",
+        "{BOX_TYPE}"
+    ],
+    [
+        "BOX_TYPE",
+        "Art"
+    ],
+    [
+        "BOX_TYPE",
+        "Bleed"
+    ],
+    [
+        "BOX_TYPE",
+        "Crop"
+    ],
+    [
+        "BOX_TYPE",
+        "Media"
+    ],
+    [
+        "BOX_TYPE",
+        "Trim"
+    ]
+]

@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getReviewState",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the current state of a specified review.",
+    "API_Description_Reason": "The method name 'getReviewState' suggests that it is used to obtain the current state or status of a review, which is a common functionality in collaboration or review systems.",
+    "Returns": "A string representing the current state of the review.",
+    "Returns_Reason": "Since the method is named 'getReviewState', it is likely to return a string that describes the state of the review, such as 'pending', 'completed', or 'in progress'.",
+    "Parameters": {
+        "cReviewID": {
+            "description": "The unique identifier of the review whose state is to be retrieved.",
+            "description_reason": "The parameter name 'cReviewID' indicates that it is an identifier for a review, which is necessary to specify which review's state should be retrieved.",
+            "type": "string",
+            "type_reason": "Review identifiers are typically strings, as they often consist of alphanumeric characters."
+        }
+    }
+}

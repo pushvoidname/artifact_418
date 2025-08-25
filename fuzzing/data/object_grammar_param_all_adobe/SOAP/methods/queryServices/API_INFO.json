@@ -1,0 +1,8 @@
+{
+    "Object": "SOAP",
+    "API_Name": "queryServices",
+    "API_Type": "method",
+    "Return_Type": "ServiceQueryObject",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

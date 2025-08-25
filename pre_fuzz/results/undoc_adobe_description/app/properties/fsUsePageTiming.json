@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsUsePageTiming",
+    "API_Type": "property",
+    "API_Description": "A boolean property that determines whether page timing is used in full-screen mode.",
+    "API_Description_Reason": "The name 'fsUsePageTiming' suggests it is related to full-screen ('fs') mode and involves timing settings for pages. The boolean type indicates it is likely a toggle to enable or disable this feature.",
+    "Returns": "The current state of the fsUsePageTiming setting, either true or false.",
+    "Returns_Reason": "As a property of type boolean, it returns its current value, which indicates whether the page timing feature is enabled or disabled.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set the fsUsePageTiming property. If true, page timing is used in full-screen mode; if false, it is not.",
+            "description_reason": "The parameter 'type' is specified as boolean, which typically indicates a toggle or switch setting. The description aligns with the property's purpose of enabling or disabling a feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, which is a common type for properties that enable or disable features."
+        }
+    }
+}

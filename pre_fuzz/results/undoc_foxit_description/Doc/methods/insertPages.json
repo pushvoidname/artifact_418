@@ -1,0 +1,35 @@
+{
+    "Object": "Doc",
+    "API_Name": "insertPages",
+    "API_Type": "Method",
+    "API_Description": "Inserts pages from another PDF document into the current document.",
+    "API_Description_Reason": "The method name 'insertPages' suggests functionality related to adding pages into a document, likely from another source document.",
+    "Returns": "A boolean indicating success or failure of the page insertion.",
+    "Returns_Reason": "Typically, methods that perform an action like inserting pages return a boolean to indicate whether the operation was successful.",
+    "Parameters": {
+        "nPage": {
+            "description": "The 0-based index in the current document where the new pages should be inserted.",
+            "description_reason": "Inserting pages requires specifying a position in the current document where the pages will be added.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        },
+        "cPath": {
+            "description": "The file path of the PDF document from which pages will be inserted.",
+            "description_reason": "To insert pages from another document, the method needs to know the location of that document.",
+            "type": "string",
+            "type_reason": "File paths are typically represented as strings."
+        },
+        "nStart": {
+            "description": "The 0-based index of the first page to insert from the source document.",
+            "description_reason": "Specifying the starting page in the source document is necessary to determine which pages to insert.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        },
+        "nEnd": {
+            "description": "The 0-based index of the last page to insert from the source document.",
+            "description_reason": "Specifying the ending page in the source document is necessary to determine the range of pages to insert.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        }
+    }
+}

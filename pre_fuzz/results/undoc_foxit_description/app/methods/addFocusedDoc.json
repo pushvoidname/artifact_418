@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "addFocusedDoc",
+    "API_Type": "Method",
+    "API_Description": "Adds the currently focused document to a list or collection of documents managed by the application.",
+    "API_Description_Reason": "The method name 'addFocusedDoc' suggests that it involves adding the currently focused or active document to some collection or list within the application. This is a common functionality in applications that manage multiple documents.",
+    "Returns": "A boolean indicating whether the document was successfully added.",
+    "Returns_Reason": "Typically, methods that perform an action like adding an item to a collection return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

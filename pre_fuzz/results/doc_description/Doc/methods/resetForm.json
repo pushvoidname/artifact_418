@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "resetForm",
+  "API_Type": "Method",
+  "API_Description": "Resets the field values within a document. Resetting a field causes it to take on its default value (which, in the case of text fields, is usually blank).",
+  "Version": "3.01",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "aFields": {
+      "description": "(optional) An array specifying the fields to reset. If not present or null, all fields in the form are reset. You can include non-terminal fields in the array."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Select fields to be reset and reset them.\n\n```\nvar fields = new Array();\nfields[0] = \"P1.OrderForm.Description\";\nfields[1] = \"P1.OrderForm.Qty\";\nthis.resetForm(fields);\n```\n\nThe same fields can be reset using only one line of code:\n\n```\nthis.resetForm([\"P1.OrderForm.Description\",\"P1.OrderForm.Qty\"]);\n```",
+    "This example shows how to reset a whole subtree. For example, if you pass \u201cname\u201d as part of the fields array, all `name` fields, such as `name.first` and `name.last` , are reset.\n\n```\nthis.resetForm([\"name\"]);\n```"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "modifier",
+    "API_Type": "property",
+    "API_Description": "Indicates the state of modifier keys (such as Shift, Ctrl, Alt) during the event.",
+    "API_Description_Reason": "The name 'modifier' suggests it relates to modifier keys, which are commonly used in event handling to determine if keys like Shift, Ctrl, or Alt are pressed.",
+    "Returns": "A boolean or an object indicating the state of modifier keys.",
+    "Returns_Reason": "Modifier keys typically return a boolean indicating if they are pressed or not, or an object if multiple keys are involved.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of modifier key state being queried or set.",
+            "description_reason": "The 'type' parameter likely specifies which modifier key or keys are being referenced, as events can involve multiple modifier keys.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified, but it could be a string or an object depending on how modifier keys are represented in the API."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "cursor",
+    "API_Name": "delay",
+    "API_Type": "property",
+    "API_Description": "Specifies the delay time for the cursor's action or visibility change.",
+    "API_Description_Reason": "The term 'delay' typically refers to a time interval before an action occurs, so it is likely related to timing for cursor actions or visibility.",
+    "Returns": "The delay time set for the cursor, likely in milliseconds.",
+    "Returns_Reason": "Properties usually return the value they are set to, and since this is a delay, it is likely a numeric value representing time.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the delay value, which is likely a number representing milliseconds.",
+            "description_reason": "Delays are typically measured in time units, such as milliseconds, which are represented as numbers.",
+            "type": "number",
+            "type_reason": "Time intervals are usually represented as numeric values, making 'number' a suitable type for a delay."
+        }
+    }
+}

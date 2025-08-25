@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "getDateAndTime",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cInternalDeadline"
+    ]
+}

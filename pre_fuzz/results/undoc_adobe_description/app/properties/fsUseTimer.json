@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsUseTimer",
+    "API_Type": "property",
+    "API_Description": "A boolean property that determines whether a timer is used for full-screen transitions.",
+    "API_Description_Reason": "The name 'fsUseTimer' suggests it is related to using a timer, and it is grouped with other full-screen related properties, indicating it controls a timer for full-screen transitions.",
+    "Returns": "A boolean value indicating if the timer is enabled or not.",
+    "Returns_Reason": "Since the parameter type is boolean, it is logical that the property returns a boolean value representing the current state of the timer usage.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to enable or disable the use of a timer for full-screen transitions.",
+            "description_reason": "The parameter 'type' is a boolean, which typically indicates a toggle or switch, suggesting it enables or disables a feature.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as a boolean, indicating it is used to set a true or false state."
+        }
+    }
+}

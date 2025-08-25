@@ -1,0 +1,10 @@
+{
+  "object": "Bookmark",
+  "apiName": "Bookmark",
+  "apiType": "Object",
+  "apiDescription": "A Bookmark object represents a node in the bookmark tree that appears in the bookmarks navigational panel. Bookmarks are typically used as a table of contents allowing the user to navigate quickly to topics of interest.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Span",
+  "API_Name": "strikethrough",
+  "API_Type": "Properties",
+  "API_Description": "If `strikethrough` is `true` , the text is drawn with a strikethrough. The default is `false` .",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "movePage",
+  "API_Type": "Method",
+  "API_Description": "Moves a page within the document.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page to move. The default is 0."
+    },
+    "nAfter": {
+      "description": "(optional) The 0-based index of the page after which to move the specified page. Use -1 to move the page before the first page of the document. The default is the last page in the document."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Reverse the pages in the document.\n\n```\nfor (i = this.numPages - 1; i >= 0; i--) this.movePage(i);\n```"
+  ]
+}

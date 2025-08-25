@@ -1,0 +1,17 @@
+{
+    "Object": "TTS",
+    "API_Name": "characterScale",
+    "API_Type": "Property",
+    "API_Description": "Adjusts the scale of the characters in the speech output, potentially affecting how text is pronounced or emphasized.",
+    "API_Description_Reason": "The name 'characterScale' suggests it modifies the scale or emphasis of characters in the speech output, which could influence pronunciation or emphasis.",
+    "Returns": "The current scale factor applied to characters in the speech output.",
+    "Returns_Reason": "As a property, it likely returns the current value of the character scale setting.",
+    "Parameters": {
+        "type": {
+            "description": "The scale factor to apply to characters in the speech output. A higher value might increase emphasis or alter pronunciation.",
+            "description_reason": "The parameter 'type' is described as a number, which suggests it is a scale factor affecting character pronunciation or emphasis.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated to be of type 'number', indicating it is a numeric scale factor."
+        }
+    }
+}

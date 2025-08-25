@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getAnnot3D",
+    "API_Type": "method",
+    "Return_Type": "Annot3D",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

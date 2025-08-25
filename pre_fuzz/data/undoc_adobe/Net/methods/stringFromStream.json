@@ -1,0 +1,8 @@
+{
+    "Object": "Net",
+    "API_Name": "stringFromStream",
+    "API_Type": "method",
+    "Parameters": {
+        "oStream": "built-in object"
+    }
+}

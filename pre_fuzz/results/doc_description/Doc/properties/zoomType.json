@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "zoomType",
+  "API_Type": "Properties",
+  "API_Description": "The current zoom type of the document. The table below lists the valid zoom types. The convenience `zoomtype` object defines all the valid zoom types and is used to access all zoom types. Zoom type | Keyword | Version ----------------------------- NoVary | zoomtype.none | FitPage | zoomtype.fitP | FitWidth | zoomtype.fitW | FitHeight | zoomtype.fitH | FitVisibleWidth | zoomtype.fitV | Preferred | zoomtype.pref | ReflowWidth | zoomtype.refW | 6.0",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Set the zoom type of the document to fit the width.\n\n```\nthis.zoomType = zoomtype.fitW;\n```"
+  ]
+}

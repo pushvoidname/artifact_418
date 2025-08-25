@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "setTimeOut",
+    "API_Type": "method",
+    "Return_Type": "timeout",
+    "Scripts_Arg": [
+        "cExpr"
+    ],
+    "Actions_Arg": []
+}

@@ -1,0 +1,20 @@
+{
+  "Object": "SOAP",
+  "API_Name": "streamEncode",
+  "API_Type": "Method",
+  "API_Description": "This function encodes a stream object. Typically, it is used to pass data as part of a SOAP method when it must be encoded in Base 64 or hex encoding.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oStream": {
+      "description": "A stream object to be encoded with the specified encoding type."
+    },
+    "cEncoder": {
+      "description": "A string specifying the encoding type. Permissible values are \u201chex\u201d (for hex-encoded) and \u201cbase64\u201d (base 64-encoded)."
+    }
+  },
+  "Returns": "A `ReadStream` object that has the appropriate encoding applied.",
+  "Examples": []
+}

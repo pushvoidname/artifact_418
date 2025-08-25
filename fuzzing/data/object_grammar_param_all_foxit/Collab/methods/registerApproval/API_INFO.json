@@ -1,0 +1,12 @@
+{
+    "Object": "Collab",
+    "API_Name": "registerApproval",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "initScript"
+    ],
+    "Actions_Arg": [
+        "initScript"
+    ]
+}

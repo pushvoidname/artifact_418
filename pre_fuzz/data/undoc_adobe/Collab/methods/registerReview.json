@@ -1,0 +1,24 @@
+{
+    "Object": "Collab",
+    "API_Name": "registerReview",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object",
+        "initiator": "unknown",
+        "initScript": "string",
+        "invitees": "string",
+        "cc": "string",
+        "bcc": "string",
+        "ui": "boolean",
+        "selfDestruct": "boolean",
+        "id": "string",
+        "source": "string",
+        "driver": "string",
+        "requireSave": "boolean",
+        "distributionMethod": "string",
+        "versionInfo": "number",
+        "accessLevel": "number",
+        "bezelMessage": "string",
+        "displayWelcome": "boolean"
+    }
+}

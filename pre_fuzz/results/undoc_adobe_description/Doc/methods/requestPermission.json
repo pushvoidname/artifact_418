@@ -1,0 +1,29 @@
+{
+    "Object": "Doc",
+    "API_Name": "requestPermission",
+    "API_Type": "Method",
+    "API_Description": "Requests permission for a specific operation on the document, potentially involving a custom permission handler.",
+    "API_Description_Reason": "The method name 'requestPermission' suggests it is used to request permissions for certain operations on the document. The parameters indicate it involves specifying the type of operation and possibly excluding a custom permission handler.",
+    "Returns": "A boolean indicating whether the permission was granted.",
+    "Returns_Reason": "Typically, a method that requests permission would return a boolean to indicate success or failure of the permission request.",
+    "Parameters": {
+        "cType": {
+            "description": "The type of permission being requested.",
+            "description_reason": "The parameter name 'cType' suggests it specifies the category or type of permission needed.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context imply it is a string, likely representing a category or type identifier."
+        },
+        "cOperation": {
+            "description": "The specific operation for which permission is being requested.",
+            "description_reason": "The parameter name 'cOperation' indicates it specifies the particular operation that requires permission.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context imply it is a string, likely representing an operation identifier."
+        },
+        "cExcludePermHandler": {
+            "description": "Specifies whether to exclude a custom permission handler from the request.",
+            "description_reason": "The parameter name 'cExcludePermHandler' suggests it controls the inclusion or exclusion of a custom permission handler in the request process.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context imply it is a string, possibly representing a flag or identifier for exclusion."
+        }
+    }
+}

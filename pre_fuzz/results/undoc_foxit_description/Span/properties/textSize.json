@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "textSize",
+    "API_Type": "property",
+    "API_Description": "Specifies the size of the text within the span object.",
+    "API_Description_Reason": "The textSize property is typically used to define or retrieve the size of the text in a span, which is a common attribute in text formatting.",
+    "Returns": "The size of the text as a number.",
+    "Returns_Reason": "The type of the textSize property is specified as a number, indicating it returns a numerical value representing the text size.",
+    "Parameters": {
+        "type": {
+            "description": "The numerical value representing the size of the text.",
+            "description_reason": "The parameter type is specified as a number, which is commonly used to represent sizes or dimensions.",
+            "type": "number",
+            "type_reason": "The type is explicitly mentioned as number, which is appropriate for representing text size."
+        }
+    }
+}

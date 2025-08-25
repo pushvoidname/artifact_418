@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "IDS_GREATER_THAN",
+    "API_Type": "property",
+    "API_Description": "Represents a constant string used for comparison operations, typically indicating a 'greater than' condition.",
+    "API_Description_Reason": "The name 'IDS_GREATER_THAN' suggests it is a string identifier used in contexts where a 'greater than' comparison is relevant, possibly in error messages or validation checks.",
+    "Returns": "A string value representing the 'greater than' condition.",
+    "Returns_Reason": "Since it is a property, it likely returns a string constant used in the application for comparison or display purposes.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value, which is expected to be a string.",
+            "description_reason": "The property is likely a string identifier used in comparison operations or messages, hence the type is string.",
+            "type": "string",
+            "type_reason": "Properties with names like 'IDS_GREATER_THAN' are typically string constants used for display or logic purposes."
+        }
+    }
+}

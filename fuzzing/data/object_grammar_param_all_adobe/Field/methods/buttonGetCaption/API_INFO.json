@@ -1,0 +1,10 @@
+{
+    "Object": "Field",
+    "API_Name": "buttonGetCaption",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "nFace"
+    ]
+}

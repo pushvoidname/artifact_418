@@ -1,0 +1,23 @@
+{
+    "Object": "app",
+    "API_Name": "getString",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a localized string from a specified plugin using its string ID.",
+    "API_Description_Reason": "The method name 'getString' suggests it retrieves a string, and the parameters 'cPlugInName' and 'cStringId' imply it fetches a string associated with a plugin and a specific ID.",
+    "Returns": "The localized string corresponding to the provided plugin name and string ID.",
+    "Returns_Reason": "The method is likely designed to return a string based on the provided plugin name and string ID, as indicated by the method name and parameters.",
+    "Parameters": {
+        "cPlugInName": {
+            "description": "The name of the plugin from which to retrieve the string.",
+            "description_reason": "The parameter name 'cPlugInName' suggests it specifies the plugin to query for the string.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cPlugInName' typically denotes a string type in coding conventions, and it represents a name, which is usually a string."
+        },
+        "cStringId": {
+            "description": "The identifier of the string to retrieve from the specified plugin.",
+            "description_reason": "The parameter name 'cStringId' indicates it is an ID used to identify which string to retrieve.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cStringId' typically denotes a string type in coding conventions, and IDs are often represented as strings."
+        }
+    }
+}

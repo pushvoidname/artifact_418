@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_SSN_ENTRY",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used for validating or matching Social Security Number (SSN) entries in a PDF form.",
+    "API_Description_Reason": "The name 'RE_SSN_ENTRY' suggests it is a regular expression (RE) for SSN entries, commonly used for validation or pattern matching.",
+    "Returns": "A string representing the regular expression pattern for SSN validation.",
+    "Returns_Reason": "Since it is a property named with 'RE', it likely returns a regular expression string for matching SSN formats.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property, which is expected to be a string representing a regular expression.",
+            "description_reason": "The property is likely a string because it represents a regular expression pattern.",
+            "type": "string",
+            "type_reason": "Regular expressions are typically represented as strings in programming."
+        }
+    }
+}

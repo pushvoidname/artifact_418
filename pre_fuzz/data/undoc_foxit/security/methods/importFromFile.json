@@ -1,0 +1,11 @@
+{
+    "Object": "security",
+    "API_Name": "importFromFile",
+    "API_Type": "method",
+    "Parameters": {
+        "cType": "string",
+        "cDIPath": "string",
+        "bUI": "boolean",
+        "cMsg": "string"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "isUbiquitized",
+    "API_Type": "Method",
+    "API_Description": "Determines if the given document is ubiquitized, meaning it is set up for collaboration or sharing across different platforms or environments.",
+    "API_Description_Reason": "The term 'ubiquitized' suggests a state where the document is universally accessible or shared, which aligns with the collaboration functionality of the Collab object.",
+    "Returns": "A boolean value indicating whether the document is ubiquitized.",
+    "Returns_Reason": "The method likely returns a boolean because it is checking a condition or state (whether the document is ubiquitized or not).",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to check for ubiquitization status.",
+            "description_reason": "The parameter is named 'doc', which suggests it is a document object that the method will evaluate.",
+            "type": "object",
+            "type_reason": "The parameter is likely a document object, as it is common for methods in document collaboration contexts to operate on document objects."
+        }
+    }
+}

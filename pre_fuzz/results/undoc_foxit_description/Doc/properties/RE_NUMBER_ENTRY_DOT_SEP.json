@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_NUMBER_ENTRY_DOT_SEP",
+    "API_Type": "property",
+    "API_Description": "A regular expression pattern used for validating number entries with dot separators.",
+    "API_Description_Reason": "The name 'RE_NUMBER_ENTRY_DOT_SEP' suggests it is a regular expression (RE) for number entries that use a dot as a separator.",
+    "Returns": "A string representing the regular expression pattern.",
+    "Returns_Reason": "Regular expressions are typically represented as strings, and since this is a property, it likely returns the pattern itself.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the property value.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not documented."
+        }
+    }
+}

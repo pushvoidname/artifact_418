@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "sendEmail",
+    "API_Type": "method",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": [
+        "unknown"
+    ],
+    "Actions_Arg": []
+}

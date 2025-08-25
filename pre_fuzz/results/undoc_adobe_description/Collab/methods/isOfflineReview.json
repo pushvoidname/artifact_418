@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "isOfflineReview",
+    "API_Type": "Method",
+    "API_Description": "Determines if the document is part of an offline review process.",
+    "API_Description_Reason": "The method name 'isOfflineReview' suggests it checks whether a document is involved in an offline review, which is a common feature in collaboration tools to allow users to review documents without an active internet connection.",
+    "Returns": "A boolean value indicating whether the document is part of an offline review.",
+    "Returns_Reason": "The method name 'isOfflineReview' implies a true or false response, which is typical for methods that check a condition or state.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to check for offline review status.",
+            "description_reason": "The parameter 'doc' is likely the document being checked, as it is common to pass the document of interest to such methods.",
+            "type": "object",
+            "type_reason": "The parameter 'doc' is described as a built-in object, which suggests it is an object type, likely representing a document."
+        }
+    }
+}

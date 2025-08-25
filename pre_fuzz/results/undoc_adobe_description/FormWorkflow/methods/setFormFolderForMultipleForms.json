@@ -1,0 +1,29 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "setFormFolderForMultipleForms",
+    "API_Type": "Method",
+    "API_Description": "Assigns a specified folder to multiple forms identified by their document IDs within a given category.",
+    "API_Description_Reason": "The method name suggests it sets a folder for multiple forms, and the parameters indicate it involves categories and document IDs, implying an organizational task.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action like setting a folder return a success status to indicate if the operation was completed successfully.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category under which the forms are organized.",
+            "description_reason": "The parameter name 'cCategory' implies it specifies a category, likely used to organize or filter forms.",
+            "type": "string",
+            "type_reason": "Categories are usually represented as strings, as they are often names or labels."
+        },
+        "oDocIDs": {
+            "description": "An array of document IDs representing the forms to be assigned to the folder.",
+            "description_reason": "The parameter name 'oDocIDs' suggests it is a collection of document identifiers, which are typically used to specify which documents are affected by the operation.",
+            "type": "array",
+            "type_reason": "Document IDs are often stored in arrays when multiple documents are involved, allowing for batch operations."
+        },
+        "cFolder": {
+            "description": "The name of the folder to assign to the specified forms.",
+            "description_reason": "The parameter name 'cFolder' indicates it specifies the folder name, which is the target for the assignment operation.",
+            "type": "string",
+            "type_reason": "Folder names are usually represented as strings, as they are typically textual labels."
+        }
+    }
+}

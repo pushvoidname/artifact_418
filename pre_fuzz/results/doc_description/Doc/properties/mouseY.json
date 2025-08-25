@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "mouseY",
+  "API_Type": "Properties",
+  "API_Description": "Gets the coordinate of the mouse coordinates in default user space in relation to the current page.",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Number",
+  "Access": "R",
+  "Examples": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "unsetFirstLaunch",
+    "API_Type": "Method",
+    "API_Description": "Resets the first launch state for a specific review type, indicating that the initial setup or introduction has been completed.",
+    "API_Description_Reason": "The method name 'unsetFirstLaunch' suggests it is used to change the state of a 'first launch' flag, likely to indicate that the initial launch process has been completed for a given review type.",
+    "Returns": "None",
+    "Returns_Reason": "The method likely performs an action to update the state and does not need to return any value, as it is simply modifying an internal setting.",
+    "Parameters": {
+        "cReviewType": {
+            "description": "The type of review for which the first launch state should be reset.",
+            "description_reason": "The parameter name 'cReviewType' implies it specifies the category or type of review that the method will affect.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string because it represents a type or category, which is typically denoted by a string identifier."
+        }
+    }
+}

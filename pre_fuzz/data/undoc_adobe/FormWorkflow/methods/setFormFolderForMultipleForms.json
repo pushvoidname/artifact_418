@@ -1,0 +1,12 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "setFormFolderForMultipleForms",
+    "API_Type": "method",
+    "Parameters": {
+        "cCategory": "string",
+        "oDocIDs": [
+            "unknown"
+        ],
+        "cFolder": "string"
+    }
+}

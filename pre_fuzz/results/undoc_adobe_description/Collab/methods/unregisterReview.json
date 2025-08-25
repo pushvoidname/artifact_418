@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "unregisterReview",
+    "API_Type": "Method",
+    "API_Description": "Unregisters a review from the collaboration system.",
+    "API_Description_Reason": "The method name 'unregisterReview' suggests it is used to remove or unregister a review from the system, likely to stop tracking or managing it within the collaboration framework.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Typically, methods that perform an action like unregistering return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "unknown": {
+            "description": "An identifier for the review to be unregistered.",
+            "description_reason": "The parameter is likely used to specify which review should be unregistered, possibly an ID or a unique string associated with the review.",
+            "type": "string",
+            "type_reason": "The parameter is described as a string, which is a common type for identifiers or keys in API methods."
+        }
+    }
+}

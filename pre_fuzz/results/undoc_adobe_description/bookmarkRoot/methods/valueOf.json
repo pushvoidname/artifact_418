@@ -1,0 +1,10 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "valueOf",
+    "API_Type": "Method",
+    "API_Description": "Returns the primitive value of the bookmarkRoot object.",
+    "API_Description_Reason": "The 'valueOf' method typically returns the primitive value of an object in JavaScript, so it is assumed to perform a similar function for the bookmarkRoot object.",
+    "Returns": "The primitive value of the bookmarkRoot object.",
+    "Returns_Reason": "The 'valueOf' method in JavaScript is generally used to return the primitive value of an object, hence it is assumed to do the same for bookmarkRoot.",
+    "Parameters": {}
+}

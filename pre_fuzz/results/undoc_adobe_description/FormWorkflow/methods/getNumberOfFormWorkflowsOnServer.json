@@ -1,0 +1,17 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "getNumberOfFormWorkflowsOnServer",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the number of form workflows available on the specified server.",
+    "API_Description_Reason": "The method name suggests it returns a count of form workflows on a given server, which is a common operation for managing or querying server resources.",
+    "Returns": "The number of form workflows on the specified server as an integer.",
+    "Returns_Reason": "The method's purpose is to count form workflows, so it logically returns an integer representing this count.",
+    "Parameters": {
+        "cServer": {
+            "description": "The identifier or address of the server from which to retrieve the number of form workflows.",
+            "description_reason": "The parameter name 'cServer' implies it specifies the server to query for form workflows.",
+            "type": "string",
+            "type_reason": "Server identifiers or addresses are typically represented as strings, which can include domain names, IP addresses, or other server identifiers."
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Object": "Collab",
+    "API_Name": "alertWithHelp",
+    "API_Type": "Method",
+    "API_Description": "Displays an alert dialog with a message, a help tip, and a title, and optionally stores a user preference.",
+    "API_Description_Reason": "The method name 'alertWithHelp' suggests it displays an alert with additional help information. The parameters indicate it involves a message, a tip, a title, and a preference, which aligns with displaying a dialog with these elements.",
+    "Returns": "void",
+    "Returns_Reason": "Alert methods typically do not return a value; they perform an action (displaying a dialog) and do not need to return data.",
+    "Parameters": {
+        "cMsg": {
+            "description": "The main message to display in the alert dialog.",
+            "description_reason": "The parameter name 'cMsg' suggests it is the core message content of the alert.",
+            "type": "string",
+            "type_reason": "Messages are typically represented as strings."
+        },
+        "cTip": {
+            "description": "A help tip or additional information to display in the alert dialog.",
+            "description_reason": "The parameter name 'cTip' implies it provides supplementary help or tips related to the alert.",
+            "type": "string",
+            "type_reason": "Tips or additional information are usually represented as strings."
+        },
+        "cTitle": {
+            "description": "The title of the alert dialog.",
+            "description_reason": "The parameter name 'cTitle' indicates it is used as the title of the alert window.",
+            "type": "string",
+            "type_reason": "Titles are typically represented as strings."
+        },
+        "cPref": {
+            "description": "A user preference key to store or retrieve related to the alert.",
+            "description_reason": "The parameter name 'cPref' suggests it is related to user preferences, possibly for storing or checking a setting.",
+            "type": "string",
+            "type_reason": "Preference keys are usually represented as strings."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "style",
+  "API_Type": "Properties",
+  "API_Description": "Allows the user to set the glyph style of a check box or radio button. The glyph style is the graphic used to indicate that the item has been selected. The style values are associated with keywords as follows. Style | Keyword --------------- check | style.ch cross | style.cr diamond | style.di circle | style.ci star | style.st square | style.sq **Fields** `checkbox` , `radiobutton`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: This example sets the glyph style to circle.\n\n```\nvar f = this.getField(\"myCheckbox\");\nf.style = style.ci;\n```"
+  ]
+}

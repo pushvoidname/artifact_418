@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "closeDoc",
+  "API_Type": "Method",
+  "API_Description": "Closes the document.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "Requires",
+  "Parameters": {
+    "bNoSave": {
+      "description": "(optional) A Boolean value indicating whether to close the document without saving:  -  If false (the default), the user is prompted to save the document if it has been modified. -  If true, the document is closed without prompting the user and without saving, even if the document has been modified. Be careful in using this feature because it can cause data loss without user approval."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "From the console, close all open documents.\n\n```\nvar d = app.activeDocs;\nfor( var i in d ) d[i].closeDoc();\n```\n\nThe following code can be executed as a mouse-up action from an open document. It closes all open documents. The code is designed to close the active document last so that the execution of the code will not be abruptly terminated.\n\n```\nvar d = app.activeDocs;\nfor( var i in d )\n    if( d[i] != this ) d[i].closeDoc();\nif ( this.disclosed ) this.closeDoc();\n```",
+    "Create a series of three test files and save them to a directory. This code must be executed in the console, because `saveAs` has a security restriction.\n\n```\nvar myDoc = app.newDoc();\nfor (var i=0; i < 3; i++) {\n    myDoc.info.Title = \"Test File \" + i;\n    myDoc.saveAs(\"/c/temp/test\"+i+\".pdf);\n}\nmyDoc.closeDoc(true);\n```\n\nSee saveAs for an another example of `closeDoc` ."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "importSound",
+  "API_Type": "Method",
+  "API_Description": "Imports a sound into the document and associates the specified name with the sound.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name to associate with the sound object."
+    },
+    "cDIPath": {
+      "description": "(optional) A device-independent path to a sound file on the user\u2019s hard drive. This path may be absolute or relative to the current document. If not specified, the user is prompted to locate a sound file."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Import two sounds and play them.\n\n```\nthis.importSound(\"Moo\");\nthis.getSound(\"Moo\").play();\nthis.importSound(\"Moof\", \"./moof.wav\");\nthis.getSound(\"Moof\").play();\n```\n\nSee also sounds , getSound , deleteSound , and the Sound object."
+  ]
+}

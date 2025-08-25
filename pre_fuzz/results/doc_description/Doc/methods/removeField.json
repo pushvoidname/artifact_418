@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "removeField",
+  "API_Type": "Method",
+  "API_Description": "Removes the specified field from the document. If the field appears on more than one page, all representations are removed.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "cName": {
+      "description": "The field name to remove."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "```\nthis.removeField(\"myBadField\");\n```"
+  ]
+}

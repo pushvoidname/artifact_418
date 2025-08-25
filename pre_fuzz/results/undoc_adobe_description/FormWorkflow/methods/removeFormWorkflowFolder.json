@@ -1,0 +1,23 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "removeFormWorkflowFolder",
+    "API_Type": "Method",
+    "API_Description": "Removes a specified folder from the form workflow system.",
+    "API_Description_Reason": "The method name 'removeFormWorkflowFolder' suggests that it is responsible for removing a folder related to form workflows. The presence of parameters 'cCategory' and 'cFolder' implies that the method targets a specific folder within a category.",
+    "Returns": "A boolean indicating whether the folder was successfully removed.",
+    "Returns_Reason": "Methods that perform removal operations typically return a boolean to indicate success or failure. This is a common pattern in API design.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category under which the folder to be removed is classified.",
+            "description_reason": "The parameter name 'cCategory' suggests it specifies a category, likely used to organize or group folders within the form workflow system.",
+            "type": "string",
+            "type_reason": "Categories are typically represented as strings, as they are often names or identifiers."
+        },
+        "cFolder": {
+            "description": "The name of the folder to be removed from the specified category.",
+            "description_reason": "The parameter name 'cFolder' indicates it represents the folder name, which is the target for removal.",
+            "type": "string",
+            "type_reason": "Folder names are usually represented as strings, as they are textual identifiers."
+        }
+    }
+}

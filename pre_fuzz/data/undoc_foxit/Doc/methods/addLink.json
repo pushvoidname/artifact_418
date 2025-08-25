@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "addLink",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": [
+            "unknown"
+        ]
+    }
+}

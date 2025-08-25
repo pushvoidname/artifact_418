@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getPageObjNum",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the object number of the specified page in the PDF document.",
+    "API_Description_Reason": "The method name 'getPageObjNum' suggests it is used to obtain the object number associated with a page in the document, which is a common requirement for low-level PDF operations.",
+    "Returns": "The object number of the specified page.",
+    "Returns_Reason": "The method is likely designed to return a numerical identifier (object number) for a page, which is useful for referencing the page in PDF operations.",
+    "Parameters": {}
+}

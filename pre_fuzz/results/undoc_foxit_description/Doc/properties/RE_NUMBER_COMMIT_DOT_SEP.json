@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "RE_NUMBER_COMMIT_DOT_SEP",
+    "API_Type": "Property",
+    "API_Description": "A regular expression pattern used for validating or formatting numbers with a dot as the decimal separator.",
+    "API_Description_Reason": "The name 'RE_NUMBER_COMMIT_DOT_SEP' suggests it is a regular expression (RE) related to number formatting or validation, specifically using a dot as a separator.",
+    "Returns": "A string representing the regular expression pattern.",
+    "Returns_Reason": "Since it is a property likely representing a regular expression, it would return a string pattern used for matching or validating numbers.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value.",
+            "description_reason": "The 'type' parameter is likely used to specify the data type of the property, which is common in API documentation to clarify the expected format.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is typically a string that describes the data type of the property, such as 'string', 'number', etc."
+        }
+    }
+}

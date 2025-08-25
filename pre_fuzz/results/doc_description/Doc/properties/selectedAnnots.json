@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "selectedAnnots",
+  "API_Type": "Properties",
+  "API_Description": "An array of `Annotation` objects corresponding to all currently selected markup annotations. See also and .",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "C",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example: Show all the comments of selected annotations in the console.\n\n```\nvar aAnnots = this.selectedAnnots;\nfor (var i=0; i < aAnnots.length; i++)\n    console.println(aAnnots[i].contents);\n```"
+  ]
+}

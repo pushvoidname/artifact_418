@@ -1,0 +1,47 @@
+{
+    "Object": "app",
+    "API_Name": "browseForMultipleDocs",
+    "API_Type": "Method",
+    "API_Description": "Opens a file dialog that allows the user to select multiple documents, returning an array of file paths.",
+    "API_Description_Reason": "The method name 'browseForMultipleDocs' suggests functionality for browsing and selecting multiple documents. This aligns with typical file dialog operations in applications.",
+    "Returns": "An array of strings, each representing the file path of a selected document.",
+    "Returns_Reason": "The method is expected to return file paths for the selected documents, which are typically represented as strings in an array when multiple selections are allowed.",
+    "Parameters": {
+        "cFilenameInit": {
+            "description": "The initial filename or path to display in the file dialog.",
+            "description_reason": "The parameter name 'cFilenameInit' implies it sets an initial filename or path in the dialog.",
+            "type": "string",
+            "type_reason": "Filenames and paths are typically represented as strings."
+        },
+        "cFSInit": {
+            "description": "The initial file system path to display in the file dialog.",
+            "description_reason": "The parameter name 'cFSInit' suggests it initializes the file system path in the dialog.",
+            "type": "string",
+            "type_reason": "File system paths are generally represented as strings."
+        },
+        "bUnicode": {
+            "description": "Indicates whether the file dialog should support Unicode file names.",
+            "description_reason": "The parameter 'bUnicode' suggests a boolean flag for enabling Unicode support.",
+            "type": "boolean",
+            "type_reason": "Boolean flags are used to enable or disable features."
+        },
+        "cFileFilter": {
+            "description": "A string specifying the file types to display in the dialog, using a filter pattern.",
+            "description_reason": "The parameter 'cFileFilter' implies a filter for file types, typically a string pattern.",
+            "type": "string",
+            "type_reason": "File filters are usually specified as strings with patterns (e.g., '*.pdf')."
+        },
+        "cWindowTitle": {
+            "description": "The title of the file dialog window.",
+            "description_reason": "The parameter 'cWindowTitle' suggests it sets the window title for the dialog.",
+            "type": "string",
+            "type_reason": "Window titles are represented as strings."
+        },
+        "bAllowMultiple": {
+            "description": "Specifies whether the dialog allows selecting multiple files.",
+            "description_reason": "The parameter 'bAllowMultiple' indicates a boolean flag for enabling multiple file selection.",
+            "type": "boolean",
+            "type_reason": "Boolean flags are used to enable or disable features."
+        }
+    }
+}

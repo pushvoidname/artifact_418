@@ -1,0 +1,14 @@
+[
+    [
+        "SEND_EMAIL",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

@@ -1,0 +1,17 @@
+{
+    "Object": "TTS",
+    "API_Name": "punctuations",
+    "API_Type": "property",
+    "API_Description": "Specifies how punctuation marks are handled during text-to-speech conversion.",
+    "API_Description_Reason": "The property name 'punctuations' suggests it deals with punctuation marks, likely controlling their interpretation or pronunciation in speech synthesis.",
+    "Returns": "A string indicating the current punctuation handling mode.",
+    "Returns_Reason": "Since the parameter type is a string, it is reasonable to assume that the property returns a string representing the current setting or mode for punctuation handling.",
+    "Parameters": {
+        "type": {
+            "description": "Defines the mode of punctuation handling, such as 'none', 'some', or 'all'.",
+            "description_reason": "The parameter 'type' implies a categorical setting, likely specifying different levels or modes of punctuation handling.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, indicating it accepts textual input representing different modes."
+        }
+    }
+}

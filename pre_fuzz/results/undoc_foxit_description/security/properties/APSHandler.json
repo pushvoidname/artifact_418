@@ -1,0 +1,17 @@
+{
+    "Object": "security",
+    "API_Name": "APSHandler",
+    "API_Type": "property",
+    "API_Description": "Represents a specific security handler used for managing security settings and operations related to Adobe PDF Security.",
+    "API_Description_Reason": "The name 'APSHandler' suggests it is a handler related to Adobe PDF Security, which typically involves managing security settings and operations.",
+    "Returns": "An object representing the APS security handler.",
+    "Returns_Reason": "As a property, it likely returns an object that provides methods and properties for managing security settings specific to APS.",
+    "Parameters": {
+        "type": {
+            "description": "The type of the APSHandler, which is unknown.",
+            "description_reason": "The parameter 'type' is listed but not described, indicating it might be a placeholder or a type identifier for the handler.",
+            "type": "unknown",
+            "type_reason": "The type is explicitly stated as unknown, suggesting it might be a complex or internal type not exposed in the documentation."
+        }
+    }
+}

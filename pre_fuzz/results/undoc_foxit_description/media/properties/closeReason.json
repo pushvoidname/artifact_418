@@ -1,0 +1,17 @@
+{
+    "Object": "media",
+    "API_Name": "closeReason",
+    "API_Type": "Property",
+    "API_Description": "Indicates the reason why the media was closed.",
+    "API_Description_Reason": "The name 'closeReason' suggests that it provides information about why the media object was closed.",
+    "Returns": "A string representing the reason for closing the media.",
+    "Returns_Reason": "The property likely returns a string because it is common for reasons or status messages to be represented as text.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the closeReason property.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the data type of the property.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not documented."
+        }
+    }
+}

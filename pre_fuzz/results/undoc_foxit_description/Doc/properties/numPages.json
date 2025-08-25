@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "numPages",
+    "API_Type": "Property",
+    "API_Description": "Represents the total number of pages in the PDF document.",
+    "API_Description_Reason": "The property name 'numPages' suggests it provides the number of pages in the document, which is a common attribute for document objects.",
+    "Returns": "The total number of pages in the document as an integer.",
+    "Returns_Reason": "Since 'numPages' is a property that indicates the count of pages, it logically returns an integer representing this count.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the numPages property.",
+            "description_reason": "The property is expected to return a numerical value representing the number of pages.",
+            "type": "integer",
+            "type_reason": "The number of pages in a document is typically represented as an integer."
+        }
+    }
+}

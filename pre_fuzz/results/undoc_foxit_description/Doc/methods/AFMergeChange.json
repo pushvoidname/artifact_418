@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFMergeChange",
+    "API_Type": "Method",
+    "API_Description": "Merges changes from a source document into the current document.",
+    "API_Description_Reason": "The method name 'AFMergeChange' suggests functionality related to merging changes, likely from another document or source, into the current document.",
+    "Returns": "A boolean indicating whether the merge was successful.",
+    "Returns_Reason": "Typically, methods that perform an action like merging return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

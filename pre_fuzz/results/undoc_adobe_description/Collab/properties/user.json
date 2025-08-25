@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "user",
+    "API_Type": "property",
+    "API_Description": "Represents the user involved in the collaboration session.",
+    "API_Description_Reason": "The property name 'user' suggests it holds information about the user participating in the collaboration.",
+    "Returns": "A string representing the type of user in the collaboration.",
+    "Returns_Reason": "The parameter 'type' is specified as a string, indicating that the property returns a string value describing the user type.",
+    "Parameters": {
+        "type": {
+            "description": "The type of user in the collaboration session, such as 'initiator', 'participant', or 'observer'.",
+            "description_reason": "The parameter 'type' is likely used to specify or retrieve the role or category of the user in the collaboration context.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, indicating it is used to represent textual information about the user type."
+        }
+    }
+}

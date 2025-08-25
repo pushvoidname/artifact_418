@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "type",
+    "API_Type": "property",
+    "API_Description": "Represents the type of the event, indicating what kind of event occurred.",
+    "API_Description_Reason": "The 'type' property is commonly used in event objects to specify the nature of the event, such as 'click', 'keydown', etc., which helps in identifying the event's purpose.",
+    "Returns": "A string representing the type of the event.",
+    "Returns_Reason": "Event types are typically represented as strings, such as 'click', 'submit', etc., to easily identify and handle different events in JavaScript.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of the event, such as 'click', 'keydown', 'submit', etc.",
+            "description_reason": "The 'type' parameter in an event object usually specifies the exact nature of the event, which is crucial for event handling.",
+            "type": "string",
+            "type_reason": "Event types are generally represented as strings to allow easy comparison and handling in event-driven programming."
+        }
+    }
+}

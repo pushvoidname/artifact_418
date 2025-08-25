@@ -1,0 +1,23 @@
+{
+  "Object": "Doc",
+  "API_Name": "setPageLabels",
+  "API_Type": "Method",
+  "API_Description": "Establishes the numbering scheme for the specified page and all pages following it until the next page with an attached label is encountered.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index for the page to be labeled."
+    },
+    "aLabel": {
+      "description": "(optional) An array of three required items [cStyle, cPrefix, nStart ]: cStyle is the style of page numbering. It can be:"
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "For the ten pages in the document, label the first three with small roman numerals, the next five with numbers (starting at 1) and the last two with an \u201cAppendix-\u201d prefix and alphabetics.\n\n```\nthis.setPageLabels(0, [ \"r\", \"\", 1]);\nthis.setPageLabels(3, [ \"D\", \"\", 1]);\nthis.setPageLabels(8, [ \"A\", \"Appendix-\", 1]);\nvar s = this.getPageLabel(0);\nfor (var i = 1; i < this.numPages; i++)\n    s += \", \" + this.getPageLabel(i);\nconsole.println(s);\n```\n\nThe example will produce the following output on the console:\n\n```\ni, ii, iii, 1, 2, 3, 4, 5, Appendix-A, Appendix-B\n```",
+    "Remove all page labels from a document.\n\n```\nfor (var i = 0; i < this.numPages; i++) {\n    if (i + 1 != this.getPageLabel(i)) {\n        // Page label does not match ordinal page number.\n        this.setPageLabels(i);\n    }\n}\n```"
+  ]
+}

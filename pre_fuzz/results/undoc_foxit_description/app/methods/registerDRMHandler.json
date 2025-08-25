@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "registerDRMHandler",
+    "API_Type": "Method",
+    "API_Description": "Registers a handler for Digital Rights Management (DRM) events.",
+    "API_Description_Reason": "The method name 'registerDRMHandler' suggests it is used to register a handler or callback for DRM-related events or actions within the Acrobat application.",
+    "Returns": "A boolean indicating whether the handler was successfully registered.",
+    "Returns_Reason": "Typically, registration methods return a boolean to indicate success or failure of the registration process.",
+    "Parameters": {}
+}

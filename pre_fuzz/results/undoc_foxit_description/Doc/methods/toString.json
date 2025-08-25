@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "toString",
+    "API_Type": "Method",
+    "API_Description": "Returns a string representation of the Doc object, typically including basic information about the document such as its title or file name.",
+    "API_Description_Reason": "The toString method is commonly used to provide a human-readable string that represents the object. In the context of a document, this would likely include identifying information.",
+    "Returns": "A string that represents the Doc object.",
+    "Returns_Reason": "The toString method conventionally returns a string that summarizes the object it is called on, which in this case would be the Doc object.",
+    "Parameters": {}
+}

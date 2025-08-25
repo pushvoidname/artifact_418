@@ -1,0 +1,90 @@
+{
+  "Object": "Doc",
+  "API_Name": "submitForm",
+  "API_Type": "Method",
+  "API_Description": "Submits the form to a specified URL. To call this method, you must be running inside a web browser or have the Acrobat Web Capture plug-in installed. (If the URL uses the \u201cmailto\u201d scheme, it will be honored even if not running inside a web browser, as long as the SendMail plug-in is present.) Beginning with Adobe Reader 6.0, you need not be inside a web browser to call this method.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cURL": {
+      "description": "The URL to submit to. This string must end in #FDF if the result from the submission is FDF or XFDF (that is, the value of cSubmitAs is \u201cFDF\u201d or \u201cXFDF\u201d) and the document is being viewed inside a browser window."
+    },
+    "bFDF": {
+      "description": "(optional) If true (the default) form data is submitted as FDF. If false, it is submitted as URL-encoded HTML.   -  This option has been deprecated; use cSubmitAs instead."
+    },
+    "bEmpty": {
+      "description": "(optional) If true, submit all fields, including those that have no value. If false (the default), exclude fields that currently have no value.   -  If data is submitted as XDP, XML, or XFD (see the cSubmitAs parameter, below), this parameter is ignored. All fields are submitted, even fields that are empty. See aFields."
+    },
+    "aFields": {
+      "description": "(optional) An array of field names to submit or a string containing a single field name:  -  If supplied, only the fields indicated are submitted, except those excluded by bEmpty.  -  If omitted or null, all fields are submitted, except those excluded by bEmpty.  -  If an empty array, no fields are submitted. A submitted FDF file might still contain data if bAnnotations is true.   You can specify non-terminal field names to export an entire subtree of fields.  -  If data is submitted as XDP, XML, or XFD (see the cSubmitAs parameter), this parameter is ignored. All fields are submitted, even fields that are empty. See bEmpty."
+    },
+    "bGet": {
+      "description": "(optional, Acrobat 4.0) If true, submit using the HTTP GET method. If false (the default), use a POST. GET is only allowed if using Acrobat Web Capture to submit (the browser interface only supports POST) and only if the data is sent as HTML (that is, cSubmitAs is HTML)."
+    },
+    "bAnnotations": {
+      "description": "(optional, Acrobat 5.0) If true, annotations are included in the submitted FDF or XML file. The default is false. Only applicable if cSubmitAs is FDF or XFDF."
+    },
+    "bXML": {
+      "description": "(optional, Acrobat 5.0) If ``true`, submit as XML. The default is false.   -  This option has been deprecated; use cSubmitAs instead."
+    },
+    "bIncrChanges": {
+      "description": "(optional, Acrobat 5.0) If true, include the incremental changes to the PDF document in the submitted FDF file. The default is false. Only applicable if cSubmitAs is FDF. Not available in Adobe Reader."
+    },
+    "bPDF": {
+      "description": "(optional, Acrobat 5.0) ``true`, submit the complete PDF document. The default is false. If true, all other parameters except cURL are ignored. Not available in Adobe Reader.   -  This option has been deprecated; use cSubmitAs instead."
+    },
+    "bCanonical": {
+      "description": "(optional, Acrobat 5.0) If true, convert any dates being submitted to standard format (that is, D:YYYYMMDDHHmmSSOHH'mm' ; see the PDF Reference ). The default is false."
+    },
+    "bExclNonUserAnnots": {
+      "description": "(optional, Acrobat 5.0) If true, exclude any annotations that are not owned by the current user. The default is false."
+    },
+    "bExclFKey": {
+      "description": "(optional, Acrobat 5.0) If true, exclude the F entry. The default is false."
+    },
+    "cPassword": {
+      "description": "(optional, Acrobat 5.0) The password to use to generate the encryption key, if the FDF file needs to be encrypted before being submitted.  Pass the value true (no quotes) to use the password that the user has previously entered (within this Acrobat session) for submitting or receiving an encrypted FDF file. If no password has been entered, the user is prompted to enter a password.  Regardless of whether the password is passed in or requested from the user, this new password is remembered within this Acrobat session for future outgoing or incoming encrypted FDF files.  Only applicable if cSubmitAs is FDF."
+    },
+    "bEmbedForm": {
+      "description": "(optional, Acrobat 6.0) If true, the call embeds the entire form from which the data is being submitted in the FDF file.   Only applicable if cSubmitAs is FDF."
+    },
+    "oJavaScript": {
+      "description": "(optional, Acrobat 6.0) Can be used to include Before, After, and Doc scripts in a submitted FDF file. If present, the value is converted directly to an analogous CosObj and used as the JavaScript attribute in the FDF file. For example:"
+    },
+    "cSubmitAs": {
+      "description": "(optional, Acrobat 6.0) This parameter indicates the format for submission. Values are:"
+    },
+    "bInclNMKey": {
+      "description": "(optional, Acrobat 6.0) If true, include the NM entry of any annotations. The default is false."
+    },
+    "aPackets": {
+      "description": "(optional, Acrobat 6.0) An array of strings, specifying which packets to include in an XDP submission. This parameter is only applicable if cSubmitAs is XDP. Possible strings are:"
+    },
+    "cCharset": {
+      "description": "(optional, Acrobat 6.0) The encoding for the values submitted. String values are utf-8, utf-16, Shift-JIS, BigFive, GBK, and UHC.   If not passed, the current Acrobat behavior applies. For XML-based formats, utf-8 is used. For other formats, Acrobat tries to find the best host encoding for the values being submitted.  XFDF submission ignores this value and always uses utf-8."
+    },
+    "oXML": {
+      "description": "(optional, Acrobat 7.0) This parameter is only applicable if cSubmitAs equals XML. It should be an XMLData object, which will get submitted."
+    },
+    "cPermID": {
+      "description": "(optional, Acrobat 7.0) Specifies a permanent ID to assign to the PDF that is submitted if either the value of cSubmitAs is PDF or bEmbedForm is true. This permanent ID is the first entry in the docID array (docID[0]).   Does not affect the current document."
+    },
+    "cInstID": {
+      "description": "(optional, Acrobat 7.0) Specifies an instance ID to assign to the PDF that is submitted if either the value of cSubmitAs is PDF or bEmbedForm is true. This instance ID is the second entry in the docID array (docID[1]).   Does not affect the current document."
+    },
+    "cUsageRights": {
+      "description": "(optional, Acrobat 7.0) Specifies the additional usage rights to be applied to the PDF that is submitted if either the value of cSubmitAs is PDF or bEmbedForm is true. The only valid value is submitFormUsageRights.RMA.   Does not affect the current document."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Submit the form to the server.\n\n```\nthis.submitForm(\"http://www.example.com/cgi-bin/myscript.cgi#FDF\");\n```",
+    "Submit selected form fields to a server-side script as FDF.\n\n```\nvar aSubmitFields = new Array( \"name\", \"id\", \"score\" );\nthis.submitForm({\n    cURL: \"http://www.example.com/cgi-bin/myscript.cgi#FDF\",\n    aFields: aSubmitFields,\n    cSubmitAs: \"FDF\" // the default, not needed here\n});\n```",
+    "This example shows a shortcut to submitting a whole subtree. Passing \u201cname\u201d as part of the `field` parameter, submits \u201c `name.title` \u201c, \u201c `name.first` \u201c, \u201c `name.middle` \u201d and \u201c `name.last` \u201c.\n\n```\nthis.submitForm(\"http://www.example.com/cgi-bin/myscript.cgi#FDF\",\n    true, false, \"name\");\n```",
+    "Submit form as XFDF to a server-side script.\n\n```\nthis.submitForm({\n    cURL: \"http://www.example.com/cgi-bin/myscript.cgi#FDF\",\n    cSubmitAs: \"XFDF\"\n});\n```\n\n**Example 5 (Acrobat 7.0)**\n\nFor a PDF file that contains several XFA forms as attachments, the following script gathers the XML data from each attachment and concatenates them. The combined data is then submitted.\n\n```\nvar oParent = event.target;\nvar oDataObjects = oParent.dataObjects;\nif (oDataObjects == null)\n    app.alert(\"This form has no attachments!\");\nelse {\n    var nChildren = oDataObjects.length;\n    var oFirstChild = oParent.openDataObject(oDataObjects[0].name);\n    var oSubmitData = oFirstChild.xfa.data.nodes.item(0).clone(true);\n\n     for (var iChild = 1; iChild < nChildren; iChild++) {\n        var oNextChild = oParent.openDataObject(\n            oDataObjects[iChild].name);\n\n         oSubmitData.nodes.append(oNextChild.xfa.data.nodes.item(0));\n\n         oNextChild.closeDoc();\n    }\n    oParent.submitForm({\n    cURL: \"http://www.example.com/cgi-bin/myCGI.pl#FDF\",\n\n     cSubmitAs: \"XML\",\n\n     oXML: oSubmitData\n    });\n    oFirstChild.closeDoc();\n}\n```\n\nThis example uses `dataObjects` , `openDataObject` and properties and methods of the `XFA` object.\n\n**Example 6 (Acrobat 7.0)**\n\nSubmits current document as a PDF. This script uses cPermID, cInstID and cUsageRights.\n\n```\nthis.submitForm({\n    cUrl: myURL,\n    cSubmitAs: \"PDF\",\n    cPermID: someDoc.docID[0],\n    cInstID: someDoc.docID[1],\n    cUsageRights: submitFormUsageRights.RMA });\n```"
+  ],
+  "Example 5 (Acrobat 7.0)": "For a PDF file that contains several XFA forms as attachments, the following script gathers the XML data from each attachment and concatenates them. The combined data is then submitted.\n\n```\nvar oParent = event.target;\nvar oDataObjects = oParent.dataObjects;\nif (oDataObjects == null)\n    app.alert(\"This form has no attachments!\");\nelse {\n    var nChildren = oDataObjects.length;\n    var oFirstChild = oParent.openDataObject(oDataObjects[0].name);\n    var oSubmitData = oFirstChild.xfa.data.nodes.item(0).clone(true);\n\n     for (var iChild = 1; iChild < nChildren; iChild++) {\n        var oNextChild = oParent.openDataObject(\n            oDataObjects[iChild].name);\n\n         oSubmitData.nodes.append(oNextChild.xfa.data.nodes.item(0));\n\n         oNextChild.closeDoc();\n    }\n    oParent.submitForm({\n    cURL: \"http://www.example.com/cgi-bin/myCGI.pl#FDF\",\n\n     cSubmitAs: \"XML\",\n\n     oXML: oSubmitData\n    });\n    oFirstChild.closeDoc();\n}\n```\n\nThis example uses `dataObjects` , `openDataObject` and properties and methods of the `XFA` object.",
+  "Example 6 (Acrobat 7.0)": "Submits current document as a PDF. This script uses cPermID, cInstID and cUsageRights.\n\n```\nthis.submitForm({\n    cUrl: myURL,\n    cSubmitAs: \"PDF\",\n    cPermID: someDoc.docID[0],\n    cInstID: someDoc.docID[1],\n    cUsageRights: submitFormUsageRights.RMA });\n```"
+}

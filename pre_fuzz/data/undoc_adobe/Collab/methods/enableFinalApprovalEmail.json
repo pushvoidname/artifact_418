@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "enableFinalApprovalEmail",
+    "API_Type": "method",
+    "Parameters": {
+        "sendEmail": "boolean"
+    }
+}

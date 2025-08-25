@@ -1,0 +1,17 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "getFormWorkflowFolders",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a list of form workflow folders based on the specified category.",
+    "API_Description_Reason": "The method name 'getFormWorkflowFolders' suggests it retrieves folders related to form workflows, and the parameter 'cCategory' implies filtering by category.",
+    "Returns": "An array of form workflow folders.",
+    "Returns_Reason": "The method is likely to return a collection of folders, as indicated by the plural 'Folders' in the method name.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category used to filter the form workflow folders.",
+            "description_reason": "The parameter name 'cCategory' suggests it is used to specify a category for filtering purposes.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context imply that this parameter is a string representing a category name."
+        }
+    }
+}

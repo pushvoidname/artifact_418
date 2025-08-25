@@ -1,0 +1,26 @@
+{
+  "Object": "Doc",
+  "API_Name": "addRequirement",
+  "API_Type": "Method",
+  "API_Description": "Allows a PDF document to be authored so that a certain requirement is needed for the document to properly function in Acrobat.",
+  "Version": "7.0.5",
+  "Save-Prefs": "D",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "cType": {
+      "description": "The type of document requirement. The types are described by the Requirements Enumerator object."
+    },
+    "oReq": {
+      "description": "(Optional) A Requirement object."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Add a requirement to enable JavaScript in a document.\n\n```\naddRequirement(this.requirements.EnableJavaScripts,\n    {[{cType: reqHandlers.JS, cScriptName: \"requirement\"}]});\n```"
+  ],
+  "Requirements enumerator object": "This object lists all the possible types of requirements that a document may contain to properly function in Acrobat.\n\nProperty | Description\n----------------------\nrequirements.EnableJavaScripts | Some documents may contain data validation scripts that may never run if the Enable JavaScript Execution user preference is disabled. This property allows a PDF document to enforce the execution of its scripts in Acrobat. The user will be prompted to either enable JavaScript execution for the particular document or to open the document in read-only mode.",
+  "Requirement object": "This generic object contains properties that describe the nature of the requirement\n\nProperty | Description\n----------------------\naRH | (Optional) An array of ReqHandler objects.",
+  "ReqHandler object": "This generic object contains information about a requirement handler that can be used when Acrobat finds an unrecognized requirement. The viewer should delegate requirement checking for the unrecognized requirement to the first handler in the array that supports the type. If no requirement handler can be found to deal with the unrecognized requirement, a generic message should be provided by the viewer.\n\nProperty | Description\n----------------------\ncType | A string specifying the type of the requirement handler (see the ReqHandlers Enumerator object for a lists of possible names).\ncScriptName | (Optional) A string specifying the name of a document-level JavaScript present in the document. It may be present if the value of cType is reqHandlers.JS.   The named script will not be executed in case the requirement is satisfied.",
+  "ReqHandlers Enumerator object": "This object enumerates the types of requirement handlers a document may contain.\n\nProperty | Description\n----------------------\nreqHandlers.JS | This handler manages document-level scripts that deal with unrecognized requirements in the PDF document.\nreqHandlers.NoOp | This handler allows older viewers to ignore unrecognized requirements."
+}

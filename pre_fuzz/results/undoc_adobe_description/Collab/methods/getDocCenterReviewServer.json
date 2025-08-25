@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getDocCenterReviewServer",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the server URL for a document center review based on the specified review type.",
+    "API_Description_Reason": "The method name suggests it is used to obtain the server URL for a document center review, and the parameter cReviewType likely specifies the type of review for which the server URL is needed.",
+    "Returns": "The URL of the document center review server as a string.",
+    "Returns_Reason": "The method is expected to return a server URL, which is typically represented as a string.",
+    "Parameters": {
+        "cReviewType": {
+            "description": "The type of review for which the document center server URL is requested.",
+            "description_reason": "The parameter name cReviewType implies it specifies the type of review, which is necessary to determine the appropriate server URL.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string as it represents a type or category, which is commonly expressed as a string."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "printColorProfiles",
+  "API_Type": "Properties",
+  "API_Description": "A list of available printer color spaces. Each of these values is suitable to use as the value of the `colorProfile` property of a `PrintParams` object.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "Acrobat only",
+  "Type": "Array of Strings",
+  "Access": "R",
+  "Examples": [
+    "Example: Print out a listing of available printer color spaces:\n\n```\nvar l = app.printColorProfiles.length\nfor ( var i = 0; i < l; i++)\n    console.println(\"(\" + (i+1) + \") \" + app.printColorProfiles[i]);\n```"
+  ]
+}

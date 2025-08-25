@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "setPageRotations",
+  "API_Type": "Method",
+  "API_Description": "Rotates the specified pages in the current document.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages in the document to be operated on. If nStart and nEnd are not specified, operates on all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages in the document to be operated on. If nStart and nEnd are not specified, operates on all pages in the document. If only nEnd is specified, the range of pages is 0 to nEnd."
+    },
+    "nRotate": {
+      "description": "(optional) The amount of rotation that should be applied to the target pages. Can be 0, 90, 180, or 270. The default is 0."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Rotate pages 0 through 10 of the current document.\n\n```\nthis.setPageRotations(0, 10, 90);\n```"
+  ]
+}

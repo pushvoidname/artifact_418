@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonScaleHow",
+  "API_Type": "Properties",
+  "API_Description": "Controls how the icon is scaled (if necessary) to fit inside the button face. The convenience `scaleHow` object defines all of the valid alternatives: How is icon scaled | Keyword ---------------------------- Proportionally | scaleHow.proportional Non-proportionally | scaleHow.anamorphic **Fields** `button`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

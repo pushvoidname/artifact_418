@@ -1,0 +1,17 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "getContents",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the contents of a subscription using the provided cURL.",
+    "API_Description_Reason": "The method name 'getContents' suggests it retrieves or fetches content, and the parameter 'cURL' implies it uses a URL to access the subscription data.",
+    "Returns": "The contents of the subscription.",
+    "Returns_Reason": "The method name 'getContents' indicates that it returns some form of content, likely related to the subscription.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL of the subscription from which to retrieve contents.",
+            "description_reason": "The parameter name 'cURL' suggests it is a URL used to access or identify the subscription.",
+            "type": "string",
+            "type_reason": "URLs are typically represented as strings in programming."
+        }
+    }
+}

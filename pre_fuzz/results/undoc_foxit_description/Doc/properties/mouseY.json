@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "mouseY",
+    "API_Type": "Property",
+    "API_Description": "Represents the current vertical position of the mouse cursor within the document's coordinate system.",
+    "API_Description_Reason": "The property name 'mouseY' suggests it tracks the Y-coordinate of the mouse cursor, which is a common functionality in graphical interfaces.",
+    "Returns": "A number representing the Y-coordinate of the mouse cursor.",
+    "Returns_Reason": "Since 'mouseY' is a coordinate, it is logical to assume it returns a numerical value indicating the position of the mouse cursor along the Y-axis.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the value returned by the mouseY property.",
+            "description_reason": "The property is expected to return a numerical value representing a coordinate.",
+            "type": "number",
+            "type_reason": "Coordinates are typically represented as numbers, indicating a position in a two-dimensional space."
+        }
+    }
+}

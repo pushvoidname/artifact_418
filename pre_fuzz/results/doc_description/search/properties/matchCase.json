@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "matchCase",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether the search query is case sensitive. The default is `false` .",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

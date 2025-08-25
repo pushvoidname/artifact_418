@@ -1,0 +1,36 @@
+{
+  "Object": "app",
+  "API_Name": "alert",
+  "API_Type": "Method",
+  "API_Description": "Displays an alert dialog box.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cMsg": {
+      "description": "A string containing the message to be displayed."
+    },
+    "nIcon": {
+      "description": "(optional) An icon type. Possible values are these:"
+    },
+    "nType": {
+      "description": "(optional) A button group type. Possible values are these:"
+    },
+    "cTitle": {
+      "description": "(optional, Acrobat 6.0) The dialog box title. If not specified, the title \u201cAdobe Acrobat\u201d is used."
+    },
+    "oDoc": {
+      "description": "(optional, Acrobat 6.0) The Doc object that the alert should be associated with."
+    },
+    "oCheckbox": {
+      "description": "(optional, Acrobat 6.0) If specified, a check box is created in the lower left region of the alert box. oCheckbox is a generic JavaScript object that has three properties. The first two property values are passed to the alert method; the third property returns a Boolean value."
+    }
+  },
+  "Returns": "`nButton` , the type of the button that was pressed by the user:\n\n*  1 : OK\n\n*  2 : Cancel\n\n*  3 : No\n\n*  4 : Yes",
+  "Examples": [
+    "Display a simple alert box:\n\n```\napp.alert({\n    cMsg: \"Error! Try again!\",\n    cTitle: \"Acme Testing Service\"\n});\n```",
+    "Close the document with the user\u2019s permission:\n\n```\n// A MouseUp action\nvar nButton = app.alert({\n    cMsg: \"Do you want to close this document?\",\n    cTitle: \"A message from A. C. Robat\",\n    nIcon: 2, nType: 2\n});\nif ( nButton == 4 ) this.closeDoc();\n```\n\n**Example 3 (Acrobat 6.0)**\n\nOne document creates an alert box in another document. There are two documents, DocA and DocB, one open in a browser and the other in the viewer.\n\n```\n// The following is a declaration at the document level in DocA\nvar myAlertBoxes = new Object;\nmyAlertBoxes.oMyCheckbox = {\n    cMsg: \"Care to see this message again?\",\n    bAfterValue: false\n}\n```\n\nThe following is a mouse-up action in DocA. The variable `theOtherDoc` is the Doc object of DocB. The alert box asks if the user wants to see this alert box again. If the user clicks the check box, the alert does not appear again.\n\n```\nif ( !myAlertBoxes.oMyCheckbox.bAfterValue )\n{\n    app.alert({\n        cMsg: \"This is a message from the DocA?\",\n        cTitle: \"A message from A. C. Robat\",\n        oDoc:theOtherDoc,\n        oCheckbox: myAlertBoxes.oMyCheckbox\n    });\n}\n```"
+  ],
+  "Example 3 (Acrobat 6.0)": "One document creates an alert box in another document. There are two documents, DocA and DocB, one open in a browser and the other in the viewer.\n\n```\n// The following is a declaration at the document level in DocA\nvar myAlertBoxes = new Object;\nmyAlertBoxes.oMyCheckbox = {\n    cMsg: \"Care to see this message again?\",\n    bAfterValue: false\n}\n```\n\nThe following is a mouse-up action in DocA. The variable `theOtherDoc` is the Doc object of DocB. The alert box asks if the user wants to see this alert box again. If the user clicks the check box, the alert does not appear again.\n\n```\nif ( !myAlertBoxes.oMyCheckbox.bAfterValue )\n{\n    app.alert({\n        cMsg: \"This is a message from the DocA?\",\n        cTitle: \"A message from A. C. Robat\",\n        oDoc:theOtherDoc,\n        oCheckbox: myAlertBoxes.oMyCheckbox\n    });\n}\n```"
+}

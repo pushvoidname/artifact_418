@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "display",
+    "API_Type": "property",
+    "API_Description": "Controls the display state of the document in the viewer, such as whether it is visible or hidden.",
+    "API_Description_Reason": "The name 'display' suggests it relates to the visibility or presentation of the document within the viewer.",
+    "Returns": "A value indicating the current display state of the document.",
+    "Returns_Reason": "Properties typically return the current state or value they represent, so 'display' would return the current display state.",
+    "Parameters": {
+        "type": {
+            "description": "The type of display state to set or retrieve, such as visible or hidden.",
+            "description_reason": "The parameter 'type' likely refers to the kind of display state being set or queried.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or enumeration representing different display states."
+        }
+    }
+}

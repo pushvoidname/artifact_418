@@ -1,0 +1,19 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonGetCaption",
+  "API_Type": "Method",
+  "API_Description": "Gets the caption associated with a button.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nFace": {
+      "description": "(optional) If specified, gets a caption of the given type:"
+    }
+  },
+  "Returns": "The caption string associated with the button.",
+  "Examples": [
+    "This example places pointing arrows to the left and right of the caption on a button field with icon and text.\n\n```\n// A mouse enter event\nevent.target.buttonSetCaption(\"=> \"+ event.target.buttonGetCaption()\n    +\" <=\");\n\n// A mouse exit event\nvar str = event.target.buttonGetCaption();\nstr = str.replace(/=>  <=/g, \"\");\nevent.target.buttonSetCaption(str);\n```\n\nThe same effect can be created by having the same icon for rollover and the same text, with the arrows inserted, for the rollover caption. This approach would be slower and cause the icon to flicker. The above code gives a very fast and smooth rollover effect because only the caption is changed, not the icon."
+  ]
+}

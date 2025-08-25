@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "numTemplates",
+  "API_Type": "Properties",
+  "API_Description": "!! Note This property has been superseded by `templates` . The number of templates in the document.",
+  "Version_Key": "deprecated",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R",
+  "Examples": []
+}

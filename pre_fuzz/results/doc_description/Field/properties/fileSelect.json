@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "fileSelect",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , sets the file-select flag in the Options tab of the text field (Field is Used for File Selection). This indicates that the value of the field represents a path of a file whose contents may be submitted with the form. The path may be entered directly into the field by the user, or the user can browse for the file. (See the browseForFileToSubmit method.) !! Note The file select flag is mutually exclusive with the `multiline` , `charLimit` , `password` , and `defaultValue` properties. Also, on the Mac OS platform, when setting the file select flag, the field gets treated as read-only. Therefore, the user must browse for the file to enter into the field. (See browseForFileToSubmit .) This property can only be set during a batch or console event. See Privileged context . The event object contains a discussion of JavaScript events. **Fields** `text`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "Yes",
+  "Product": "F",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

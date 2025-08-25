@@ -1,0 +1,23 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "addFormWorkflowFolder",
+    "API_Type": "Method",
+    "API_Description": "Adds a new folder to the form workflow under a specified category.",
+    "API_Description_Reason": "The method name 'addFormWorkflowFolder' suggests that it is used to add a folder related to form workflows. The parameters 'cCategory' and 'cFolder' imply that the folder is added under a specific category.",
+    "Returns": "A boolean indicating whether the folder was successfully added.",
+    "Returns_Reason": "Typically, methods that perform an action like adding or removing return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category under which the new folder should be added.",
+            "description_reason": "The parameter name 'cCategory' suggests it specifies the category for the folder.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context imply that this is a string representing the category name."
+        },
+        "cFolder": {
+            "description": "The name of the folder to be added to the form workflow.",
+            "description_reason": "The parameter name 'cFolder' suggests it specifies the name of the folder to be added.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context imply that this is a string representing the folder name."
+        }
+    }
+}

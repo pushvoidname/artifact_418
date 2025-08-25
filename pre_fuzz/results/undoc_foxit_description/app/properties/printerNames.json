@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "printerNames",
+    "API_Type": "Property",
+    "API_Description": "An array containing the names of all available printers.",
+    "API_Description_Reason": "The property name 'printerNames' suggests it holds a list of printer names, which is typically represented as an array.",
+    "Returns": "An array of strings, each representing a printer name.",
+    "Returns_Reason": "Since the property is expected to list printer names, it is logical to return an array of strings, with each string being a printer's name.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the printerNames property.",
+            "description_reason": "The 'type' parameter is likely used to specify or describe the data type of the property.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type or usage context is not provided."
+        }
+    }
+}

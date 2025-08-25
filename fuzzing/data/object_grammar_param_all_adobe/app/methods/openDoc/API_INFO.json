@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "openDoc",
+    "API_Type": "method",
+    "Return_Type": "Doc",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cDest"
+    ]
+}

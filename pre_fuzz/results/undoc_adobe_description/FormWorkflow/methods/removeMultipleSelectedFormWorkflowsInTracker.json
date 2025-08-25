@@ -1,0 +1,10 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "removeMultipleSelectedFormWorkflowsInTracker",
+    "API_Type": "Method",
+    "API_Description": "Removes multiple selected form workflows from the tracker.",
+    "API_Description_Reason": "The method name suggests that it is responsible for removing multiple form workflows that are currently selected in a tracker, which is likely a component or feature of the FormWorkflow object.",
+    "Returns": "A boolean indicating whether the removal was successful.",
+    "Returns_Reason": "Typically, methods that perform removal operations return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

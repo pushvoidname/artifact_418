@@ -1,0 +1,14 @@
+[
+    [
+        "BKEEP_MARKS",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

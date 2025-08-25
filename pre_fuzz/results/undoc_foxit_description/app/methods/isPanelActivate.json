@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "isPanelActivate",
+    "API_Type": "Method",
+    "API_Description": "Checks if a specific panel within the Acrobat application is currently active.",
+    "API_Description_Reason": "The method name 'isPanelActivate' suggests it is used to determine the activation status of a panel, which is a common functionality in applications with multiple panels or sections.",
+    "Returns": "A boolean value indicating whether the specified panel is active.",
+    "Returns_Reason": "The method name implies a check or query, which typically returns a boolean value to indicate a true or false state.",
+    "Parameters": {}
+}

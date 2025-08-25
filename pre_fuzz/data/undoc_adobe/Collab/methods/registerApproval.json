@@ -1,0 +1,16 @@
+{
+    "Object": "Collab",
+    "API_Name": "registerApproval",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object",
+        "initiator": "unknown",
+        "bInitiating": "boolean",
+        "initScript": "string",
+        "invitees": "string",
+        "cc": "string",
+        "ui": "boolean",
+        "selfDestruct": "boolean",
+        "initiatorEmail": "boolean"
+    }
+}

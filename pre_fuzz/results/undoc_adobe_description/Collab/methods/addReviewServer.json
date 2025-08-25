@@ -1,0 +1,35 @@
+{
+    "Object": "Collab",
+    "API_Name": "addReviewServer",
+    "API_Type": "Method",
+    "API_Description": "Adds a new review server to the collaboration settings.",
+    "API_Description_Reason": "The method name 'addReviewServer' suggests that it is used to add a server related to review functionalities in the collaboration context.",
+    "Returns": "A boolean indicating whether the review server was successfully added.",
+    "Returns_Reason": "Typically, methods that perform an action like adding a server return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cURL": {
+            "description": "The URL of the review server to be added.",
+            "description_reason": "The parameter name 'cURL' implies it is a string representing the server's URL.",
+            "type": "string",
+            "type_reason": "URLs are generally represented as strings."
+        },
+        "cUIName": {
+            "description": "The user-friendly name for the review server.",
+            "description_reason": "The parameter name 'cUIName' suggests it is a name displayed in the user interface.",
+            "type": "string",
+            "type_reason": "Names are typically represented as strings."
+        },
+        "oSetting": {
+            "description": "An object containing additional settings for the review server.",
+            "description_reason": "The parameter 'oSetting' implies it is an object holding various configuration settings.",
+            "type": "object",
+            "type_reason": "Settings are often encapsulated in objects to allow for multiple key-value pairs."
+        },
+        "oMethod": {
+            "description": "The method used to connect to the review server.",
+            "description_reason": "The parameter 'oMethod' suggests it specifies the connection method or protocol.",
+            "type": "string",
+            "type_reason": "Methods or protocols are typically represented as strings."
+        }
+    }
+}

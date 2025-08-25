@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageLabel",
+  "API_Type": "Method",
+  "API_Description": "Gets page label information for the specified page.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    }
+  },
+  "Returns": "Page label information for the specified page.",
+  "Examples": [
+    "See setPageLabels for an example."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "convertTocPDF",
+    "API_Type": "Method",
+    "API_Description": "Converts the table of contents of the PDF document into a separate PDF document.",
+    "API_Description_Reason": "The method name 'convertTocPDF' suggests that it is responsible for converting the table of contents (TOC) of a PDF document into a PDF format. This is inferred from the 'convert' and 'TocPDF' parts of the method name.",
+    "Returns": "A new Doc object representing the PDF document containing the table of contents.",
+    "Returns_Reason": "Since the method is likely converting the TOC into a separate PDF, it would return a Doc object representing this new PDF document, similar to other methods that manipulate or create new documents.",
+    "Parameters": {}
+}

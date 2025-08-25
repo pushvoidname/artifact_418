@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "textColor",
+    "API_Type": "Property",
+    "API_Description": "Specifies the color of the text within the span. The color is represented as a number, typically in a format that encodes RGB values.",
+    "API_Description_Reason": "The property is named 'textColor', which implies it controls the color of the text. The use of a number as a parameter suggests it encodes color information, likely in a format such as RGB.",
+    "Returns": "The current color of the text as a number.",
+    "Returns_Reason": "Since this is a property, it likely returns the current value of the text color, which is represented as a number.",
+    "Parameters": {
+        "unknown": {
+            "description": "A number representing the color of the text, typically encoded in a format such as RGB.",
+            "description_reason": "The parameter is a number, which is commonly used to represent colors in digital formats, such as RGB or hexadecimal.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated to be a number, which aligns with common practices for encoding color values."
+        }
+    }
+}

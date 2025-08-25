@@ -1,0 +1,22 @@
+{
+  "Object": "spell",
+  "API_Name": "check",
+  "API_Type": "Method",
+  "API_Description": "Presents the Spelling dialog box to allow the user to correct misspelled words in form fields, annotations, or other objects.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "aDomain": {
+      "description": "(optional) An array of Doc that should be checked by the Spelling plug-in, for example, form fields or comments. When you do not supply an array of domains, the \u201cEveryThing\u201d domain will be used. An array of the domains that have been registered can be obtained using the domainNames property."
+    },
+    "aDictionary": {
+      "description": "(optional) The array of dictionary names or language codes that the spell checker should use. The order of the dictionaries in the array is the order the spell checker will use to check for misspelled words. An array of the currently installed dictionaries can be obtained using spell.dictionaryNames or spell.languages. When this parameter is omitted, the spellDictionaryOrder list will be searched followed by the dictionaryOrder list."
+    }
+  },
+  "Returns": "`true` if the user changed or ignored all the flagged words. When the user dismisses the dialog box before checking everything, the method returns `false` .",
+  "Examples": [
+    "Set the dictionaries, then spell check the comments and form fields of the current document. Reports back to the console.\n\n```\nvar dictionaries = [\"de\", \"French\", \"en-GB\"];\nvar domains = [\"All Form Fields\", \"All Annotations\"];\nif (spell.check(domains, dictionaries) )\n    console.println(\"You get an A for spelling.\");\nelse\n    console.println(\"Please spell check this form before you submit.\");\n```"
+  ]
+}

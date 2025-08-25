@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "removeField",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "cName"
+    ],
+    "Actions_Arg": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "XFAForeground",
+  "API_Type": "Properties",
+  "API_Description": "**Returns** `true` if the document is an XFA Foreground type of form and `false` otherwise. Beginning with version 8.0, a PDF file can be imported as artwork into LiveCycle Designer. The possibly rich graphical content of the PDF is used as a background on which form fields can be placed using LiveCycle Designer. The `XFAForeground` property reports back whether the PDF was created in this way, a value of `true` means the PDF was imported into LiveCycle Designer as artwork, then saved by LiveCycle Designer.",
+  "Version_Key": "8.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": [
+    "Example: This script determines whether the current document is an XFA Foreground type of form, that is, whether it was created by importing a PDF into LiveCycle Designer and saved.\n\n```\nif ( this.XFAForeground )\n    console.println(\"This is an XFA Foreground form.\");\n```"
+  ]
+}

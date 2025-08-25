@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "newPage",
+    "API_Type": "Method",
+    "API_Description": "Adds a new page to the PDF document.",
+    "API_Description_Reason": "The method name 'newPage' suggests that it is used to create or add a new page to the document.",
+    "Returns": "The index of the newly added page.",
+    "Returns_Reason": "Typically, methods that add a new element to a collection return the index or reference to the newly added element, allowing further manipulation or reference.",
+    "Parameters": {}
+}

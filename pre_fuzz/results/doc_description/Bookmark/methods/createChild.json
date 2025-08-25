@@ -1,0 +1,25 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "createChild",
+  "API_Type": "Method",
+  "API_Description": "Creates a new child bookmark at the specified location.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the bookmark that the user sees in the navigation panel."
+    },
+    "cExpr": {
+      "description": "(optional) An expression to be evaluated whenever the user clicks the bookmark. It is equivalent to creating a bookmark with a JavaScript action, as described in the PDF Reference. The default is no expression."
+    },
+    "nIndex": {
+      "description": "(optional) The 0-based index into the children array of the bookmark at which to create the new child. The default is 0."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Create a bookmark at the top of the bookmark panel that takes you to the next page in the document.\n\n```\nthis.bookmarkRoot.createChild(\"Next Page\", \"this.pageNum++\");\n```"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "getOCGs",
+  "API_Type": "Method",
+  "API_Description": "Gets an array of `OCG` objects found on a specified page.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based page number. If not specified, all the OCGs found in the document are returned.  If no argument is passed, returns all OCGs listed in alphabetical order, by name. If nPage is passed, this method returns the OCGs for that page, in the order they were created."
+    }
+  },
+  "Returns": "An array of `OCG` objects or `null` if no OCGs are present.",
+  "Examples": [
+    "Turn on all the OCGs on the given document and page.\n\n```\nfunction TurnOnOCGsForPage(doc, nPage)\n{\n    var ocgArray = doc.getOCGs(nPage);\n    for (var i=0; i < ocgArray.length; i++)\n        ocgArray[i].state = true;\n}\n```"
+  ],
+  "Related methods": "are getOCGOrder and setOCGOrder , and the OCG object."
+}

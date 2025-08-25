@@ -1,0 +1,14 @@
+{
+    "Object": "Doc",
+    "API_Name": "colorConvertPage",
+    "API_Type": "method",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": [
+        "actions",
+        "inkActions"
+    ],
+    "Actions_Arg": [
+        "actions",
+        "inkActions"
+    ]
+}

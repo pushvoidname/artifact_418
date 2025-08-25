@@ -1,0 +1,8 @@
+{
+    "Object": "media",
+    "API_Name": "windowType",
+    "API_Type": "property",
+    "Return_Type": "String",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

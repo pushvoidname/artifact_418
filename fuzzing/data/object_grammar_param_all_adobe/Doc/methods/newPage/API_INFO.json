@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "newPage",
+    "API_Type": "method",
+    "Return_Type": "Page",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

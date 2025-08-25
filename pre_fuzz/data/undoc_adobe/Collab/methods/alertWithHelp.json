@@ -1,0 +1,11 @@
+{
+    "Object": "Collab",
+    "API_Name": "alertWithHelp",
+    "API_Type": "method",
+    "Parameters": {
+        "cMsg": "string",
+        "cTip": "string",
+        "cTitle": "string",
+        "cPref": "string"
+    }
+}

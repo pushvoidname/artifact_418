@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "borderEffectStyle",
+  "API_Type": "Properties",
+  "API_Description": "If non-empty, the name of a border effect style. Currently, the only supported border effects are the empty string (nothing) or \u201cC\u201d for cloudy. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

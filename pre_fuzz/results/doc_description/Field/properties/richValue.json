@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "richValue",
+  "API_Type": "Properties",
+  "API_Description": "This property specifies the text contents and formatting of a rich text field. For field types other than rich text, this property is `undefined` . The rich text contents are represented as an array of `Span` objects containing the text contents and formatting of the field. **Fields** rich text Related objects and properties are richText , defaultStyle , `event.` , `event.` richChange , `event.` richChangeEx , the `Annotation` object richContents property, and the Span object.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Array of Span objects",
+  "Access": "R/W",
+  "Examples": [
+    "Example 1: Turn all bold text into red underlined text.\n\n```\nvar f = this.getField(\"Text1\");\nvar spans = f.richValue;\nfor ( var i = 0; i < spans.length; i++ )\n{\n    if( spans[i].fontWeight >= 700 )\n    {\n        spans[i].textColor = color.red;\n        spans[i].underline = true;\n    }\n}\nf.richValue = spans;\n```\n\nExample\n\n2\n\nCreate a text field, marks it for rich text formatting, and inserts rich text.\n\n```\nvar myDoc = app.newDoc();                  // Create a blank doc\nvar Bbox = myDoc.getPageBox(\"Crop\");       // Get crop box\nvar inch = 72;\n\n// Add a text field at the top of the document\nvar f = myDoc.addField(\"Text1\", \"text\", 0,\n    [72, Bbox[1]-inch, Bbox[2]-inch, Bbox[1]-2*inch ] );\n// Add some attributes to this text field\nf.strokeColor = color.black;\nf.richText = true;                         // Rich text\nf.multiline = true;                        // Multiline\n\n// Now build up an array of Span objects\nvar spans = new Array();\nspans[0] = new Object();\nspans[0].text = \"Attention:r\";\nspans[0].textColor = color.blue;\nspans[0].textSize = 18;\n\nspans[1] = new Object();\nspans[1].text = \"Adobe Acrobat 6.0r\";\nspans[1].textColor = color.red;\nspans[1].textSize = 20;\nspans[1].alignment = \"center\";\n\nspans[2] = new Object();\nspans[2].text = \"will soon be here!\";\nspans[2].textColor = color.green;\nspans[2].fontStyle = \"italic\";\nspans[2].underline = true;\nspans[2].alignment = \"right\";\n\n// Now give the rich field a rich value\nf.richValue = spans;\n```"
+  ]
+}

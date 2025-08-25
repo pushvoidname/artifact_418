@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "browseForFolder",
+    "API_Type": "Method",
+    "API_Description": "Opens a dialog for the user to browse and select a folder.",
+    "API_Description_Reason": "The method name 'browseForFolder' suggests functionality related to opening a folder selection dialog, which is a common feature in applications that require user input for directory paths.",
+    "Returns": "The path of the selected folder as a string.",
+    "Returns_Reason": "Since the method is likely used to select a folder, it would return the path of the selected folder, which is typically represented as a string.",
+    "Parameters": {}
+}

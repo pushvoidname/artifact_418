@@ -1,0 +1,17 @@
+{
+    "Object": "identity",
+    "API_Name": "loginName",
+    "API_Type": "property",
+    "API_Description": "Represents the login name of the current user of the application.",
+    "API_Description_Reason": "The loginName property is typically used to identify the user by their login credentials, which is a common practice in applications to personalize user experience and manage user sessions.",
+    "Returns": "The login name of the current user as a string.",
+    "Returns_Reason": "Since loginName is a property that identifies the user, it is expected to return a string that represents the user's login credentials or username.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the loginName property.",
+            "description_reason": "The type parameter is used to specify the data type of the property, which is essential for understanding how to handle the property value in the application.",
+            "type": "string",
+            "type_reason": "Login names are typically represented as strings, as they consist of alphanumeric characters and possibly special characters."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "charLimit",
+  "API_Type": "Properties",
+  "API_Description": "Limits the number of characters that a user can type into a text field. See `event.` fieldFull to detect when the maximum number of characters is reached. **Fields** `text`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Set a limit on the number of characters that can be typed into a field.\n\n```\nvar f = this.getField(\"myText\");\nf.charLimit = 20;\n```"
+  ]
+}

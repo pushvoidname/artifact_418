@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "removeReviewFolder",
+    "API_Type": "Method",
+    "API_Description": "Removes a review folder from the collaboration system based on the specified category and folder name.",
+    "API_Description_Reason": "The method name 'removeReviewFolder' suggests it is used to remove a review folder, and the parameters 'cCategory' and 'cFolder' imply that the removal is based on a specific category and folder name.",
+    "Returns": "A boolean indicating whether the review folder was successfully removed.",
+    "Returns_Reason": "Typically, methods that perform a removal operation return a boolean to indicate success or failure.",
+    "Parameters": {
+        "cCategory": {
+            "description": "The category under which the review folder is classified.",
+            "description_reason": "The parameter name 'cCategory' suggests it specifies the category of the review folder to be removed.",
+            "type": "string",
+            "type_reason": "Categories are usually represented as strings to allow for descriptive naming."
+        },
+        "cFolder": {
+            "description": "The name of the review folder to be removed.",
+            "description_reason": "The parameter name 'cFolder' indicates it specifies the name of the folder to be removed.",
+            "type": "string",
+            "type_reason": "Folder names are typically strings to allow for descriptive and flexible naming."
+        }
+    }
+}

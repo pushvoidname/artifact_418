@@ -1,0 +1,9 @@
+{
+    "Object": "FormWorkflow",
+    "API_Name": "addFormWorkflowFolder",
+    "API_Type": "method",
+    "Parameters": {
+        "cCategory": "string",
+        "cFolder": "string"
+    }
+}

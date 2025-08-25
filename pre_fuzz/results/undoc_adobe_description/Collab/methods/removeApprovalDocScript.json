@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "removeApprovalDocScript",
+    "API_Type": "Method",
+    "API_Description": "Removes a specified approval script from a document.",
+    "API_Description_Reason": "The method name 'removeApprovalDocScript' suggests that it is used to remove a script related to document approval. This aligns with the collaboration functionality of the Collab object.",
+    "Returns": "A boolean indicating whether the script was successfully removed.",
+    "Returns_Reason": "Typically, methods that perform an action like removing an item return a boolean to indicate success or failure.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object from which the approval script will be removed.",
+            "description_reason": "The parameter name 'doc' implies it is a document object, which is common in APIs dealing with document manipulation.",
+            "type": "object",
+            "type_reason": "The 'doc' parameter is likely a document object, as it is a common type used in document-related operations."
+        },
+        "scriptName": {
+            "description": "The name of the approval script to be removed from the document.",
+            "description_reason": "The parameter 'scriptName' suggests it specifies the name of the script to be removed, which is necessary to identify the correct script.",
+            "type": "string",
+            "type_reason": "The 'scriptName' is likely a string because it represents the name of the script, which is typically a text identifier."
+        }
+    }
+}

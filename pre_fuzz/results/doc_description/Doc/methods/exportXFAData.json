@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "exportXFAData",
+  "API_Type": "Method",
+  "API_Description": "Exports the XFA data (if any) from the document and saves it as an XDP file.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "F",
+  "Parameters": {
+    "cPath": {
+      "description": "(optional) A device-independent path for the file. The path may be relative to the document. If this parameter is omitted, a dialog box is shown to let the user select the file.  The path must meet the following conditions:  -  It must be a safe path (see Safe path). -  If bXDP is true, the file name must have an .xdp extension.  -  If bXDP is false, the file name must have an .xml extension.   This method throws a NotAllowedError (see Error object) exception if these conditions are not met."
+    },
+    "bXDP": {
+      "description": "(optional) If true (the default), the data is exported in XDP format. Otherwise, it is exported in plain XML data format."
+    },
+    "aPackets": {
+      "description": "(optional) An array of strings specifying the packets to include in the XDP export. This parameter is applicable only if bXDP is true.   Possible strings are:  template datasets stylesheet xfdf sourceSet pdf config *   If pdf is specified, the PDF file is embedded. Otherwise, only a link to the PDF file is included in the XDP file.  If xfdf is specified, annotations are included in the XDP file (since that packet uses XFDF format).  If * is specified, all packets are included in the XDP file. However, the default for the pdf packet is to include it as a reference . To embed the PDF file in the XDP file, explicitly specify pdf as one of the packets.  -  (Save rights required) When exporting in the XDP format from Adobe Reader, the document must have document save rights only in the case where pdf is listed explicitly.  The default for this parameter is: [\"datasets\", \"xfdf\"]."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Export XFA data. In the following example, all packets are included. However, the PDF document is referenced, not embedded:\n\n```\nthis.exportXFAData({\n    cPath: \"/c/temp/myData.xdp\",\n    bXDP: true,\n    aPackets: [\"*\"]\n})\n```\n\nIn this example, all packets are included, with the PDF document embedded in the XDP file.\n\n```\nthis.exportXFAData({\n    cPath: \"/c/temp/myData.xdp\",\n    bXDP: true,\n    aPackets: [\"*\",\"pdf\"]\n})\n```"
+  ]
+}

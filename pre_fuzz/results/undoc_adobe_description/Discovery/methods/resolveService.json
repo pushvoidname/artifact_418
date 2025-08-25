@@ -1,0 +1,35 @@
+{
+    "Object": "Discovery",
+    "API_Name": "resolveService",
+    "API_Type": "Method",
+    "API_Description": "Resolves a network service by its type, service name, and domain, and populates the result into the provided object.",
+    "API_Description_Reason": "The method name 'resolveService' suggests it is used to resolve or find details about a network service. The parameters indicate it requires information about the service type, name, and domain, and outputs the result into an object.",
+    "Returns": "The method does not return a value but populates the provided oResult object with the service details.",
+    "Returns_Reason": "The presence of the 'oResult' parameter, which is a built-in object, suggests that the method populates this object with the results instead of returning a value directly.",
+    "Parameters": {
+        "cType": {
+            "description": "The type of the service to resolve.",
+            "description_reason": "The parameter name 'cType' implies it specifies the category or type of the service being resolved.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest it is a string representing the service type."
+        },
+        "cService": {
+            "description": "The name of the service to resolve.",
+            "description_reason": "The parameter name 'cService' indicates it specifies the specific service name to be resolved.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest it is a string representing the service name."
+        },
+        "cDomain": {
+            "description": "The domain in which to resolve the service.",
+            "description_reason": "The parameter name 'cDomain' suggests it specifies the domain context for resolving the service.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest it is a string representing the domain."
+        },
+        "oResult": {
+            "description": "An object that will be populated with the resolved service details.",
+            "description_reason": "The parameter name 'oResult' and its type as a built-in object imply it is used to store the output of the resolution process.",
+            "type": "object",
+            "type_reason": "The context and naming suggest it is an object used to hold the result of the service resolution."
+        }
+    }
+}

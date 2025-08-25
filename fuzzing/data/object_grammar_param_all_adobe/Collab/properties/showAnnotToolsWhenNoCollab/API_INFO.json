@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "showAnnotToolsWhenNoCollab",
+    "API_Type": "property",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

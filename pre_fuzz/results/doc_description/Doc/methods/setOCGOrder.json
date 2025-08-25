@@ -1,0 +1,20 @@
+{
+  "Object": "Doc",
+  "API_Name": "setOCGOrder",
+  "API_Type": "Method",
+  "API_Description": "Sets this document\u2019s OCGOrder array. This array represents how layers are displayed in the UI.",
+  "Version": "7.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "oOrderArray": {
+      "description": "The array to be used as this document\u2019s OCG Order array."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Reverse the order of OCGs as listed in the UI.\n\n```\nvar ocgOrder = this.getOCGOrder();\nvar newOrder = new Array();\nfor (var j=0; j < ocgOrder.length; j++)\n    newOrder[j] = ocgOrder[ocgOrder.length-j-1];\nthis.setOCGOrder(newOrder);\n```"
+  ],
+  "Related methods": "are getOCGs and getOCGOrder , and the OCG object."
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "path",
+  "API_Type": "Properties",
+  "API_Description": "The device-independent path of the document, for example: ``` /c/Program Files/Adobe/ Acrobat 11.0/Help/AcroHelp.pdf ``` The file name of the document can be acquired by the `documentFileName` property. See also the URL property.",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R",
+  "Examples": []
+}

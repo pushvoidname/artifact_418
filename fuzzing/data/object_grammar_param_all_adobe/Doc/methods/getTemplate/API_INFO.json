@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getTemplate",
+    "API_Type": "method",
+    "Return_Type": null,
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

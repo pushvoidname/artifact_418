@@ -1,0 +1,12 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSpecial_KeystrokeEx",
+    "API_Type": "method",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": [
+        "unknown"
+    ],
+    "Actions_Arg": [
+        "unknown"
+    ]
+}

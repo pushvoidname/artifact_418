@@ -1,0 +1,40 @@
+{
+  "Object": "app",
+  "API_Name": "addToolButton",
+  "API_Type": "Method",
+  "API_Description": "Adds a button to the \u201cAdd-on\u201d toolbar of Acrobat 9 or earlier. In Acrobat X, adds a button to the Plugin Addon Tools panel on the right side of the display area.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "A unique language-independent identifier for the button. The language-independent name is used to access the button for other methods (for example, removeToolButton).   -  The value of cName must be unique. To avoid a name conflict, check listToolbarButtons, which lists all toolbar button names currently installed."
+    },
+    "oIcon": {
+      "description": "An Icon Stream object.  Beginning with Acrobat 7.0, this parameter is optional if a cLabel is provided."
+    },
+    "cExec": {
+      "description": "The expression string to evaluate when the button is selected."
+    },
+    "cEnable": {
+      "description": "(optional) An expression string that determines whether to enable the toolbutton. The default is that the button is always enabled. This expression should set event.rc to false to disable the button."
+    },
+    "cMarked": {
+      "description": "(optional) An expression string that determines whether the toolbutton is marked. The default is that the button is not marked. This expression should set event.rc to true to mark the button."
+    },
+    "cTooltext": {
+      "description": "(optional) The text to display in the button help text when the mouse is over the toolbutton. The default is not to have a tool tip.  -  Avoid the use of extended characters in the cTooltext string as the string may be truncated."
+    },
+    "nPos": {
+      "description": "(optional) The button number to place the added button before in the toolbar. If nPos is -1 (the default), the button is appended to the toolbar."
+    },
+    "cLabel": {
+      "description": "(optional, Acrobat 7.0) A text label to be displayed on the button to the right of the icon. The default is not to have a label."
+    }
+  },
+  "Returns": "`undefined`",
+  "Examples": [
+    "Create a button from an icon graphic on the user\u2019s hard drive. This script is executed from the console.\n\n```\n// Create a document\nvar myDoc = app.newDoc();\n\n// import icon (20x20 pixels) from the file specified\nmyDoc.importIcon(\"myIcon\", \"/C/myIcon.jpg\", 0);\n\n// convert the icon to a stream.\noIcon = util.iconStreamFromIcon(myDoc.getIcon(\"myIcon\"));\n\n// close the doc now that we have grabbed the icon stream\nmyDoc.closeDoc(true);\n\n// add a toolbutton\napp.addToolButton({\n    cName: \"myToolButton\",\n    oIcon: oIcon,\n    cExec: \"app.alert('Someone pressed me!')\",\n    cTooltext: \"Push Me!\",\n    cEnable: true,\n    nPos: 0\n});\n\napp.removeToolButton(\"myToolButton\")\n```\n\nSee also the example following `util.` iconStreamFromIcon ."
+  ]
+}

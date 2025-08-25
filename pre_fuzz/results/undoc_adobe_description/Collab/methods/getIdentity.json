@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "getIdentity",
+    "API_Type": "Method",
+    "API_Description": "Retrieves the identity information for the current user in the collaboration environment.",
+    "API_Description_Reason": "The method name 'getIdentity' suggests it is used to obtain identity-related information, likely for the user involved in the collaboration.",
+    "Returns": "An object containing the user's identity information.",
+    "Returns_Reason": "Since the method is named 'getIdentity', it is reasonable to assume it returns some form of identity data, likely as an object.",
+    "Parameters": {
+        "bShowDontShowAgain": {
+            "description": "A boolean flag indicating whether to show a 'Don't Show Again' option in the identity prompt.",
+            "description_reason": "The parameter name 'bShowDontShowAgain' implies it controls the display of a 'Don't Show Again' option, which is common in user prompts.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix and the nature of the parameter suggest it is a boolean, as it likely represents a true/false condition."
+        },
+        "cInstructionalText": {
+            "description": "A string containing instructional text to be displayed to the user when retrieving identity information.",
+            "description_reason": "The parameter name 'cInstructionalText' suggests it provides text instructions, likely to guide the user during the identity retrieval process.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context of the parameter suggest it is a string, as it is meant to hold text data."
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Object": "app",
+    "API_Name": "browseForMultipleDocs",
+    "API_Type": "method",
+    "Parameters": {
+        "cFilenameInit": "string",
+        "cFSInit": "string",
+        "bUnicode": "boolean",
+        "cFileFilter": "number",
+        "cWindowTitle": "string",
+        "bAllowMultiple": "boolean"
+    }
+}

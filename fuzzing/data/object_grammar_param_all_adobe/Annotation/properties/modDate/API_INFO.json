@@ -1,0 +1,8 @@
+{
+    "Object": "Annotation",
+    "API_Name": "modDate",
+    "API_Type": "properties",
+    "Return_Type": "date",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

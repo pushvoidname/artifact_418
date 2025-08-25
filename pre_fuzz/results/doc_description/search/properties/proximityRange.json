@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "proximityRange",
+  "API_Type": "Properties",
+  "API_Description": "The range of proximity search in number of words. This property will be used only if the property `proximity` is set to `true` . See the sections in the Acrobat Help pertaining to Search capabilities for a more thorough discussion of proximity. The default is 900 words. The value of this parameter can be any non-zero positive integer.",
+  "Version_Key": "7.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

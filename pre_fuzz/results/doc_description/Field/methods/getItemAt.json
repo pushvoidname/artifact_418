@@ -1,0 +1,22 @@
+{
+  "Object": "Field",
+  "API_Name": "getItemAt",
+  "API_Type": "Method",
+  "API_Description": "Gets the internal value of an item in a combo box or a list box.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nIdx": {
+      "description": "The 0-based index of the item in the list or -1 for the last item in the list."
+    },
+    "bExportValue": {
+      "description": "(optional, Acrobat 5.0) Specifies whether to return an export value:  -  If true (the default), if the item has an export value, it is returned. If there is no export value, the item name is returned. -  If false, the method returns the item name."
+    }
+  },
+  "Returns": "The export value or name of the specified item.",
+  "Examples": [
+    "In the two examples that follow, assume there are three items on \u201cmyList\u201d: \u201cFirst\u201d, with an export value of 1; \u201cSecond\u201d, with an export value of 2; and \u201cThird\u201d, with no export value.\n\n```\n// Returns value of first item in list, which is 1\nvar f = this.getField(\"myList\");\nvar v = f.getItemAt(0);\n```\n\nThe following example shows the use of the second optional parameter. By setting it to `false` , the item name (face value) can be obtained, even if there is an export value.\n\n```\nfor (var i=0; i < f.numItems; i++)\n    console.println(f.getItemAt(i,true) + \":  \" + f.getItemAt(i,false));\n```\n\nThe output to the console reads:\n\n```\n1:            First\n2:            Second\nThird:        Third\n```"
+  ]
+}

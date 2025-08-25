@@ -1,0 +1,10 @@
+{
+  "object": "app",
+  "apiName": "app",
+  "apiType": "Object",
+  "apiDescription": "A static JavaScript object that represents the Acrobat application. It defines a number of Acrobat-specific functions plus a variety of utility routines and convenience functions.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

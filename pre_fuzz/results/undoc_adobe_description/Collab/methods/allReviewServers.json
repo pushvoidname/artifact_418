@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "allReviewServers",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a list of all review servers based on the specified review type.",
+    "API_Description_Reason": "The method name 'allReviewServers' suggests it returns a collection of review servers. The parameter 'cReviewType' implies that the list can be filtered or categorized by a specific type of review.",
+    "Returns": "An array of review server objects.",
+    "Returns_Reason": "Since the method is named 'allReviewServers', it is logical to assume that it returns a collection, likely in the form of an array, of review server objects.",
+    "Parameters": {
+        "cReviewType": {
+            "description": "The type of review for which to retrieve the servers. This parameter allows filtering of servers based on the review type.",
+            "description_reason": "The parameter name 'cReviewType' indicates that it specifies the type of review, which is used to filter or categorize the review servers.",
+            "type": "string",
+            "type_reason": "The 'c' prefix in 'cReviewType' suggests a string type, commonly used for identifiers or categories."
+        }
+    }
+}

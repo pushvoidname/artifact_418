@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "flattenPages",
+  "API_Type": "Method",
+  "API_Description": "Converts all annotations in a page range to page contents. If a page range is not specified, all annotations in the document are converted.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages in the current document. If only nStart is specified, the page range is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive range of pages in the current document."
+    },
+    "nNonPrint": {
+      "description": "(optional, Acrobat 6.0) This parameter determines how to handle non-printing annotations. Values are:"
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Flatten all pages in the document.\n\n```\nthis.flattenPages();\n```"
+  ]
+}

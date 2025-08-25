@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "author",
+  "API_Type": "Properties",
+  "API_Description": "Gets or sets the author of the annotation. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": [
+    "Example: See the contents property."
+  ]
+}

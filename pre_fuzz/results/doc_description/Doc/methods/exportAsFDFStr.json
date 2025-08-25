@@ -1,0 +1,36 @@
+{
+  "Object": "Doc",
+  "API_Name": "exportAsFDFStr",
+  "API_Type": "Method",
+  "API_Description": "Computes the same results as calling the `doc.exportAsFDF` method, but returns the results as a string instead of saving to a file.",
+  "Version": "8.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "bAllFields": {
+      "description": "(optional) If true, all fields are exported, including those that have no value. If false (the default), excludes those fields that currently have no value."
+    },
+    "bNoPassword": {
+      "description": "(optional) If true (the default), do not include text fields that have the password flag set in the exported FDF file."
+    },
+    "aFields": {
+      "description": "(optional) The array of field names to submit or a string containing a single field name:  -  If specified, only these fields are exported, except those excluded by bNoPassword.  -  If aFields is an empty array, no fields are exported. The FDF file might still contain data, depending on the bAnnotations parameter. -  If this parameter is omitted or is null, all fields in the form are exported, except those excluded by bNoPassword.   Specify non-terminal field names to export an entire subtree of fields (see the example below)."
+    },
+    "bFlags": {
+      "description": "(optional) If true, field flags are included in the exported FDF file. The default is false."
+    },
+    "bAnnotations": {
+      "description": "Must be false, which is the default. Annotations are not supported."
+    },
+    "cHRef": {
+      "description": "When supplied, its value is inserted as the source or target file of the returned FDF expression (i.e., the value of the F key in the FDF dictionary)."
+    }
+  },
+  "Returns": "The contents of the file as would be produced by the `doc.exportAsFDF` method, returned as a string. If supplied, the `cHRef` parameter is inserted as the value of the",
+  "Examples": [
+    "Get form data for the fields `FirstName` , `LastName` and `Address` in FDF format as a string.\n\n```\nvar cFDF = this.exportAsFDFStr({\n   aFields: [\"FirstName\", \"LastName\", \"Address\"],\n   cHRef: \"http://www.example.com/formcatalog/ThisFormName.pdf\"\n});\n```"
+  ],
+  "F": "key contains the value as `doc.exportAsFDF` would produce.",
+  "FDF": "dictionary. If not supplied, the"
+}

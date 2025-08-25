@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "media",
+  "API_Type": "Properties",
+  "API_Description": "An object that contains multimedia properties and methods for the document. The properties and methods are described under the Doc.media object.",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Doc.media object",
+  "Access": "R/W",
+  "Examples": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsColor",
+    "API_Type": "Property",
+    "API_Description": "Specifies the color used in full-screen mode.",
+    "API_Description_Reason": "The name 'fsColor' suggests it is related to color settings for full-screen mode, as 'fs' likely stands for 'full-screen'.",
+    "Returns": "The color value used in full-screen mode.",
+    "Returns_Reason": "As a property, it likely returns the current color setting for full-screen mode.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the color value, which could be a string representing a color name or a color code.",
+            "description_reason": "The parameter 'type' is mentioned, indicating the data type of the color value, which is common for color properties.",
+            "type": "unknown",
+            "type_reason": "The exact data type is not specified, but it is likely related to color representation."
+        }
+    }
+}

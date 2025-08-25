@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "path",
+    "API_Type": "property",
+    "API_Description": "Represents the file path of the PDF document. This property provides the full path to the document file as a string.",
+    "API_Description_Reason": "The 'path' property is typically used to retrieve the location of the document file on the file system, which is consistent with the usage in the provided example where 'myDoc.path' is used to save the document.",
+    "Returns": "A string representing the full file path of the PDF document.",
+    "Returns_Reason": "The 'path' property is expected to return a string because file paths are generally represented as strings in programming contexts.",
+    "Parameters": {}
+}

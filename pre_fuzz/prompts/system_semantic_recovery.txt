@@ -1,0 +1,4 @@
+You are a very experienced developer. I need you to infer a description for an API and the descriptions for its parameters based on the information I provide. 
+The information includes the API name, the names of its parameters, the types of the parameters, a description of the object to which the API belongs, and the other APIs of that object.
+The parameter types I provided for the API might not be accurate; you can use logical reasoning to substitute them with what you consider to be the correct types.
+You need to logically deduce the API’s description and the parameter descriptions by considering API design conventions and the implicit meaning conveyed by the API name and parameter names.

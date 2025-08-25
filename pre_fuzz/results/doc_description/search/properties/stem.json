@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "stem",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether the search query will take the stemming of words (for example, run, runs, running) into account when performing the search. The default is `false` . See the sections in the Acrobat Help pertaining to Search capabilities for a more thorough discussion of stemming.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

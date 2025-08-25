@@ -1,0 +1,8 @@
+{
+    "Object": "fs",
+    "API_Name": "loop",
+    "API_Type": "property",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

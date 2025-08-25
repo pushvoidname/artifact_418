@@ -1,0 +1,12 @@
+{
+    "Object": "bookmarkRoot",
+    "API_Name": "createChild",
+    "API_Type": "method",
+    "Return_Type": "Bookmark",
+    "Scripts_Arg": [
+        "cExpr"
+    ],
+    "Actions_Arg": [
+        "cExpr"
+    ]
+}

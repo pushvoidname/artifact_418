@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "scaleHow",
+    "API_Type": "property",
+    "API_Description": "Determines how the document is scaled when displayed in the viewer.",
+    "API_Description_Reason": "The name 'scaleHow' suggests it controls the method or manner in which the document is scaled, which is a common property for display settings in document viewers.",
+    "Returns": "A value indicating the scaling method used for the document display.",
+    "Returns_Reason": "Since 'scaleHow' is a property, it likely returns a value that represents the current scaling method, which could be a string or an enumerated type.",
+    "Parameters": {
+        "type": {
+            "description": "The type of scaling method applied to the document.",
+            "description_reason": "The parameter 'type' is likely related to the kind of scaling applied, such as 'fit to page', 'fit to width', etc.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it could be a string or an enumerated type representing different scaling options."
+        }
+    }
+}

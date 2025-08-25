@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "AVUMAddStringToPayloadWrapper",
+    "API_Type": "Method",
+    "API_Description": "Adds a string value to a payload, typically used in collaboration or review workflows.",
+    "API_Description_Reason": "The method name suggests it involves adding a string to a payload, which is a common operation in collaboration systems for passing data.",
+    "Returns": "A boolean indicating success or failure of the operation.",
+    "Returns_Reason": "Methods that perform an action like adding data often return a boolean to indicate if the operation was successful.",
+    "Parameters": {
+        "name": {
+            "description": "The name or key associated with the string value to be added to the payload.",
+            "description_reason": "The parameter 'name' typically refers to a key or identifier in key-value operations.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string as it represents a name or key, which are usually strings."
+        },
+        "val": {
+            "description": "The string value to be added to the payload.",
+            "description_reason": "The parameter 'val' is likely the value being added, and since the method is about adding a string, it is a string type.",
+            "type": "string",
+            "type_reason": "The parameter is a string as it represents the value being added to the payload."
+        }
+    }
+}

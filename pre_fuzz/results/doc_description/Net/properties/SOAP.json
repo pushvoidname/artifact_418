@@ -1,0 +1,13 @@
+{
+  "Object": "Net",
+  "API_Name": "SOAP",
+  "API_Type": "Properties",
+  "API_Description": "The `Net.SOAP` object allows for communication with network services that use the SOAP Messaging Protocol. The `Net.SOAP` object has one property and three method. See the referenced link for full documentation. Name | Short Description ------------------------ Net.SOAP properties | wireDump | If true, synchronous SOAP requests will cause the XML Request and Response to be dumped to the JavaScript Console. This is useful for debugging SOAP problems. Net.SOAP methods | connect | Converts the URL of a WSDL document to a JavaScript object with callable methods corresponding to the web service. request | Initiates a remote procedure call (RPC) or sends an XML message to a SOAP HTTP endpoint. The method either waits for the endpoint to reply (synchronous processing) or calls a method on the notification object (asynchronous processing). response | Initiates a remote procedure call (RPC) or sends an XML message to a SOAP HTTP endpoint without waiting for a reply.",
+  "Version_Key": "8.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Object",
+  "Access": "R",
+  "Examples": []
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "importDataObject",
+    "API_Type": "Method",
+    "API_Description": "Imports a data object into the PDF document.",
+    "API_Description_Reason": "The method name 'importDataObject' suggests that it is used to import a data object into the PDF document, similar to other methods like 'exportDataObject' which exports data objects.",
+    "Returns": "A boolean indicating the success of the import operation.",
+    "Returns_Reason": "Typically, import operations return a boolean to indicate success or failure, allowing the caller to handle any errors or confirm the operation's success.",
+    "Parameters": {
+        "unknown": {
+            "description": "The parameter required for importing the data object, possibly including the data object itself or its source.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating that its exact purpose is not documented, but it is likely related to specifying the data object to be imported.",
+            "type": "unknown",
+            "type_reason": "The type is marked as 'unknown' because the documentation does not provide details about the expected input for this parameter."
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "Object": "TTS",
+    "API_Name": "speechRate",
+    "API_Type": "properties",
+    "Return_Type": "Integer",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

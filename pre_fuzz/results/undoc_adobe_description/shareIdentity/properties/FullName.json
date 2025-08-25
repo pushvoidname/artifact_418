@@ -1,0 +1,9 @@
+{
+    "Object": "shareIdentity",
+    "API_Name": "FullName",
+    "API_Type": "property",
+    "API_Description": "Represents the full name of the user associated with the share identity.",
+    "API_Description_Reason": "The property name 'FullName' suggests it holds the complete name of a user, which is a common attribute in identity-related objects.",
+    "Returns": "A string representing the user's full name.",
+    "Returns_Reason": "Since the parameter type is specified as 'string', it is logical to assume that the property returns a string value representing the full name."
+}

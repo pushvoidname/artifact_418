@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "swAcceptTOU",
+    "API_Type": "Method",
+    "API_Description": "Allows a user to accept the Terms of Use for the collaboration functionality.",
+    "API_Description_Reason": "The method name 'swAcceptTOU' suggests it is related to accepting Terms of Use (TOU), which is a common requirement for using collaboration features.",
+    "Returns": "A boolean indicating whether the Terms of Use were successfully accepted.",
+    "Returns_Reason": "The method likely returns a boolean to indicate success or failure of the acceptance process.",
+    "Parameters": {
+        "cUsername": {
+            "description": "The username of the user accepting the Terms of Use.",
+            "description_reason": "The parameter name 'cUsername' implies it is used to specify the user's username.",
+            "type": "string",
+            "type_reason": "Usernames are typically represented as strings."
+        },
+        "cPassword": {
+            "description": "The password of the user accepting the Terms of Use.",
+            "description_reason": "The parameter name 'cPassword' implies it is used to specify the user's password.",
+            "type": "string",
+            "type_reason": "Passwords are typically represented as strings."
+        }
+    }
+}

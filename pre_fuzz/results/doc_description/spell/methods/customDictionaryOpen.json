@@ -1,0 +1,25 @@
+{
+  "Object": "spell",
+  "API_Name": "customDictionaryOpen",
+  "API_Type": "Method",
+  "API_Description": "Adds a custom export dictionary to the list of available dictionaries. See customDictionaryExport .",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cDIPath": {
+      "description": "The device-independent path to the custom dictionary file."
+    },
+    "cName": {
+      "description": "Dictionary name used in the spelling dialog box. It can be used as the input parameter to check, checkText, and checkWord methods."
+    },
+    "bShow": {
+      "description": "(optional) If true, the default, the cName parameter is combined with \u201cUser: \u201d and that name is shown in all lists and menus. For example, if cName is \u201cTest\u201d, add \u201cUser: Test\u201d is added to all lists and menus. When bShow is false, this custom dictionary is not shown in any lists or menus."
+    }
+  },
+  "Returns": "`true` if successful, `false` on failure. This method fails if the user does not have read permission for the file.",
+  "Examples": [
+    "This example continues the ones following customDictionaryCreate and customDictionaryExport . It adds a custom export dictionary to the list of available dictionaries.\n\nThe user places the custom export dictionary in any folder for which there is read/write permission. A particular choice is the user `dictionaries` folder, whose location of can be obtained from the `app.getPath` method.\n\n```\napp.getPath(\"user\", \"dictionaries\");\n```\n\nAfter the export dictionary has been placed, listing it can be made automatic by adding some folder-level JavaScript. The path to the user JavaScripts folder can be obtained by executing\n\n```\napp.getPath(\"user\", \"javascript\");\n```\n\nFinally, create a `.js` file in this folder and add the line\n\n```\nvar myDictionaries = app.getPath(\"user\", \"dictionaries\");\nspell.customDictionaryOpen( myDictionaries, \"JavaScripts\", true);\n```\n\nThe next time Acrobat is started, the \u201cJavaScript\u201d dictionary will be open and available."
+  ]
+}

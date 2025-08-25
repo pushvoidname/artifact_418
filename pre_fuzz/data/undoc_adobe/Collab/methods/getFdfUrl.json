@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "getFdfUrl",
+    "API_Type": "method",
+    "Parameters": {
+        "cURL": "string"
+    }
+}

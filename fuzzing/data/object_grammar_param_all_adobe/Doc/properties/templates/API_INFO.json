@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "templates",
+    "API_Type": "properties",
+    "Return_Type": "Array[Template]",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

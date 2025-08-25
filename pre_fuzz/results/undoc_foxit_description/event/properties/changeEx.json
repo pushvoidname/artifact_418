@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "changeEx",
+    "API_Type": "property",
+    "API_Description": "Represents an extended change event that provides additional information about the change occurring in the event.",
+    "API_Description_Reason": "The name 'changeEx' suggests it is an extended version of a change event, likely providing more detailed information than the standard 'change' property.",
+    "Returns": "The extended change information associated with the event.",
+    "Returns_Reason": "As a property, 'changeEx' likely returns data related to the extended change event, providing more context or details about the change.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of change event being represented.",
+            "description_reason": "The parameter 'type' is common in event objects to specify the kind of event, which aligns with the purpose of 'changeEx' to provide extended event details.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type or structure is not documented or varies based on context."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANFB_ShouldCollaborate",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document should be enabled for collaboration features.",
+    "API_Description_Reason": "The property name 'ANFB_ShouldCollaborate' suggests it is a boolean flag that determines if collaboration features should be enabled for the document.",
+    "Returns": "A boolean value indicating the collaboration status.",
+    "Returns_Reason": "The property likely returns a boolean value because it is a flag that suggests a true or false state regarding collaboration capabilities.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value.",
+            "description_reason": "The parameter 'type' is likely used to specify or describe the data type of the property value.",
+            "type": "unknown",
+            "type_reason": "The type is specified as unknown, indicating that the exact data type is not documented or determined."
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "Object": "Field",
+  "API_Name": "setItems",
+  "API_Type": "Method",
+  "API_Description": "Sets the list of items for a combo box or a list box.",
+  "Version": "4.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Parameters": {
+    "oArray": {
+      "description": "An array in which each element is either an object convertible to a string or another array:  -  For an element that can be converted to a string, the user and export values for the list item are equal to the string. -  For an element that is an array, the array must have two subelements convertible to strings, where the first is the user value and the second is the export value."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "s**\n\nGet various fields (combo or list) and set items in the list using various techniques.\n\n```\nvar l = this.getField(\"ListBox\");\nl.setItems([\"One\", \"Two\", \"Three\"]);\n\nvar c = this.getField(\"StateBox\");\nc.setItems([[\"California\", \"CA\"],[\"Massachusetts\", \"MA\"],\n    [\"Arizona\", \"AZ\"]]);\n\nvar c = this.getField(\"NumberBox\");\nc.setItems([\"1\", 2, 3, [\"PI\", Math.PI]]);\n```"
+  ],
+  "Related methods": "and properties include numItems , getItemAt , deleteItemAt , currentValueIndices and clearItems ."
+}

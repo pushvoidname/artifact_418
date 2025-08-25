@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getNthFieldName",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "nIndex"
+    ]
+}

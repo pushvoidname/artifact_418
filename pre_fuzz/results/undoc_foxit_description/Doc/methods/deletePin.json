@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "deletePin",
+    "API_Type": "Method",
+    "API_Description": "Removes a pin annotation from the PDF document.",
+    "API_Description_Reason": "The method name 'deletePin' suggests it is used to remove a pin, which is a type of annotation or marker, from the document.",
+    "Returns": "A boolean indicating whether the pin was successfully deleted.",
+    "Returns_Reason": "Typically, methods that perform a delete operation return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

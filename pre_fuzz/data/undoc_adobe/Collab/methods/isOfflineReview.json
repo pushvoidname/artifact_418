@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "isOfflineReview",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object"
+    }
+}

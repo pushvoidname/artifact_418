@@ -1,0 +1,8 @@
+{
+    "Object": "media",
+    "API_Name": "getRendition",
+    "API_Type": "method",
+    "Return_Type": "Rendition",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

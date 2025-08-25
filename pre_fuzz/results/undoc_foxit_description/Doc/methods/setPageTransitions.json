@@ -1,0 +1,29 @@
+{
+    "Object": "Doc",
+    "API_Name": "setPageTransitions",
+    "API_Type": "Method",
+    "API_Description": "Sets the page transitions for a range of pages in the document.",
+    "API_Description_Reason": "The method name 'setPageTransitions' suggests it is used to define or modify the transitions between pages in a PDF document.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely used for setting properties and does not need to return a value, as it modifies the document's state.",
+    "Parameters": {
+        "nStart": {
+            "description": "The 0-based index of the first page in the range for which to set the transitions.",
+            "description_reason": "The parameter name 'nStart' implies it specifies the starting page index for the transition settings.",
+            "type": "number",
+            "type_reason": "Page indices are typically represented as numbers."
+        },
+        "nEnd": {
+            "description": "The 0-based index of the last page in the range for which to set the transitions.",
+            "description_reason": "The parameter name 'nEnd' implies it specifies the ending page index for the transition settings.",
+            "type": "number",
+            "type_reason": "Page indices are typically represented as numbers."
+        },
+        "aTrans": {
+            "description": "An array specifying the transition effects to apply to the pages in the specified range.",
+            "description_reason": "The parameter name 'aTrans' suggests it is an array of transition effects, as 'a' often denotes an array and 'Trans' refers to transitions.",
+            "type": "array",
+            "type_reason": "The use of 'a' in 'aTrans' implies an array, which is a common data structure for holding multiple values."
+        }
+    }
+}

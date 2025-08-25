@@ -1,0 +1,12 @@
+{
+    "Object": "app",
+    "API_Name": "measureDialog",
+    "API_Type": "method",
+    "Parameters": {
+        "description": [
+            "unknown"
+        ],
+        "resourceContext": "string",
+        "read": "built-in object"
+    }
+}

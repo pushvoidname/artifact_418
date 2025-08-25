@@ -1,0 +1,22 @@
+{
+  "Object": "spell",
+  "API_Name": "userWords",
+  "API_Type": "Method",
+  "API_Description": "Gets the array of words a user has added to, or removed from, a dictionary. See also addWord and checkWord .",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cName": {
+      "description": "(optional) The dictionary name or language code. An array of installed dictionaries can be obtained using dictionaryNames or languages. If cName is not specified, the default dictionary is used. The default dictionary is the first dictionary specified in the Spelling preferences dialog box."
+    },
+    "bAdded": {
+      "description": "(optional) If true, return the user\u2019s array of added words. If false, return the user\u2019s array of removed words. The default is true."
+    }
+  },
+  "Returns": "The user\u2019s array of added or removed words.",
+  "Examples": [
+    "List the words added to the \u201cJavaScript\u201d dictionary. (See the example that follows the description of customDictionaryCreate .)\n\n```\nvar aUserWords = spell.userWords({cName: \"JavaScript\"});\naUserWords.toSource();\n```"
+  ]
+}

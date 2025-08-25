@@ -1,0 +1,29 @@
+{
+  "Object": "Doc",
+  "API_Name": "encryptUsingPolicy",
+  "API_Type": "Method",
+  "API_Description": "Encrypts the document using a specified policy object and handler. This method may require user interaction and may result in a new security policy being created.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {
+    "oPolicy": {
+      "description": "The policy object to use when encrypting the document. It may be a SecurityPolicy object returned from chooseSecurityPolicy or getSecurityPolicies.   This parameter may also be a generic object with the policyId property defined. If a predefined policy ID is passed, the associated policy is retrieved and used. If the policy ID passed is unknown, an error is returned.  There is a predefined policy ID that has a special behavior. If policyId is set to: \u201cadobe_secure_for_recipients\u201d, a new policy will be created by the Adobe LiveCycle  Policy Server. (A Policy Server must be configured for publishing.)"
+    },
+    "oGroups": {
+      "description": "(optional) An array of Group objects that the handler should use when applying the policy. The exact behavior depends on the policy used and the handler involved. The Group object may have embedded permission information. Whether that information is used depends on the policy and associated security handler. The default value is null."
+    },
+    "oHandler": {
+      "description": "(optional) The SecurityHandler object to be used for encryption. This will result in failure if this handler does not match the handler name specified in the oPolicy object. If not specified, the default object associated with this handler will be used.  If you are using the APS security handler, you can create a new SecurityHandler ahead of time, authenticate to a server not configured in Acrobat through the login call, and then pass that SecurityHandler in oHandler. This would allow you to use policies that are not defined on the server Acrobat is configured to use.   If you are using the PPKLite security handler, you could create a new SecurityHandler ahead of time, open a digital ID file not configured in Acrobat through the login call, and then pass that SecurityHandler in oHandler. This would allow you to use certificates contained in the digital ID file but not in Acrobat."
+    },
+    "bUI": {
+      "description": "(optional) If true, the user interface may be displayed (for example, for authentication). If false, the user interface will not be displayed. If user interaction is required but not allowed, an error is returned. The default value is false."
+    }
+  },
+  "Returns": "The value returned is a `SecurityPolicyResults` object, which has the following properties.\n\nProperty | Type | Description\n-----------------------------\nerrorCode | Integer | The error code returned from the handler implementing the policy. There are three possible errors:\n\n0 = Success.\n\nerrorText is not defined.\nunknownRecipients may be defined.\npolicyApplied is defined.\n\n1 = Failure.\n\nerrorText is defined.\nunknownRecipients may be defined.\npolicyApplied is not defined.\n\n2 = Abort, the user aborted the process.\n\nerrorText is not defined.\nunknownRecipients is not defined.\npolicyApplied is not defined.\nerrorText | String | The localized error description, if defined. See errorCode for when this is defined.\npolicyApplied | Object | The SecurityPolicy object applied, if defined. If the policy passed in was \u201cadobe_secure_for_recipients\u201d, a new policy was created by the call and the corresponding policy object will be returned here. See errorCode for when this is defined.\nunknownRecipients | Recipients object | Recipients passed in that could not be used when applying the policy, if defined. See errorCode for when this is defined.",
+  "Examples": [
+    "Encrypt a newly created document using a chosen policy.\n\n```\nvar doc = app.newDoc();\nvar policy = security.chooseSecurityPolicy();\nvar results = doc.encryptUsingPolicy( { oPolicy: policy } );\nif ( results.errorCode == 0)\n    console.println(\"The policy applied was: \" + results.policyApplied.name);\n```",
+    "Encrypt a newly created document using a template policy. (A LiveCycle Policy Server must be configured for publishing before running this example.)\n\n```\nvar doc = app.newDoc();\nvar groups = [ { userEntities: [{email:\"jdoe@example.com\"},\n\n     {email:\"bsmith@example.com\"} ]}\n];\nvar policy = { policyId: \"adobe_secure_for_recipients\" };\nvar results = doc.encryptUsingPolicy({\n    oPolicy: policy,\n    oGroups: groups,\n    bUI: true\n});\nif ( results.errorCode == 0)\n    console.println(\"The policy applied was: \"\n        + results.policyApplied.name);\n```"
+  ]
+}

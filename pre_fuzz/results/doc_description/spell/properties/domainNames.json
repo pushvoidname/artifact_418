@@ -1,0 +1,13 @@
+{
+  "Object": "spell",
+  "API_Name": "domainNames",
+  "API_Type": "Properties",
+  "API_Description": "The array of spelling domains that have been registered with the Spelling plug-in by other plug-ins. A subset of this array can be passed to `check` to limit the scope of the spell check. Depending on the user\u2019s installation, valid domains can include: ``` Everything Form Field All Form Fields Comment All Comments ```",
+  "Version_Key": "5.0. For Adobe Reader, 7.0 or later.",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "search",
+  "API_Name": "available",
+  "API_Type": "Properties",
+  "API_Description": "**Returns** `true` if the Search plug-in is loaded and query capabilities are possible. A script author should check this Boolean before performing a query or other `search` object manipulation.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R",
+  "Examples": [
+    "Example: Make sure the `search` object exists and is available.\n\n```\nif (typeof search != \"undefined\" && search.available) {\n    search.query(\"Cucumber\");\n}\n```"
+  ]
+}

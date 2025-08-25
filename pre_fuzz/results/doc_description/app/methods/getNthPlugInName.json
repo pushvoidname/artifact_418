@@ -1,0 +1,17 @@
+{
+  "Object": "app",
+  "API_Name": "getNthPlugInName",
+  "API_Type": "Method",
+  "API_Description": "!! Note This method has been superseded by the `plugIns` property.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "nIndex": {
+      "description": "The n th plug-in loaded by the viewer."
+    }
+  },
+  "Returns": "`cName` , the plug-in name that corresponds to `nIndex` .",
+  "Examples": []
+}

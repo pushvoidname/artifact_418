@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "sounds",
+  "API_Type": "Properties",
+  "API_Description": "An array containing all of the named `Sound` objects in the document. See also getSound , importSound , deleteSound , and the Sound object.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array",
+  "Access": "R",
+  "Examples": [
+    "Example:\n\n```\nvar s = this.sounds;\nfor (i = 0; i < s.length; i++)\n    console.println(\"Sound[\" + i + \"]=\" + s[i].name);\n```"
+  ]
+}

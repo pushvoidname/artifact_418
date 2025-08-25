@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "subject",
+  "API_Type": "Properties",
+  "API_Description": "Text representing a short description of the subject being addressed by the annotation. The text appears in the title bar of the pop-up window, if there is one, or the properties dialog box. **Annotations** : All",
+  "Version_Key": "6.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "string",
+  "Access": "R/W",
+  "Examples": []
+}

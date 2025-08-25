@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonAlignX",
+  "API_Type": "Properties",
+  "API_Description": "Controls how space is distributed from the left of the button face with respect to the icon. It is expressed as a percentage between 0 and 100, inclusive. The default value is 50. If the icon is scaled anamorphically (which results in no space differences), this property is not used. **Fields** `button`",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": []
+}

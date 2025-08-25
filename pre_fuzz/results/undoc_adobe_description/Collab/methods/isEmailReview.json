@@ -1,0 +1,23 @@
+{
+    "Object": "Collab",
+    "API_Name": "isEmailReview",
+    "API_Type": "Method",
+    "API_Description": "Determines if the document is part of an email-based review process.",
+    "API_Description_Reason": "The method name 'isEmailReview' suggests it checks whether a document is involved in an email review workflow. This is consistent with the naming convention of methods that return a boolean indicating a specific state or condition.",
+    "Returns": "A boolean indicating whether the document is part of an email review.",
+    "Returns_Reason": "The method name 'isEmailReview' implies a true or false return value, which is typical for methods that check a condition or state.",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to check for email review status.",
+            "description_reason": "The parameter 'doc' is likely the document being checked, as it is common to pass the subject of the check as a parameter.",
+            "type": "object",
+            "type_reason": "The parameter 'doc' is described as a built-in object, which suggests it is a document object."
+        },
+        "bLax": {
+            "description": "A boolean flag that may alter the strictness of the email review check.",
+            "description_reason": "The parameter 'bLax' is a boolean, which typically serves as a flag to modify the behavior of a method, possibly to perform a less strict check.",
+            "type": "boolean",
+            "type_reason": "The parameter 'bLax' is explicitly described as a boolean."
+        }
+    }
+}

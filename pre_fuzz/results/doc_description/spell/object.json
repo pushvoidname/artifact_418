@@ -1,0 +1,10 @@
+{
+  "object": "spell",
+  "apiName": "spell",
+  "apiType": "Object",
+  "apiDescription": "This object allows users to check the spelling of Comments and Form Fields and other spelling domains. To be able to use the `spell` object, the user must have installed the Acrobat Spelling plug-in and the spelling dictionaries. !! Note The `spell` object is not available in versions of Adobe Reader prior to 7.0. In Adobe Reader 7.0, all properties and methods\u2014with the exception of `customDictionaryCreate` , `customDictionaryDelete` and `customDictionaryExport` \u2014are accessible.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

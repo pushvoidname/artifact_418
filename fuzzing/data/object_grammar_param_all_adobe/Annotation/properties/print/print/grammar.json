@@ -1,0 +1,14 @@
+[
+    [
+        "PARAM_PRINT",
+        "{BOOLEAN}"
+    ],
+    [
+        "BOOLEAN",
+        "true"
+    ],
+    [
+        "BOOLEAN",
+        "false"
+    ]
+]

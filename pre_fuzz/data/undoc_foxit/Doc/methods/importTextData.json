@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "importTextData",
+    "API_Type": "method",
+    "Parameters": {
+        "cPath": "string",
+        "nRow": "number"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "alignment",
+  "API_Type": "Properties",
+  "API_Description": "Controls the alignment of the text for a `FreeText` annotation. Beginning with version 8.0, when the annotation is of type `Redact` , this property determines the alignment of the overlayText . Alignment | Value ----------------- Left aligned | 0 Centered | 1 Right aligned | 2 **Annotations** : FreeText, Redact",
+  "Version_Key": "11.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "number",
+  "Access": "R/W",
+  "Examples": []
+}

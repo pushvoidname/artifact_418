@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "addScript",
+  "API_Type": "Method",
+  "API_Description": "Sets a document-level script for a document. See also setAction , setPageAction , the `Bookmark` object setAction method, and the Field object setAction method.",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the script. If a script with this name already exists, the new script replaces the old one."
+    },
+    "cScript": {
+      "description": "A JavaScript expression to be executed when the document is opened."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Create a beeping sound every time the document is opened.\n\n```\nthis.addScript(\"My Code\", \"app.beep(0);\");\n```\n\nSee disclosed property for another example."
+  ]
+}

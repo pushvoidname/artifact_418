@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "pageNum",
+  "API_Type": "Properties",
+  "API_Description": "Gets or sets the current page of the document. When setting `pageNum` to a specific page, remember that the values are 0-based.",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Go to the first page of the document.\n\n```\nthis.pageNum = 0;\n```\n\nAdvance the document to the next page.\n\n```\nthis.pageNum++;\n```"
+  ]
+}

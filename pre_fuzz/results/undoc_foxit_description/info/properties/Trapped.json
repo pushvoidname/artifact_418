@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Trapped",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the document is trapped. Trapping is a technique used in printing to compensate for registration errors by overlapping colors slightly.",
+    "API_Description_Reason": "The term 'trapped' is commonly associated with printing processes, where it refers to a method used to ensure colors print correctly despite potential misalignments.",
+    "Returns": "A string indicating the trapping status of the document. Common values might include 'True', 'False', or 'Unknown'.",
+    "Returns_Reason": "The property likely returns a string that specifies the trapping status, as this is a typical way to convey such information in document metadata.",
+    "Parameters": {
+        "type": {
+            "description": "The type of trapping status being queried or set. This could refer to the specific trapping method or status value.",
+            "description_reason": "The parameter 'type' suggests it specifies the kind of trapping information being dealt with, which is common in properties that can have multiple states or methods.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string because it represents a category or type, which is typically expressed as a string in programming."
+        }
+    }
+}

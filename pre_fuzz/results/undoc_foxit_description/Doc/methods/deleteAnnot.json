@@ -1,0 +1,23 @@
+{
+    "Object": "Doc",
+    "API_Name": "deleteAnnot",
+    "API_Type": "Method",
+    "API_Description": "Removes an annotation from the PDF document.",
+    "API_Description_Reason": "The method name 'deleteAnnot' suggests it is used to delete an annotation from the document.",
+    "Returns": "A boolean indicating whether the annotation was successfully deleted.",
+    "Returns_Reason": "Typically, a method that performs a delete operation returns a boolean to indicate success or failure.",
+    "Parameters": {
+        "nPage": {
+            "description": "The 0-based index of the page from which to delete the annotation.",
+            "description_reason": "Deleting an annotation requires specifying the page it is located on, as annotations are page-specific.",
+            "type": "number",
+            "type_reason": "Page indices are usually represented as numbers."
+        },
+        "cName": {
+            "description": "The name or ID of the annotation to be deleted.",
+            "description_reason": "Annotations are often identified by a unique name or ID, which is necessary to specify which annotation to delete.",
+            "type": "string",
+            "type_reason": "Names or IDs are typically represented as strings."
+        }
+    }
+}

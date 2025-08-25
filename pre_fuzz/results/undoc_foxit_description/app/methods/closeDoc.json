@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "closeDoc",
+    "API_Type": "Method",
+    "API_Description": "Closes the currently active document in the Acrobat application.",
+    "API_Description_Reason": "The method name 'closeDoc' suggests that it is responsible for closing a document. Given that it is a method of the 'app' object, which represents the Acrobat application, it likely operates on the currently active document.",
+    "Returns": "None",
+    "Returns_Reason": "The method is likely a void function that performs an action (closing a document) without returning any value, as is common for methods that perform operations without needing to provide feedback.",
+    "Parameters": {}
+}

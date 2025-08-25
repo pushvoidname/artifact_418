@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "isDocCentreSignupDisabled",
+    "API_Type": "Method",
+    "API_Description": "Checks if the signup for the Document Centre is disabled.",
+    "API_Description_Reason": "The method name 'isDocCentreSignupDisabled' suggests it returns a boolean indicating whether the signup feature for the Document Centre is disabled.",
+    "Returns": "A boolean value indicating whether the Document Centre signup is disabled.",
+    "Returns_Reason": "The method name starts with 'is', which typically implies a boolean return type, indicating a true or false state.",
+    "Parameters": {}
+}

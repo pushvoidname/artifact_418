@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "getCustomEmailMessage",
+    "API_Type": "method",
+    "Parameters": {
+        "cDistMethod": "string",
+        "cReviewType": "string",
+        "bAcrobatCom": "boolean"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "getDataObject",
+    "API_Type": "method",
+    "Return_Type": "Data",
+    "Scripts_Arg": [],
+    "Actions_Arg": [
+        "cName"
+    ]
+}

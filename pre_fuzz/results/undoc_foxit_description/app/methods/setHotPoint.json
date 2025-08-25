@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "setHotPoint",
+    "API_Type": "Method",
+    "API_Description": "Sets a hot point in the application, potentially for user interface or interaction purposes.",
+    "API_Description_Reason": "The name 'setHotPoint' suggests functionality related to setting a specific point or area of interest within the application, possibly for UI or interaction purposes.",
+    "Returns": "Undefined or void.",
+    "Returns_Reason": "The method does not take any parameters and is likely used for setting a state or configuration, which typically does not return a value.",
+    "Parameters": {}
+}

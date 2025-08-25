@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "getDataObjectContents",
+  "API_Type": "Method",
+  "API_Description": "Allows access to the contents of the file attachment associated with a DataObject.",
+  "Version": "7.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cName": {
+      "description": "The name associated with the Data object to get."
+    },
+    "bAllowAuth": {
+      "description": "(optional) The default value is false. If true, a dialog box is used to obtain user authorization. Authorization may be required if the data object was encrypted using encryptForRecipients. Authorization dialog boxes are allowed if bAllowAuth is true."
+    }
+  },
+  "Returns": "`ReadStream` object\n\nA `NotAllowedError` is thrown and the method fails if it attempts to access the content of an embedded file attachment for which any of the following conditions is true (all file name extension matching is case-insensitive):\n\n*  The attachment\u2019s file name extension is \u201c.SWF\u201d. If a legitimate .SWF application or module run as part of Acrobat\u2019s Rich Media Annotation or PDF Portfolio navigator is allowed access to the content bytes of .SWF embedded file attachments, it is possible that the legitimate .SWF will load a malicious .SWF.\n\n!! Note If you use the `Data.MIMEType` property to check whether a Data object represents a .SWF file, note that the MIME type for .SWF files is `application/x-shockwave-flash` .\n\n*  The attachment\u2019s file name extension is \u201c.GIF\u201d, \u201c.JPG\u201d, \u201c.JPEG\u201d, or \u201c.PNG\u201d and the first three bytes of its content have the header signature of a .SWF file (\u201cFWS\u201d or \u201cCWS\u201d). The reason for this security restriction is that the same `ActionScriptflash.display.Loaderclassload()` method that can be used to load GIF, JPEG, and PNG images can also be used to load a SWF file. If a malicious SWF file\u2019s extension has been altered to that of one of these image types, the SWF could be loaded.\n\nRelated objects, properties, and methods are dataObjects , getDataObject , openDataObject , createDataObject , importDataObject , setDataObjectContents , and removeDataObject , and the data object.",
+  "Examples": [
+    "This code is part of a circulating memo. A PDF file is circulated among members on an email list. Each recipient enters a budget figure, then forwards the document to the next person on the list. Before the document is sent, the budget number is appended to an embedded tab-delimited document, `budget.xls` , an attachment to this document. The last recipient can open the attachment, `budget.xls` , in a spreadsheet application to view the various budget numbers.\n\n```\n// Get the name and department of the current recipient\nvar firstName = this.getField(\"Name.First\").value;\nvar lastName =  this.getField(\"Name.Last\").value;\nvar deptName =  this.getField(\"Dept.Name\").value;\n// Get the budget number\nvar deptBudget =  this.getField(\"Dept.Budget\").value;\nif ( app.viewerVersion >= 7 ) {\n    // Get the file stream object of the embedded file\n    var oFile = this.getDataObjectContents(\"budget.xls\");\n    // Convert to a string\n    var myBudget = util.stringFromStream(oFile, \"utf-8\");\n    // Append current data to the end, using tabs to separate info\n    var myBudget = myBudget + \"rn\" + firstName\n        + \"t\" + lastName + \"t\" + deptName + \"t\" + deptBudget;\n    // Convert back to a file stream\n    var oFile = util.streamFromString(myBudget, \"uft-8\");\n    // Now \"overwrite\" budget.xls\n    this.setDataObjectContents(\"budget.xls\", oFile);\n} else {\n        app.alert(\"Acrobat 7.0 or later is required.\"\n\n             + \" Your budget data will not be included. \"\n            + \"Will e-mail on to the next correspondent, sorry. \"\n            + \"Send in your budget request using traditional methods.\");\n}\n```\n\nThe rest of the code, not shown, saves the document and sends it to the next person on the mailing list.\n\nThis example uses getDataObjectContents , setDataObjectContents , `util.` , and `util.` ."
+  ]
+}

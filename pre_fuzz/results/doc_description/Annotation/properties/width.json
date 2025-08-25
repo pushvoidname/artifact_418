@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "width",
+  "API_Type": "Properties",
+  "API_Description": "The border width in points. If this value is 0, no border is drawn. The default value is 1. **Annotations** : Square, Circle, Line, Ink, FreeText",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "number",
+  "Access": "R/W",
+  "Examples": []
+}

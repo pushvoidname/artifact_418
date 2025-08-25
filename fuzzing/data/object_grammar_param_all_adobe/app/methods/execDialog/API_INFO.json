@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "execDialog",
+    "API_Type": "method",
+    "Return_Type": "String",
+    "Scripts_Arg": [
+        "monitor"
+    ],
+    "Actions_Arg": []
+}

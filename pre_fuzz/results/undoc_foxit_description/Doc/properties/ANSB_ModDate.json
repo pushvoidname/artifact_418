@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANSB_ModDate",
+    "API_Type": "Property",
+    "API_Description": "Represents the modification date of the document in a specific format.",
+    "API_Description_Reason": "The name 'ANSB_ModDate' suggests it is related to the modification date of the document. 'ModDate' is commonly used to denote modification date in document properties.",
+    "Returns": "A string representing the modification date of the document.",
+    "Returns_Reason": "Modification dates are typically represented as strings in a specific date-time format.",
+    "Parameters": {
+        "type": {
+            "description": "The format or type of the modification date string.",
+            "description_reason": "The parameter 'type' is likely used to specify the format in which the modification date is returned, as different systems may require different date formats.",
+            "type": "unknown",
+            "type_reason": "The exact type is not specified, but it is likely a string or an enumeration representing different date formats."
+        }
+    }
+}

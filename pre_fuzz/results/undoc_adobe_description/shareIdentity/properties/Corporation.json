@@ -1,0 +1,17 @@
+{
+    "Object": "shareIdentity",
+    "API_Name": "Corporation",
+    "API_Type": "property",
+    "API_Description": "Represents the corporation associated with the share identity.",
+    "API_Description_Reason": "The API is named 'Corporation', which suggests it holds information about a corporation related to the share identity.",
+    "Returns": "A string representing the corporation name.",
+    "Returns_Reason": "The parameter type is specified as 'string', indicating that the property returns a string value, likely the name of the corporation.",
+    "Parameters": {
+        "type": {
+            "description": "The type of corporation associated with the share identity.",
+            "description_reason": "The parameter is named 'type', which implies it specifies the type or category of the corporation.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, indicating it accepts textual data."
+        }
+    }
+}

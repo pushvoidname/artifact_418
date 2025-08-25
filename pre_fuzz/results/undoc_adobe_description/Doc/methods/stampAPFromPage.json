@@ -1,0 +1,59 @@
+{
+    "Object": "Doc",
+    "API_Name": "stampAPFromPage",
+    "API_Type": "Method",
+    "API_Description": "Creates a stamp appearance from a specified page of a document and applies it to the current document.",
+    "API_Description_Reason": "The method name 'stampAPFromPage' suggests that it involves creating a stamp appearance (AP) from a page. The parameters indicate that it involves specifying a page from a document, a rectangle for placement, and options for including annotations and background, which aligns with creating and applying a stamp.",
+    "Returns": "A boolean indicating success or failure of the stamp application.",
+    "Returns_Reason": "The method likely returns a boolean to indicate whether the operation of creating and applying the stamp was successful, which is a common pattern for methods that perform an action.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the stamp appearance to create.",
+            "description_reason": "The parameter 'cName' is typically used to specify a name for an object being created or manipulated.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest it is a string, commonly used for names or identifiers."
+        },
+        "doc": {
+            "description": "The document object from which the page is sourced.",
+            "description_reason": "The parameter 'doc' is likely a reference to a document object, as it is common to pass document objects in such contexts.",
+            "type": "built-in object",
+            "type_reason": "The context implies it is a document object, which is a built-in type in PDF manipulation."
+        },
+        "nPage": {
+            "description": "The 0-based index of the page from which to create the stamp appearance.",
+            "description_reason": "The parameter 'nPage' is typically used to specify a page number, and the description aligns with selecting a page for the operation.",
+            "type": "number",
+            "type_reason": "Page numbers are usually represented as numbers, and the 'n' prefix suggests a numeric type."
+        },
+        "cLang": {
+            "description": "The language code for localization purposes.",
+            "description_reason": "The parameter 'cLang' likely specifies a language code, which is common for localization settings.",
+            "type": "string",
+            "type_reason": "Language codes are typically represented as strings."
+        },
+        "rect": {
+            "description": "The rectangle specifying the position and size of the stamp on the page.",
+            "description_reason": "The parameter 'rect' is commonly used to define a rectangular area, which is relevant for positioning graphical elements.",
+            "type": "unknown",
+            "type_reason": "The exact type is unspecified, but it likely involves a structure or object representing a rectangle."
+        },
+        "bIncludeAnnots": {
+            "description": "A flag indicating whether to include annotations from the source page in the stamp.",
+            "description_reason": "The parameter 'bIncludeAnnots' suggests a boolean flag to include or exclude annotations.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix and context suggest it is a boolean, used for true/false flags."
+        },
+        "bWhiteBackground": {
+            "description": "A flag indicating whether to use a white background for the stamp.",
+            "description_reason": "The parameter 'bWhiteBackground' suggests a boolean flag to set the background color.",
+            "type": "boolean",
+            "type_reason": "The 'b' prefix and context suggest it is a boolean, used for true/false flags."
+        },
+        "matrix": {
+            "description": "A transformation matrix to apply to the stamp appearance.",
+            "description_reason": "The parameter 'matrix' is likely used for transformations, which is common in graphical operations.",
+            "type": "{'a': 'number', 'b': 'number', 'c': 'number', 'd': 'number', 'h': 'number', 'v': 'number'}",
+            "type_reason": "Transformation matrices are typically represented as objects with numeric properties for each matrix component."
+        }
+    }
+}

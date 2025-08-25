@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "getReviewFolder",
+    "API_Type": "method",
+    "Parameters": {
+        "cCategory": "string",
+        "oDoc": "string"
+    }
+}

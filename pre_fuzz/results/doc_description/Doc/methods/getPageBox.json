@@ -1,0 +1,22 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPageBox",
+  "API_Type": "Method",
+  "API_Description": "Gets a rectangle in rotated user space that encompasses the named box for the page. See also setPageBoxes .",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cBox": {
+      "description": "(optional) The type of box. Values are:  Art Bleed BBox Crop (default)  Trim  For definitions of these boxes see the PDF Reference ."
+    },
+    "nPage": {
+      "description": "(optional) The 0-based index of the page. The default is 0, the first page in the document."
+    }
+  },
+  "Returns": "A rectangle in rotated user space that encompasses the named box for the page.",
+  "Examples": [
+    "Get the dimensions of the Media box.\n\n```\nvar aRect = this.getPageBox(\"Media\");\nvar width = aRect[2] - aRect[0];\nvar height = aRect[1] - aRect[3];\nconsole.println(\"Page 1 has a width of \" + width + \" and a height of \"\n\n     + height);\n```"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Object": "search",
+  "API_Name": "matchWholeWord",
+  "API_Type": "Properties",
+  "API_Description": "Specifies whether search finds only occurrences of complete words that are specified in the query. For example, when this option is set to `true` , if you search for the word \u201cstick\u201d, the words \u201ctick\u201d and \u201csticky\u201d will not be highlighted. The default is `false` .",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": []
+}

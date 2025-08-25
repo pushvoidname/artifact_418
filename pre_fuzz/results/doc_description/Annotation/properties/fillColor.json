@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "fillColor",
+  "API_Type": "Properties",
+  "API_Description": "Sets the background color for circle, square, line, polygon, polyline, and free text annotations. Values are defined by using `transparent` , `gray` , `RGB` or `CMYK` color. See Color arrays for information on defining color arrays and how values are used with this property. **Annotations** : Circle, Square, Line, Polygon, PolyLine, FreeText",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "color",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Create a Circle annotation and set the background color.\n\n```\nvar annot = this.addAnnot(\n{\n    type: \"Circle\",\n    page: 0,\n    rect: [200,200,400,300],\n    author: \"A. C. Robat\",\n    name: \"myCircle\",\n    popupOpen: true,\n    popupRect: [200,100,400,200],\n    contents: \"Hi World!\",\n    strokeColor: color.red,\n    fillColor: [\"RGB\",1,1,.855]\n});\n```"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "thermometer",
+    "API_Name": "end",
+    "API_Type": "Method",
+    "API_Description": "Ends the current measurement or operation of the thermometer.",
+    "API_Description_Reason": "The method name 'end' suggests it is used to terminate or conclude an ongoing process or measurement, which is common in objects that perform operations over time.",
+    "Returns": "A boolean indicating whether the operation was successfully ended.",
+    "Returns_Reason": "Methods that perform operations often return a boolean to indicate success or failure, especially when no other data is expected to be returned.",
+    "Parameters": {}
+}

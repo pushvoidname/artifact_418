@@ -1,0 +1,15 @@
+{
+  "Object": "Annotation",
+  "API_Name": "delay",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , property changes to the annotation are queued and then executed when `delay` is set back to `false` . (Similar to the Field object `delay` property.) **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Assuming `annot` is an `Annotation` object, the code below changes the border to dashed.\n\n```\nannot.delay=true;\nannot.style = \"D\";\nannot.dash = [4,3];\nannot.delay = false;\n```"
+  ]
+}

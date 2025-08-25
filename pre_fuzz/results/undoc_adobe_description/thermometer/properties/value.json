@@ -1,0 +1,17 @@
+{
+    "Object": "thermometer",
+    "API_Name": "value",
+    "API_Type": "property",
+    "API_Description": "Represents the current temperature reading from the thermometer.",
+    "API_Description_Reason": "The 'value' property typically represents the current state or measurement of an object, and since this is a thermometer, it is reasonable to assume it represents the current temperature reading.",
+    "Returns": "The current temperature reading as a number.",
+    "Returns_Reason": "The parameter type is specified as 'number', which suggests that the property returns a numerical value, likely representing the temperature.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the temperature reading.",
+            "description_reason": "The parameter 'type' is specified as 'number', indicating it describes the data type of the value returned by the property.",
+            "type": "number",
+            "type_reason": "The parameter is explicitly stated to be of type 'number', which aligns with the typical representation of temperature readings."
+        }
+    }
+}

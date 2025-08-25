@@ -1,0 +1,40 @@
+{
+  "Object": "app",
+  "API_Name": "openDoc",
+  "API_Type": "Method",
+  "API_Description": "Opens a specified PDF document and returns its Doc object. This object can be used by the script to call methods, or to get or set properties in the newly opened document.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cPath": {
+      "description": "A device-independent path to the document to be opened. If oDoc is specified, the path can be relative to it. The target document must be accessible in the default file system.  -  When cFS is set to \u201cCHTTP\u201d, the cPath string should be escaped, perhaps using the core JavaScript global function encodeURI. See Example 5 (Acrobat 7.0) below."
+    },
+    "oDoc": {
+      "description": "(optional) A Doc object to use as a base to resolve a relative cPath. Must be accessible in the default file system."
+    },
+    "cFS": {
+      "description": "(optional, Acrobat 7.0) A string that specifies the source file system name. Two values are supported: \u201c\u201d (the empty string, which is the default), representing the default file system, and \u201cCHTTP\u201d. This parameter is relevant only if the web server supports WebDAV."
+    },
+    "bHidden": {
+      "description": "(optional, Acrobat 7.0) A Boolean value that if true, opens the PDF file with its window hidden. The default is false."
+    },
+    "bUseConv": {
+      "description": "(optional, Acrobat 7.0) A Boolean value that is used when cPath references a non-PDF file. If true, the method tries to convert the non-PDF file to a PDF document. The default is false.   -  (Acrobat 7.0) bUseConv can only be set to true during a console or batch event. See also Privileged context."
+    },
+    "cDest": {
+      "description": "(optional, Acrobat 8.0) The name of the destination within a document. This parameter forces opening at named destination within the PDF document. For details on named destinations and how to create them, see the PDF Reference."
+    }
+  },
+  "Returns": "A Doc object or `null` :\n\n*  In Acrobat 5.0, this method returns a Doc object.\n\n*  In Acrobat 5.0.5, the method returns the Doc object unless the `disclosed` property of the target document is not `true` , in which case it returns `null` .\n\n*  Beginning with the Acrobat 5.0.5 Accessibility and Forms Patch and continuing with Acrobat 6.0 and later, `openDoc` behaves as follows:",
+  "Examples": [
+    "(Acrobat 7.0) below.\noDoc | (optional) A Doc object to use as a base to resolve a relative cPath. Must be accessible in the default file system.\ncFS | (optional, Acrobat 7.0) A string that specifies the source file system name. Two values are supported: \u201c\u201d (the empty string, which is the default), representing the default file system, and \u201cCHTTP\u201d. This parameter is relevant only if the web server supports WebDAV.\nbHidden | (optional, Acrobat 7.0) A Boolean value that if true, opens the PDF file with its window hidden. The default is false.\nbUseConv | (optional, Acrobat 7.0) A Boolean value that is used when cPath references a non-PDF file. If true, the method tries to convert the non-PDF file to a PDF document. The default is false.   -  (Acrobat 7.0) bUseConv can only be set to true during a console or batch event. See also Privileged context.\ncDest | (optional, Acrobat 8.0) The name of the destination within a document. This parameter forces opening at named destination within the PDF document. For details on named destinations and how to create them, see the PDF Reference.\n\n**Returns**\n\nA Doc object or `null` :\n\n*  In Acrobat 5.0, this method returns a Doc object.\n\n*  In Acrobat 5.0.5, the method returns the Doc object unless the `disclosed` property of the target document is not `true` , in which case it returns `null` .\n\n*  Beginning with the Acrobat 5.0.5 Accessibility and Forms Patch and continuing with Acrobat 6.0 and later, `openDoc` behaves as follows:",
+    "This example opens another document, inserts a prompting message into a text field, sets the focus in the field, and then closes the current document.\n\n```\nvar otherDoc = app.openDoc(\"/c/temp/myDoc.pdf\");\notherDoc.getField(\"name\").value=\"Enter your name here: \"\notherDoc.getField(\"name\").setFocus();\nthis.closeDoc();\n```\n\nSame example as above, but a relative path is used.\n\n```\nvar otherDoc = app.openDoc(\"myDoc.pdf\", this);\notherDoc.getField(\"name\").value=\"Enter your name here: \"\notherDoc.getField(\"name\").setFocus();\nthis.closeDoc();\n```\n\nThis example uses the Doc closeDoc method and the Field object setFocus method.",
+    "Open an HTML document on the user\u2019s hard drive and convert it to PDF.\n\n```\ntry {\n    app.openDoc(\"/c/myWeb/myHomePage.html\");\n} catch (e) {};\n```\n\n**Example 3 (Acrobat 7.0)**\n\nOpen a hidden PDF document, extract information from it, and close it.\n\n```\noDoc = app.openDoc({\n    cPath:\"/C/myDocs/myInfo.pdf\",\n    bHidden: true\n});\nvar v = oDoc.getField(\"myTextField\").value;\nthis.getField(\"yourTextField\").value = v;\noDoc.closeDoc();\n```\n\n**Example 4 (Acrobat 7.0)**\n\nOpen a non-PDF file by converting it to a PDF document. The following script can be executed successfully from the console.\n\n```\napp.openDoc({\n    cPath: \"/c/temp/myPic.jpg\",\n    bUseConv: true\n})\n```\n\n**Example 5 (Acrobat 7.0)**\n\nOpen a file from a WebDAV server. The `app.openDoc` method requires the path to the file to be escaped.\n\n```\nvar myURL = encodeURI(\"http://www.example.com/My Folder/ComDoc.pdf\");\napp.openDoc({cPath: myURL, cFS: \"CHTTP\" });\n```\n\nSee also `app.` browseForDoc .\n\n**Example 6 (Acrobat 8.0)**\n\nOpen a document and jump to a named destination.\n\n```\napp.openDoc({ cPath: \"/c/temp/myDoc.pdf\", cDest: \"myDest\" });\n```\n\nIn versions previous to 8.0, this jump is not possible unless the document is `disclosed` . See the example following gotoNamedDest ."
+  ],
+  "Example 3 (Acrobat 7.0)": "Open a hidden PDF document, extract information from it, and close it.\n\n```\noDoc = app.openDoc({\n    cPath:\"/C/myDocs/myInfo.pdf\",\n    bHidden: true\n});\nvar v = oDoc.getField(\"myTextField\").value;\nthis.getField(\"yourTextField\").value = v;\noDoc.closeDoc();\n```",
+  "Example 4 (Acrobat 7.0)": "Open a non-PDF file by converting it to a PDF document. The following script can be executed successfully from the console.\n\n```\napp.openDoc({\n    cPath: \"/c/temp/myPic.jpg\",\n    bUseConv: true\n})\n```",
+  "Example 5 (Acrobat 7.0)": "Open a file from a WebDAV server. The `app.openDoc` method requires the path to the file to be escaped.\n\n```\nvar myURL = encodeURI(\"http://www.example.com/My Folder/ComDoc.pdf\");\napp.openDoc({cPath: myURL, cFS: \"CHTTP\" });\n```\n\nSee also `app.` browseForDoc .",
+  "Example 6 (Acrobat 8.0)": "Open a document and jump to a named destination.\n\n```\napp.openDoc({ cPath: \"/c/temp/myDoc.pdf\", cDest: \"myDest\" });\n```\n\nIn versions previous to 8.0, this jump is not possible unless the document is `disclosed` . See the example following gotoNamedDest ."
+}

@@ -1,0 +1,45 @@
+{
+  "Object": "Doc",
+  "API_Name": "print",
+  "API_Type": "Method",
+  "API_Description": "Prints all or a specific number of pages of the document.",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "All",
+  "Parameters": {
+    "bUI": {
+      "description": "(optional) If true (the default), will cause a UI to be presented to the user to obtain printing information and confirm the action."
+    },
+    "nStart": {
+      "description": "(optional) A 0-based index that defines the start of an inclusive range of pages. If nStart and nEnd are not specified, all pages in the document are printed. If only nStart is specified, the range of pages is the single page specified by nStart.   If nStart and nEnd parameters are used, bUI must be false."
+    },
+    "nEnd": {
+      "description": "(optional) A 0-based index that defines the end of an inclusive page range. If nStart and nEnd are not specified, all pages in the document are printed. If only nEnd is specified, the range of a pages is 0 to nEnd.   If nStart and nEnd parameters are used, bUI must be false."
+    },
+    "bSilent": {
+      "description": "(optional) If true, suppresses the cancel dialog box while the document is printing. The default is false."
+    },
+    "bShrinkToFit": {
+      "description": "(optional, Acrobat 5.0) If true, the page is shrunk (if necessary) to fit within the imageable area of the printed page. If false, it is not. The default is false."
+    },
+    "bPrintAsImage": {
+      "description": "(optional, Acrobat 5.0) If true, print pages as an image. The default is false."
+    },
+    "bReverse": {
+      "description": "(optional, Acrobat 5.0) If true, print from nEnd to nStart. The default is false."
+    },
+    "bAnnotations": {
+      "description": "(optional, Acrobat 5.0) If true (the default), annotations are printed."
+    },
+    "printParams": {
+      "description": "(optional, Acrobat 6.0) The PrintParams object containing the settings to use for printing. If this parameter is passed, any other parameters are ignored."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Print the current page.\n\n```\nthis.print(false, this.pageNum, this.pageNum);\n// Print a file silently\nthis.print({bUI: false, bSilent: true, bShrinkToFit: true});\n```\n\n**Example 2 (Acrobat 6.0)**\n\nPrint current document to a known printer.\n\n```\nvar pp = this.getPrintParams();\npp.interactive = pp.constants.interactionLevel.automatic;\npp.printerName = \"hp officejet d series\";\nthis.print(pp);\n```\n\n!! Note If `printerName` is an empty string and `fileName` is nonempty, the current document is saved to disk as a PostScript file.\n\n**Example 3 (Acrobat 6.0)**\n\nSave the current document as a PostScript file.\n\n```\nvar pp = this.getPrintParams();\npp.fileName = \"/c/temp/myDoc.ps\";\npp.printerName = \"\";\nthis.print(pp);\n```"
+  ],
+  "Example 2 (Acrobat 6.0)": "Print current document to a known printer.\n\n```\nvar pp = this.getPrintParams();\npp.interactive = pp.constants.interactionLevel.automatic;\npp.printerName = \"hp officejet d series\";\nthis.print(pp);\n```\n\n!! Note If `printerName` is an empty string and `fileName` is nonempty, the current document is saved to disk as a PostScript file.",
+  "Example 3 (Acrobat 6.0)": "Save the current document as a PostScript file.\n\n```\nvar pp = this.getPrintParams();\npp.fileName = \"/c/temp/myDoc.ps\";\npp.printerName = \"\";\nthis.print(pp);\n```"
+}

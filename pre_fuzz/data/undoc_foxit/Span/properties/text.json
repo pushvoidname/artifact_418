@@ -1,0 +1,8 @@
+{
+    "Object": "Span",
+    "API_Name": "text",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "string"
+    }
+}

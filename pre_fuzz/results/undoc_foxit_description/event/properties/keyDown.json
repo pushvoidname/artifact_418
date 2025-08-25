@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "keyDown",
+    "API_Type": "property",
+    "API_Description": "Indicates whether a key is currently being pressed down during the event.",
+    "API_Description_Reason": "The name 'keyDown' suggests it is related to the state of a key being pressed, which is a common event property in JavaScript for handling keyboard interactions.",
+    "Returns": "A boolean value indicating the key down state.",
+    "Returns_Reason": "Typically, properties like 'keyDown' return a boolean to signify whether the key is pressed (true) or not (false).",
+    "Parameters": {
+        "type": {
+            "description": "The type of the key event, usually indicating the specific key that is pressed.",
+            "description_reason": "In the context of key events, 'type' often refers to the specific key or the nature of the key event.",
+            "type": "string",
+            "type_reason": "Key event types are generally represented as strings, such as 'keydown', 'keypress', or specific key identifiers."
+        }
+    }
+}

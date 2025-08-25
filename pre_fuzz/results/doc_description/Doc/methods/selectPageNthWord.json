@@ -1,0 +1,25 @@
+{
+  "Object": "Doc",
+  "API_Name": "selectPageNthWord",
+  "API_Type": "Method",
+  "API_Description": "Changes the current page number and selects the specified word on the page.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nPage": {
+      "description": "(optional) The 0-based index of the page to operate on. The default is 0, the first page in the document."
+    },
+    "nWord": {
+      "description": "(optional) The 0-based index of the word to obtain. The default is 0, the first word on the page."
+    },
+    "bScroll": {
+      "description": "(optional) Specifies whether to scroll the selected word into the view if it is not already viewable. The default is true."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Get and select a particular word.\n\n```\n// Get the 20th word on page 2 (page 1, 0-based)\nvar cWord = this.getPageNthWord(1, 20);\n// Select that word (highlight) for the user to see, and change the page if\n\n // necessary.\nthis.selectPageNthWord(1, 20);\n```"
+  ]
+}

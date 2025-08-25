@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "removeWeblinks",
+    "API_Type": "Method",
+    "API_Description": "Removes all web links from the PDF document.",
+    "API_Description_Reason": "The method name 'removeWeblinks' suggests that it is designed to remove web links from the document. This is a common functionality in PDF manipulation to clean up or modify documents.",
+    "Returns": "void",
+    "Returns_Reason": "The method is likely a void function as it performs an action (removing web links) without needing to return any value. This is typical for methods that modify the state of an object without producing a new object or value.",
+    "Parameters": {}
+}

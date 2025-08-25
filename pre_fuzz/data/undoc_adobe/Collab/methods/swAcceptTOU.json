@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "swAcceptTOU",
+    "API_Type": "method",
+    "Parameters": {
+        "cUsername": "string",
+        "cPassword": "string"
+    }
+}

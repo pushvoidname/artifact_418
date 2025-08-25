@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getAlwaysUseServer",
+    "API_Type": "Method",
+    "API_Description": "Determines whether the server should always be used for a specific review type.",
+    "API_Description_Reason": "The method name 'getAlwaysUseServer' suggests it retrieves a setting related to always using a server, and the parameter 'cReviewType' implies it is specific to a type of review.",
+    "Returns": "A boolean indicating if the server is always used for the specified review type.",
+    "Returns_Reason": "The method likely returns a boolean value based on the naming convention 'getAlwaysUseServer', which implies a true or false state.",
+    "Parameters": {
+        "cReviewType": {
+            "description": "The type of review for which to check the server usage setting.",
+            "description_reason": "The parameter name 'cReviewType' suggests it specifies the type of review being queried.",
+            "type": "string",
+            "type_reason": "The prefix 'c' in 'cReviewType' typically denotes a string type in many coding conventions."
+        }
+    }
+}

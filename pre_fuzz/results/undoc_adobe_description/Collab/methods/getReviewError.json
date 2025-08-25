@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getReviewError",
+    "API_Type": "Method",
+    "API_Description": "Retrieves error information related to a specific review identified by the review ID.",
+    "API_Description_Reason": "The method name 'getReviewError' suggests that it is used to obtain error details associated with a review process, likely identified by a review ID.",
+    "Returns": "An object or string containing details about the error related to the specified review.",
+    "Returns_Reason": "The method is expected to return information about an error, which could be in the form of an error message or an object containing error details.",
+    "Parameters": {
+        "cReviewID": {
+            "description": "The unique identifier of the review for which error information is being requested.",
+            "description_reason": "The parameter name 'cReviewID' indicates it is used to specify the review whose error details are needed.",
+            "type": "string",
+            "type_reason": "Review IDs are typically represented as strings to accommodate various formats and ensure uniqueness."
+        }
+    }
+}

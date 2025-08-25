@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "syncAnnotScan",
+  "API_Type": "Method",
+  "API_Description": "Guarantees that all annotations will be scanned by the time this method returns.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Wait for all annotations to be scanned, then get the array of annotations in the document and sort by author.\n\nThe second line of code is not executed until `syncAnnotScan` returns, which does not occur until the annotation scan of the document is completed.\n\n```\nthis.syncAnnotScan();\nannots = this.getAnnots({nSortBy:ANSB_Author});\n// Now, do something with the annotations.\n```"
+  ]
+}

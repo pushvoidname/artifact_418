@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "getInfo",
+    "API_Type": "Method",
+    "API_Description": "Retrieves information about the Acrobat application or the current environment.",
+    "API_Description_Reason": "The method name 'getInfo' suggests it is used to obtain information, likely about the application or its environment, which is common in application APIs.",
+    "Returns": "An object containing various details about the Acrobat application or environment.",
+    "Returns_Reason": "Since the method is named 'getInfo', it is reasonable to assume it returns some form of information, likely structured as an object to encapsulate multiple pieces of data.",
+    "Parameters": {}
+}

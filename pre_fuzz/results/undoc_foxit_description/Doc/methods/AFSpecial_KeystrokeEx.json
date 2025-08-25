@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFSpecial_KeystrokeEx",
+    "API_Type": "Method",
+    "API_Description": "Handles special keystroke events for form fields, providing extended functionality for custom input validation and formatting.",
+    "API_Description_Reason": "The method name suggests it is related to handling special keystrokes, likely for form fields, and the 'Ex' suffix implies extended or additional functionality compared to a similar method without the suffix.",
+    "Returns": "A boolean indicating whether the keystroke is valid and should be accepted.",
+    "Returns_Reason": "Keystroke handling methods typically return a boolean to indicate whether the input is valid and should be processed further.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string parameter that likely represents the keystroke or context in which the keystroke is being processed.",
+            "description_reason": "The parameter is a string, which is common for representing keystrokes or event context in JavaScript APIs.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, which aligns with typical usage for event or input data in JavaScript."
+        }
+    }
+}

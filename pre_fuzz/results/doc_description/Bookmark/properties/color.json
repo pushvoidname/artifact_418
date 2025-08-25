@@ -1,0 +1,15 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "color",
+  "API_Type": "Properties",
+  "API_Description": "Specifies the color for a bookmark. Values are defined by using gray, RGB or CMYK color. See Color arrays for information on defining color arrays and how values are used with this property. See also the property.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "Not available in Reader",
+  "Type": "Array",
+  "Access": "R/W (Adobe Reader: R only)",
+  "Examples": [
+    "Example: The following fun script colors the top-level bookmark red, green, and blue.\n\n```\nvar bkm = this.bookmarkRoot.children[0];\nbkm.color = color.black;\nvar C = new Array(1, 0, 0);\nvar run = app.setInterval(\n    'bkm.color = [\"RGB\",C[0],C[1],C[2]]; C.push(C.shift());', 1000);\nvar stoprun=app.setTimeOut(\n    \"app.clearInterval(run); bkm.color=color.black\",12000);\n```"
+  ]
+}

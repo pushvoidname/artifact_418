@@ -1,0 +1,8 @@
+{
+    "Object": "Span",
+    "API_Name": "subscript",
+    "API_Type": "property",
+    "Parameters": {
+        "type": "boolean"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "subscript",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the text in the span is formatted as subscript.",
+    "API_Description_Reason": "The property name 'subscript' suggests it controls or indicates the subscript formatting of the text within the span.",
+    "Returns": "A boolean value indicating if the text is subscript.",
+    "Returns_Reason": "The parameter type is boolean, which implies the property returns a boolean value to indicate the presence or absence of subscript formatting.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value that sets or returns whether the text is formatted as subscript.",
+            "description_reason": "The parameter 'type' being boolean suggests it is used to set or get the subscript state of the text.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, indicating it accepts or returns true or false values."
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "Object": "Doc",
+    "API_Name": "addLink",
+    "API_Type": "method",
+    "Return_Type": "Link",
+    "Scripts_Arg": [
+        "nPage",
+        "oCoords"
+    ],
+    "Actions_Arg": []
+}

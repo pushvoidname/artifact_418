@@ -1,0 +1,15 @@
+{
+  "Object": "Span",
+  "API_Name": "textColor",
+  "API_Type": "Properties",
+  "API_Description": "A color array representing the RGB color to be used to draw the text (see the object). The default color is black. Type | Access ------------- Color Array | R/W",
+  "Version_Key": "",
+  "Save_Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Type": "",
+  "Access": "",
+  "Examples": [
+    "Example: The example following superscript uses `textColor` ."
+  ]
+}

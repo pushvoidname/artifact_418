@@ -1,0 +1,22 @@
+{
+  "Object": "util",
+  "API_Name": "readFileIntoStream",
+  "API_Type": "Method",
+  "API_Description": "Loads an external file into a JavaScript stream, optionally base64 encodes it, and returns the content as a base64 encoded stream.",
+  "Version": "10.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cDIPath": {
+      "description": "(optional) A device-independent path to an arbitrary file on the user\u2019s hard drive. This path may be absolute or relative to the current document.  If not specified, the user is presented with the File Open dialog to locate the file.  If the cDIPath parameter is specified, this method can only be executed in privileged context, during a batch or console event (or when the document is certified with a certificate trusted to execute \u201cembedded high privileged JavaScript\u201d)."
+    },
+    "bEncodeBase64": {
+      "description": "(optional) If true, base64-encode the file content."
+    }
+  },
+  "Returns": "The File content as a ReadStream object that is optionally base 64-encoded.",
+  "Examples": [
+    "Assume there is a text field myField in this document. This example reads the contents of a file c:/data/myData.txt in a ReadStream object, converts it to a string, and displays it in the multiline text field.\n\n```\nvar rStream = util.readFileIntoStream(\"/c/data/myData.txt\");\nvar cFile = util.stringFromStream(rStream);\nthis.getField(\"myTextField\").value = cFile;\n```"
+  ]
+}

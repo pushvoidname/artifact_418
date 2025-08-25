@@ -1,0 +1,8 @@
+{
+    "Object": "Field",
+    "API_Name": "highlight",
+    "API_Type": "properties",
+    "Return_Type": "String",
+    "Scripts_Arg": null,
+    "Actions_Arg": null
+}

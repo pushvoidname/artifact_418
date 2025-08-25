@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "formsVersion",
+  "API_Type": "Properties",
+  "API_Description": "The version number of the viewer forms software. Check this property to determine whether objects, properties, or methods in newer versions of the software are available if you want to maintain backward compatibility in your scripts.",
+  "Version_Key": "4.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Number",
+  "Access": "R",
+  "Examples": [
+    "Example: Toggle fullscreen mode.\n\n```\nif (typeof app.formsVersion != \"undefined\" && app.formsVersion >= 5.0) {\n        app.fs.defaultTransition = \"\";\n        app.fs.isFullScreen = !app.fs.isFullScreen;\n}\nelse app.fullscreen = !app.fullscreen;\n```"
+  ]
+}

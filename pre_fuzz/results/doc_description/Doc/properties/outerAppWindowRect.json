@@ -1,0 +1,13 @@
+{
+  "Object": "Doc",
+  "API_Name": "outerAppWindowRect",
+  "API_Type": "Properties",
+  "API_Description": "This property returns an array of screen coordinates (a rectangle) for the Acrobat outer application window. This rectangle includes items such as the title bar and resizing border, which are not part of the inner rectangle of the application window. See also innerAppWindowRect , outerDocWindowRect , outerDocWindowRect , and pageWindowRect .",
+  "Version_Key": "6.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Array of Numbers",
+  "Access": "R",
+  "Examples": []
+}

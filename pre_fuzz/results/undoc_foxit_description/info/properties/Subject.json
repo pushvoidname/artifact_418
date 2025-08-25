@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Subject",
+    "API_Type": "property",
+    "API_Description": "Represents the subject of the document, typically a brief description or summary of the document's content.",
+    "API_Description_Reason": "The 'Subject' property in document metadata usually contains a brief description or summary of the document's content, which is a common use case for such a property.",
+    "Returns": "The subject of the document as a string.",
+    "Returns_Reason": "Since 'Subject' is a property, it is expected to return a value representing the subject, which is typically a string describing the document's content.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the Subject property, which is a string.",
+            "description_reason": "The 'type' parameter indicates the data type of the property, which is necessary for understanding how to handle the property's value.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is a string because it specifies the data type of the property, which is a common practice in API documentation."
+        }
+    }
+}

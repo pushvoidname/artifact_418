@@ -1,0 +1,19 @@
+{
+  "Object": "Field",
+  "API_Name": "isBoxChecked",
+  "API_Type": "Method",
+  "API_Description": "Determines whether the specified widget is checked.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "nWidget": {
+      "description": "The 0-based index of an individual radio button or check box widget for this field. The index is determined by the order in which the individual widgets of this field were created (and is unaffected by tab-order).  Every entry in the Fields panel has a suffix giving this index, for example, MyField #0."
+    }
+  },
+  "Returns": "`true` if the specified widget is currently checked, `false` otherwise.",
+  "Examples": [
+    "Determine the state of the check box and report back with an alert box.\n\n```\nvar f = this.getField(\"ChkBox\");\nvar cbStatus = (f.isBoxChecked(0)) ? \" \" : \" not \";\napp.alert(\"The box is\" + cbStatus + \"checked\");\n```"
+  ]
+}

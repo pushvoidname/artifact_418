@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "defaultValue",
+  "API_Type": "Properties",
+  "API_Description": "The default value of a field\u2014that is, the value that the field is set to when the form is reset. For combo boxes and list boxes, either an export or a user value can be used to set the default. A conflict can occur, for example, when the field has an export value and a user value with the same value but these apply to different items in the list. In such cases, the export value is matched against first. **Fields** all except `button` , `signature`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example:\n\n```\nvar f = this.getField(\"Name\");\nf.defaultValue = \"Enter your name here.\";\n```"
+  ]
+}

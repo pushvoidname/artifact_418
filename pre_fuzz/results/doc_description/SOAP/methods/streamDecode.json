@@ -1,0 +1,20 @@
+{
+  "Object": "SOAP",
+  "API_Name": "streamDecode",
+  "API_Type": "Method",
+  "API_Description": "Allows the `oStream` object to be decoded with the specified encoding type, `cEncoder` . It returns a decoded `ReadStream` object. Typically, it is used to access data returned as part of a SOAP method that was encoded in Base64 or hex encoding.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oStream": {
+      "description": "A stream object to be decoded with the specified encoding type."
+    },
+    "cEncoder": {
+      "description": "Permissible values for this string are \u201chex\u201d (hex-encoded) and \u201cbase64\u201d (Base 64-encoded)."
+    }
+  },
+  "Returns": "`ReadStream` object",
+  "Examples": []
+}

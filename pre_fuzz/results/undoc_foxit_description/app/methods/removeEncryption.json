@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "removeEncryption",
+    "API_Type": "Method",
+    "API_Description": "Removes encryption from the currently open document.",
+    "API_Description_Reason": "The method name 'removeEncryption' suggests that it is used to remove encryption settings from a document, which is a common operation in document management applications.",
+    "Returns": "A boolean indicating whether the encryption was successfully removed.",
+    "Returns_Reason": "Typically, methods that perform an action like removing encryption return a boolean to indicate success or failure.",
+    "Parameters": {}
+}

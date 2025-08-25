@@ -1,0 +1,74 @@
+{
+  "Object": "Doc",
+  "API_Name": "addWatermarkFromText",
+  "API_Type": "Method",
+  "API_Description": "Adds the given text as a watermark to the specified pages in the document and places the watermark in an optional content group (OCG).",
+  "Version": "7.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cText": {
+      "description": "The text to use as the watermark. Multiline text is allowed. A newline can be specified with the characters \u201cr\u201d."
+    },
+    "nTextAlign": {
+      "description": "(optional) The text alignment to use for cText within the watermark. See app. constants .align for possible values. This parameter has no effect if cText is only one line."
+    },
+    "cFont": {
+      "description": "(optional) The font to be used for this watermark. Valid fonts are defined as properties of the font object, as listed in the textFont property of the Field object. An arbitrary font can be used by passing a string that represents the PostScript name of the font. The default is font.Helv."
+    },
+    "nFontSize": {
+      "description": "(optional) The point size of the font to use for the watermark. The default is 24."
+    },
+    "aColor": {
+      "description": "(optional) The color to use for the watermark. See Color arrays. The default is color.black."
+    },
+    "nStart": {
+      "description": "(optional) The 0-based index of the first page in the range of pages to which the watermark should be added. If nStart and nEnd are not specified, the range of pages is for all pages in the document. If only nStart is specified, the range of pages is the single page specified by nStart."
+    },
+    "nEnd": {
+      "description": "(optional) The last page in the range of pages to which the watermark should be added. If nStart and nEnd are not specified, the range of pages is for all pages in the document. If only nEnd is specified, the range of pages is 0 to nEnd."
+    },
+    "bOnTop": {
+      "description": "(optional) A Boolean value specifying the z-ordering of the watermark. A value of true will result in the watermark being added above all other page content. A value of false will result in the watermark being added below all other page content. This parameter is ignored if bFixedPrint is true. The default is true."
+    },
+    "bOnScreen": {
+      "description": "(optional) A Boolean value to indicate whether the watermark should be displayed when viewing the document on screen."
+    },
+    "bOnPrint": {
+      "description": "(optional) A Boolean value to indicate whether the watermark should be displayed when printing the document."
+    },
+    "nHorizAlign": {
+      "description": "(optional) A number indicating how the watermark should be aligned horizontally. See app. constants .align for possible values. The default is app.constants.align.center."
+    },
+    "nVertAlign": {
+      "description": "(optional) A number indicating how the watermark should be aligned vertically. See app. constants .align for possible values. The default is app.constants.align.center."
+    },
+    "nHorizValue": {
+      "description": "(optional) A number used to shift the horizontal position of the watermark on the page. If bPercentage is true, this number represents a percentage of the horizontal page size. If bPercentage is false, this number represents the number of points to be offset. The default is 0."
+    },
+    "nVertValue": {
+      "description": "(optional) A number used to shift the vertical position of the watermark on the page. If bPercentage is true, this number represents a percentage of the vertical page size. If bPercentage is false, this number represents the number of points to be offset. The default is 0."
+    },
+    "bPercentage": {
+      "description": "(optional) A Boolean value used to indicate whether nHorizValue and nVertValue represent a percentage of the page size or an explicit number of points. The default is false."
+    },
+    "nScale": {
+      "description": "(optional) The scale to be used for the watermark, where 1.0 is 100%. A value of -1 specifies that the watermark should fit to the page while maintaining its proportions. The default is 1.0."
+    },
+    "bFixedPrint": {
+      "description": "(optional) A Boolean value that indicates that the watermark should be added as a FixedPrint Watermark annotation. This prints the watermark at a fixed size and position regardless of the size of the page being printed to. If true, bOnTop is ignored. The default is false."
+    },
+    "nRotation": {
+      "description": "(optional) The number of degrees to rotate the watermark counterclockwise. The default is 0."
+    },
+    "nOpacity": {
+      "description": "(optional) The opacity to be used for the watermark, where 0 is transparent and 1.0 is opaque. The default is 1.0."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Adds \u201cConfidential\u201d as a watermark to the center of all pages of the current document.\n\n```\nthis.addWatermarkFromText(\"Confidential\", 0, font.Helv, 24, color.red);\n```",
+    "Adds a multiline watermark to each page of the current document 1 inch down and 1 inch over from the upper-right corner.\n\n```\nthis.addWatermarkFromText({\n    cText: \"Confidential DocumentrA. C. Robat\",\n    nTextAlign: app.constants.align.right,\n    nHorizAlign: app.constants.align.right,\n    nVertAlign: app.constants.align.top,\n    nHorizValue: -72, nVertValue: -72\n});\n```"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Object": "Doc",
+  "API_Name": "numFields",
+  "API_Type": "Properties",
+  "API_Description": "The total number of fields in the document. See also getNthFieldName .",
+  "Version_Key": "4.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer",
+  "Access": "R",
+  "Examples": [
+    "Example 1:\n\n```\nconsole.println(\"There are \" + this.numFields + \" in this document\");\n```",
+    "Example 2: This script uses the `numFields` property and `getNthFieldName` method to loop through all fields in the document. All button fields are changed so that they have a beveled appearance (other modifications to the buttons of the document can also be made).\n\n```\nfor ( var i = 0; i < this.numFields; i++) {\n    var fname = this.getNthFieldName(i);\n    if ( fname.type = \"button\" ) f.borderStyle = border.b;\n}\n```"
+  ]
+}

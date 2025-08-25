@@ -1,0 +1,9 @@
+{
+    "Object": "app",
+    "API_Name": "getString",
+    "API_Type": "method",
+    "Parameters": {
+        "cPlugInName": "string",
+        "cStringId": "string"
+    }
+}

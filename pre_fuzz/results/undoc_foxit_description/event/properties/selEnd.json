@@ -1,0 +1,17 @@
+{
+    "Object": "event",
+    "API_Name": "selEnd",
+    "API_Type": "property",
+    "API_Description": "Represents the ending position of the text selection within a text field during an event.",
+    "API_Description_Reason": "The name 'selEnd' suggests it is related to the end of a selection, likely in a text context. Given the context of an event object, it is reasonable to assume it indicates the end position of a text selection.",
+    "Returns": "The position index of the end of the text selection.",
+    "Returns_Reason": "Since 'selEnd' is a property related to text selection, it likely returns a numerical index indicating where the selection ends.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the selEnd property, which is expected to be a number representing the index position.",
+            "description_reason": "The property is likely a numerical index, as it represents a position within a text field.",
+            "type": "number",
+            "type_reason": "Index positions are typically represented as numbers, which aligns with the expected use of selEnd."
+        }
+    }
+}

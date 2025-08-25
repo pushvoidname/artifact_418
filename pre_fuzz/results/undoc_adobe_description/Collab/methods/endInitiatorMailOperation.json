@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "endInitiatorMailOperation",
+    "API_Type": "Method",
+    "API_Description": "Ends the current mail operation initiated by the collaboration process.",
+    "API_Description_Reason": "The method name 'endInitiatorMailOperation' suggests it is used to conclude or terminate an ongoing mail operation that was started by an initiator in a collaborative context.",
+    "Returns": "A boolean indicating the success of ending the mail operation.",
+    "Returns_Reason": "Typically, methods that perform an operation return a boolean to indicate success or failure, especially when no parameters are involved.",
+    "Parameters": {}
+}

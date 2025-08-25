@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "language",
+    "API_Type": "property",
+    "API_Description": "Represents the language setting of the Acrobat application.",
+    "API_Description_Reason": "The 'language' property typically refers to the language configuration or setting in an application, which is a common use case for such a property.",
+    "Returns": "A string representing the current language setting of the application.",
+    "Returns_Reason": "Language settings are usually represented as strings, such as 'en-US' for English (United States), which is a standard format for language codes.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the language property, which is expected to be a string.",
+            "description_reason": "Language settings are generally represented as strings, using standard language codes.",
+            "type": "string",
+            "type_reason": "Language codes are typically strings, following standards like ISO 639-1."
+        }
+    }
+}

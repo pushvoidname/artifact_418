@@ -1,0 +1,35 @@
+{
+    "Object": "Collab",
+    "API_Name": "createAnnotStore",
+    "API_Type": "Method",
+    "API_Description": "Creates an annotation store for collaboration purposes, associating it with a document and user.",
+    "API_Description_Reason": "The method name 'createAnnotStore' suggests it is responsible for creating an annotation store, which is likely used for collaboration features within a document. The parameters indicate it involves a document and user, supporting the idea of a collaborative annotation environment.",
+    "Returns": "A reference to the created annotation store object.",
+    "Returns_Reason": "The method is likely to return a reference to the newly created annotation store, allowing further interaction or configuration. This is a common pattern for creation methods.",
+    "Parameters": {
+        "cName": {
+            "description": "The name of the annotation store to be created.",
+            "description_reason": "The parameter 'cName' is typically used to specify a name or identifier for the object being created.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and the context suggest that this parameter is a string, commonly used for names or identifiers."
+        },
+        "doc": {
+            "description": "The document object to which the annotation store will be associated.",
+            "description_reason": "The parameter 'doc' implies it is a document object, which is a common entity in collaboration and annotation contexts.",
+            "type": "built-in object",
+            "type_reason": "The description explicitly states it is a built-in object, likely representing a document."
+        },
+        "cUser": {
+            "description": "The user associated with the annotation store.",
+            "description_reason": "The parameter 'cUser' suggests it is related to a user, likely identifying who the annotations are associated with.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context imply this is a string, typically used for user identifiers or names."
+        },
+        "cSettings": {
+            "description": "Settings or configuration options for the annotation store.",
+            "description_reason": "The parameter 'cSettings' suggests it contains configuration or settings data for the annotation store.",
+            "type": "string",
+            "type_reason": "The 'c' prefix and context suggest this is a string, possibly containing serialized settings or configuration data."
+        }
+    }
+}

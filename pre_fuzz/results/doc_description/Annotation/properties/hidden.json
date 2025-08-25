@@ -1,0 +1,13 @@
+{
+  "Object": "Annotation",
+  "API_Name": "hidden",
+  "API_Type": "Properties",
+  "API_Description": "If `true` , the annotation is not shown and there is no user interaction, display, or printing of the annotation. **Annotations** : All",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Type": "boolean",
+  "Access": "R/W",
+  "Examples": []
+}

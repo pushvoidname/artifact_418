@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "baseURL",
+  "API_Type": "Properties",
+  "API_Description": "The base URL for the document is used to resolve relative web links within the document. See also URL .",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Type": "String",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Sets the base URL and creates a link to go to a page relative to the base URL.\n\n```\nconsole.println(\"Base URL was \" + this.baseURL);\nthis.baseURL = \"http://www.example.com/products/\";\nconsole.println(\"Base URL is \" + this.baseURL);\n// Add a link to the first page\nvar link = this.addLink(0, [200,200, 400, 300])\n// Set an action that goes to the Example Reader page on the Example website.\nlink.setAction(\"this.getURL('reader',false)\")\n```"
+  ]
+}

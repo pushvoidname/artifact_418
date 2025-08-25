@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "getIdentity",
+    "API_Type": "method",
+    "Parameters": {
+        "bShowDontShowAgain": "boolean",
+        "cInstructionalText": "string"
+    }
+}

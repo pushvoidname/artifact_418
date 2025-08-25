@@ -1,0 +1,8 @@
+{
+    "Object": "Doc",
+    "API_Name": "getPageIndexByPageObjNum",
+    "API_Type": "method",
+    "Return_Type": "Number",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

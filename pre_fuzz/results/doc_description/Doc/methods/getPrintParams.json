@@ -1,0 +1,15 @@
+{
+  "Object": "Doc",
+  "API_Name": "getPrintParams",
+  "API_Type": "Method",
+  "API_Description": "Gets a PrintParams object that reflects the default print settings. See the print method, which now takes the PrintParams object as its parameter.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "A PrintParams object.",
+  "Examples": [
+    "Get the PrintParams object of the default printer.\n\n```\nvar pp = this.getPrintParams();\npp.interactive = pp.constants.interactionLevel.automatic;\nthis.print(pp); // Print\n```"
+  ]
+}

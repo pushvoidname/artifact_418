@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "ANSB_None",
+    "API_Type": "property",
+    "API_Description": "Represents a specific property related to the document's annotation state, possibly indicating a default or null state for annotations.",
+    "API_Description_Reason": "The name 'ANSB_None' suggests it is related to annotation states, with 'None' indicating a default or null state. This is inferred from the naming convention and context of similar properties.",
+    "Returns": "A value indicating the default or null state of annotations in the document.",
+    "Returns_Reason": "The property name implies it returns a state or status related to annotations, specifically a 'None' or default state.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the property value, which is unknown but likely a boolean or string indicating the state.",
+            "description_reason": "The property likely returns a simple state indicator, which is often represented as a boolean or string.",
+            "type": "unknown",
+            "type_reason": "The exact type is not documented, but it is likely a simple data type such as boolean or string based on typical usage of state indicators."
+        }
+    }
+}

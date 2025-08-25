@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "getLock",
+  "API_Type": "Method",
+  "API_Description": "Gets a `Lock` object, a generic object that contains the lock properties of a signature field.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "The `Lock` object for the field.",
+  "Examples": []
+}

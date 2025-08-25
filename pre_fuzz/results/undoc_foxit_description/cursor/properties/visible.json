@@ -1,0 +1,17 @@
+{
+    "Object": "cursor",
+    "API_Name": "visible",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the cursor is visible or not.",
+    "API_Description_Reason": "The property name 'visible' suggests it controls or indicates the visibility state of the cursor.",
+    "Returns": "A boolean value indicating the visibility state of the cursor.",
+    "Returns_Reason": "Visibility properties typically return a boolean value, where 'true' means visible and 'false' means hidden.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the visibility property.",
+            "description_reason": "The parameter 'type' is likely referring to the data type of the property.",
+            "type": "boolean",
+            "type_reason": "Visibility properties are commonly represented as boolean values, indicating true for visible and false for hidden."
+        }
+    }
+}

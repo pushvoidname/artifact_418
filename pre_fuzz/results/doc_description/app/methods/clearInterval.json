@@ -1,0 +1,19 @@
+{
+  "Object": "app",
+  "API_Name": "clearInterval",
+  "API_Type": "Method",
+  "API_Description": "Cancels a previously registered interval initially set by the `setInterval` method.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oInterval": {
+      "description": "The registered interval to cancel."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "See setTimeOut ."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Object": "Annotation",
+  "API_Name": "setProps",
+  "API_Type": "Method",
+  "API_Description": "",
+  "Version": "6.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "C",
+  "Parameters": {
+    "NoParameterName": {
+      "description": "A generic object that specifies the properties of the Annotation object to be created (such as type, rect, and page). This object is the same as the parameter of the Doc object addAnnot method."
+    }
+  },
+  "Returns": "The `Annotation` object",
+  "Examples": [
+    "Set various properties of a Line annotation.\n\n```\nvar annot = this.addAnnot({type: \"Line\"})\nannot.setProps({\n    page: 0,\n    points: [[10,40],[200,200]],\n    strokeColor: color.red,\n    author: \"A. C. Robat\",\n    contents: \"Check with Jones on this point.\",\n    popupOpen: true,\n    popupRect: [200, 100, 400, 200], // Place rect at tip of the arrow\n    arrowBegin: \"Diamond\",\n    arrowEnd: \"OpenArrow\"\n});\n```"
+  ]
+}

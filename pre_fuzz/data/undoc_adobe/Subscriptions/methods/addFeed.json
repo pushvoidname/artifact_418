@@ -1,0 +1,9 @@
+{
+    "Object": "Subscriptions",
+    "API_Name": "addFeed",
+    "API_Type": "method",
+    "Parameters": {
+        "cURL": "string",
+        "cType": "string"
+    }
+}

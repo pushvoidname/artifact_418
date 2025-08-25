@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "submitForm",
+    "API_Type": "method",
+    "Return_Type": "unknown",
+    "Scripts_Arg": [
+        "oJavaScript"
+    ],
+    "Actions_Arg": []
+}

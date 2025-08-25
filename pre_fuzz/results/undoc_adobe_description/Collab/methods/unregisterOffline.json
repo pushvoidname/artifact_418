@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "unregisterOffline",
+    "API_Type": "Method",
+    "API_Description": "Unregisters a previously registered offline collaboration session.",
+    "API_Description_Reason": "The method name 'unregisterOffline' suggests it is used to remove or unregister an offline session or component related to collaboration.",
+    "Returns": "A boolean indicating success or failure of the unregistration process.",
+    "Returns_Reason": "Typically, methods that perform an action like unregistering return a boolean to indicate whether the operation was successful.",
+    "Parameters": {
+        "unknown": {
+            "description": "An identifier or key for the offline session to be unregistered.",
+            "description_reason": "The parameter name 'unknown' suggests it is a placeholder for an actual identifier or key needed to specify which offline session to unregister.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string because identifiers or keys are often represented as strings."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFExtractNums",
+    "API_Type": "Method",
+    "API_Description": "Extracts numbers from a given string and returns them as an array of numbers.",
+    "API_Description_Reason": "The method name 'AFExtractNums' suggests that it is designed to extract numerical values from a string, as 'ExtractNums' implies the action of extracting numbers.",
+    "Returns": "An array of numbers extracted from the input string.",
+    "Returns_Reason": "The method likely processes the input string to find and return all numerical values, hence returning an array of numbers.",
+    "Parameters": {
+        "unknown": {
+            "description": "The input string from which numbers will be extracted.",
+            "description_reason": "The parameter is likely a string because the method is expected to parse text to find numbers.",
+            "type": "string",
+            "type_reason": "The method is designed to extract numbers from text, so the input should be a string."
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "page",
+  "API_Type": "Properties",
+  "API_Description": "The page number or an array of page numbers of a field. If the field has only one appearance in the document, the `page` property returns an integer representing the 0-based page number of the page on which the field appears. If the field has multiple appearances, it returns an array of integers, each member of which is a 0-based page number of an appearance of the field. The order in which the page numbers appear in the array is determined by the order in which the individual widgets of this field were created (and is unaffected by tab-order). If an appearance of the field is on a hidden template page, `page` returns a value of -1 for that appearance. **Fields** all",
+  "Version_Key": "5.0",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "Integer  Array",
+  "Access": "R",
+  "Examples": [
+    "Example 1: Determine whether a particular field appears on one page, or more than one page.\n\n```\nvar f = this.getField(\"myField\");\nif (typeof f.page == \"number\")\n    console.println(\"This field only occurs once on page \" + f.page);\nelse\n    console.println(\"This field occurs \" + f.page.length + \" times);\n```\n\n**Example 2 (Acrobat 6.0)**\n\nThe `page` property can be used to get the number of widgets associated with a field name. This example gets the number of radio buttons in a radio button field.\n\n```\nvar f = this.getField(\"myRadio\");\nif ( typeof f.page == \"object\" )\n    console.println(\"There are \" + f.page.length\n        + \" radios in this field.\");\n```"
+  ]
+}

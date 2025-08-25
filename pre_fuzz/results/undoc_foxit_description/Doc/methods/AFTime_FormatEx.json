@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFTime_FormatEx",
+    "API_Type": "Method",
+    "API_Description": "Formats a time string according to a specified format.",
+    "API_Description_Reason": "The method name 'AFTime_FormatEx' suggests it is an extended version of a time formatting function, likely used to format time strings in a specific way.",
+    "Returns": "A formatted time string.",
+    "Returns_Reason": "The method is expected to return a string that represents the time formatted according to the specified format, as it is a formatting function.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string representing the format to apply to the time.",
+            "description_reason": "The parameter is likely a format string, as the method is for formatting time, and such methods typically take a format specification.",
+            "type": "string",
+            "type_reason": "The parameter is expected to be a string because format specifications are usually provided as strings."
+        }
+    }
+}

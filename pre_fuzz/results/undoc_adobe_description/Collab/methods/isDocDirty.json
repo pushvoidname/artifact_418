@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "isDocDirty",
+    "API_Type": "Method",
+    "API_Description": "Determines if the specified document has unsaved changes.",
+    "API_Description_Reason": "The method name 'isDocDirty' suggests checking if a document is 'dirty', a common term used to indicate unsaved changes.",
+    "Returns": "A boolean value indicating whether the document has unsaved changes.",
+    "Returns_Reason": "The method likely returns a boolean because it is checking a condition (whether the document is dirty or not).",
+    "Parameters": {
+        "doc": {
+            "description": "The document object to check for unsaved changes.",
+            "description_reason": "The parameter 'doc' is likely the document being checked, as it is common to pass the document of interest to such methods.",
+            "type": "object",
+            "type_reason": "The parameter is a document object, as it needs to represent the document being checked for changes."
+        }
+    }
+}

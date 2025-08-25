@@ -1,0 +1,17 @@
+{
+    "Object": "app",
+    "API_Name": "fsTransition",
+    "API_Type": "property",
+    "API_Description": "Specifies the type of transition effect to use when entering full-screen mode.",
+    "API_Description_Reason": "The name 'fsTransition' suggests it relates to transitions, and given the context of other 'fs' properties, it likely pertains to full-screen mode.",
+    "Returns": "The current transition effect type as a string.",
+    "Returns_Reason": "Since the parameter type is a string, it is reasonable to assume the property returns a string representing the transition effect.",
+    "Parameters": {
+        "type": {
+            "description": "The type of transition effect to apply when entering full-screen mode. Possible values might include 'fade', 'wipe', 'slide', etc.",
+            "description_reason": "The parameter 'type' suggests it specifies the kind of transition effect, which is common in UI/UX settings.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, indicating it accepts textual identifiers for transition types."
+        }
+    }
+}

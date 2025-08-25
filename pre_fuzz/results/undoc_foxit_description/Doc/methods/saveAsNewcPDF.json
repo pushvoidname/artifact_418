@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "saveAsNewcPDF",
+    "API_Type": "Method",
+    "API_Description": "Saves the current PDF document as a new compressed PDF (cPDF) file.",
+    "API_Description_Reason": "The method name 'saveAsNewcPDF' suggests that it saves the document in a new format, specifically a compressed PDF format, which is often denoted by 'cPDF'.",
+    "Returns": "A boolean indicating the success of the save operation.",
+    "Returns_Reason": "Typically, save operations return a boolean to indicate whether the operation was successful or not.",
+    "Parameters": {
+        "unknown": {
+            "description": "A string parameter whose purpose is not documented.",
+            "description_reason": "The parameter is labeled as 'unknown', indicating that its specific purpose is not documented.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string in the provided information."
+        }
+    }
+}

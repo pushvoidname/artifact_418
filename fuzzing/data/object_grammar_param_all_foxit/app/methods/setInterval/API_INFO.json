@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "setInterval",
+    "API_Type": "method",
+    "Return_Type": "interval",
+    "Scripts_Arg": [
+        "cExpr"
+    ],
+    "Actions_Arg": []
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "removeTemplate",
+    "API_Type": "Method",
+    "API_Description": "Removes a template from the PDF document.",
+    "API_Description_Reason": "The method name 'removeTemplate' suggests that it is used to remove a template from the document. This is consistent with other methods in the Doc object that perform actions on document elements.",
+    "Returns": "A boolean indicating whether the template was successfully removed.",
+    "Returns_Reason": "Typically, methods that perform a removal operation return a boolean to indicate success or failure. This is a common pattern in API design.",
+    "Parameters": {}
+}

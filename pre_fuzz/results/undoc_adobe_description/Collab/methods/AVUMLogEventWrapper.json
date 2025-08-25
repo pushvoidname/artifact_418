@@ -1,0 +1,29 @@
+{
+    "Object": "Collab",
+    "API_Name": "AVUMLogEventWrapper",
+    "API_Type": "Method",
+    "API_Description": "Logs an event with a specified category, subcategory, and event name.",
+    "API_Description_Reason": "The method name 'AVUMLogEventWrapper' suggests it is used for logging events, and the parameters 'cat', 'subcat', and 'evnt' imply categorization and naming of the event.",
+    "Returns": "A boolean indicating whether the event was logged successfully.",
+    "Returns_Reason": "Logging functions typically return a boolean to indicate success or failure of the logging operation.",
+    "Parameters": {
+        "cat": {
+            "description": "The category of the event to be logged.",
+            "description_reason": "The parameter name 'cat' is a common abbreviation for 'category', which is often used to classify events.",
+            "type": "string",
+            "type_reason": "Categories are typically represented as strings to allow for descriptive naming."
+        },
+        "subcat": {
+            "description": "The subcategory of the event to be logged.",
+            "description_reason": "The parameter name 'subcat' suggests a more specific classification within a category, which is common in logging systems.",
+            "type": "string",
+            "type_reason": "Subcategories are usually strings to provide detailed classification."
+        },
+        "evnt": {
+            "description": "The name of the event to be logged.",
+            "description_reason": "The parameter 'evnt' likely stands for 'event', which is a common term used to describe the specific action or occurrence being logged.",
+            "type": "string",
+            "type_reason": "Event names are typically strings to allow for descriptive and human-readable identifiers."
+        }
+    }
+}

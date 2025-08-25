@@ -1,0 +1,8 @@
+{
+    "Object": "security",
+    "API_Name": "importFromFile",
+    "API_Type": "method",
+    "Return_Type": "Boolean",
+    "Scripts_Arg": [],
+    "Actions_Arg": []
+}

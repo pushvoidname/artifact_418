@@ -1,0 +1,13 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "open",
+  "API_Type": "Properties",
+  "API_Description": "Determines whether the bookmark shows its children in the navigation panel (open) or whether the children subtree is collapsed (closed).",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "Not available in Reader",
+  "Type": "Boolean",
+  "Access": "R/W (Adobe Reader: R only)",
+  "Examples": []
+}

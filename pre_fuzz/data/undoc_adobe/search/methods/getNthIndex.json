@@ -1,0 +1,8 @@
+{
+    "Object": "search",
+    "API_Name": "getNthIndex",
+    "API_Type": "method",
+    "Parameters": {
+        "unknown": "number"
+    }
+}

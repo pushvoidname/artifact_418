@@ -1,0 +1,23 @@
+{
+    "Object": "localStorage",
+    "API_Name": "write",
+    "API_Type": "Method",
+    "API_Description": "Stores data in the local storage of the web browser.",
+    "API_Description_Reason": "The method name 'write' suggests it is used to store or save data, and since it is part of 'localStorage', it likely writes data to the browser's local storage.",
+    "Returns": "void",
+    "Returns_Reason": "Typically, storage methods do not return a value; they perform an action of saving data, hence returning 'void'.",
+    "Parameters": {
+        "key": {
+            "description": "The key under which the data should be stored.",
+            "description_reason": "A key is usually required to identify the data being stored in key-value storage systems like localStorage.",
+            "type": "string",
+            "type_reason": "Keys in localStorage are typically strings, as they are used to retrieve the stored data."
+        },
+        "value": {
+            "description": "The data to be stored, which will be associated with the specified key.",
+            "description_reason": "The value is the actual data that needs to be stored in localStorage.",
+            "type": "string",
+            "type_reason": "Values in localStorage are stored as strings, even if they are originally of another type."
+        }
+    }
+}

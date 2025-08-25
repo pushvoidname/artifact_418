@@ -1,0 +1,17 @@
+{
+    "Object": "Net",
+    "API_Name": "wireDump",
+    "API_Type": "property",
+    "API_Description": "A boolean property that enables or disables the dumping of network wire data for debugging purposes.",
+    "API_Description_Reason": "The name 'wireDump' suggests it is related to dumping or logging network data, which is often used for debugging. The type being boolean implies it is a toggle, likely to enable or disable this feature.",
+    "Returns": "The current state of the wireDump property, either true or false.",
+    "Returns_Reason": "As a property of type boolean, it would return its current value, indicating whether the wire dump is enabled or disabled.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value to set the wireDump property. If true, network wire data dumping is enabled; if false, it is disabled.",
+            "description_reason": "The parameter 'type' being boolean suggests it is used to set the state of the wireDump property, which aligns with typical usage of boolean properties as toggles.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly stated to be of type boolean, which is consistent with the behavior of a toggle property."
+        }
+    }
+}

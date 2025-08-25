@@ -1,0 +1,9 @@
+{
+    "Object": "Collab",
+    "API_Name": "registerProxy",
+    "API_Type": "method",
+    "Parameters": {
+        "doc": "built-in object",
+        "permID": "string"
+    }
+}

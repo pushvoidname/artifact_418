@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "hoverPin",
+    "API_Type": "Method",
+    "API_Description": "Activates a hover effect on a specified pin within the document, typically used to highlight or bring attention to a specific annotation or point of interest.",
+    "API_Description_Reason": "The method name 'hoverPin' suggests an action related to hovering over a pin, which is commonly associated with highlighting or focusing on a specific element in a document.",
+    "Returns": "A boolean indicating whether the hover action was successfully applied to the pin.",
+    "Returns_Reason": "Methods that perform an action often return a boolean to indicate success or failure, especially when the action involves UI changes or interactions.",
+    "Parameters": {}
+}

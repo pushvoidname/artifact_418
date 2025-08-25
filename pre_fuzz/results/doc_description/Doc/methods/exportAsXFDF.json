@@ -1,0 +1,29 @@
+{
+  "Object": "Doc",
+  "API_Name": "exportAsXFDF",
+  "API_Type": "Method",
+  "API_Description": "Exports form fields as an XFDF file to the local hard drive.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "F",
+  "Parameters": {
+    "bAllFields": {
+      "description": "(optional) If true, all fields are exported, including those that have no value. If false (the default), excludes those fields that currently have no value."
+    },
+    "bNoPassword": {
+      "description": "(optional) If true (the default), do not include text fields that have the password flag set in the exported XFDF."
+    },
+    "aFields": {
+      "description": "(optional) The array of field names to submit or a string containing a single field name:  -  If specified, only these fields are exported, except those excluded by bNoPassword.  -  If aFields is an empty array, no fields are exported. The XFDF file might still contain data, depending on the bAnnotations parameter. -  If this parameter is omitted or is null, all fields in the form are exported, except those excluded by bNoPassword.   Specify non-terminal field names to export an entire subtree of fields."
+    },
+    "cPath": {
+      "description": "(optional) A string specifying the device-independent path for the file. The path may be relative to the location of the current document. If the parameter is omitted, a dialog box is shown to let the user select the file.  -  The parameter cPath must have a safe path (see Safe path) and have a .xfdf extension. This method will throw a NotAllowedError (see Error object) exception if these security conditions are not met, and the method will fail."
+    },
+    "bAnnotations": {
+      "description": "(optional, Acrobat 6.0) If true, annotations are included in the exported XFDF file. The default is false."
+    }
+  },
+  "Returns": "",
+  "Examples": []
+}

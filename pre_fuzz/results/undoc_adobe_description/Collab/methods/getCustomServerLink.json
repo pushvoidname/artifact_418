@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "getCustomServerLink",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a custom server link based on the specified server type.",
+    "API_Description_Reason": "The method name 'getCustomServerLink' suggests that it retrieves a link related to a server, and the parameter 'cServerType' implies that the link is customized based on the type of server specified.",
+    "Returns": "A string representing the custom server link.",
+    "Returns_Reason": "Since the method is named 'getCustomServerLink', it is reasonable to assume that it returns a link, which is typically represented as a string.",
+    "Parameters": {
+        "cServerType": {
+            "description": "The type of server for which to retrieve the custom link.",
+            "description_reason": "The parameter name 'cServerType' indicates that it specifies the type of server, which is used to determine the appropriate custom link.",
+            "type": "string",
+            "type_reason": "The parameter is likely a string because it represents a type, which is typically denoted by a string identifier."
+        }
+    }
+}

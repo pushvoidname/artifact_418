@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "Author",
+    "API_Type": "property",
+    "API_Description": "Represents the author of the document.",
+    "API_Description_Reason": "The 'Author' property typically stores the name of the person or entity that created or is responsible for the document.",
+    "Returns": "The name of the author as a string.",
+    "Returns_Reason": "Since 'Author' is a property, it likely returns a string representing the author's name.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the Author property.",
+            "description_reason": "The 'type' parameter indicates the expected data type for the property value.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is specified as a string, which is common for metadata properties like 'Author'."
+        }
+    }
+}

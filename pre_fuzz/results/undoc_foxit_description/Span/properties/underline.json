@@ -1,0 +1,17 @@
+{
+    "Object": "Span",
+    "API_Name": "underline",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the text within the span is underlined.",
+    "API_Description_Reason": "The property name 'underline' suggests it controls the underlining of text, which is a common text formatting feature.",
+    "Returns": "A boolean value indicating if the text is underlined.",
+    "Returns_Reason": "The parameter type is boolean, which typically represents a true or false state, suitable for indicating the presence or absence of underlining.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value that sets or returns whether the text is underlined.",
+            "description_reason": "The parameter is used to either set the underline state or retrieve it, which is typical for properties controlling formatting.",
+            "type": "boolean",
+            "type_reason": "The type is boolean because it represents a binary state: underlined or not underlined."
+        }
+    }
+}

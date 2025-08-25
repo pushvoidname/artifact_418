@@ -1,0 +1,29 @@
+{
+    "Object": "Doc",
+    "API_Name": "AFNumber_Format",
+    "API_Type": "Method",
+    "API_Description": "Formats a number according to specified formatting options.",
+    "API_Description_Reason": "The method name 'AFNumber_Format' suggests it is used for formatting numbers, likely applying specific formatting rules or styles to a numeric value.",
+    "Returns": "A formatted string representation of the number.",
+    "Returns_Reason": "Since the method is for formatting numbers, it is reasonable to assume it returns the number as a string formatted according to the specified options.",
+    "Parameters": {
+        "nDec": {
+            "description": "The number of decimal places to include in the formatted number.",
+            "description_reason": "Formatting numbers often involves specifying the number of decimal places, which aligns with common number formatting practices.",
+            "type": "number",
+            "type_reason": "Decimal places are typically specified as a numeric value."
+        },
+        "sSepStyle": {
+            "description": "The style of separators to use, such as commas or periods.",
+            "description_reason": "Number formatting often includes options for different separator styles, such as using commas for thousands.",
+            "type": "string",
+            "type_reason": "Separator styles are usually specified as strings, indicating the type of separator to use."
+        },
+        "bCurrency": {
+            "description": "A boolean indicating whether to format the number as currency.",
+            "description_reason": "Currency formatting is a common option in number formatting, often controlled by a boolean flag.",
+            "type": "boolean",
+            "type_reason": "Boolean values are typically used for flags that toggle specific formatting options."
+        }
+    }
+}

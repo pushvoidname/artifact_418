@@ -1,0 +1,22 @@
+{
+  "Object": "app",
+  "API_Name": "setInterval",
+  "API_Type": "Method",
+  "API_Description": "Specifies a JavaScript script and a time period. The script is executed every time the period elapses.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cExpr": {
+      "description": "The JavaScript script to be executed."
+    },
+    "nMilliseconds": {
+      "description": "The time period in milliseconds."
+    }
+  },
+  "Returns": "An `interval` object",
+  "Examples": [
+    "Create a simple color animation on a field called \u201cColor\u201d that changes every second.\n\n```\nfunction DoIt() {\n    var f = this.getField(\"Color\");\n    var nColor = (timeout.count++ % 10 / 10);\n    // Various shades of red.\n    var aColor = new Array(\"RGB\", nColor, 0, 0);\n    f.fillColor = aColor;\n}\n// save return value as a variable\ntimeout = app.setInterval(\"DoIt()\", 1000);\n// Add a property to our timeout object so that DoIt() can keep\n// a count going.\ntimeout.count = 0;\n```\n\nSee setTimeOut for an additional example."
+  ]
+}

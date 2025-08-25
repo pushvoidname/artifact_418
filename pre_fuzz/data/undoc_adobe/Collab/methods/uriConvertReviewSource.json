@@ -1,0 +1,8 @@
+{
+    "Object": "Collab",
+    "API_Name": "uriConvertReviewSource",
+    "API_Type": "method",
+    "Parameters": {
+        "cURL": "string"
+    }
+}

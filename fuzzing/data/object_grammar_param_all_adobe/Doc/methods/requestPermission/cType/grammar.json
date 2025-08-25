@@ -1,0 +1,22 @@
+[
+    [
+        "CTYPE",
+        "{PERMISSION_TYPE}"
+    ],
+    [
+        "PERMISSION_TYPE",
+        "{PERMISSION}"
+    ],
+    [
+        "PERMISSION",
+        "read"
+    ],
+    [
+        "PERMISSION",
+        "write"
+    ],
+    [
+        "PERMISSION",
+        "execute"
+    ]
+]

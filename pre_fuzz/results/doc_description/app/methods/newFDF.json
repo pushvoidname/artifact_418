@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "newFDF",
+  "API_Type": "Method",
+  "API_Description": "Creates a new `FDF` object that contains no data.",
+  "Version": "6.0",
+  "Save-Prefs": "No",
+  "Security": "Yes",
+  "Product": "Not",
+  "Parameters": {},
+  "Returns": "A new `FDF` object.",
+  "Examples": [
+    "Create an FDF with an embedded PDF file.\n\n```\nvar fdf = app.newFDF();\nfdf.addEmbeddedFile( \"/c/myPDFs/myFile.pdf\", 1);\nfdf.save( \"/c/myFDFs/myFile.fdf\" );\n```\n\nThis example continues following the description of `app.` openFDF ."
+  ]
+}

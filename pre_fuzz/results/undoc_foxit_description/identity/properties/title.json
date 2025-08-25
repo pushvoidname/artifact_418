@@ -1,0 +1,17 @@
+{
+    "Object": "identity",
+    "API_Name": "title",
+    "API_Type": "property",
+    "API_Description": "Represents the job title of the current user.",
+    "API_Description_Reason": "The 'title' property typically refers to a user's job title or position within an organization.",
+    "Returns": "A string representing the user's job title.",
+    "Returns_Reason": "Since 'title' is a property related to user identity, it is likely to return a string that describes the user's position or role.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the 'title' property.",
+            "description_reason": "The 'type' parameter is used to specify the data type of the property, which is common in API documentation.",
+            "type": "string",
+            "type_reason": "Job titles are typically represented as strings, as they are textual descriptions."
+        }
+    }
+}

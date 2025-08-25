@@ -1,0 +1,15 @@
+{
+  "Object": "Field",
+  "API_Name": "calcOrderIndex",
+  "API_Type": "Properties",
+  "API_Description": "Changes the calculation order of fields in the document. When a computable `text` or combo box field is added to a document, the field\u2019s name is appended to the calculation order array. The calculation order array determines in what order the fields are calculated. The `calcOrderIndex` property works similarly to the Calculate tab used by the Acrobat Form tool. **Fields** `combobox` , `text`",
+  "Version_Key": "3.01",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "F",
+  "Type": "Integer",
+  "Access": "R/W",
+  "Examples": [
+    "Example:\n\n```\nvar a = this.getField(\"newItem\");\nvar b = this.getField(\"oldItem\");\na.calcOrderIndex = b.calcOrderIndex + 1;\n```\n\nIn this example, the \u201cnewItem\u201d field was added after the \u201coldItem\u201d field. The script changes the `calcOrderIndex` property of the \u201cnewItem\u201d field so that it is calculated before the \u201coldItem\u201d field."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "Object": "Doc",
+    "API_Name": "documentFileName",
+    "API_Type": "Property",
+    "API_Description": "Represents the name of the file associated with the PDF document. This property provides the file name without the path, allowing users to identify the document by its name.",
+    "API_Description_Reason": "The property name 'documentFileName' suggests it holds the name of the document file. Typically, such properties are used to retrieve the file name for display or logging purposes.",
+    "Returns": "A string representing the name of the document file.",
+    "Returns_Reason": "Since the property is named 'documentFileName', it is logical to assume it returns a string containing the file name, as this is a common pattern for file-related properties."
+}

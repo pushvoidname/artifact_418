@@ -1,0 +1,15 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "name",
+  "API_Type": "Properties",
+  "API_Description": "The text string for the bookmark that the user sees in the navigational panel.",
+  "Version_Key": "5.0",
+  "Save_Prefs": "D",
+  "Security": "No",
+  "Product": "Not available in Reader",
+  "Type": "String",
+  "Access": "R/W (Adobe Reader: R only)",
+  "Examples": [
+    "Example: Put the top-level bookmark in bold.\n\n```\nvar bkm = this.bookmarkRoot.children[0];\nconsole.println( \"Top-level bookmark name: \" + bkm.name );\n```\n\nThe example that follows the children property also uses the `name` property."
+  ]
+}

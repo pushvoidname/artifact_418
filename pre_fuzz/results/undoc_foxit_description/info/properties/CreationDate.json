@@ -1,0 +1,17 @@
+{
+    "Object": "info",
+    "API_Name": "CreationDate",
+    "API_Type": "property",
+    "API_Description": "Represents the date and time when the document was created.",
+    "API_Description_Reason": "The name 'CreationDate' suggests it stores the date and time of the document's creation.",
+    "Returns": "A string representing the creation date and time of the document.",
+    "Returns_Reason": "The parameter type is specified as 'string', indicating the return value is a string format of the date and time.",
+    "Parameters": {
+        "type": {
+            "description": "The format of the creation date string.",
+            "description_reason": "The parameter 'type' likely specifies the format in which the creation date is returned, such as ISO 8601 or another date-time format.",
+            "type": "string",
+            "type_reason": "The parameter is explicitly defined as a string, indicating it specifies a format or type of the date representation."
+        }
+    }
+}

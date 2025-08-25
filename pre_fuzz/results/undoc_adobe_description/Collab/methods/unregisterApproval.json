@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "unregisterApproval",
+    "API_Type": "Method",
+    "API_Description": "Removes an approval registration from the collaboration system.",
+    "API_Description_Reason": "The method name 'unregisterApproval' suggests it is used to remove or unregister an approval process or entry from the system.",
+    "Returns": "A boolean indicating whether the unregistration was successful.",
+    "Returns_Reason": "Typically, methods that perform an action like unregistering return a boolean to indicate success or failure.",
+    "Parameters": {
+        "unknown": {
+            "description": "An identifier or key for the approval to be unregistered.",
+            "description_reason": "The parameter is likely used to specify which approval entry should be unregistered, as the method needs to know what to target.",
+            "type": "string",
+            "type_reason": "The parameter is of type string, which is common for identifiers or keys in API methods."
+        }
+    }
+}

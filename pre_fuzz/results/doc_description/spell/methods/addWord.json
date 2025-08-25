@@ -1,0 +1,20 @@
+{
+  "Object": "spell",
+  "API_Name": "addWord",
+  "API_Type": "Method",
+  "API_Description": "Adds a new word to a dictionary. See also the removeWord .",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cWord": {
+      "description": "The new word to add."
+    },
+    "cName": {
+      "description": "(optional) The dictionary name or language code. An array of the currently installed dictionaries can be obtained using dictionaryNames or languages."
+    }
+  },
+  "Returns": "`true` if successful, otherwise, `false` .",
+  "Examples": []
+}

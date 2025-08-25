@@ -1,0 +1,10 @@
+{
+    "Object": "localStorage",
+    "API_Name": "read",
+    "API_Type": "Method",
+    "API_Description": "Retrieves a value from local storage associated with a given key.",
+    "API_Description_Reason": "The method name 'read' suggests it is used to retrieve or access data stored in local storage.",
+    "Returns": "The value associated with the specified key, or null if the key does not exist.",
+    "Returns_Reason": "Typically, a read operation on storage returns the value associated with a key, or null if the key is not found.",
+    "Parameters": {}
+}

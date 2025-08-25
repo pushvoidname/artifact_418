@@ -1,0 +1,10 @@
+{
+  "object": "util",
+  "apiName": "util",
+  "apiType": "Object",
+  "apiDescription": "A static JavaScript object that defines a number of utility methods and convenience functions for string and date formatting and parsing.",
+  "version": "",
+  "savePrefs": "",
+  "security": "",
+  "product": ""
+}

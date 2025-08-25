@@ -1,0 +1,10 @@
+{
+    "Object": "Doc",
+    "API_Name": "disableWindows",
+    "API_Type": "Method",
+    "API_Description": "Disables the windows associated with the PDF document, preventing user interaction.",
+    "API_Description_Reason": "The method name 'disableWindows' suggests functionality related to disabling or preventing interaction with windows associated with the document.",
+    "Returns": "void",
+    "Returns_Reason": "The method does not return any value as it performs an action of disabling windows, which typically does not require a return value.",
+    "Parameters": {}
+}

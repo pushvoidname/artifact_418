@@ -1,0 +1,9 @@
+{
+    "Object": "app",
+    "API_Name": "isValidSaveLocation",
+    "API_Type": "method",
+    "Parameters": {
+        "cPath": "string",
+        "cFS": "string"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "app",
+  "API_Name": "setTimeOut",
+  "API_Type": "Method",
+  "API_Description": "Specifies a JavaScript script and a time period. The script is executed one time only, after the period elapses.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cExpr": {
+      "description": "The JavaScript script to be executed."
+    },
+    "nMilliseconds": {
+      "description": "The time period in milliseconds."
+    }
+  },
+  "Returns": "A `timeout` object",
+  "Examples": [
+    "Create a simple running marquee. Assume there is a text field named \u201cmarquee\u201d. The default value of this field is \u201cAdobe Acrobat version 8.0 will soon be here!\u201d.\n\n```\n// Document-level JavaScript function\nfunction runMarquee() {\n    var f = this.getField(\"marquee\");\n    var cStr = f.value;\n    // get field value\n    var aStr = cStr.split(\"\");        // Convert to an array\n    aStr.push(aStr.shift());          // Move first char to last\n    cStr = aStr.join(\"\");             // Back to string again\n    f.value = cStr;                   // Put new value in field\n}\n\n// Insert a mouse-up action into a \"Go\" button\nrun = app.setInterval(\"runMarquee()\", 100);\n// stop after a minute\nstoprun=app.setTimeOut(\"app.clearInterval(run)\",6000);\n\n// Insert a mouse-up action into a \"Stop\" button\ntry {\n    app.clearInterval(run);\n    app.clearTimeOut(stoprun);\n} catch (e){}\n```\n\nThe Stop button code is protected with a try/catch construct. If the user clicks the Stop button without having first clicked Go, `run` and `stoprun` will be undefined and the Stop code will throw an exception. When the exception is thrown, the `catch` code is executed. In this example, the code does nothing if the user clicks Stop first."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "Object": "app",
+    "API_Name": "newFDF",
+    "API_Type": "Method",
+    "API_Description": "Creates a new FDF (Forms Data Format) document.",
+    "API_Description_Reason": "The method name 'newFDF' suggests that it is responsible for creating a new FDF document, which is a common format used in Acrobat for handling form data.",
+    "Returns": "A new FDF document object.",
+    "Returns_Reason": "Since the method is named 'newFDF', it is logical to assume that it returns a new FDF document object, similar to how 'newDoc' would return a new document.",
+    "Parameters": {}
+}

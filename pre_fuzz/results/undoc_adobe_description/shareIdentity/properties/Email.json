@@ -1,0 +1,17 @@
+{
+    "Object": "shareIdentity",
+    "API_Name": "Email",
+    "API_Type": "property",
+    "API_Description": "Represents the email address associated with the share identity.",
+    "API_Description_Reason": "The property name 'Email' suggests it holds an email address, which is typically associated with user identity in applications.",
+    "Returns": "The email address as a string.",
+    "Returns_Reason": "Since the parameter type is specified as 'string', it is reasonable to assume that the property returns a string representing the email address.",
+    "Parameters": {
+        "type": {
+            "description": "The data type of the email property, which is a string.",
+            "description_reason": "The parameter 'type' is used to specify the data type of the property, which is common in API documentation.",
+            "type": "string",
+            "type_reason": "The 'type' parameter is explicitly defined as a string, indicating the data type of the email property."
+        }
+    }
+}

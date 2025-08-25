@@ -1,0 +1,17 @@
+{
+    "Object": "Collab",
+    "API_Name": "inEmailWorkflow",
+    "API_Type": "property",
+    "API_Description": "Indicates whether the collaboration is part of an email-based workflow.",
+    "API_Description_Reason": "The property name 'inEmailWorkflow' suggests it is a boolean flag that determines if the current collaboration process involves email, which is a common workflow type in collaborative environments.",
+    "Returns": "A boolean value indicating the presence of an email workflow.",
+    "Returns_Reason": "The parameter type is boolean, which implies that the property returns a true or false value to indicate the state of the email workflow.",
+    "Parameters": {
+        "type": {
+            "description": "A boolean value that specifies whether the collaboration is part of an email workflow.",
+            "description_reason": "The parameter 'type' is described as boolean, which typically represents a true or false state, aligning with the purpose of indicating the presence of an email workflow.",
+            "type": "boolean",
+            "type_reason": "The parameter is explicitly defined as boolean, which is used to represent binary states such as true/false or yes/no."
+        }
+    }
+}

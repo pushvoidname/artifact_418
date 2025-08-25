@@ -1,0 +1,19 @@
+{
+  "Object": "Doc",
+  "API_Name": "removeIcon",
+  "API_Type": "Method",
+  "API_Description": "Removes the specified named icon from the document.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "Not",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the icon to remove."
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "Remove all named icons from the document.\n\n```\nfor ( var i = 0; i < this.icons.length; i++)\n    this.removeIcon(this.icons[i].name);\n```"
+  ]
+}

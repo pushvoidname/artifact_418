@@ -1,0 +1,9 @@
+{
+    "Object": "app",
+    "API_Name": "platform",
+    "API_Type": "Property",
+    "API_Description": "Indicates the platform on which the Acrobat application is running.",
+    "API_Description_Reason": "The 'platform' property typically refers to the operating system or environment in which an application is executed. This is a common use of the term in software development.",
+    "Returns": "A string representing the platform, such as 'Windows', 'MacOS', or 'Linux'.",
+    "Returns_Reason": "Platform properties usually return a string that identifies the operating system or environment. This is a standard practice in many programming environments to allow developers to tailor functionality based on the platform."
+}

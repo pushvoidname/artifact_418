@@ -1,0 +1,17 @@
+{
+    "Object": "Doc",
+    "API_Name": "style",
+    "API_Type": "Property",
+    "API_Description": "Represents the style settings for the document, potentially including visual or formatting attributes.",
+    "API_Description_Reason": "The term 'style' typically refers to visual or formatting attributes in many contexts, such as CSS in web development or style settings in document editors.",
+    "Returns": "An object or value representing the style settings of the document.",
+    "Returns_Reason": "Since 'style' is a property, it likely returns an object or value that encapsulates the style settings, similar to how style properties work in other programming contexts.",
+    "Parameters": {
+        "type": {
+            "description": "The specific type of style setting or attribute being accessed or modified.",
+            "description_reason": "The 'type' parameter suggests a categorization or specification of the style attribute, which is common in style-related APIs.",
+            "type": "unknown",
+            "type_reason": "The type is unspecified in the provided information, indicating it could vary based on the implementation or usage context."
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "util",
+  "API_Name": "printx",
+  "API_Type": "Method",
+  "API_Description": "Formats a source string, `cSource` , according to a formatting string, `cFormat` . A valid format for `cFormat` is any string that may contain special masking characters:",
+  "Version": "3.01",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "cFormat": {
+      "description": "The formatting string to use."
+    },
+    "cSource": {
+      "description": "The source string to use."
+    }
+  },
+  "Returns": "The formatted string.",
+  "Examples": [
+    "Format a string as a U.S. telephone number.\n\n```\nvar v = \"aaa14159697489zzz\";\nv = util.printx(\"9 (999) 999-9999\", v);\nconsole.println(v);\n```"
+  ]
+}

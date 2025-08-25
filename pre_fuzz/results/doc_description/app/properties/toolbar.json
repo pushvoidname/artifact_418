@@ -1,0 +1,15 @@
+{
+  "Object": "app",
+  "API_Name": "toolbar",
+  "API_Type": "Properties",
+  "API_Description": "Allows a script to show or hide both the horizontal and vertical Acrobat toolbars of Acrobat 9 or earlier. In Acrobat X, allows a script to show or hide the Plugin Addon Tools panel on the right side of the display area. It does not hide the toolbar (Acrobat 9 or earlier) or the tools panel (Acrobat X), in external windows (that is, in an Acrobat window within a web browser).",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "Acrobat Pro only",
+  "Type": "Boolean",
+  "Access": "R/W",
+  "Examples": [
+    "Example: Hide the toolbar.\n\n```\napp.toolbar = false;\n```"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Object": "spell",
+  "API_Name": "removeDictionary",
+  "API_Type": "Method",
+  "API_Description": "!! Note Beginning with Acrobat 6.0, this method is no longer supported. The return value of this method is always `false` . Use the customDictionaryClose method.",
+  "Version": "",
+  "Save-Prefs": "",
+  "Security": "",
+  "Product": "",
+  "Parameters": {
+    "cName": {
+      "description": "The name of the dictionary to remove. Must be the same name as was used with addDictionary."
+    }
+  },
+  "Returns": "`false`",
+  "Examples": []
+}

@@ -1,0 +1,15 @@
+{
+  "Object": "Bookmark",
+  "API_Name": "execute",
+  "API_Type": "Method",
+  "API_Description": "Executes the action associated with this bookmark. This can have a variety of behaviors. See the PDF Reference for a list of common action types. See also the createChild method.",
+  "Version": "5.0",
+  "Save-Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {},
+  "Returns": "",
+  "Examples": [
+    "Implement a simple search of the bookmarks. If successful, the action associated with the bookmark is executed.\n\n```\n// Document-level or folder-level JavaScript.\nfunction searchBookmarks(bkm, nLevel, bkmName)\n{\n    if ( bkm.name == bkmName ) return bkm;\n    if (bkm.children != null) {\n        for (var i = 0; i < bkm.children.length; i++)\n        {\n            var bkMark = searchBookmarks(\n                bkm.children[i], nLevel + 1, bkmName);\n            if ( bkMark != null ) break;\n        }\n        return bkMark;\n    }\n    return null;\n}\n// Redefine this function for a more sophisticated compare.\nfunction bmkCompare( name1, name2 )\n{\n        return ( name1 == name2 );\n}\n```\n\nThe following code initiates the search. This code could be executed as field-level JavaScript or be executed as a menu action.\n\n```\nvar bkmName = app.response({\n    cQuestion: \"Enter the name of the bookmark to find\",\n    cTitle: \"Bookmark Search and Execute\"\n});\nif ( bkmName != null ) {\n    var bkm = searchBookmarks(this.bookmarkRoot, 0, bkmName );\n    if ( bkm != null ) bkm.execute();\n    else app.alert(\"Bookmark not found\");\n}\n```"
+  ]
+}

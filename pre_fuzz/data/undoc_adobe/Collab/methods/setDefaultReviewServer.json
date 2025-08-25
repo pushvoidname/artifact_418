@@ -1,0 +1,10 @@
+{
+    "Object": "Collab",
+    "API_Name": "setDefaultReviewServer",
+    "API_Type": "method",
+    "Parameters": {
+        "cURL": "string",
+        "cUIName": "string",
+        "cReviewType": "string"
+    }
+}

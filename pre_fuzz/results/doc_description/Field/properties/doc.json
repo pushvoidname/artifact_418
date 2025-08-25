@@ -1,0 +1,13 @@
+{
+  "Object": "Field",
+  "API_Name": "doc",
+  "API_Type": "Properties",
+  "API_Description": "**Returns** the Doc of the document to which the field belongs. **Fields** all",
+  "Version_Key": "3.01",
+  "Save_Prefs": "No",
+  "Security": "No",
+  "Product": "All",
+  "Type": "object",
+  "Access": "R",
+  "Examples": []
+}

@@ -1,0 +1,22 @@
+{
+  "Object": "Field",
+  "API_Name": "buttonSetIcon",
+  "API_Type": "Method",
+  "API_Description": "Sets the icon associated with a button.",
+  "Version": "5.0",
+  "Save-Prefs": "D",
+  "Security": "No",
+  "Product": "All",
+  "Parameters": {
+    "oIcon": {
+      "description": "The Icon object associated with the button."
+    },
+    "nFace": {
+      "description": "(optional) If specified, sets an icon of the given type:"
+    }
+  },
+  "Returns": "",
+  "Examples": [
+    "This example takes every named icon in the document and creates a list box using the names. Selecting an item in the list box sets the icon with that name as the button face of the field \u201cmyPictures\u201d. What follows is the mouse-up action of the button field \u201cmyButton\u201d.\n\n```\nvar f = this.getField(\"myButton\")\nvar aRect = f.rect;\naRect[0] = f.rect[2];             // Place list box relative to the\naRect[2] = f.rect[2] + 144;        // position of \"myButton\"\nvar myIcons = new Array();\nvar l = addField(\"myIconList\", \"combobox\", 0, aRect);\nl.textSize = 14;\nl.strokeColor = color.black;\nfor (var i = 0; i < this.icons.length; i++)\n    myIcons[i] = this.icons[i].name;\nl.setItems(myIcons);\nl.setAction(\"Keystroke\",\n    'if (!event.willCommit) {rt'\n    + 'var f = this.getField(\"myPictures\");rt'\n    + 'var i = this.getIcon(event.change);rt'\n    + 'f.buttonSetIcon(i);r'\n    + '}');\n```\n\nThe named icons themselves can be imported into the document through an interactive scheme, such as the example given in `addIcon` or through a batch sequence.\n\nSee also buttonGetCaption for a more extensive example."
+  ]
+}
